@@ -5,120 +5,294 @@
  "items": [
   {
    "title": "觉醒伪神：神明弃我我自为神 7",
-   "kind": "ai", "form": "AI 漫剧", "platform": "红果短剧",
-   "genre": ["都市玄幻", "系列第 7 季"],
-   "heat": "热播指数 8070", "rank_note": "10/20 红果日榜 #1",
+   "kind": "ai",
+   "form": "AI 漫剧",
+   "platform": "红果短剧",
+   "cover": "covers/3f9fd8c5f6b8a89f.jpg",
+   "genre": [
+    "都市玄幻",
+    "系列第 7 季"
+   ],
+   "heat": "热播指数 8070",
+   "rank_note": "10/20 红果日榜 #1",
    "synopsis": "都市玄幻长线系列，主角被「神明」抛弃后自行觉醒、以凡人之身成神。",
    "why_hot": "已更到第 7 季仍登顶日榜，是 AI 漫剧「系列化连载」打法的代表。",
-   "sources": [{"name": "短剧工程·10/20 日榜", "url": "https://www.duanjugongcheng.com/cn/bangdan/2026-10-20"}]
+   "sources": [
+    {
+     "name": "短剧工程·10/20 日榜",
+     "url": "https://www.duanjugongcheng.com/cn/bangdan/2026-10-20"
+    }
+   ]
   },
   {
    "title": "聚宝仙盆之杂灵根才是真BOSS 第十四季",
-   "kind": "ai", "form": "AI 漫剧", "platform": "红果短剧",
-   "genre": ["玄幻仙侠", "逆袭", "大男主"],
-   "heat": "热播指数 7739", "rank_note": "10/20 日榜 #2；10/1 第十二季曾列总榜 #3",
+   "kind": "ai",
+   "form": "AI 漫剧",
+   "platform": "红果短剧",
+   "cover": "covers/cf37a5b0eb17ac2e.jpg",
+   "genre": [
+    "玄幻仙侠",
+    "逆袭",
+    "大男主"
+   ],
+   "heat": "热播指数 7739",
+   "rank_note": "10/20 日榜 #2；10/1 第十二季曾列总榜 #3",
    "synopsis": "资质最差的杂灵根主角靠一只聚宝盆闷声发财，用信息差和资产差反复打脸。",
    "why_hot": "半个多月从第十二季更到第十四季，更新速度本身就是 AI 产能的体现。",
-   "sources": [{"name": "短剧工程·10/20 日榜", "url": "https://www.duanjugongcheng.com/cn/bangdan/2026-10-20"}, {"name": "塔猴·10 月红果三大榜", "url": "https://www.tahou.com/article/218760893790331909"}]
+   "sources": [
+    {
+     "name": "短剧工程·10/20 日榜",
+     "url": "https://www.duanjugongcheng.com/cn/bangdan/2026-10-20"
+    },
+    {
+     "name": "塔猴·10 月红果三大榜",
+     "url": "https://www.tahou.com/article/218760893790331909"
+    }
+   ]
   },
   {
    "title": "谁让这个文盲修仙的 第五季",
-   "kind": "ai", "form": "AI 漫剧", "platform": "红果短剧",
-   "genre": ["玄幻仙侠", "穿越", "传承觉醒"],
-   "heat": "热播指数 7161", "rank_note": "10/20 日榜 #3",
+   "kind": "ai",
+   "form": "AI 漫剧",
+   "platform": "红果短剧",
+   "cover": "covers/a45264f61f5afb27.jpg",
+   "genre": [
+    "玄幻仙侠",
+    "穿越",
+    "传承觉醒"
+   ],
+   "heat": "热播指数 7161",
+   "rank_note": "10/20 日榜 #3",
    "synopsis": "「文盲」主角穿越进修仙世界，意外觉醒传承，一路反套路升级。",
    "why_hot": "反差人设加修仙爽点，连续多季稳定在榜单前十。",
-   "sources": [{"name": "短剧工程·10/20 日榜", "url": "https://www.duanjugongcheng.com/cn/bangdan/2026-10-20"}]
+   "sources": [
+    {
+     "name": "短剧工程·10/20 日榜",
+     "url": "https://www.duanjugongcheng.com/cn/bangdan/2026-10-20"
+    }
+   ]
   },
   {
    "title": "满院亲戚全是上古大妖 第五季",
-   "kind": "ai", "form": "AI 漫剧", "platform": "红果短剧",
-   "genre": ["女频", "年代", "东方奇幻"],
-   "heat": "热播指数 6173", "rank_note": "10/20 日榜 #10；第四季 10/1 漫剧榜 #2",
+   "kind": "ai",
+   "form": "AI 漫剧",
+   "platform": "红果短剧",
+   "cover": "covers/15def33b7d9f8487.jpg",
+   "genre": [
+    "女频",
+    "年代",
+    "东方奇幻"
+   ],
+   "heat": "热播指数 6173",
+   "rank_note": "10/20 日榜 #10；第四季 10/1 漫剧榜 #2",
    "synopsis": "九尾狐母子在农村大院生活，一院子「亲戚」其实都是上古大妖，暗中出手替她们摆平麻烦。",
    "why_hot": "把年代烟火气和东方奇幻揉在一起，女频 AI 漫剧里少见的头部系列。",
-   "sources": [{"name": "塔猴·10 月红果三大榜", "url": "https://www.tahou.com/article/218760893790331909"}]
+   "sources": [
+    {
+     "name": "塔猴·10 月红果三大榜",
+     "url": "https://www.tahou.com/article/218760893790331909"
+    }
+   ]
   },
   {
    "title": "剑神归来：我和驴子的十万年",
-   "kind": "ai", "form": "AI 漫剧", "platform": "红果短剧",
-   "genre": ["玄幻仙侠", "系统", "强者回归"],
-   "heat": "热度 5742 万", "rank_note": "10/1 漫剧榜 #18",
+   "kind": "ai",
+   "form": "AI 漫剧",
+   "platform": "红果短剧",
+   "cover": "covers/742c77bc75609faf.jpg",
+   "genre": [
+    "玄幻仙侠",
+    "系统",
+    "强者回归"
+   ],
+   "heat": "热度 5742 万",
+   "rank_note": "10/1 漫剧榜 #18",
    "synopsis": "剑神带着一头驴归来，「强者回归」配上喜剧搭档的组合。",
    "why_hot": "被认为是 10 月漫剧榜表现最好的新 IP 之一，不靠续季也能上榜。",
-   "sources": [{"name": "塔猴·10 月红果三大榜", "url": "https://www.tahou.com/article/218760893790331909"}]
+   "sources": [
+    {
+     "name": "塔猴·10 月红果三大榜",
+     "url": "https://www.tahou.com/article/218760893790331909"
+    }
+   ]
   },
   {
    "title": "持械入宋：第九季",
-   "kind": "ai", "form": "AI 短剧（仿真人）", "platform": "红果短剧",
-   "genre": ["古风权谋", "穿越", "大女主"],
-   "heat": "热播指数 6924", "rank_note": "10/20 日榜 #4；第八季同时在榜 #36",
+   "kind": "ai",
+   "form": "AI 短剧（仿真人）",
+   "platform": "红果短剧",
+   "cover": "covers/372877e8907245a7.jpg",
+   "genre": [
+    "古风权谋",
+    "穿越",
+    "大女主"
+   ],
+   "heat": "热播指数 6924",
+   "rank_note": "10/20 日榜 #4；第八季同时在榜 #36",
    "synopsis": "现代人带着「家伙」穿越到宋朝乡村，从种田、自保一路做大。",
    "why_hot": "两季同时挂在 TOP40，AI 仿真人剧也开始走漫剧的高频续季路线。",
-   "sources": [{"name": "短剧工程·10/20 日榜", "url": "https://www.duanjugongcheng.com/cn/bangdan/2026-10-20"}]
+   "sources": [
+    {
+     "name": "短剧工程·10/20 日榜",
+     "url": "https://www.duanjugongcheng.com/cn/bangdan/2026-10-20"
+    }
+   ]
   },
   {
    "title": "反向拿捏：和闺蜜穿七零带着婆婆一起离",
-   "kind": "ai", "form": "AI 短剧（仿真人）", "platform": "红果短剧",
-   "genre": ["年代爱情", "穿越", "女频"],
-   "heat": "热播指数 6733", "rank_note": "10/20 日榜 #5",
+   "kind": "ai",
+   "form": "AI 短剧（仿真人）",
+   "platform": "红果短剧",
+   "cover": "covers/0f8497024ee0d482.jpg",
+   "genre": [
+    "年代爱情",
+    "穿越",
+    "女频"
+   ],
+   "heat": "热播指数 6733",
+   "rank_note": "10/20 日榜 #5",
    "synopsis": "女主和闺蜜一起穿越到七十年代，还拉上婆婆一起「离」，三个女人反向拿捏原本的家庭困局。",
    "why_hot": "年代文 + 女性互助的新组合，标题本身就是钩子。",
-   "sources": [{"name": "短剧工程·榜单", "url": "https://www.duanjugongcheng.com/cn/bangdan"}]
+   "sources": [
+    {
+     "name": "短剧工程·榜单",
+     "url": "https://www.duanjugongcheng.com/cn/bangdan"
+    }
+   ]
   },
   {
    "title": "大唐憨婿之我姐姐是太子妃 第三季",
-   "kind": "ai", "form": "AI 短剧（仿真人）", "platform": "红果短剧",
-   "genre": ["古代", "赘婿逆袭", "穿越"],
-   "heat": "热度 8264 万", "rank_note": "10/1 红果总榜 #1、AI 短剧榜 #1",
+   "kind": "ai",
+   "form": "AI 短剧（仿真人）",
+   "platform": "红果短剧",
+   "cover": "covers/93e3c074a663259e.jpg",
+   "genre": [
+    "古代",
+    "赘婿逆袭",
+    "穿越"
+   ],
+   "heat": "热度 8264 万",
+   "rank_note": "10/1 红果总榜 #1、AI 短剧榜 #1",
    "synopsis": "现代工科博士穿越成太子妃的堂弟，用跨时代的知识帮姐姐在宫里站稳脚跟。",
    "why_hot": "「扮猪吃虎 + 科技降维」的经典套路，10 月初拿下总榜第一。",
-   "sources": [{"name": "塔猴·10 月红果三大榜", "url": "https://www.tahou.com/article/218760893790331909"}]
+   "sources": [
+    {
+     "name": "塔猴·10 月红果三大榜",
+     "url": "https://www.tahou.com/article/218760893790331909"
+    }
+   ]
   },
   {
    "title": "绿意萌熹：蛙系萌娃闹翻忧郁老爸",
-   "kind": "ai", "form": "AI 短剧（仿真人）", "platform": "红果短剧",
-   "genre": ["萌宝", "都市豪门", "治愈"],
-   "heat": "热度 7370 万", "rank_note": "10/1 总榜 #2；续作第 2 部同时在榜",
+   "kind": "ai",
+   "form": "AI 短剧（仿真人）",
+   "platform": "红果短剧",
+   "cover": "covers/3f8d79a4f1a096cb.jpg",
+   "genre": [
+    "萌宝",
+    "都市豪门",
+    "治愈"
+   ],
+   "heat": "热度 7370 万",
+   "rank_note": "10/1 总榜 #2；续作第 2 部同时在榜",
    "synopsis": "两岁的「蛙系」萌娃（大眼睛、表情包感、带点互联网抽象气质）一点点治好重度抑郁的霸总老爸。",
    "why_hot": "笑中带泪的治愈向，新 IP 两部同时上榜，粉丝积累很快。",
-   "sources": [{"name": "塔猴·10 月红果三大榜", "url": "https://www.tahou.com/article/218760893790331909"}]
+   "sources": [
+    {
+     "name": "塔猴·10 月红果三大榜",
+     "url": "https://www.tahou.com/article/218760893790331909"
+    }
+   ]
   },
   {
    "title": "夕阳红顶流，大爷大妈助我乐坛封神",
-   "kind": "ai", "form": "AI 短剧（仿真人）", "platform": "红果短剧",
-   "genre": ["系统", "逆袭", "娱乐圈", "银发"],
-   "heat": "热度 6371 万", "rank_note": "10/1 总榜 #11、AI 短剧榜 #5",
+   "kind": "ai",
+   "form": "AI 短剧（仿真人）",
+   "platform": "红果短剧",
+   "cover": "covers/e4d0a2ecfe173310.jpg",
+   "genre": [
+    "系统",
+    "逆袭",
+    "娱乐圈",
+    "银发"
+   ],
+   "heat": "热度 6371 万",
+   "rank_note": "10/1 总榜 #11、AI 短剧榜 #5",
    "synopsis": "主角靠一群大爷大妈在乐坛逆袭封神。",
    "why_hot": "银发主角题材正在崛起，和《全家把我当乡下老太，都吓傻了》一起被视为新方向。",
-   "sources": [{"name": "塔猴·10 月红果三大榜", "url": "https://www.tahou.com/article/218760893790331909"}]
+   "sources": [
+    {
+     "name": "塔猴·10 月红果三大榜",
+     "url": "https://www.tahou.com/article/218760893790331909"
+    }
+   ]
   },
   {
    "title": "王妈在顾家当保姆后全家只会搞笑了",
-   "kind": "live", "form": "真人", "platform": "红果短剧",
-   "genre": ["都市日常", "轻喜剧"],
-   "heat": "热播指数 6601", "rank_note": "10/20 日榜 #6（真人剧最高）",
+   "kind": "live",
+   "form": "真人",
+   "platform": "红果短剧",
+   "cover": "covers/f46efa4c55e9b146.jpg",
+   "genre": [
+    "都市日常",
+    "轻喜剧"
+   ],
+   "heat": "热播指数 6601",
+   "rank_note": "10/20 日榜 #6（真人剧最高）",
    "synopsis": "保姆王妈进了顾家，一家人的画风从豪门恩怨变成了日常喜剧。",
    "why_hot": "AI 剧霸榜的当下，真人剧靠演员的喜剧表演守住了前十。",
-   "sources": [{"name": "短剧工程·10/20 日榜", "url": "https://www.duanjugongcheng.com/cn/bangdan/2026-10-20"}]
+   "sources": [
+    {
+     "name": "短剧工程·10/20 日榜",
+     "url": "https://www.duanjugongcheng.com/cn/bangdan/2026-10-20"
+    }
+   ]
   },
   {
    "title": "雾锁情迷",
-   "kind": "live", "form": "真人", "platform": "红果短剧",
-   "genre": ["悬疑", "都市爱情"],
-   "heat": "热播指数 6188", "rank_note": "10/20 日榜 #8 · 新上榜",
+   "kind": "live",
+   "form": "真人",
+   "platform": "红果短剧",
+   "cover": "covers/e4dba9fe622943f8.jpg",
+   "genre": [
+    "悬疑",
+    "都市爱情"
+   ],
+   "heat": "热播指数 6188",
+   "rank_note": "10/20 日榜 #8 · 新上榜",
    "synopsis": "天才女画家林若曦卷入一桩离奇命案，被迫和神秘刑警顾寒联手追查真相。",
    "why_hot": "悬疑 + 爱情的真人新剧，刚上线就冲进前十。",
-   "sources": [{"name": "短剧工程·10/20 日榜", "url": "https://www.duanjugongcheng.com/cn/bangdan/2026-10-20"}]
+   "sources": [
+    {
+     "name": "短剧工程·10/20 日榜",
+     "url": "https://www.duanjugongcheng.com/cn/bangdan/2026-10-20"
+    }
+   ]
   },
   {
    "title": "二嫁有喜",
-   "kind": "live", "form": "真人", "platform": "红果短剧",
-   "genre": ["古风爱情", "大女主"],
-   "heat": "热度 7097 万 · 评分 9.6", "rank_note": "9 月红果真人剧榜 #1；10/1 总榜 #5",
+   "kind": "live",
+   "form": "真人",
+   "platform": "红果短剧",
+   "cover": "covers/c627eba55699a159.jpg",
+   "genre": [
+    "古风爱情",
+    "大女主"
+   ],
+   "heat": "热度 7097 万 · 评分 9.6",
+   "rank_note": "9 月红果真人剧榜 #1；10/1 总榜 #5",
    "synopsis": "黄云云、陈政阳主演。江芝与前夫和离后再嫁鳏夫周晋，第二段婚姻反而活出了自己。",
    "why_hot": "延续《错嫁有喜》路线，戳中「清醒、断舍离」的女性情绪，高分口碑。",
-   "sources": [{"name": "网易·9 月真人短剧热播榜", "url": "https://www.163.com/dy/article/L894S2230556E2MJ.html"}, {"name": "塔猴·10 月红果三大榜", "url": "https://www.tahou.com/article/218760893790331909"}]
+   "sources": [
+    {
+     "name": "网易·9 月真人短剧热播榜",
+     "url": "https://www.163.com/dy/article/L894S2230556E2MJ.html"
+    },
+    {
+     "name": "塔猴·10 月红果三大榜",
+     "url": "https://www.tahou.com/article/218760893790331909"
+    }
+   ]
   }
  ],
  "notes": "榜单来自第三方整理（短剧工程、塔猴、网易号），并非红果官方发布，各站热度口径不完全一致；「AI / 真人」以榜单站标注为准。"
