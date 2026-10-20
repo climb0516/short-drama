@@ -533,10 +533,10 @@ $('#theme').addEventListener('click', () => {
 });
 
 async function load() {
-  const bust = '?t=' + Math.floor(Date.now() / 600000);
+  // no-cache：每次都向服务器校验（未变化时返回 304），避免更新后仍读到旧数据
   const [d, p] = await Promise.all([
-    fetch('data.json' + bust).then(r => r.json()).catch(() => null),
-    fetch('picks.json' + bust).then(r => r.json()).catch(() => null),
+    fetch('data.json', { cache: 'no-cache' }).then(r => r.json()).catch(() => null),
+    fetch('picks.json', { cache: 'no-cache' }).then(r => r.json()).catch(() => null),
   ]);
   if (d) DATA = d;
   if (p) PICKS = p;
