@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-21T00:59:54+08:00",
+ "updated_at": "2026-10-21T05:34:59+08:00",
  "industry": [
   {
    "title": "全程用豆包工作！3天完成一部120分钟短剧，是怎么做到的？",
@@ -22,6 +22,20 @@
    "section": "industry",
    "topic": "general",
    "ai_related": false
+  },
+  {
+   "title": "西部国际AI漫剧产业园落子红星路 成都市锦江区AI漫剧产业加速集聚",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSTNJZWUtRGpVeWdvTnlyZnBMb0FZc0kwQ3EtWEZVTzRLMXc5U0drWi1vaW9yOFpnQ0VWcjVuWFJTUGhTSnFRZFVqRFlHNllLcjJXV0ViTng3NlprUktpZ2VieERHNVpxdjVXTDNtbkdZbGp5MGQ1a2VVR0k2SmY2aHVxLWZKNHM?oc=5",
+   "source": "finance.sina.com.cn",
+   "source_url": "https://finance.sina.cn",
+   "time": "2026-10-20T15:42:23+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": true,
+   "also": [
+    "新浪网"
+   ]
   },
   {
    "title": "四大短剧平台千万新激励，怎么才能拿到手？",
@@ -67,6 +81,7 @@
    "topic": "platform",
    "ai_related": true,
    "also": [
+    "新浪财经",
     "新浪网",
     "东方财富"
    ]
@@ -94,15 +109,29 @@
    "ai_related": false
   },
   {
-   "title": "【答疑室】是否有进入AI短剧行业计划？宋城演艺回应",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LblBGbF94eTJKX2tJajVMT3pmUWxsU2xmdFgxSDB2dzZJdnZsWlJBQXdUSkdvMUlfWWNqZHBTX0ZlMllBUjNpazQ1by1OTGZpZUh4TnNRbkQzYS1QZWNTRm42eHdLQQ?oc=5",
-   "source": "东方财富",
-   "source_url": "https://finance.eastmoney.com",
-   "time": "2026-10-20T14:37:35+00:00",
+   "title": "Two-Thirds of Microdramas Released in Latest Quarter Outside China Were AI Generated, Says Report",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaFRfdHQxQWhPTHUyeFl5VVlWR0l3XzROWUlLWm9KakNJODlMbExMV3ctVkNWUlpVODB5X0QyUnVaejk2ZkRJY0RtUTdwUjRBLVk1NnNtMTVHTk16aUE1VUN4ZDhXN1VqOU5oazVJT1dqRlU0TmJRTkRieXRHSi1wMkVMc0otcGlJdnR6VlhyMHh3WE4zWHdHVW9WWFFzQUQwNlNpTUJGOFlkb1JSc0Rqag?oc=5",
+   "source": "The Hollywood Reporter",
+   "source_url": "https://www.hollywoodreporter.com",
+   "time": "2026-10-20T14:31:51+00:00",
+   "lang": "en",
+   "section": "industry",
+   "topic": "data",
+   "ai_related": true
+  },
+  {
+   "title": "2026海峡两岸（厦门）短剧交流汇在厦门集美开幕_新闻频道",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51Q1NDdFp0M2VUVjA0VWNtTnpuMXpkTDRZbXFldUpqUzZZbDRNdk9qLV8zUDF0MUp5UDg1dld1RGZnQUVYQndyM05RcENNdW80N3plVHRRejZfNXJYMXgtc1BJNFc?oc=5",
+   "source": "厦门网",
+   "source_url": "https://news.xmnn.cn",
+   "time": "2026-10-20T14:21:00+00:00",
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": true
+   "ai_related": false,
+   "also": [
+    "中国新闻网"
+   ]
   },
   {
    "title": "四川AI漫剧如何“不烧心”还能拿下“大结果”？强链、补链、延链",
@@ -113,18 +142,10 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": true
-  },
-  {
-   "title": "Two-Thirds of Microdramas Released in Latest Quarter Outside China Were AI Generated, Says Report",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaFRfdHQxQWhPTHUyeFl5VVlWR0l3XzROWUlLWm9KakNJODlMbExMV3ctVkNWUlpVODB5X0QyUnVaejk2ZkRJY0RtUTdwUjRBLVk1NnNtMTVHTk16aUE1VUN4ZDhXN1VqOU5oazVJT1dqRlU0TmJRTkRieXRHSi1wMkVMc0otcGlJdnR6VlhyMHh3WE4zWHdHVW9WWFFzQUQwNlNpTUJGOFlkb1JSc0Rqag?oc=5",
-   "source": "The Hollywood Reporter",
-   "source_url": "https://www.hollywoodreporter.com",
-   "time": "2026-10-20T14:01:06+00:00",
-   "lang": "en",
-   "section": "industry",
-   "topic": "data",
-   "ai_related": true
+   "ai_related": true,
+   "also": [
+    "新浪财经"
+   ]
   },
   {
    "title": "两岸影视人齐聚厦门集美 以短剧为媒共话融合发展新篇",
@@ -172,17 +193,28 @@
   },
   {
    "title": "55%算力造爽剧？AI短剧狂飙背后冷思考：九成难回本，增量在海外｜大鱼财经",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNEpmOTVfV0pFNWpiSVJfZktBUmgxQWxvSU1NTWFOa2ktMTJJbFFOaUt5dEpEOXM0eUNEenI4bkVMMUp1aE82V3ZhdmdhY0JSMWRad1JtbjA4dmU2dkFQWU0yVmZlZmQ0bGc3Y3kyZk9LMFRwMkNkVi15Ti1kYXc4NkJuWGxxV2dMVDIwanEyTQ?oc=5",
-   "source": "搜狐网",
-   "source_url": "https://www.sohu.com",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMDU5VU0zMjVIWGQ5X3ZaWWZyVG1uTnZUc1o2bFhiaEpDY212dkVuTXpMaXVLaXJOR3NLZ0xhYWc2X192VG5KbjY0akNXSUpObnJ2bnNJdnhXUnBwS1ktV1VaM0VwblFpV184M3dBdzZTV25FY1N6UFRCT0lMWjU0dVhUWUV4dy14dXNFTk1WM1p1dExIN1J0aHNhQWptMEFBZGJQRQ?oc=5",
+   "source": "搜狐",
+   "source_url": "https://m.sohu.com",
    "time": "2026-10-20T11:56:35+00:00",
    "lang": "zh",
    "section": "industry",
    "topic": "overseas",
    "ai_related": true,
    "also": [
-    "搜狐"
+    "搜狐网"
    ]
+  },
+  {
+   "title": "【答疑室】是否有进入AI短剧行业计划？宋城演艺回应",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LblBGbF94eTJKX2tJajVMT3pmUWxsU2xmdFgxSDB2dzZJdnZsWlJBQXdUSkdvMUlfWWNqZHBTX0ZlMllBUjNpazQ1by1OTGZpZUh4TnNRbkQzYS1QZWNTRm42eHdLQQ?oc=5",
+   "source": "东方财富",
+   "source_url": "https://finance.eastmoney.com",
+   "time": "2026-10-20T11:38:29+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": true
   },
   {
    "title": "How Astral Tequila Built A Five-Episode Microdrama That Drew 6M YouTube Views",
@@ -196,17 +228,6 @@
    "ai_related": false
   },
   {
-   "title": "西部国际AI漫剧产业园落子红星路 成都市锦江区AI漫剧产业加速集聚",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd0lob3R1RUVlRGlaWlJNV3RfWHpnQ2ZyOXlVbkk5OEZ5Q05uN19nOVc2U2cweXR0S0UxTzFKNlFSYktYcG5DRlJ6T0JrZTNVdGdNX19xeVQtNUR0QnlzSjNYLXhPQ1lYV29aa3FmLWpiWm5qQ1huSWNfeGpldS1PNXFKY2JkUlhnaTYyWmNB?oc=5",
-   "source": "新浪网",
-   "source_url": "https://k.sina.com.cn",
-   "time": "2026-10-20T11:27:22+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "general",
-   "ai_related": true
-  },
-  {
    "title": "红色文化微短剧《铁血信使》正式开播",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMkpVSHUwUl9tWEEwTHlOY1ZHZXZkLWZybUVwNXNMYWhSbTd3eWh1aEVhQnBxSkdPU0dNMmNFWEpBQW95TDZDbmxzalJjdl9ZYUtWRGdmT0RQb2ZEUEtRVjlCZ2ZFTElVS1c5dEJ5Smk1ZDdwRDFWOWtJQkFRY3RjZ1FsM0xsWlREM0ZZ?oc=5",
    "source": "搜狐网",
@@ -217,19 +238,23 @@
    "topic": "general",
    "ai_related": false,
    "also": [
+    "搜狐",
     "人民网－江西频道"
    ]
   },
   {
-   "title": "越骂“降智”越上头，红果短剧如何让上亿人每天刷两小时_商业资讯",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QZzVHeHR3QkNaa2tDMzZ2Zi1lT2lPMVBYSnpOLXhtaEhTQUFaNlQzUW45OW5mcVJBMV9mZkFxaXp2MkFOWDhQVkZNcEtwT2kzR1hfbjRxYU83QXlvSTRFUA?oc=5",
-   "source": "证券之星",
-   "source_url": "https://bank.stockstar.com",
-   "time": "2026-10-20T10:33:52+00:00",
+   "title": "越骂“降智”越上头，红果短剧如何让上亿人每天刷两小时",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBxemhPbWpsOHBLbjZ0bWpwSTdxNFp1Zy1YeHNaTkotMXpIYU0zbV90b1VZMWxMRGhXS0hJYU1oRDR4RzNXLVpLeTVwUQ?oc=5",
+   "source": "时代在线",
+   "source_url": "https://time-weekly.com",
+   "time": "2026-10-20T10:33:53+00:00",
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
-   "ai_related": false
+   "ai_related": false,
+   "also": [
+    "证券之星"
+   ]
   },
   {
    "title": "新兴产业行业定期报告：大模型加速AI短剧爆发，产业链各环节利润再分配_行业研究_研报",
@@ -251,10 +276,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": false,
-   "also": [
-    "川观新闻"
-   ]
+   "ai_related": false
   },
   {
    "title": "西部国际AI漫剧产业园落地红星路 主流媒体逐浪漫剧赛道，为何、何为？",
@@ -353,22 +375,10 @@
    "topic": "policy",
    "ai_related": false,
    "also": [
-    "凤凰网科技",
     "紫牛新闻",
     "手机新浪网",
     "京报网"
    ]
-  },
-  {
-   "title": "2026海峡两岸（厦门）短剧交流汇举办",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0RW5VbWEtOGFzQ3BUVGFSQzh6bGlGWHFiVC1CMTI0S3pIZF9NNlBmb0R0YzY2dEVtS09RZ3phbDFhRjJNb0hYUG1aZnNxMzIwZk5Ud2pndm5zeW8tQi1mdmY2SkczWWxN?oc=5",
-   "source": "中国新闻网",
-   "source_url": "https://www.chinanews.com.cn",
-   "time": "2026-10-20T08:56:50+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "general",
-   "ai_related": false
   },
   {
    "title": "报告：微短剧成为中国—东盟数字经济合作重要载体",
@@ -443,7 +453,7 @@
    "topic": "general",
    "ai_related": false,
    "also": [
-    "东方财富",
+    "上海新闻",
     "央视网"
    ]
   },
@@ -473,6 +483,17 @@
    "ai_related": false
   },
   {
+   "title": "补齐AI漫剧人才短板！四川AIGC技能人才培训联合体启动",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBXZjNEV3AzbXdCdGcxMkZ5ejlHdDR1UTVXUVJMX1NKVGlJeUZKemhnbEhGZW95ZGVtTFNWS2RDY29KampiNzlORHgtalNUYmNXQzZDRzNEWkV5NzlVWHc5TTlIY3Ezc2Q5LTRZX0dFNHFibkY2MjRiV2pDRzY?oc=5",
+   "source": "新浪财经",
+   "source_url": "https://finance.sina.com.cn",
+   "time": "2026-10-20T08:00:17+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": true
+  },
+  {
    "title": "AI漫剧“造梦人”聚蓉城：联盟成立、园区落地、作品征集……",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLVFHRlo2eWlZcWZSVDVTZ0RrcW81NEUxUkZ3cjMwOVFIeXRaZ3FYZk95WEk1ZDM1TFJjQ0tJMzFQODMzZG9LRFdyWmMyM293a01lTnNobDc3NjF6eWZJNXFETG1peEpvRkRPYkUtaFpra3Q1aWtubklOcUUwTGpjdTlqbG5nbDZWLUozeFlHaw?oc=5",
    "source": "新浪网",
@@ -497,9 +518,19 @@
    "topic": "general",
    "ai_related": false,
    "also": [
-    "今日流媒体",
     "东南网"
    ]
+  },
+  {
+   "title": "慈文传媒，5连板！公司提示风险：短剧业务规模较小",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRcHZxNTVKeFplNFVUS0swcEpRYUFiYnZsSWRWc0lSb01Qb1lvdTdMdHdUQVRoT0NfNnh5TmhlUmV3anh3cUp4XzdhVTdqOUNsRDVKZUtKUTNIM21R?oc=5",
+   "source": "证券时报网",
+   "source_url": "https://www.stcn.com",
+   "time": "2026-10-20T07:56:51+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "data",
+   "ai_related": false
   },
   {
    "title": "“瑕疵授权”，引发微短剧侵权之争",
@@ -521,10 +552,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": true,
-   "also": [
-    "证券之星"
-   ]
+   "ai_related": true
   },
   {
    "title": "国家广电总局：前9月上线微短剧49万部 海外市场超60亿美元",
@@ -651,17 +679,6 @@
    "ai_related": true
   },
   {
-   "title": "中国微短剧成第四大全球性视听产品，AI短剧迎规模与用户双重爆发丨盘中雷达",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1oU2w5bkQ5dUJNYWlobDBFWXk1SnhlN28td0p3MWl5WTRVQTJQUkcwQ0hseGdHNWtZYk9fZ3ZWY3laelMwN1lPeG5qTXgzcTY5RVk3UjV2UmhOVkFlSEhjdVJsQTlkUQ?oc=5",
-   "source": "东方财富",
-   "source_url": "https://finance.eastmoney.com",
-   "time": "2026-10-20T04:22:44+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "data",
-   "ai_related": true
-  },
-  {
    "title": "95后创业者7天手搓一部AI漫剧，赚了10多万？",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CaFlzVUNSVl9DYV9QNS1fSFA3bmZMNk5MTzUzVmx4MWxES1RadDh2RVh3WGZ5X1p2dWVXSW9sUy01ZFlBOUdkTVdSbVZ3U1VaNDlBMXJqODQ?oc=5",
    "source": "湖北日报传媒集团",
@@ -707,10 +724,18 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": true,
-   "also": [
-    "川观新闻"
-   ]
+   "ai_related": true
+  },
+  {
+   "title": "中国微短剧成第四大全球性视听产品，AI短剧迎规模与用户双重爆发丨盘中雷达",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1oU2w5bkQ5dUJNYWlobDBFWXk1SnhlN28td0p3MWl5WTRVQTJQUkcwQ0hseGdHNWtZYk9fZ3ZWY3laelMwN1lPeG5qTXgzcTY5RVk3UjV2UmhOVkFlSEhjdVJsQTlkUQ?oc=5",
+   "source": "东方财富",
+   "source_url": "https://finance.eastmoney.com",
+   "time": "2026-10-20T03:54:59+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "data",
+   "ai_related": true
   },
   {
    "title": "和你的桃花源获中国东盟微短剧大赛优秀作品",
@@ -743,10 +768,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": false,
-   "also": [
-    "新浪财经"
-   ]
+   "ai_related": false
   },
   {
    "title": "“不烧心”的台词，“烧心”的AI短剧_国内经济",
@@ -806,7 +828,7 @@
   {
    "title": "微短剧“向海”:首届中国—东盟微短剧大赛照见的产业合作新篇（附完整获奖名单）",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBoNUVPZ09sQ243LVdWTWpoSTJVb21jTk5xc000RlJpSHJZLUVWR1ZBREtDNWFCU2VSUEduc21nRXNSZnE3OEMzbjd2ekd6aFprLWRwRFFwcC05bndhWXd1bE94R2I1S3ZhOEhZ?oc=5",
-   "source": "流媒体网",
+   "source": "今日流媒体",
    "source_url": "https://lmtw.com",
    "time": "2026-10-20T01:57:00+00:00",
    "lang": "zh",
@@ -926,13 +948,24 @@
   {
    "title": "腾讯重新押注短剧，绿泡泡到底优势何在？",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TNk5FYkYzcGpzMS1vS0dwS0VSVEdJWmVxQzZnRTRNOXhKMnpGV0xGd3FWdnlYTEdOQ2FJWE1wNVBhRGhCREhiNTlTS2xzaWR6bzhOWGRWY0VqcGtSN2RYNEFISG1pZG9aZmJxTTNJT1BlY013LUVzMVl2RlJ3cFU?oc=5",
-   "source": "新浪财经",
+   "source": "finance.sina.com.cn",
    "source_url": "https://finance.sina.cn",
    "time": "2026-10-19T15:28:39+00:00",
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
    "ai_related": false
+  },
+  {
+   "title": "商业秘密｜AI短剧狂潮下的“内卷”真相，1000部AI漫剧仅1部爆款",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4dFN1OWlianE4eG5pY3N0OEtQazlKbjFtQzJuU1JxZHBUaktIY2NrQVZHZ2JyNzBBZHZmVFNFYk4zR3RMY3ZBMEZDZXlDNVVITE1V?oc=5",
+   "source": "第一财经",
+   "source_url": "https://www.yicai.com",
+   "time": "2026-10-19T15:09:39+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": true
   },
   {
    "title": "在人人都能做漫剧之后，阅文打开了自己的版权库",
@@ -1163,7 +1196,7 @@
    "topic": "data",
    "ai_related": true,
    "also": [
-    "流媒体网"
+    "今日流媒体"
    ]
   },
   {
@@ -1339,10 +1372,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": false,
-   "also": [
-    "流媒体网"
-   ]
+   "ai_related": false
   },
   {
    "title": "中央广播电视总台启动全国中短剧精品共创计划",
@@ -1356,17 +1386,6 @@
    "ai_related": false
   },
   {
-   "title": "商业秘密｜AI短剧狂潮下的“内卷”真相，1000部AI漫剧仅1部爆款",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4dFN1OWlianE4eG5pY3N0OEtQazlKbjFtQzJuU1JxZHBUaktIY2NrQVZHZ2JyNzBBZHZmVFNFYk4zR3RMY3ZBMEZDZXlDNVVITE1V?oc=5",
-   "source": "第一财经",
-   "source_url": "https://www.yicai.com",
-   "time": "2026-10-19T00:30:18+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "general",
-   "ai_related": true
-  },
-  {
    "title": "50亿爆款短剧，竟然被“换皮”上新？",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQlBNekFoZlYwQWw5alNWNmFuSm5EYnVOTWJxYnFmQzVMODQtazlSRENzNmpBMDd4Q1dPNTFtdHJ2NFNmT29Edi1rSzlLVFJCTFR6WXNtSEVSdG5xZlI2ZFIyOGdNdTB6bE1XWnEycmVwQVZLOVhWT3M4Y3pFa2Z0UHo0QkpDVmxaQmdXbUF2NFByOTl2ZTV0RnFrZXBBWmZLa2ZYVUtMNkVyVWl2V0oxYXpJMlF0b3M?oc=5",
    "source": "手机新浪网",
@@ -1377,7 +1396,8 @@
    "topic": "general",
    "ai_related": false,
    "also": [
-    "新浪财经"
+    "新浪财经",
+    "QQ News"
    ]
   },
   {
@@ -1459,7 +1479,7 @@
   },
   {
    "title": "CMG全国中短剧精品共创计划在浦东发布",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc0VVZkpTR3hYMmF4akpqdVN6Y1ZnNWY4dXBFN2NRM1VTSV92b3YxSDh1endseGV2amxiR3llb3BwaE1lYWVyLXE4OWdVcUdzdzhmVllIa1VTRDJTYWNvQVFGbm4zbFZwekpVUDJNR2JxclFJVFhYZ3ExZFcxdS1oX1lCYW9XelhLZnM0WQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FZTdOWFpNclh4MjZfN1JwMGFHWkhqb3FkSFV6TG40Y3JGeXJFSFF3SzMxMmQyUGc5VDZWLS1odU9FeTh5YjVKUTVNeFlvMklsbjFzQ3JKalZqRFczV29uNUdzM0xFNkRzRU0w?oc=5",
    "source": "搜狐",
    "source_url": "https://m.sohu.com",
    "time": "2026-10-18T14:24:34+00:00",
@@ -1467,7 +1487,9 @@
    "section": "industry",
    "topic": "general",
    "ai_related": false,
-   "also": []
+   "also": [
+    "上观新闻"
+   ]
   },
   {
    "title": "AI漫剧产量上去了，钱却更难赚了，阅文押注精品动画能否留下好故事？",
@@ -1542,17 +1564,6 @@
    "section": "industry",
    "topic": "data",
    "ai_related": true
-  },
-  {
-   "title": "慈文传媒，5连板！公司提示风险：短剧业务规模较小",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRcHZxNTVKeFplNFVUS0swcEpRYUFiYnZsSWRWc0lSb01Qb1lvdTdMdHdUQVRoT0NfNnh5TmhlUmV3anh3cUp4XzdhVTdqOUNsRDVKZUtKUTNIM21R?oc=5",
-   "source": "证券时报网",
-   "source_url": "https://www.stcn.com",
-   "time": "2026-10-18T04:46:20+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "data",
-   "ai_related": false
   },
   {
    "title": "西藏微短剧创作传播成果喜人",
@@ -1764,6 +1775,17 @@
    "ai_related": false
   },
   {
+   "title": "TVB进军短剧，经典“宫斗剧”《金枝欲孽》番外篇来了|唐朝诡事录|恶作剧之吻|原作|陈豪|故事",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcWtZSE5VTXhWLTJwSlgyaFV4dzJtUVJIdGFVSlFSNVVxTFB1SWkzRUdkSnNZaDR1MExvTWVKLUswY05HR2I0Tk9jbk1CME1iQ09rWmRmSmxxYjJ4WXRGTUZWTEg2Z2UwZHJBNlM1a3MwRkZYaEVMUXp6TC1RNG5ZRjFkTUhiNHpGRjhB?oc=5",
+   "source": "finance.sina.com.cn",
+   "source_url": "https://finance.sina.cn",
+   "time": "2026-10-17T02:47:20+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": false
+  },
+  {
    "title": "绿泡泡短剧入场，短剧为何又回到了小程序？|微信|红果|questmobile|爆款|真人",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWFZzeW9FUHBZaUdZLUV6T1hGZkFxdGZkc0JtOUY3QXRsam9yRVN4ck1ORWQzMkJHNWJQdWZRSWkyNjBkSkNQQlRYcFBraW93ZHAxRy1fczgzZE5NeDltREJleTgxVHdVU2tyT0sxX3JnWEUyVnowUTZSTGJFbk1QX3pBd09PcTZaX091S1lveFc5NFBIVzYzamhoSzNzTEdoS25TRmNUSQ?oc=5",
    "source": "finance.sina.com.cn",
@@ -1896,6 +1918,20 @@
    "ai_related": false
   },
   {
+   "title": "漫·议｜独居老人沉迷AI微短剧，手机“老人模式”呼之欲出",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZYVdpY3U2QlpXXzV1SWF3QWJXQkFmczNxcE1ZaGtMNkRTNGNOMXd4UkljZGxVX0RfLWcxcnJRQlBENzZ1Zmp6c1dFWUVqUHRlR3lLOFNzNHU2WFVxelBfal9JTHFIaFNGazNZ?oc=5",
+   "source": "新华报业网",
+   "source_url": "https://www.xhby.net",
+   "time": "2026-10-16T12:26:00+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": true,
+   "also": [
+    "中国江苏网"
+   ]
+  },
+  {
    "title": "ReelShort and Orange bring microdramas to Middle East and Africa, expanding across 17 markets - Señal News",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUNWdHM0eDc4LUNsaU9iektnTi1WSUJzNnlKd0FxdFU3R2UzQzNIaEhETjJfRlcyZUtERDN2YWtEVE9nWGhTa0paYk5HRkFYZEtWU3h1X0tWUnFGMldVVEdjQkZiTzlBLU9BOHhOTnlabkQ0UU1ZZzBXcDlkcUNueS1uM1pxYWszeVBxWEpPSHVTcEhxX25wTG82VHJlRnZPWTVqeTZXSk16aWE2WDBRb1AzbWEwbHF3clhuNkpKSzYzeDTSAcgBQVVfeXFMTXJaUjFFaXk5NEM0RXdublVsMW9tMmpRQ1NNSlRqcXV3MHlrWklEMEpBQVUtbVNYU1NwR05zNEphM2w3cDJLcFA0a0p0ZW50RzY0eGFTRHJqcUNPYU80U0xrRkZjNWZNYUE3UFQxcURILWt6ZlN1aDBnSUpabHp6SlQyWXVZTUpwcUtsM2gzbVBNTGR5Y3VSNm9YbHpySDJldHYxamdXNG9IUV9HbW12bVRHckVKMEVhS1lCbkpRWl9tU1dJb2FyakM?oc=5",
    "source": "Senal News",
@@ -1944,6 +1980,17 @@
    "also": [
     "搜狐网"
    ]
+  },
+  {
+   "title": "10月18日相约浦东！共赴CMG 全国中短剧大会2026-10-16",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcGdRRmRubk9LVmRVVFowZ2JFNmFMamVkTDRCc0NfZGxtbjZZQV80ZWhwUG9SWk1BbDd6d3ZZNm5EWDd3dmdCNUdJY2VOa2ZWLUtDbGNHSDZqWjUtSGhxTFJoVlFWb1F4UDktTHM3SjJLQ21nQmNhQUdYRTA0UnFCZ3JJdkJ0aVZBaFE?oc=5",
+   "source": "上海市人民政府",
+   "source_url": "https://www.shanghai.gov.cn",
+   "time": "2026-10-16T09:30:50+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": false
   },
   {
    "title": "红色微短剧《一个人的长征》首映式在商城县里罗城举行",
@@ -2045,8 +2092,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": false,
-   "also": []
+   "ai_related": false
   },
   {
    "title": "“红果短剧降智”？医生回应",
@@ -2059,6 +2105,7 @@
    "topic": "platform",
    "ai_related": false,
    "also": [
+    "finance.sina.com.cn",
     "搜狐网",
     "驱动之家",
     "搜狐",
@@ -2093,10 +2140,8 @@
     "第一财经",
     "雷峰网",
     "同花顺",
-    "手机新浪网",
-    "新浪财经",
+    "finance.sina.com.cn",
     "QQ News",
-    "搜狐",
     "凤凰网"
    ]
   },
@@ -2288,7 +2333,10 @@
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
-   "ai_related": false
+   "ai_related": false,
+   "also": [
+    "投资界"
+   ]
   },
   {
    "title": "微信上线“绿泡泡”，“朋友在看”会吸引你看短剧吗？",
@@ -2410,6 +2458,17 @@
    "ai_related": false
   },
   {
+   "title": "评论丨大厂短剧博弈，用户更应夺回自己的“时间”",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qNW9TbVZWcVRGRHNxZ3lncFFlVTRqR2JTMDk1WGxFTWlfTXB1a09yYlRoWkl2dFFOaVE4WGhuMGVBdDhzcTJHbTY1cXFOdV9qRC1pOHNn?oc=5",
+   "source": "搜狐网",
+   "source_url": "https://www.sohu.com",
+   "time": "2026-10-15T11:24:00+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "data",
+   "ai_related": false
+  },
+  {
    "title": "年近七旬老人两年为短剧充值22.58万元 短剧投流与自动续费瞄准银发用户",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1OMEJkdXAzcmtqNmszZlcybVBhZFdQazdyVVZ3UnI5WFU1M2FyRWxaLXNjS1NoSkZfeGFWNlNDZU5OZHo2UG5Ja0FjdXVxVzlqQmJzMw?oc=5",
    "source": "虎嗅网",
@@ -2422,14 +2481,15 @@
   },
   {
    "title": "字节跳动海外短剧APP下载量破亿 两家出海短剧平台合并｜出海·消费",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1nTzJJdU8xakJWRG1vXzlTRk90V0xlekFzaVk0SjAtWWoxTEotRGxVWWU1TlM0cEx4S0J4Vk9IZWtLWlZiV3ktR0ctU2J5Wnlmd1dqWlNYWGpWRkN6VGJZeldCWTg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45cVpYOW41SG9SUWV6RUhOeFJXTXV5N0IzZW5HNlZfbzBaZ09Qd2M4YjlYODZNN0tEdWpNMnZ2WmZKaVBhTEFRUlBZUmpOYXRTdlpIaHBDRkFlRlRPWjJsVVBvUkpnamc?oc=5",
    "source": "财新",
    "source_url": "https://companies.caixin.com",
    "time": "2026-10-15T10:42:00+00:00",
    "lang": "zh",
    "section": "industry",
    "topic": "overseas",
-   "ai_related": false
+   "ai_related": false,
+   "also": []
   },
   {
    "title": "红果迎来最强对手，短剧市场要变天了？",
@@ -2697,7 +2757,7 @@
   {
    "title": "腾讯“绿泡泡”，挑战“红果果”",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBiWGhrTXZtV3pvYTJ1d01rVi1tSENTcFhIZHV0dzBfZGFWRHp2dU5BMDFmT0ZMMlgwb2QzQVNmeUxRVmk1c2szRjltbGlmREVONThUel94OGtVSy1HT2FOdVZQY05XaGxWR2ZQRVVhUkhKdzFYZjJ0ZQ?oc=5",
-   "source": "finance.sina.com.cn",
+   "source": "新浪财经",
    "source_url": "https://finance.sina.cn",
    "time": "2026-10-15T03:17:35+00:00",
    "lang": "zh",
@@ -2758,7 +2818,7 @@
   },
   {
    "title": "江西省首届AI+OPC微短剧创作大赛正在征集！",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGNTJQd2pPVTdBVUxaSFRfNjZwT01RN2ZiOEl3TTB0OGFseVQtcl90S2w1V193YjhZaVZsNkp3THZDaUswUTFLbU5OQVd6TExKRkcyb3Nqc0hwTlRZRWZDSDk4OGtWeWtlUVhB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9CSDZBX1J0NWxmbXJOMENPQTl0c3pKLUVuMHllbktzWFlNNVdnSUdXMzJGRndFVzc3alFveHdMQlU1NXU2Nzh3eWlVVUtUQUZuLWIyWS1zUW4?oc=5",
    "source": "今日流媒体",
    "source_url": "https://lmtw.com",
    "time": "2026-10-15T02:27:00+00:00",
@@ -2778,68 +2838,6 @@
    "section": "industry",
    "topic": "general",
    "ai_related": false
-  },
-  {
-   "title": "腾讯火龙漫剧上线互动小游戏频道，漫剧IP+小游戏成新增长点？",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90NU52cVdiWDQtZGt3UGFIc29oTU43TG5sOElHTXNjTm1LTmdoWFhEOG9tQkUwRUk1N2Jab1MtZl94OVNfbDg2Q1BLcGtVT3FUeWJIdXQwRzZvOXhFWC03eA?oc=5",
-   "source": "ThePaper.cn",
-   "source_url": "https://www.thepaper.cn",
-   "time": "2026-10-15T01:22:00+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "platform",
-   "ai_related": false
-  },
-  {
-   "title": "巨头对垒!红果短剧、腾讯同登多个热搜,绿泡泡胜算几何？",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBONU9haG92TGNLMXpXV0dMU1NaU3FucEEtVlNpUUZjTTAtTFdlM3I4N09iUWtEOTVZVjItLUJveDBQczc5Qk5YWU5jbGRXZkV1UVhkVjh2VGJwRmh4WTF5ZGJ1Z29mSEJHSHVB?oc=5",
-   "source": "流媒体网",
-   "source_url": "https://lmtw.com",
-   "time": "2026-10-15T01:12:00+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "platform",
-   "ai_related": false
-  },
-  {
-   "title": "AI漫剧《求职避坑指南》丨花6万能“上岸”，我竟然信了",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53cTh3U29zVDg3Rk9mUVg3aVVqcHcwT2YyWnJOSjNtaXFDM05NOTZUXzMzS055bElxTFJjQnlpQmN1T184Z3JIME54ako3anVSdmN4NHI1dWFYVkV6?oc=5",
-   "source": "光明网",
-   "source_url": "https://m.gmw.cn",
-   "time": "2026-10-15T01:01:00+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "general",
-   "ai_related": true
-  },
-  {
-   "title": "TikTok inks microdrama partnership with Made By Us studios",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeEV0OXhjWVh2YmxZTlNPRXdDbEpZajhtcjVuQ3R1YlJTQ0x1SE8yTFJXNnJlQ2I5YlNReWVKRGhNU3BRZVNKV2hoRm9wM0gzbFZJN0ZKNVJCT1FDY1Z3d2MtNDNpZ01sVGhXQzVfbmVjaU03NmZoU29TM0t3aV9MTmZWS05PcHZWWkhIOFdCak5EVXRjMU8xVDV4Q1pjaThvWFBfYXhGZw?oc=5",
-   "source": "Social Media Today",
-   "source_url": "https://www.socialmediatoday.com",
-   "time": "2026-10-15T00:57:10+00:00",
-   "lang": "en",
-   "section": "industry",
-   "topic": "overseas",
-   "ai_related": false,
-   "also": [
-    "IMDb",
-    "The Hollywood Reporter"
-   ]
-  },
-  {
-   "title": "微信下场，短剧不再只看红果的报价",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XOWZFRkhnVm5qeTdQY0pJM3VnRmdqMkVxRkNWZ2lKYVVuRldIcG1uaktMbGxkYmJKNnJhazZtNmhQNFJIUElUX0xDOF9GNy1raUE3TVpScUZNUGZLTzFLN0NR?oc=5",
-   "source": "QQ News",
-   "source_url": "https://news.qq.com",
-   "time": "2026-10-15T00:47:00+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "platform",
-   "ai_related": false,
-   "also": [
-    "36Kr"
-   ]
   }
  ],
  "ai": [
@@ -2865,10 +2863,6 @@
    "sentiment": "negative",
    "signals": [
     "不再赚钱"
-   ],
-   "also": [
-    "搜狐",
-    "36Kr"
    ]
   },
   {
@@ -2880,11 +2874,7 @@
    "lang": "zh",
    "section": "ai",
    "sentiment": "neutral",
-   "signals": [],
-   "also": [
-    "新浪网",
-    "证券之星"
-   ]
+   "signals": []
   },
   {
    "title": "从IP授权到产业园揭牌，四川AI漫剧产业在成都“组团”",
@@ -2968,7 +2958,7 @@
     "降本"
    ],
    "also": [
-    "finance.sina.com.cn"
+    "川观新闻"
    ]
   },
   {
@@ -3023,7 +3013,6 @@
    "signals": [],
    "also": [
     "财联社电报",
-    "东方财富",
     "凤凰网科技"
    ]
   },
@@ -3038,8 +3027,7 @@
    "sentiment": "negative",
    "signals": [
     "风险"
-   ],
-   "also": []
+   ]
   },
   {
    "title": "AI短剧用户时长快速增长，现有数据尚不足以证明其将系统性冲击游戏行业",
@@ -3209,20 +3197,6 @@
    ]
   },
   {
-   "title": "成本砍掉九成、AI短剧点燃A股：谁在“卖铲子”，谁在“挖矿山”？",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9YUWdtZEtPOFBQWnQ4b0NIclJuREZHeDN6dVJ4MkQ3Q3RlQVlZUXk4VUVEM3dFcHE5bzdVUFBCNVlMbkRESER6VXFzdUxlVnRlcDZzRlRQVFZPVlBsVXRlOGN5bW9Wdw?oc=5",
-   "source": "东方财富",
-   "source_url": "https://finance.eastmoney.com",
-   "time": "2026-10-16T10:24:49+00:00",
-   "lang": "zh",
-   "section": "ai",
-   "sentiment": "positive",
-   "signals": [
-    "成本砍",
-    "砍掉"
-   ]
-  },
-  {
    "title": "AI microdrama platform Dashverse may see layoffs amid over-hiring concerns",
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbWdCSjJLY09PM1pWd0s2VXgta3dRck0xMmV1cnZoZXN1SGxFVHU0VUNCcnpHU0xnY2Z0YkVucmg5YzZxcWtJTTZSOVAxaTBBOGdvd2owLTk5RE5CeWdybUUzWF9FTmNSa3F2MWhkU1MxNlVNTHlGaGhUanl1Y2ZEblZqZUNwb2FSVG5qd1FNNjl5MFZwdFFkQjRzai1HU08wTnRVUUxRT3k5NWpENXB1WkNyUmZWNDZKRjUwc0pTNktWV2JfTm9BVFg4VDBuZWxvc3QtS9IB2gFBVV95cUxPenNsbWxOVEtEdUg3ajdGYVZGQThmTFQteUZWZG9Wc3pVeUY5RS1rbkdNOTAzeXJma3lHbFlvYmM4LVdmUVBKODFWT3RNcDhhcnFIUjVvNVhkdTAxWGZPNldSb290bkY5MEU0bmdLcXE4eGNQNEZjX0hqdU9naU5ZTllOd2h2TFFCWm5NN2lrR1ZlR1NYQ2JPVE91OXVDOGluSVNxNS1IN1pzNS1zenhpRkhkdW9POVBoYmpUdWY5NXZFS3JacHo0MWFOZXFweVZubzl1M2U2TlZFdw?oc=5",
    "source": "Storyboard18",
@@ -3249,6 +3223,20 @@
     "加速",
     "成本降至",
     "降至"
+   ]
+  },
+  {
+   "title": "成本砍掉九成、AI短剧点燃A股：谁在“卖铲子”，谁在“挖矿山”？",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9YUWdtZEtPOFBQWnQ4b0NIclJuREZHeDN6dVJ4MkQ3Q3RlQVlZUXk4VUVEM3dFcHE5bzdVUFBCNVlMbkRESER6VXFzdUxlVnRlcDZzRlRQVFZPVlBsVXRlOGN5bW9Wdw?oc=5",
+   "source": "东方财富",
+   "source_url": "https://finance.eastmoney.com",
+   "time": "2026-10-16T08:28:15+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "positive",
+   "signals": [
+    "成本砍",
+    "砍掉"
    ]
   },
   {
@@ -3320,15 +3308,18 @@
   },
   {
    "title": "AI短剧的下半场：400亿盛宴与98.7%的亏损面",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1RQjByc2h2SVBpa0RPeklXai1IdjREczdINHk2UDItc3RJTjRaWl9DXzRId0E1VldlcVp5eWxxZWwxRjhjdlNleVlzYjM5d05vaEN6OFdvLTd2dWhN?oc=5",
-   "source": "证券时报网",
-   "source_url": "https://www.stcn.com",
-   "time": "2026-10-15T13:08:00+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE53cjU4ZVpHMDMwREpFc2VBMkdYY20xczBiXy1XcGczZDdyTEI3bGVuLS1zTlYxWFRHWHh6RGozS3pNUWZsMkdYSkNMcG5WUEhIaWxMNGZrZnp1Y3d4NjRNbHNtUms4TWZVUmc?oc=5",
+   "source": "中金在线",
+   "source_url": "http://fund.cnfol.com",
+   "time": "2026-10-15T13:54:07+00:00",
    "lang": "zh",
    "section": "ai",
    "sentiment": "negative",
    "signals": [
     "亏损"
+   ],
+   "also": [
+    "证券时报网"
    ]
   },
   {
@@ -3355,6 +3346,9 @@
    "sentiment": "positive",
    "signals": [
     "产能"
+   ],
+   "also": [
+    "证券之星"
    ]
   },
   {
@@ -3373,7 +3367,7 @@
   {
    "title": "皖琼联动双向奔赴“东方出海・全球 AI 微短剧发行总部基地”项目合作框架协议签约仪式在皖举办",
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5uLXhpVHhROG5QN255aXFuVkw1M1dGOGFlOU0yZG9OQzJlcE5TSUh0cVZxXzJkUGt5UGZBajAzS0xySUxfX2hMYVdGUFZHT2Rk?oc=5",
-   "source": "凤凰网财经",
+   "source": "凤凰网",
    "source_url": "https://finance.ifeng.com",
    "time": "2026-10-15T05:18:10+00:00",
    "lang": "zh",
@@ -3482,18 +3476,6 @@
    "signals": [
     "加速"
    ]
-  },
-  {
-   "title": "MIPCOM Cannes Attendance Dips as AI, Creators and Vertical Dramas Reshape Global Entertainment Market",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQk9yX2ZnUmxEenZQVlczMmU3T2ItZUlfb0NaUWRhbmowZk1mbEpvTl9kQkFoaFJFQWJyWGZqaXIxcFZ2TmhCTzZ4ZlVPOERMbEFONkJGS2xBVlBhSzB0LTFvc1Z4RVE0V2lrclc0YWV5eTVrdFBFX01Db0loS21sMmFpREc1V3JkZTZTUGx3YlA5cmg2em1uU3NoMHhDN2ZWbkRlc2FQWmhzZWZvbjZmRkdOb3BuRWh5ZDBoOXVLS25WY3NFZXNEWmVpdw?oc=5",
-   "source": "Media Play News",
-   "source_url": "https://www.mediaplaynews.com",
-   "time": "2026-10-14T15:49:28+00:00",
-   "lang": "en",
-   "section": "ai",
-   "sentiment": "neutral",
-   "signals": [],
-   "also": []
   },
   {
    "title": "AI短剧出海遭搬运，阜博集团帮助创作者在YouTube成功主张版权",
@@ -3641,14 +3623,17 @@
   },
   {
    "title": "AI短剧出海升温 中国业界人士建言差异化发展",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yMkhOc0d2blBNZlA2LUVlS1RfX3RfSWxtSUIzd20tVmdjcG5PT3Y2WFFlUjhFWDJkTXdkRF9tZ3RrVFJyZGJaZm9OMzFFeXV2SUJOWWRtOUEwUmhBMXlZMWJJQlotNC1N?oc=5",
-   "source": "中国新闻网",
-   "source_url": "https://www.chinanews.com.cn",
-   "time": "2026-10-14T01:30:55+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sOTFmZ2pUQlJYdlJPa0RTWHA0NGNxZkpNNGlFNDQ5aEMwM1pTWU1Qc3N0Z2hhQkVQYnN5U3JLcFpyN3ZIOTF0a1ByUXdzbU50RWFGdkJB?oc=5",
+   "source": "QQ News",
+   "source_url": "https://news.qq.com",
+   "time": "2026-10-14T01:31:00+00:00",
    "lang": "zh",
    "section": "ai",
    "sentiment": "neutral",
-   "signals": []
+   "signals": [],
+   "also": [
+    "中国新闻网"
+   ]
   },
   {
    "title": "法治面｜AI短剧盗脸侵权案开庭：普通人的“面子”值多少钱？",
@@ -3788,7 +3773,8 @@
     "风险"
    ],
    "also": [
-    "新浪财经"
+    "新浪财经",
+    "搜狐"
    ]
   },
   {
@@ -4108,17 +4094,6 @@
    "signals": []
   },
   {
-   "title": "制作成本降了，竞争门槛还在，AI漫剧改变了什么？",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE12R2Y2LXpDcHFGMlFYcW13ZGpSR0lFbUZxN3k4c1B1MzZNQTZzM0Zpc3R0Z0NvWU9rZHpyUEd6aHV1NVZRZTdhSmltRVRzNTdZeHlsRA?oc=5",
-   "source": "虎嗅网",
-   "source_url": "https://www.huxiu.com",
-   "time": "2026-10-06T07:00:00+00:00",
-   "lang": "zh",
-   "section": "ai",
-   "sentiment": "neutral",
-   "signals": []
-  },
-  {
    "title": "短剧演员没消失，只是被AI 逼着卷成了真人明星|短剧演员|ai|ai 短剧|真人短剧_新浪新闻",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5MZmdMTVM5cG5JaEFSbjl6X3g2MFFtZ0FmMGtwNUtNMlFOTEVuTkhxVldpcVhPSW5td21jLVo5Zk1SOVNGWWc5am1CVGVMSXJnUklJckhPNUtIR1NiZzUwcWJiNA?oc=5",
    "source": "手机新浪网",
@@ -4152,6 +4127,17 @@
    "signals": [
     "内卷"
    ]
+  },
+  {
+   "title": "制作成本降了，竞争门槛还在，AI漫剧改变了什么？",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE12R2Y2LXpDcHFGMlFYcW13ZGpSR0lFbUZxN3k4c1B1MzZNQTZzM0Zpc3R0Z0NvWU9rZHpyUEd6aHV1NVZRZTdhSmltRVRzNTdZeHlsRA?oc=5",
+   "source": "虎嗅网",
+   "source_url": "https://www.huxiu.com",
+   "time": "2026-10-06T07:00:00+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "neutral",
+   "signals": []
   },
   {
    "title": "国庆假期三个没想到：年轻人通透了，AI 取代短剧演员|年轻人|燃油车|ai短剧|销量占比_新浪新闻",
@@ -4255,6 +4241,17 @@
    ]
   },
   {
+   "title": "中国加强对AI微短剧的监管——《南华早报》",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRXhjcENRdk95N29rYl80cmVkZ3c3TE9xZUxFOWNyLTVzMVlHbUE0TUVDOW5Mdm1CaWR5XzdjcWZlcTB3ZGxwTHRzbHhNaDl4NnFGU0lveVBrYzg0UDFLdEtFVGpPaWxWdDh2blM2cnhsU3RBdGJIS25WMnlHUWFjOTJYeVRHM2Q1dks0Ukw3VEJWMFdWNmY2Wg?oc=5",
+   "source": "UA.NEWS",
+   "source_url": "https://ua.news",
+   "time": "2026-09-30T07:00:00+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "neutral",
+   "signals": []
+  },
+  {
    "title": "内容厂商如何守住AI短剧牌桌？山海星辰AI产研负责人解密背后的工业化爆款逻辑",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fRXl5M04zTGhPSGhOVDlEd3ItTFFJM01RWDdxMWVrelAzeDJOT0dyTU5Gakhnc3lvaUZ6aWJkQzdFcUlSRGgtNmhJbWtzR3AyLTQzTTJLc0h3c09Uanc?oc=5",
    "source": "ThePaper.cn",
@@ -4313,9 +4310,6 @@
    "sentiment": "negative",
    "signals": [
     "失业"
-   ],
-   "also": [
-    "搜狐网"
    ]
   },
   {
@@ -4379,8 +4373,7 @@
    "lang": "zh",
    "section": "ai",
    "sentiment": "neutral",
-   "signals": [],
-   "also": []
+   "signals": []
   },
   {
    "title": "九孔曝AI短剧片酬惨状 贱卖肖像“砸自己饭碗”",
@@ -4513,8 +4506,8 @@
    "cover": "https://v-mps.crazymaplestudios.com/images/10a06100-0573-11f1-84ad-6b5693b490dc.jpg",
    "synopsis": "Hank comes back from the army, finds he can't fit in, has to find a job as a car wash man, and his life is a mess. At the same tim",
    "episodes": 44,
-   "views": 1365664,
-   "likes": 18915,
+   "views": 1365967,
+   "likes": 18918,
    "tags": [
     "Casino",
     "Hospital",
@@ -4529,8 +4522,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000000290/3a98fe44-e15b-4cc1-aee6-ec3c1aeb7ad0.jpg",
    "synopsis": "Chef Leon Kennedy, once the \"King of Cooking,\" fell apart after his wife died in a tragic car accident. His deep depression led hi",
    "episodes": 86,
-   "views": 132437589,
-   "likes": 1002807,
+   "views": 132439657,
+   "likes": 1002815,
    "tags": [
     "Male",
     "Series",
@@ -4545,8 +4538,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000007907/5522a507-09bb-4826-ba9f-51340a64e9ec.jpg",
    "synopsis": "In an all boy's reform school where homosexual acts mean immediate expulsion, will enemies to lovers Easton and Xander risk it all",
    "episodes": 62,
-   "views": 4464141,
-   "likes": 46519,
+   "views": 4519260,
+   "likes": 46903,
    "tags": [
     "LGBTQ",
     "Series",
@@ -4561,8 +4554,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000003284/771b3ea6-78f6-46a8-a307-7466eadde6de.jpg",
    "synopsis": "Based on the novel by Jennifer Hartmann. When Lexington Hall, the biggest movie star, asks Stevie to be his fake girlfriend, it sh",
    "episodes": 113,
-   "views": 11339764,
-   "likes": 117329,
+   "views": 11496835,
+   "likes": 117881,
    "tags": [
     "Female",
     "Series",
@@ -4577,7 +4570,7 @@
    "cover": "https://v-mps.crazymaplestudios.com/images/ed7e1620-d9a5-11f0-84ad-6b5693b490dc.jpg",
    "synopsis": "Mia's impulsive kiss with mysterious bartender Troy pulls her into the violent underground fighting world where he reigns undefeat",
    "episodes": 77,
-   "views": 11148159,
+   "views": 11149524,
    "likes": 68423,
    "tags": [
     "All",
@@ -4593,8 +4586,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000004242/9f3647d1-4a52-43ed-95b5-3766afac3ea7.jpg",
    "synopsis": "To forgive Piper's family debt, she's promised to marry one of the Bellfort brothers. Will she choose the star lacrosse player Dre",
    "episodes": 74,
-   "views": 211635630,
-   "likes": 1636754,
+   "views": 211672659,
+   "likes": 1637060,
    "tags": [
     "Female",
     "Series",
@@ -4609,8 +4602,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000007817/96aa7dbb-acb2-4684-97c7-56bfde729e4d.jpg",
    "synopsis": "After being sent to Maplewood Reform School—a last stop before prison for the problem sons of wealthy families—openly gay teen Cod",
    "episodes": 64,
-   "views": 6590143,
-   "likes": 80871,
+   "views": 6618522,
+   "likes": 81037,
    "tags": [
     "LGBTQ",
     "Series",
@@ -4625,8 +4618,8 @@
    "cover": "https://v-mps.crazymaplestudios.com/images/7bdcfee0-7caa-11ef-a2d6-41216ff1602c.jpg",
    "synopsis": "Introverted Cameron, is desperately in love with his high school crush Diane. But his romantic pursuit is halted when Victoria, a",
    "episodes": 64,
-   "views": 7006572,
-   "likes": 56133,
+   "views": 7007430,
+   "likes": 56141,
    "tags": [
     "All",
     "Film",
@@ -4641,8 +4634,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000004923/cdb055c3-e6f9-4bff-8513-7cc5ee66787a.jpg",
    "synopsis": "Based on the novel by L. Steele. After her fiancé cheats on her, Vivian flash marries a hot silver fox… only to realize he’s her e",
    "episodes": 61,
-   "views": 38862837,
-   "likes": 160224,
+   "views": 38867884,
+   "likes": 160238,
    "tags": [
     "Female",
     "Series",
@@ -4657,8 +4650,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000000941/9f46f25e-4bd5-4ebc-9a0d-d5d80f7edc2a.jpg",
    "synopsis": "Single mom Maria escapes abuse and fights to protect her daughter, Judy. From factory struggles to elite schools, she faces enemie",
    "episodes": 57,
-   "views": 155657710,
-   "likes": 1194074,
+   "views": 155664939,
+   "likes": 1194098,
    "tags": [
     "Female",
     "Series",
@@ -4673,8 +4666,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000007655/56a1edb3-66b9-43f6-8ef4-8e005dc49d7e.jpg",
    "synopsis": "In the beastkin world, Toby (a rabbit whose impending marriage was called off) is forced into an arranged marriage with Enzo (the",
    "episodes": 38,
-   "views": 1788378,
-   "likes": 25864,
+   "views": 1795845,
+   "likes": 25945,
    "tags": [
     "LGBTQ",
     "Adults Only",
@@ -4689,8 +4682,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000006008/bd72681c-aa81-497d-80d5-687cd12f61cd.jpg",
    "synopsis": "Alice is swept into the undersea world of Atlantis and becomes the mute, wicked supporting character everyone despises: the disgra",
    "episodes": 42,
-   "views": 1351609,
-   "likes": 22080,
+   "views": 1356505,
+   "likes": 22134,
    "tags": [
     "Female",
     "Fantasy",
@@ -4705,7 +4698,7 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200151000006769/c4327bd9-3c75-40c2-813b-e5559d7b54dd.jpg",
    "synopsis": "Abe Tatum is a transmigrator and a Great Emperor. But all he wants is a peaceful life and hides his true strength at the Azure Clo",
    "episodes": 56,
-   "views": 525372,
+   "views": 525592,
    "likes": 13330,
    "tags": [
     "Male",
@@ -4721,8 +4714,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000006590/286b94fe-5ffb-4762-81f4-6ff4e79993c4.jpg",
    "synopsis": "Odysseus is the secret demigod son of Apollo, bound by a deathbed vow to give his queen, Antigone, a hundred chances to earn his t",
    "episodes": 40,
-   "views": 2609259,
-   "likes": 27881,
+   "views": 2611636,
+   "likes": 27897,
    "tags": [
     "Male",
     "Fantasy",
@@ -4737,8 +4730,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000005826/8f88747b-7b58-4fe9-9faa-d0ff8604009e.jpg",
    "synopsis": "After the Iron Sheep Kingdom falls, Prince Leigh is offered to Kaelen, the Blood Lion King cursed by berserker blood, becoming the",
    "episodes": 46,
-   "views": 1261905,
-   "likes": 21478,
+   "views": 1263817,
+   "likes": 21493,
    "tags": [
     "LGBTQ",
     "Gay",
@@ -4753,8 +4746,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000006211/3c5272bb-bf15-46ea-8092-5b88abbfe29a.jpg",
    "synopsis": "In the Mecha Age, girls who turn 18 can transform into powerful mechas and go to the battlefield, while men can become Pilots and",
    "episodes": 58,
-   "views": 9006556,
-   "likes": 64802,
+   "views": 9010305,
+   "likes": 64825,
    "tags": [
     "Male",
     "Fantasy",
@@ -4769,8 +4762,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000005956/d9e287c6-a137-4e9e-9257-e7a9492e57cd.jpg",
    "synopsis": "Trash dog’s epic counterattack! Inheriting Anubis’s legacy, he evolves by devouring everything! Tortures villains, protects his ma",
    "episodes": 35,
-   "views": 739333,
-   "likes": 10212,
+   "views": 739386,
+   "likes": 10214,
    "tags": [
     "Female",
     "Animal",
@@ -4785,8 +4778,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000005599/b927f5fb-9418-4944-9dbe-a74e1204f778.jpg",
    "synopsis": "Khloe has always played by the rules until her sister's life depends on money she doesn't have. So she signs the unthinkable: marr",
    "episodes": 48,
-   "views": 1032393,
-   "likes": 13429,
+   "views": 1032714,
+   "likes": 13428,
    "tags": [
     "Billionaire",
     "Marriage of Convenience",
@@ -4801,8 +4794,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000005365/49b98298-0382-402a-9019-859a683565cf.jpg",
    "synopsis": "My Pureblood husband won't touch me. He sleeps in my stepsister's wing. So I bought a wrecked half-blind mongrel Orc on a curb for",
    "episodes": 35,
-   "views": 6754852,
-   "likes": 79471,
+   "views": 6755389,
+   "likes": 79473,
    "tags": [
     "Female",
     "Fated Lovers",
@@ -4817,8 +4810,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200151000005314/1ee76a8d-1b86-44d2-b3c7-51daf71731ac.jpg",
    "synopsis": "Tana is the LAST fire dragon alive—and she's hiding that secret in a cage where the losers DIE. Every night Tana heals Cedric, the",
    "episodes": 48,
-   "views": 5033995,
-   "likes": 42308,
+   "views": 5046522,
+   "likes": 42425,
    "tags": [
     "Female"
    ],
@@ -4830,7 +4823,7 @@
   {
    "name": "短剧 when:14d",
    "ok": true,
-   "count": 88
+   "count": 100
   },
   {
    "name": "微短剧 when:14d",
@@ -4845,7 +4838,7 @@
   {
    "name": "短剧 出海 when:14d",
    "ok": true,
-   "count": 76
+   "count": 77
   },
   {
    "name": "红果短剧 when:14d",
@@ -4855,7 +4848,7 @@
   {
    "name": "短剧 监管 OR 广电总局 when:30d",
    "ok": true,
-   "count": 48
+   "count": 52
   },
   {
    "name": "microdrama OR micro-drama when:14d",
@@ -4885,7 +4878,7 @@
   {
    "name": "AIGC 短剧 when:30d",
    "ok": true,
-   "count": 56
+   "count": 54
   },
   {
    "name": "AI 短剧 演员 OR 编剧 OR 从业者 when:30d",
@@ -4900,22 +4893,22 @@
   {
    "name": "AI 短剧 版权 OR 侵权 OR 换脸 when:30d",
    "ok": true,
-   "count": 52
+   "count": 53
   },
   {
    "name": "AI 短剧 冲击 OR 取代 OR 失业 when:30d",
    "ok": true,
-   "count": 37
+   "count": 38
   },
   {
    "name": "AI microdrama OR \"AI-generated\" vertical drama when:30d",
    "ok": true,
-   "count": 64
+   "count": 61
   },
   {
    "name": "generative AI microdrama actors OR jobs OR cost when:30d",
    "ok": true,
-   "count": 15
+   "count": 8
   },
   {
    "name": "ReelShort",
