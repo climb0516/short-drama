@@ -327,6 +327,7 @@ def douyin_charts(old):
     hist = {k: v for k, v in hist.items() if v}
 
     keep = {Path(it["cover"]).name for it in hot + praise + upcoming if it["cover"]}
+    keep |= {Path(it.get("cover") or "x").name for it in ((old.get("hongguo") or {}).get("items") or {}).values()}   # 红果榜封面同目录
     for f in CHART_COVERS.glob("*.jpg"):                # 不在榜且超过保留期的封面删掉
         if f.name not in keep and time.time() - f.stat().st_mtime > CHART_DAYS * 86400:
             f.unlink()
@@ -339,6 +340,98 @@ def douyin_charts(old):
                       "forms": [{"form": g.get("genre"), "count": g.get("count")} for g in board.get("genre_distribution") or []],
                       "pairs": [{"label": p.get("label") or "+".join(p.get("tags") or []), "count": p.get("count")}
                                 for p in ((board.get("cooccurrence") or {}).get("pairs") or [])[:10]]}}
+
+
+# ── 红果短剧官网（hongguoduanju.com）官方热播榜：服务端渲染的榜单页，robots.txt 允许 /rank、/detail ──
+HG = "https://hongguoduanju.com"
+HG_BOARDS = [("all", "hot-drama"), ("real", "hot-real-drama"), ("ai", "hot-ai-drama"), ("comic", "hot-comic-drama")]
+HG_PAGES = 5                                   # 每页 20 部，共 100 部
+HG_EXTRA = 40                                  # 抖音榜里不在红果榜的剧，补抓红果详情页（评分、简介）的上限
+
+
+def hg_num(s):
+    """「43.1万」→ 431000；「7318万热度」→ 73180000。"""
+    m = re.search(r"([\d.]+)\s*(万|亿)?", s or "")
+    if not m:
+        return None
+    return round(float(m.group(1)) * {"万": 1e4, "亿": 1e8}.get(m.group(2), 1))
+
+
+def hg_text(s):
+    return html.unescape(re.sub(r"<!--.*?-->|<[^>]+>", "", s or "")).strip()
+
+
+def hg_rank_page(path, page):
+    t = fetch(f"{HG}/rank/{path}" + (f"?page={page}" if page > 1 else ""), timeout=25)
+    out = []
+    for blk in re.split(r'<article class="pc-item-', t)[1:]:
+        sid = re.search(r'rank-title-(\d+)', blk)
+        if not sid:
+            continue
+        g = lambda pat: (re.search(pat, blk, re.S) or [None, ""])[1]
+        eng = [hg_text(x) for x in re.findall(r'<ul class="pc-engagement[^"]*"[^>]*>(.*?)</ul>', blk, re.S)[0:1] for x in re.findall(r"<li[^>]*>(.*?)</li>", x, re.S)] if 'pc-engagement' in blk else []
+        cats = [hg_text(x) for x in re.findall(r"<span>(.*?)</span>", g(r'<p class="pc-categories[^"]*">(.*?)</p>'), re.S)]
+        out.append({"id": sid.group(1), "name": hg_text(g(r'<h2[^>]*>(.*?)</h2>')),
+                    "rank": int(g(r'pc-badge-number[^"]*">(\d+)<') or 0) or None,
+                    "heat": hg_num(hg_text(g(r'<p class="pc-metrics[^"]*">(.*?)</p>'))),
+                    "new": "新剧" in eng, "score": next((float(x[2:]) for x in eng if x.startswith("评分") and x[2:].replace(".", "", 1).isdigit()), None),
+                    "fav": next((hg_num(x) for x in eng if x.endswith("收藏")), None), "like": next((hg_num(x) for x in eng if x.endswith("点赞")), None),
+                    "tags": [c for c in cats if c and not c.isdigit()], "desc": hg_text(g(r'<p class="pc-description[^"]*">(.*?)</p>'))[:500],
+                    "cover_url": g(r'<img class="pc-cover[^"]*" src="([^"]+)"')})
+    return out, re.search(r"(\d+月\d+日)已更新", t)
+
+
+def hg_detail(sid):
+    """红果详情页：给抖音榜里不在红果榜的剧补评分、点赞、收藏、标签、简介。"""
+    t = fetch(f"{HG}/detail?series_id={sid}", timeout=25)
+    g = lambda pat: (re.search(pat, t, re.S) or [None, ""])[1]
+    score = re.search(r"评分(?:<!-- -->)?([\d.]+)", t)
+    return {"name": hg_text(g(r'<h1 class="pc-hero-title[^"]*">(.*?)</h1>')), "heat": hg_num(hg_text(g(r'pc-hero-heat[^"]*"[^>]*>(.*?)</span>'))),
+            "score": float(score.group(1)) if score else None,
+            "like": hg_num(hg_text(g(r'<div class="pc-hero-social-tag[^"]*">([^<]*(?:<!-- -->)?次点赞)'))),
+            "fav": hg_num(hg_text(g(r'<div class="pc-hero-social-tag[^"]*">([^<]*(?:<!-- -->)?收藏)'))),
+            "tags": [x for x in (hg_text(x) for x in re.findall(r'<div class="pc-hero-tag[^"]*"><span class="pc-hero-tag-text[^"]*">(.*?)</span>', t, re.S)) if not x.isdigit()],
+            "desc": hg_text(re.sub(r"^简介：", "", hg_text(g(r'<p class="pc-hero-desc[^"]*">(.*?)</p>'))))[:500]}
+
+
+def hongguo(old, douyin):
+    prev = old.get("hongguo") or {}
+    items, boards, updated = {}, {}, ""
+    for key, path in HG_BOARDS:
+        ids = []
+        for page in range(1, HG_PAGES + 1):
+            rows, upd = hg_rank_page(path, page)
+            updated = updated or (upd.group(1) if upd else "")
+            for r in rows:
+                if r["id"] not in ids:
+                    ids.append(r["id"])
+                it = items.setdefault(r["id"], {k: v for k, v in r.items() if k not in ("rank", "cover_url")})
+                it.setdefault("ranks", {})[key] = r["rank"] or len(ids)
+                if not it.get("cover"):
+                    it["cover"] = dj_cover(r["cover_url"], r["id"])
+            time.sleep(0.5)
+        boards[key] = ids
+    if len(boards.get("all", [])) < 50:
+        raise ValueError(f"红果热播榜只解析到 {len(boards.get('all', []))} 部")
+    # 抖音榜（短剧工程）里的剧号就是红果剧集 id：不在红果榜的，补抓红果详情页（缓存 7 天）
+    cache = dict(prev.get("extra") or {})
+    today = datetime.now(CST).date().isoformat()
+    stale = (datetime.now(CST).date() - timedelta(days=7)).isoformat()
+    want = [x["id"] for x in (douyin.get("hot") or [])[:60] + (douyin.get("praise") or []) if x.get("id", "").isdigit() and x["id"] not in items]
+    for sid in want[:HG_EXTRA]:
+        if sid not in cache or cache[sid].get("_d", "") < stale:
+            try:
+                cache[sid] = {**hg_detail(sid), "_d": today}
+                time.sleep(0.4)
+            except Exception as e:
+                print("  hg detail fail", sid, e)
+    cache = {k: v for k, v in cache.items() if k in want}
+    hist = dict(prev.get("history") or {})               # 红果热播榜名次走势：id -> {日期: 名次}
+    for i, sid in enumerate(boards["all"]):
+        hist.setdefault(sid, {})[today] = i + 1
+    cut = (datetime.now(CST).date() - timedelta(days=CHART_DAYS)).isoformat()
+    hist = {k: {d: r for d, r in v.items() if d >= cut} for k, v in hist.items()}
+    return {"updated": updated, "date": today, "boards": boards, "items": items, "extra": cache, "history": {k: v for k, v in hist.items() if v}}
 
 
 def main():
@@ -375,6 +468,12 @@ def main():
     except Exception as e:
         douyin = old.get("douyin") or {}
         status.append({"name": "短剧工程 抖音短剧榜", "ok": False, "error": str(e)[:120], "stale": True})
+    try:
+        hg = hongguo(old, douyin)
+        status.append({"name": "红果短剧官网 热播榜", "ok": True, "count": len(hg["items"])})
+    except Exception as e:
+        hg = old.get("hongguo") or {}
+        status.append({"name": "红果短剧官网 热播榜", "ok": False, "error": str(e)[:120], "stale": True})
 
     # 与历史合并，避免新闻随搜索窗口滑动而消失
     history = old.get("industry", []) + old.get("ai", [])
@@ -395,6 +494,7 @@ def main():
         "industry": [i for i in items if i["section"] == "industry"][:MAX_PER_SECTION],
         "ai": [i for i in items if i["section"] == "ai"][:MAX_PER_SECTION],
         "douyin": douyin,
+        "hongguo": hg,
         "overseas": overseas,
         "status": status,
     }
