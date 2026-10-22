@@ -1,6 +1,6 @@
 # 🎬 DramaPulse · 短剧速递
 
-> 热门短剧推荐（AI 漫剧 / AI 仿真人 / 真人）+ 短剧行业新闻 + AI 对短剧行业的影响（正面 / 负面都收）
+> 抖音短剧日榜 TOP100 / 预约榜 / 口碑榜（每天自动）+ 每周编辑推荐 + 短剧行业新闻 + AI 对短剧行业的影响（正面 / 负面都收）
 
 **🌐 在线访问：[https://climb0516.github.io/short-drama/](https://climb0516.github.io/short-drama/)**
 
@@ -22,7 +22,7 @@
 
 | 栏目 | 内容 | 更新方式 |
 |------|------|------|
-| 热门推荐 | 国内红果等平台热播剧：剧名、AI/真人、题材、热度、简介、为什么火；海外 ReelShort TOP / 新上线（带封面，点击直达第 1 集） | 国内：`/go-drama-picks` Skill 每周整理 → `picks.json`；海外：爬虫自动 |
+| 热门推荐 | **国内榜单**：抖音短剧热播榜 TOP100（体裁 AI 短剧 / 漫剧 / 真人剧、题材、标签、热播指数、排名升降、在榜天数）、排名飙升、今日新上榜、预约榜 TOP30、口碑宝藏、题材热度；点开有排名走势和数据解读。**编辑推荐**：每周整理的几部，带剧情和「为什么火」。**海外**：ReelShort TOP / 新上线 | 国内榜单：爬虫每次运行抓短剧工程风向标页；编辑推荐：`/go-drama-picks` Skill 每周整理 → `picks.json`；海外：爬虫自动 |
 | 行业新闻 | 政策监管、平台、出海、数据报告、资本，中英文媒体，同一事件多家报道会合并 | 爬虫自动，每 3 小时 |
 | AI 影响 | AI 给行业带来的正面影响（降本提效、产能、出海翻译、新机会）和负面影响（岗位冲击、换脸侵权、同质化、亏损泡沫），附舆论温度条 | 爬虫自动，每 3 小时 |
 
@@ -41,9 +41,10 @@
 ```
 GitHub Actions（每 3 小时 / 手动 / 修改爬虫后 push）
   ↓ python scraper.py（只用标准库）
-  ↓ Google News RSS 中英文 18 组关键词 + ReelShort 首页
+  ↓ 短剧工程「短剧风向标」（抖音官方短剧日榜）：热播 TOP100 / 预约 / 口碑，前 50 部抓单剧页；封面下载到 covers/c/
+  ↓ Google News RSS 中英文关键词 + ReelShort 首页
   ↓ 过滤 → 分栏 → 正负面判断 → 与历史合并去重（保留 45 天）
-  ↓ 写入 data.json 并 commit
+  ↓ 写入 data.json（douyin 字段：榜单 + 30 天排名走势）和 covers/c/ 并 commit
 
 Claude Code /go-drama-picks（每周手动跑）
   ↓ WebSearch 红果日榜 / DataEye / 媒体榜单
@@ -65,7 +66,8 @@ python3 -m http.server 8799
 | 文件 | 说明 |
 |------|------|
 | `index.html` | 单页前端，深色 / 浅色主题，手机适配，⌘K 搜索 |
-| `scraper.py` | 新闻 + ReelShort 抓取、分类、去重 |
+| `scraper.py` | 国内榜单 + 新闻 + ReelShort 抓取、分类、去重 |
+| `covers/c/` | 国内榜单封面（源图是两个月后过期的签名链接，所以下载；不在榜超过 30 天自动删除） |
 | `data.json` | 爬虫输出（自动提交） |
 | `picks.json` | 国内热门推荐（Skill 维护） |
 | `.github/workflows/scrape.yml` | 定时任务 |

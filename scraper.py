@@ -1,6 +1,6 @@
 # Created by 青云 on 2026/10/20.
-"""DramaPulse 数据抓取：短剧行业新闻 / AI 对短剧行业的影响 / ReelShort 海外热播。只用标准库。"""
-import html, json, re, urllib.parse, urllib.request
+"""DramaPulse 数据抓取：国内短剧榜单 / 短剧行业新闻 / AI 对短剧行业的影响 / ReelShort 海外热播。只用标准库。"""
+import hashlib, html, json, re, time, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
@@ -212,6 +212,135 @@ def reelshort(limit=12):
     return out
 
 
+# ── 国内短剧榜单：短剧工程「短剧风向标」（整理自抖音官方短剧日榜），页面服务端渲染的结构化数据 ──
+DJ = "https://www.duanjugongcheng.com"
+CHART_COVERS = ROOT / "covers" / "c"          # 榜单封面（源图是两个月后过期的签名链接，下载到本地）
+CHART_DAYS = 30                                # 排名走势、封面保留天数
+DETAIL_TOP = 50                                # 热播榜前 50 抓单剧页（历史最高、平均排名、数据解读）
+
+
+def dj_objects(page):
+    """Next.js RSC 分片拼起来，取出所有以 generated_at 开头的数据块。"""
+    chunks = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', page, re.S)
+    big = "".join(json.loads('"' + c + '"') for c in chunks)
+    dec, out = json.JSONDecoder(), []
+    for m in re.finditer(r'\{"generated_at"', big):
+        try:
+            out.append(dec.raw_decode(big[m.start():])[0])
+        except ValueError:
+            pass
+    return out
+
+
+def dj_cover(url, key):
+    """下载封面到 covers/c/<key>.jpg，返回相对路径；已有就不再下。"""
+    if not url:
+        return ""
+    CHART_COVERS.mkdir(parents=True, exist_ok=True)
+    f = CHART_COVERS / f"{key}.jpg"
+    if not f.exists():
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Referer": DJ + "/"})
+            with urllib.request.urlopen(req, timeout=15) as r:
+                body = r.read()
+            if len(body) < 2000:
+                return ""
+            f.write_bytes(body)
+        except Exception:
+            return ""
+    return f"covers/c/{key}.jpg"
+
+
+def dj_item(x):
+    key = x.get("book_id") or hashlib.md5((x.get("slug") or x.get("drama_name", "")).encode()).hexdigest()[:16]
+    tags = x.get("display_tags") or [s for s in (x.get("tags") or "").split(",") if s]
+    return {"name": x.get("drama_name", ""), "slug": x.get("slug", ""), "id": str(key),
+            "form": x.get("genre_type_label") or x.get("genre") or "", "subject": x.get("subject") or "", "tags": tags[:6],
+            "online": x.get("online_date") or "", "cover": dj_cover(x.get("cover_url"), key)}
+
+
+def dj_detail(slug):
+    """单剧页：历史最高、平均排名、首登日、数据解读。"""
+    t = fetch(f"{DJ}/cn/bangdan/ju/{slug}", timeout=20)
+    txt = re.sub(r"<script.*?</script>|<style.*?</style>", "", t, flags=re.S)
+    lines = [l.strip() for l in html.unescape(re.sub(r"<[^>]+>", "\n", txt)).split("\n") if l.strip()]
+    out = {}
+    for i, l in enumerate(lines[:-1]):
+        if l == "数据解读" and "analysis" not in out:
+            out["analysis"] = lines[i + 1][:600]
+        elif l == "平均排名" and "avg" not in out:
+            out["avg"] = lines[i + 1]
+    first = re.search(r"首登日 (\d{4})年(\d+)月(\d+)日", " ".join(lines))
+    if first:
+        out["first"] = f"{first.group(1)}-{int(first.group(2)):02d}-{int(first.group(3)):02d}"
+    return out
+
+
+def douyin_charts(old):
+    objs = dj_objects(fetch(f"{DJ}/cn/fengxiangbiao", timeout=30))
+    board = next(o for o in objs if o.get("rankings") and o.get("board_label"))
+    cross = next((o for o in objs if o.get("cross")), {})
+    reserve = next((o for o in objs if "total_reserve" in o), {})
+    date = board.get("date") or datetime.now(CST).date().isoformat()
+
+    hot = []
+    for x in board["rankings"]:
+        it = dj_item(x)
+        it.update({"rank": x.get("rank"), "heat": x.get("total_views"), "change": x.get("rank_change"),
+                   "new": bool(x.get("is_new_in_week")),             # change_type 是抖音原字段（3 = 持平），新上榜看这个 "days": x.get("days_on_list"),
+                   "top10": x.get("streak_top10"), "best": x.get("best_rank_window"), "trend": x.get("chart_type") or "",
+                   "growth": x.get("growth")})
+        hot.append(it)
+    if len(hot) < 50:
+        raise ValueError(f"热播榜只解析到 {len(hot)} 部")
+    # 口碑宝藏：好评分高、热度还没起来
+    praise = []
+    for x in (cross.get("cross") or {}).get("praise_no_heat") or []:
+        it = dj_item(x)
+        it.update({"rank": x.get("rank"), "score": x.get("metric_value")})
+        praise.append(it)
+    # 预约榜：还没上线的新剧，按预约人数
+    upcoming = []
+    for i, x in enumerate(sorted(reserve.get("top") or [], key=lambda x: -(x.get("subscribe_count") or 0))):
+        it = dj_item(x)                                   # 原站 rank 含已上线的剧，这里按预约人数重新编号
+        it.update({"rank": i + 1, "reserve": x.get("subscribe_count"), "awaiting": bool(x.get("is_awaiting"))})
+        upcoming.append(it)
+
+    prev = old.get("douyin") or {}
+    cache = dict(prev.get("detail") or {})            # 单剧页一天只抓一次
+    for it in hot[:DETAIL_TOP]:
+        c = cache.get(it["slug"])
+        if it["slug"] and (not c or c.get("_d") != date):
+            try:
+                cache[it["slug"]] = {**dj_detail(it["slug"]), "_d": date}
+                time.sleep(0.4)
+            except Exception as e:
+                print("  dj detail fail", it["name"], e)
+    live = {it["slug"] for it in hot + praise + upcoming}
+    cache = {k: v for k, v in cache.items() if k in live}
+
+    hist = dict(prev.get("history") or {})            # 排名走势：slug -> {日期: 名次}
+    for it in hot:
+        hist.setdefault(it["slug"], {})[date] = it["rank"]
+    cut = (datetime.fromisoformat(date) - timedelta(days=CHART_DAYS)).date().isoformat()
+    hist = {k: {d: r for d, r in v.items() if d >= cut} for k, v in hist.items()}
+    hist = {k: v for k, v in hist.items() if v}
+
+    keep = {Path(it["cover"]).name for it in hot + praise + upcoming if it["cover"]}
+    for f in CHART_COVERS.glob("*.jpg"):                # 不在榜且超过保留期的封面删掉
+        if f.name not in keep and time.time() - f.stat().st_mtime > CHART_DAYS * 86400:
+            f.unlink()
+
+    ins = board.get("insights") or {}
+    return {"date": date, "hot": hot, "praise": praise, "upcoming": upcoming, "detail": cache, "history": hist,
+            "stats": {"new": ins.get("new_dramas_count"), "median": ins.get("weekly_views_median"), "median_change": ins.get("median_change"),
+                      "top_form": ins.get("top_genre"), "top_form_share": ins.get("top_genre_share"),
+                      "hot_pair": (ins.get("hottest_pair") or {}).get("label"), "reserve_total": reserve.get("total_reserve"),
+                      "forms": [{"form": g.get("genre"), "count": g.get("count")} for g in board.get("genre_distribution") or []],
+                      "pairs": [{"label": p.get("label") or "+".join(p.get("tags") or []), "count": p.get("count")}
+                                for p in ((board.get("cooccurrence") or {}).get("pairs") or [])[:10]]}}
+
+
 def main():
     old = {}
     if DATA_FILE.exists():
@@ -239,6 +368,14 @@ def main():
             overseas = old.get("overseas", [])
             status.append({"name": "ReelShort", "ok": False, "error": str(e)[:120], "stale": True})
 
+    # 国内短剧榜单（单剧页要逐个请求，放在线程池外面串行抓）
+    try:
+        douyin = douyin_charts(old)
+        status.append({"name": "短剧工程 抖音短剧榜", "ok": True, "count": len(douyin["hot"])})
+    except Exception as e:
+        douyin = old.get("douyin") or {}
+        status.append({"name": "短剧工程 抖音短剧榜", "ok": False, "error": str(e)[:120], "stale": True})
+
     # 与历史合并，避免新闻随搜索窗口滑动而消失
     history = old.get("industry", []) + old.get("ai", [])
     cutoff = datetime.now(timezone.utc) - timedelta(days=KEEP_DAYS)
@@ -257,6 +394,7 @@ def main():
         "updated_at": datetime.now(CST).isoformat(timespec="seconds"),
         "industry": [i for i in items if i["section"] == "industry"][:MAX_PER_SECTION],
         "ai": [i for i in items if i["section"] == "ai"][:MAX_PER_SECTION],
+        "douyin": douyin,
         "overseas": overseas,
         "status": status,
     }

@@ -32,6 +32,7 @@
       --glow-2: rgba(168,85,247,0.10);
       --ai: #a78bfa;
       --live: #fbbf24;
+      --comic: #38bdf8;
       --pos: #34d399;
       --neg: #f87171;
       --neu: #94a3b8;
@@ -55,6 +56,7 @@
       --glow-2: rgba(124,58,237,0.06);
       --ai: #7c3aed;
       --live: #b45309;
+      --comic: #0369a1;
       --pos: #059669;
       --neg: #dc2626;
       --neu: #64748b;
@@ -334,10 +336,55 @@
     /* 封面没加载出来时的分类渐变底色（AI 紫 / 真人金 / 海外按标签轮换） */
     .ph-ai   { --ph: linear-gradient(140deg, color-mix(in srgb, var(--ai) 55%, var(--panel-solid)), color-mix(in srgb, var(--accent-2) 25%, var(--panel-solid))); }
     .ph-live { --ph: linear-gradient(140deg, color-mix(in srgb, var(--live) 50%, var(--panel-solid)), color-mix(in srgb, var(--accent) 25%, var(--panel-solid))); }
+    .ph-comic { --ph: linear-gradient(140deg, color-mix(in srgb, var(--comic) 50%, var(--panel-solid)), color-mix(in srgb, var(--ai) 25%, var(--panel-solid))); }
     .ph-0 { --ph: linear-gradient(150deg, color-mix(in srgb, var(--accent) 45%, var(--panel-solid)), var(--panel-solid)); }
     .ph-1 { --ph: linear-gradient(150deg, color-mix(in srgb, var(--accent-2) 45%, var(--panel-solid)), var(--panel-solid)); }
     .ph-2 { --ph: linear-gradient(150deg, color-mix(in srgb, var(--live) 40%, var(--panel-solid)), var(--panel-solid)); }
     .ph-3 { --ph: linear-gradient(150deg, color-mix(in srgb, var(--pos) 40%, var(--panel-solid)), var(--panel-solid)); }
+    /* 国内榜单 */
+    .dj-top { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+    .tag.f-ai { color: var(--ai); border-color: color-mix(in srgb, var(--ai) 40%, transparent); }
+    .tag.f-comic { color: var(--comic); border-color: color-mix(in srgb, var(--comic) 40%, transparent); }
+    .tag.f-live { color: var(--live); border-color: color-mix(in srgb, var(--live) 40%, transparent); }
+    .dj-cats { padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
+    .dj-cats > div { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .dj-cat-k { width: 64px; flex-shrink: 0; font-size: 12px; color: var(--text-3); font-weight: 600; }
+    .dj-two { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 24px; }
+    .dj-two > .panel { padding: 12px 14px 6px; min-width: 0; }
+    .dj-h { font-size: 14px; display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+    .dj-h .kit-morelink { font-size: 12px; }
+    .dj-list { display: flex; flex-direction: column; }
+    .panel.dj-list { padding: 4px 14px; }
+    .dj-row { display: grid; grid-template-columns: 28px 40px minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 8px 0; border-top: 1px solid var(--line); }
+    .dj-row:first-child { border-top: 0; }
+    .dj-row:hover b { color: var(--accent); }
+    .dj-rk { font-size: 17px; font-weight: 800; font-style: italic; color: var(--text-3); text-align: center; }
+    .dj-rk.top { color: var(--accent); }
+    .dj-cv { width: 40px; height: 54px; border-radius: 6px; background: var(--ph, var(--panel-2)) center / cover no-repeat; }
+    .dj-cv[style] { background-size: cover; }
+    .dj-mid { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+    .dj-mid b { font-size: 13.5px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .dj-mid span { font-size: 11.5px; color: var(--text-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .dj-mid em { font-style: normal; font-weight: 700; margin-right: 6px; }
+    em.f-ai { color: var(--ai); } em.f-comic { color: var(--comic); } em.f-live { color: var(--live); }
+    .dj-r { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; font-size: 13px; white-space: nowrap; }
+    .dj-r small { font-size: 11px; color: var(--text-3); }
+    .dj-up { color: var(--neg); font-weight: 700; font-size: 12px; } .dj-down { color: var(--pos); font-weight: 700; font-size: 12px; }
+    .dj-flat { color: var(--text-3); font-size: 12px; }
+    .dj-new { font-size: 10.5px; font-weight: 800; color: #fff; background: var(--accent); border-radius: 4px; padding: 0 5px; }
+    .dj-subs { margin-bottom: 12px; flex-wrap: wrap; }
+    .dj-bars { padding: 12px 16px; display: flex; flex-direction: column; gap: 6px; }
+    .dj-bars a { display: grid; grid-template-columns: 80px 1fr 32px; gap: 10px; align-items: center; font-size: 12.5px; color: var(--text-2); }
+    .dj-bars i { height: 8px; border-radius: 4px; background: var(--hover); overflow: hidden; }
+    .dj-bars i::after { content: ""; display: block; height: 100%; width: var(--w); background: var(--grad, var(--accent)); }
+    .dj-bars b { text-align: right; }
+    .dj-bars a:hover span { color: var(--text-1); }
+    @media (max-width: 760px) {
+      .dj-top { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .dj-top .reel:nth-child(n+10) { display: none; }
+      .dj-two { grid-template-columns: 1fr; }
+      .dj-cat-k { width: 100%; }
+    }
     /* 可点开详情的元素 */
     .card[data-kit-item]:hover h4 { color: var(--accent); }
     .mini-item[data-kit-item] { border-radius: 6px; }
@@ -569,12 +616,8 @@ function renderPicks() {
   const reels = (DATA.overseas || []).filter(r => r.shelf === 'top' && match(r.title + ' ' + (r.tags || []).join(' ')));
   const fresh = (DATA.overseas || []).filter(r => r.shelf === 'new' && match(r.title + ' ' + (r.tags || []).join(' ')));
 
-  return `
-    <section class="hero">
-      <h1>本周值得追的<em>热门短剧</em></h1>
-      <p>国内榜单按周整理（AI 漫剧 / AI 仿真人 / 真人），海外热播每 3 小时自动同步 ReelShort。</p>
-      <div class="meta-line">推荐更新于 ${esc(PICKS.updated_at || '—')} · ${esc(PICKS.period || '')}</div>
-    </section>
+  return renderCharts() + `
+    <h2 class="section-title">⭐ 本周编辑推荐<small>人工整理 · 带剧情和「为什么火」 · 更新于 ${esc(PICKS.updated_at || '—')}</small></h2>
     ${PICKS.summary ? `<div class="panel summary-box"><span>📊</span><div><b>本周风向：</b>${esc(PICKS.summary)}</div></div>` : ''}
     <div class="chips">
       ${[['all', '全部'], ['ai', 'AI 剧'], ['live', '真人剧']].map(([k, l]) =>
@@ -623,6 +666,125 @@ function reelCard(r, rank) {
     <div class="tags">${r.episodes ? `<span class="tag">${r.episodes} 集</span>` : ''}${(r.tags || []).slice(0, 2).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
   </a>`;
 }
+
+// ── 国内短剧榜单（短剧工程 · 抖音短剧日榜）──
+const DY = () => DATA.douyin || {};
+const FORM_CLS = { 'AI短剧': 'ai', '漫剧': 'comic', '真人剧': 'live' };
+const findDj = slug => { const d = DY(); return [...(d.hot || []), ...(d.praise || []), ...(d.upcoming || [])].find(x => x.slug === slug); };
+const djText = x => [x.name, x.form, x.subject, ...(x.tags || [])].join(' ');
+const djChange = x => x.new ? '<span class="dj-new">新</span>' : x.change > 0 ? `<span class="dj-up">↑${x.change}</span>` : x.change < 0 ? `<span class="dj-down">↓${-x.change}</span>` : '<span class="dj-flat">—</span>';
+function djPoster(x, badge, foot) {
+  return `<a class="reel" href="#/item/dj/${encodeURIComponent(x.slug)}" data-kit-item="dj/${encodeURIComponent(x.slug)}">
+    <div class="reel-cover ph-${FORM_CLS[x.form] || 'live'}">
+      ${x.cover ? `<img src="${esc(x.cover)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+      ${badge ? `<span class="reel-rank">${badge}</span>` : ''}${foot ? `<span class="reel-views">${foot}</span>` : ''}
+    </div>
+    <h5>${esc(x.name)}</h5>
+    <div class="tags"><span class="tag f-${FORM_CLS[x.form] || 'live'}">${esc(x.form)}</span>${x.subject ? `<span class="tag">${esc(x.subject)}</span>` : ''}</div>
+  </a>`;
+}
+function djRow(x, right) {
+  return `<a class="dj-row" href="#/item/dj/${encodeURIComponent(x.slug)}" data-kit-item="dj/${encodeURIComponent(x.slug)}">
+    <span class="dj-rk ${x.rank <= 3 ? 'top' : ''}">${x.rank ?? ''}</span>
+    <i class="dj-cv ph-${FORM_CLS[x.form] || 'live'}" ${x.cover ? `style="background-image:url('${esc(x.cover)}')"` : ''}></i>
+    <div class="dj-mid"><b>${esc(x.name)}</b><span><em class="f-${FORM_CLS[x.form] || 'live'}">${esc(x.form)}</em>${esc([x.subject, ...(x.tags || []).slice(0, 3)].filter(Boolean).join(' · '))}</span></div>
+    <div class="dj-r">${right ?? `<b>${x.heat ?? ''}</b>${djChange(x)}`}</div>
+  </a>`;
+}
+// 走势：名次越小越靠上
+function rankSpark(h) {
+  const e = Object.entries(h || {}).sort();
+  if (e.length < 2) return '';
+  const W = 520, H = 120, P = 18, ranks = e.map(r => r[1]), lo = Math.min(...ranks), hi = Math.max(...ranks);
+  const x = i => P + i / (e.length - 1) * (W - 2 * P), y = r => hi === lo ? H / 2 : P + (r - lo) / (hi - lo) * (H - 2 * P);
+  const pts = e.map(([, r], i) => `${x(i).toFixed(1)},${y(r).toFixed(1)}`).join(' ');
+  return `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;display:block">
+    <polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round"/>
+    ${e.map(([d, r], i) => `<circle cx="${x(i)}" cy="${y(r)}" r="3" fill="var(--accent)"><title>${d} 第 ${r} 名</title></circle>`).join('')}
+    <text x="${P}" y="${H - 2}" font-size="11" fill="var(--text-3)">${e[0][0].slice(5)}</text>
+    <text x="${W - P}" y="${H - 2}" font-size="11" fill="var(--text-3)" text-anchor="end">${e.at(-1)[0].slice(5)}</text>
+    <text x="${W - P}" y="12" font-size="11" fill="var(--text-3)" text-anchor="end">最高 第 ${lo} 名</text></svg>`;
+}
+function renderCharts() {
+  const d = DY(), hot = (d.hot || []).filter(x => match(djText(x))), s = d.stats || {};
+  if (!(d.hot || []).length) return '';
+  const subjects = Object.entries((d.hot || []).reduce((m, x) => (x.subject && (m[x.subject] = (m[x.subject] || 0) + 1), m), {})).sort((a, b) => b[1] - a[1]);
+  const rising = [...hot].filter(x => !x.new && x.change > 0).sort((a, b) => b.change - a.change).slice(0, 8);
+  const fresh = hot.filter(x => x.new).slice(0, 8);
+  const maxSub = subjects[0]?.[1] || 1;
+  return `
+    <section class="hero">
+      <h1>今天抖音短剧在<em>追什么</em></h1>
+      <p>抖音官方短剧日榜 TOP100、预约榜、口碑榜，每天自动更新；数据来自短剧工程。</p>
+      <div class="meta-line">榜单日期 ${esc(d.date || '')} · 今日新上榜 ${s.new ?? '—'} 部 · ${esc(s.top_form || '')}占 ${s.top_form_share ?? '—'}% · 最热组合「${esc(s.hot_pair || '—')}」</div>
+    </section>
+    <h2 class="section-title">🔥 今日热播榜 TOP10<small>热播指数综合播放、完播、搜索、互动</small><a class="kit-morelink" href="#/list/hot" style="margin-left:auto">全部 100 部 →</a></h2>
+    <div class="reel-grid dj-top">${hot.slice(0, 10).map(x => djPoster(x, `#${x.rank}`, `🔥 ${x.heat}`)).join('')}</div>
+    <h2 class="section-title">🗂 分类</h2>
+    <div class="panel dj-cats">
+      <div><span class="dj-cat-k">体裁</span>${(s.forms || []).map(f => `<a class="chip" href="#/list/hot?form=${encodeURIComponent(f.form)}"><span class="dot" style="background:var(--${FORM_CLS[f.form] || 'live'})"></span>${esc(f.form)}<span class="n">${f.count}</span></a>`).join('')}</div>
+      <div><span class="dj-cat-k">题材</span>${subjects.map(([k, n]) => `<a class="chip" href="#/list/hot?subject=${encodeURIComponent(k)}">${esc(k)}<span class="n">${n}</span></a>`).join('')}</div>
+      <div><span class="dj-cat-k">热门组合</span>${(s.pairs || []).slice(0, 8).map(p => `<a class="chip" href="#/list/hot?tag=${encodeURIComponent(p.label.split('+')[0])}">${esc(p.label)}<span class="n">${p.count}</span></a>`).join('')}</div>
+    </div>
+    <div class="dj-two">
+      <div class="panel"><h3 class="dj-h">🚀 排名飙升<a class="kit-morelink" href="#/list/hot?sort=rise">全部 →</a></h3><div class="dj-list">${rising.map(x => djRow(x, `<span class="dj-up">↑${x.change}</span><small>第 ${x.rank} 名</small>`)).join('') || '<div class="empty">暂无</div>'}</div></div>
+      <div class="panel"><h3 class="dj-h">🆕 今日新上榜<a class="kit-morelink" href="#/list/hot?new=1">全部 →</a></h3><div class="dj-list">${fresh.map(x => djRow(x, `<b>${x.heat}</b><small>第 ${x.rank} 名</small>`)).join('') || '<div class="empty">暂无</div>'}</div></div>
+    </div>
+    ${(d.upcoming || []).length ? `<h2 class="section-title">⏳ 即将上线 · 预约榜<small>还没开播，按预约人数</small><a class="kit-morelink" href="#/list/upcoming" style="margin-left:auto">全部 ${d.upcoming.length} 部 →</a></h2>
+      <div class="reel-grid">${d.upcoming.slice(0, 6).map(x => djPoster(x, `#${x.rank}`, `🔔 ${fmtNum(x.reserve)}`)).join('')}</div>` : ''}
+    ${(d.praise || []).length ? `<h2 class="section-title">💎 口碑宝藏<small>好评分高、热度还没起来</small><a class="kit-morelink" href="#/list/praise" style="margin-left:auto">全部 ${d.praise.length} 部 →</a></h2>
+      <div class="reel-grid">${d.praise.slice(0, 6).map(x => djPoster(x, `★ ${x.score}`, '')).join('')}</div>` : ''}
+    <h2 class="section-title">📊 题材热度<small>TOP100 里各题材的部数</small></h2>
+    <div class="panel dj-bars">${subjects.slice(0, 10).map(([k, n]) => `<a href="#/list/hot?subject=${encodeURIComponent(k)}"><span>${esc(k)}</span><i style="--w:${n / maxSub * 100}%"></i><b>${n}</b></a>`).join('')}</div>`;
+}
+KIT.item('dj', slug => {
+  const x = findDj(slug); if (!x) return null;
+  const d = DY(), det = (d.detail || {})[slug] || {}, hist = (d.history || {})[slug];
+  const inHot = (d.hot || []).includes(x), up = (d.upcoming || []).includes(x), pr = (d.praise || []).includes(x);
+  const same = (d.hot || []).filter(o => o !== x && o.subject && o.subject === x.subject).slice(0, 6);
+  return { title: x.name, sub: `${esc(x.form)}${x.subject ? ' · ' + esc(x.subject) : ''} · 抖音短剧${inHot ? '热播榜' : up ? '预约榜' : '口碑榜'}`,
+    cover: x.cover, coverTall: true, tags: [tg(x.form), tg(x.subject), ...(x.tags || []).map(tg), x.trend ? tg(x.trend) : ''],
+    big: inHot ? `<b>#${x.rank}</b><span class="muted">今日热播 · 指数 ${x.heat}</span>${djChange(x)}`
+      : up ? `<b>${fmtNum(x.reserve)}</b><span class="muted">人预约 · 预约榜第 ${x.rank} 名</span>` : `<b>★ ${x.score}</b><span class="muted">好评分</span>`,
+    body: KIT.sec('榜单数据', KIT.kv([['今日排名', inHot ? `第 ${x.rank} 名` : ''], ['热播指数', inHot ? x.heat : ''],
+        ['较昨日', inHot ? (x.new ? '新上榜' : x.change > 0 ? `上升 ${x.change} 名` : x.change < 0 ? `下降 ${-x.change} 名` : '持平') : ''],
+        ['在榜天数', x.days ? x.days + ' 天' : ''], ['连续进前十', x.top10 ? x.top10 + ' 天' : ''], ['近期最高', x.best ? `第 ${x.best} 名` : ''],
+        ['平均排名', det.avg ? `第 ${det.avg} 名` : ''], ['上架日', x.online], ['首次上榜', det.first], ['走势类型', x.trend],
+        ['预约人数', up ? fmtNum(x.reserve) : ''], ['好评分', pr ? x.score : '']]))
+      + KIT.sec('排名走势', rankSpark(hist), hist ? `本站记录 ${Object.keys(hist).length} 天` : '')
+      + KIT.sec('数据解读', KIT.p(det.analysis), '短剧工程')
+      + KIT.sec(`同题材在榜：${esc(x.subject || '')}`, same.length ? `<div class="kit-rows">${same.map(o => `<div class="kit-row" data-kit-go="dj/${encodeURIComponent(o.slug)}"><span class="kit-rt">${esc(o.name)}</span><span class="kit-rm">第 ${o.rank} 名 · ${o.heat}</span></div>`).join('')}</div>` : '',
+        x.subject ? `<a class="kit-morelink" href="#/list/hot?subject=${encodeURIComponent(x.subject)}">全部 →</a>` : ''),
+    acts: [{ text: '在抖音搜索 ↗', href: 'https://www.douyin.com/search/' + encodeURIComponent(x.name) },
+      { text: '短剧工程详情 ↗', href: `https://www.duanjugongcheng.com/cn/bangdan/ju/${x.slug}` }] };
+});
+const DJ_SORTS = [['rank', '按排名'], ['rise', '升幅最大'], ['days', '在榜最久'], ['heat', '热播指数']];
+KIT.list('hot', (_, q, box) => {
+  const d = DY(), base = (d.hot || []).filter(x => match(djText(x)));
+  const form = q.get('form') || '', subject = q.get('subject') || '', tag = q.get('tag') || '', fresh = q.get('new') === '1', sort = q.get('sort') || 'rank';
+  let list = base.filter(x => (!form || x.form === form) && (!subject || x.subject === subject) && (!tag || (x.tags || []).includes(tag)) && (!fresh || x.new));
+  if (sort === 'rise') list = list.filter(x => x.change > 0).sort((a, b) => b.change - a.change);
+  if (sort === 'days') list = [...list].sort((a, b) => (b.days || 0) - (a.days || 0));
+  if (sort === 'heat') list = [...list].sort((a, b) => (b.heat || 0) - (a.heat || 0));
+  const set = (k, v) => { const p = new URLSearchParams(q); v ? p.set(k, v) : p.delete(k); return '#/list/hot' + (p.toString() ? '?' + p : ''); };
+  const subjects = Object.entries(base.reduce((m, x) => (x.subject && (m[x.subject] = (m[x.subject] || 0) + 1), m), {})).sort((a, b) => b[1] - a[1]);
+  box.innerHTML = KIT.shell({ title: '抖音短剧热播榜', note: `${esc(d.date || '')} · ${list.length} 部${subject ? ' · ' + esc(subject) : ''}${tag ? ' · 标签「' + esc(tag) + '」' : ''}${fresh ? ' · 新上榜' : ''}`,
+    chips: [{ text: '全部', href: set('form', ''), on: !form, count: base.length }, ...['AI短剧', '漫剧', '真人剧'].map(f => ({ text: f, href: set('form', f), on: form === f, count: base.filter(x => x.form === f).length }))],
+    sort: DJ_SORTS, sortVal: sort,
+    body: `<div class="kit-chips dj-subs"><a class="${subject ? '' : 'on'}" href="${set('subject', '')}">全部题材</a>${subjects.map(([k, n]) => `<a class="${k === subject ? 'on' : ''}" href="${set('subject', k)}">${esc(k)}<small>${n}</small></a>`).join('')}</div>
+      <div class="panel dj-list">${list.slice(0, listN).map(x => djRow(x)).join('') || '<div class="empty">没有符合条件的剧</div>'}</div>`,
+    more: list.length > listN ? `加载更多（${listN} / ${list.length}）` : '' });
+});
+KIT.list('upcoming', (_, q, box) => {
+  const list = (DY().upcoming || []).filter(x => match(djText(x)));
+  box.innerHTML = KIT.shell({ title: '即将上线 · 预约榜', note: `${list.length} 部 · 合计 ${fmtNum(DY().stats?.reserve_total)} 人预约`,
+    body: `<div class="panel dj-list">${list.map(x => djRow(x, `<b>${fmtNum(x.reserve)}</b><small>人预约</small>`)).join('')}</div>` });
+});
+KIT.list('praise', (_, q, box) => {
+  const list = (DY().praise || []).filter(x => match(djText(x)));
+  box.innerHTML = KIT.shell({ title: '口碑宝藏', note: `${list.length} 部 · 好评分高、热度还没起来`,
+    body: `<div class="panel dj-list">${list.map(x => djRow(x, `<b>★ ${x.score}</b><small>好评分</small>`)).join('')}</div>` });
+});
 
 // ── 渲染：新闻列表（mode：industry / ai；limit：显示条数；more：底部链接 HTML）──
 function newsList(items, mode, limit, more) {
@@ -718,14 +880,14 @@ function renderAI() {
 // ── 侧栏 ──
 function renderAside() {
   const ai = DATA.ai, all = sentiStats(ai);
-  const topAI = (PICKS.items || []).slice(0, 5);
+  const topDy = (DY().hot || []).slice(0, 5);
   const latestAI = ai.slice(0, 5);
   const statusOk = DATA.status.filter(s => s.ok).length;
   return `
     <div class="panel widget">
-      <h3>🔥 本周热榜</h3>
-      <div class="mini-list">${topAI.map((p, i) => `<div class="mini-item" data-kit-item="pick/${i}"><span class="mini-rank">${i + 1}</span><div>
-        <div class="mini-title">${esc(p.title)}</div><div class="mini-sub">${esc(p.form)} · ${esc(p.rank_note)}</div></div></div>`).join('')}</div>
+      <h3>🔥 今日抖音热播<a class="kit-morelink" href="#/list/hot" style="margin-left:auto;font-size:12px">TOP100 →</a></h3>
+      <div class="mini-list">${topDy.map(x => `<div class="mini-item" data-kit-item="dj/${encodeURIComponent(x.slug)}"><span class="mini-rank">${x.rank}</span><div>
+        <div class="mini-title">${esc(x.name)}</div><div class="mini-sub">${esc(x.form)} · ${esc(x.subject)} · 热播 ${x.heat}</div></div></div>`).join('')}</div>
     </div>
     <div class="panel widget">
       <h3>🤖 AI 影响 · 全部 ${ai.length} 篇<a class="kit-morelink" href="#/list/ai" style="margin-left:auto;font-size:12px">全部 →</a></h3>
@@ -738,7 +900,7 @@ function renderAside() {
     <div class="panel widget">
       <h3>📡 数据来源 · ${statusOk}/${DATA.status.length} 正常</h3>
       ${DATA.status.filter(s => !s.ok).map(s => `<div class="status-row"><span>${esc(s.name)}</span><span class="bad">失败</span></div>`).join('')}
-      <div class="foot">新闻：Google News 中英文 ${DATA.status.length - 1} 组关键词，每 3 小时抓取<br>海外热播：ReelShort 首页<br>国内推荐：每周人工 + AI 检索整理<br>最近抓取：${DATA.updated_at ? new Date(DATA.updated_at).toLocaleString('zh-CN', { hour12: false }) : '—'}</div>
+      <div class="foot">新闻：Google News 中英文 ${DATA.status.length - 1} 组关键词，每 3 小时抓取<br>海外热播：ReelShort 首页<br>国内榜单：短剧工程（抖音官方日榜），每天更新<br>编辑推荐：每周人工 + AI 检索整理<br>最近抓取：${DATA.updated_at ? new Date(DATA.updated_at).toLocaleString('zh-CN', { hour12: false }) : '—'}</div>
     </div>
   `;
 }

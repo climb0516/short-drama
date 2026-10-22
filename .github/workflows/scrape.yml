@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.json
+          git add data.json covers/c        # 榜单封面（新增 / 过期删除）
           git diff --cached --quiet || git commit -m "data: update drama news $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
           git pull --rebase
           git push
