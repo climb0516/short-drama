@@ -103,7 +103,7 @@
     .tab .cnt { font-weight: 500; color: var(--text-3); margin-left: 4px; font-size: 12px; }
     .spacer { flex: 1; }
     .search {
-      display: flex; align-items: center; gap: 8px; width: 240px;
+      display: flex; align-items: center; gap: 8px; flex: 0 1 260px; min-width: 140px;   /* 自适应：宽屏 260，窄了跟着收 */
       background: var(--hover); border: 1px solid var(--line); border-radius: 10px; padding: 6px 10px;
     }
     .search:focus-within { border-color: var(--line-2); }
@@ -159,7 +159,7 @@
     .src a:hover { color: var(--text-1); text-decoration: underline; }
     /* 封面横幅：竖版海报裁成横条，保留偏上的人物区域 */
     .card.has-cover { padding-top: 0; overflow: hidden; }
-    .banner { position: relative; height: 140px; margin: 0 -16px; background: var(--hover); }
+    .banner { position: relative; height: 140px; margin: 0 -16px; background: var(--ph, var(--hover)); }
     .banner img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; display: block; }
     .banner::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,0,0,0) 35%, var(--panel-solid) 100%); }
     .banner .card-top { position: absolute; left: 16px; bottom: 10px; z-index: 1; }
@@ -172,7 +172,7 @@
     /* 海外热播 */
     .reel-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
     .reel { display: flex; flex-direction: column; gap: 6px; }
-    .reel-cover { aspect-ratio: 3/4; border-radius: 12px; overflow: hidden; background: var(--hover); position: relative; box-shadow: 0 0 0 1px var(--line); }
+    .reel-cover { aspect-ratio: 3/4; border-radius: 12px; overflow: hidden; background: var(--ph, var(--hover)); position: relative; box-shadow: 0 0 0 1px var(--line); }
     .reel-cover img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .3s; }
     .reel:hover img { transform: scale(1.04); }
     .reel-rank { position: absolute; top: 6px; left: 6px; font-size: 11px; font-weight: 800; padding: 1px 7px; border-radius: 6px; background: rgba(0,0,0,.6); color: #fff; }
@@ -233,14 +233,13 @@
     @media (max-width: 980px) {
       .layout { grid-template-columns: minmax(0, 1fr); }
       .aside { position: static; }
-      .search { width: 180px; }
     }
-    @media (max-width: 680px) {
+    @media (max-width: 760px) {
       .topbar-inner { flex-wrap: wrap; padding: 10px 16px; gap: 10px; }
       .logo small { display: none; }
       .tabs { order: 3; width: 100%; overflow-x: auto; }
       .tab { flex: 1; text-align: center; padding: 6px 8px; }
-      .search { flex: 1; width: auto; }
+      .search { flex: 1 1 auto; }
       .search kbd { display: none; }
       .layout { padding: 16px 16px 50px; }
       .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-left: -16px; margin-right: -16px; padding: 0 16px; }
@@ -248,6 +247,104 @@
       .hero h1 { font-size: 20px; }
       .reel-grid { grid-template-columns: repeat(2, 1fr); }
     }
+    /* ── 详情抽屉 + 列表页（通用组件 kit：电脑右侧滑出，手机底部升起；地址 #/item/类型/id、#/list/key） ── */
+    :root { --kit-bg: var(--bg, #0b0a10); --kit-panel: var(--panel, var(--card, rgba(255,255,255,.04))); --kit-line: var(--line, var(--sep, rgba(255,255,255,.08)));
+      --kit-line2: var(--line-2, rgba(255,255,255,.14)); --kit-t1: var(--text-1, #f1eff7); --kit-t2: var(--text-2, #a39fb3); --kit-t3: var(--text-3, #6b677a);
+      --kit-accent: var(--accent, #a3e635); --kit-hover: var(--hover, rgba(255,255,255,.05)); }
+    .kit-mask { position: fixed; inset: 0; z-index: 90; background: rgba(0,0,0,.38); display: none; }
+    .kit-mask.open { display: block; }
+    .kit-sheet { position: absolute; top: 12px; right: 12px; bottom: 12px; width: clamp(440px, 42vw, 620px); max-width: calc(100vw - 24px);
+      display: flex; flex-direction: column; overflow: hidden; color: var(--kit-t1); border-radius: 18px;
+      background: linear-gradient(var(--kit-panel), var(--kit-panel)), var(--kit-bg); box-shadow: 0 0 0 1px var(--kit-line2), 0 24px 60px rgba(0,0,0,.45);
+      animation: kit-in .24s ease-out; }
+    @keyframes kit-in { from { transform: translateX(40px); opacity: 0; } }
+    .kit-x { position: absolute; top: 12px; right: 12px; z-index: 3; width: 32px; height: 32px; border-radius: 50%; border: 0; cursor: pointer;
+      background: rgba(0,0,0,.5); color: #fff; font-size: 15px; display: grid; place-items: center; }
+    .kit-scroll { flex: 1; overflow-y: auto; overscroll-behavior: contain; }
+    .kit-cover { aspect-ratio: 16/9; background: var(--kit-hover) center / cover no-repeat; position: relative; }
+    .kit-cover.tall { aspect-ratio: auto; height: 280px; background-size: contain; background-color: #000; }
+    .kit-cover.ph { display: grid; place-items: center; font-size: 56px; aspect-ratio: 16/6; }
+    .kit-head { padding: 18px 20px 4px; display: flex; gap: 14px; align-items: flex-start; }
+    .kit-head .kit-thumb { flex-shrink: 0; width: 64px; height: 64px; border-radius: 14px; background: var(--kit-hover) center / cover no-repeat;
+      display: grid; place-items: center; font-size: 28px; overflow: hidden; }
+    .kit-head .kit-t { flex: 1; min-width: 0; padding-right: 30px; }
+    .kit-cover + .kit-head .kit-t { padding-right: 0; }
+    .kit-head h2 { font-size: 19px; font-weight: 800; line-height: 1.35; letter-spacing: -0.01em; }
+    .kit-sub { color: var(--kit-t2); font-size: 13px; margin-top: 4px; }
+    .kit-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+    .kit-tags span { font-size: 11.5px; font-weight: 600; padding: 2px 8px; border-radius: 6px; background: var(--kit-hover); color: var(--kit-t2); }
+    .kit-big { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-top: 8px; }
+    .kit-big b { font-size: 28px; font-weight: 800; letter-spacing: -0.02em; }
+    .kit-body { padding: 4px 20px 20px; }
+    .kit-sec { padding-top: 16px; }
+    .kit-sec + .kit-sec { margin-top: 6px; border-top: 1px solid var(--kit-line); }
+    .kit-sec h4 { font-size: 14.5px; font-weight: 700; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+    .kit-sec h4 small { font-size: 12px; color: var(--kit-t3); font-weight: 500; }
+    .kit-kv { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; }
+    .kit-kv div { background: var(--kit-hover); border-radius: 10px; padding: 8px 11px; min-width: 0; }
+    .kit-kv small { display: block; font-size: 11px; color: var(--kit-t3); }
+    .kit-kv b { display: block; font-size: 14px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; }
+    .kit-p { font-size: 13.5px; line-height: 1.75; color: var(--kit-t2); white-space: pre-line; }
+    .kit-rows { display: flex; flex-direction: column; }
+    .kit-row { display: flex; gap: 10px; align-items: center; padding: 9px 0; border-top: 1px solid var(--kit-line); font-size: 13px; text-decoration: none; color: inherit; }
+    .kit-row:first-child { border-top: 0; }
+    .kit-row[data-kit-go], a.kit-row { cursor: pointer; }
+    .kit-row[data-kit-go]:hover .kit-rt, a.kit-row:hover .kit-rt { color: var(--kit-accent); }
+    .kit-row .kit-rt { flex: 1; min-width: 0; line-height: 1.45; }
+    .kit-row .kit-rm { color: var(--kit-t3); font-size: 12px; white-space: nowrap; }
+    .kit-row img, .kit-row .kit-ri { width: 54px; height: 40px; border-radius: 6px; object-fit: cover; flex-shrink: 0; background: var(--kit-hover); }
+    .kit-acts { flex-shrink: 0; display: flex; gap: 10px; padding: 12px 20px 16px; border-top: 1px solid var(--kit-line); }
+    .kit-acts a, .kit-acts button { flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 11px 12px; border-radius: 11px;
+      font: inherit; font-size: 13.5px; font-weight: 700; text-decoration: none; cursor: pointer; border: 1px solid var(--kit-line2); color: var(--kit-t1); background: transparent; }
+    .kit-acts .pri { background: var(--kit-accent); border-color: var(--kit-accent); color: #111; }
+    .kit-acts a:hover, .kit-acts button:hover { filter: brightness(1.08); }
+    /* 列表页 */
+    .kit-lhead { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+    .kit-back { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--kit-line2); background: transparent; color: var(--kit-t1);
+      font-size: 20px; cursor: pointer; display: grid; place-items: center; flex-shrink: 0; }
+    .kit-back:hover { background: var(--kit-hover); }
+    .kit-lhead h2 { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
+    .kit-lhead small { color: var(--kit-t3); font-size: 12.5px; margin-left: 2px; }
+    .kit-lbar { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+    .kit-chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; }
+    .kit-chips a, .kit-chips button { padding: 5px 12px; border-radius: 8px; background: var(--kit-hover); color: var(--kit-t2); font: inherit; font-size: 13px;
+      font-weight: 600; white-space: nowrap; border: 0; cursor: pointer; text-decoration: none; }
+    .kit-chips .on { background: var(--kit-t1); color: var(--kit-bg); }
+    .kit-chips small { opacity: .6; margin-left: 4px; font-weight: 500; }
+    .kit-sel { padding: 6px 10px; border-radius: 9px; border: 1px solid var(--kit-line2); background: transparent; color: var(--kit-t1); font: inherit; font-size: 12.5px; font-weight: 600; }
+    .kit-sel option { background: var(--kit-bg); }
+    .kit-more { display: block; margin: 16px auto 0; padding: 9px 22px; border-radius: 10px; border: 1px solid var(--kit-line2); background: transparent;
+      color: var(--kit-t1); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; }
+    .kit-more:hover { background: var(--kit-hover); }
+    .kit-morelink { font-size: 13px; font-weight: 600; color: var(--kit-t2); text-decoration: none; white-space: nowrap; cursor: pointer; }
+    .kit-morelink:hover { color: var(--kit-t1); }
+    [data-kit-item] { cursor: pointer; }
+    @media (max-width: 760px) {
+      .kit-sheet { top: auto; left: 0; right: 0; bottom: 0; width: 100%; max-width: none; height: 86vh; border-radius: 18px 18px 0 0; animation: kit-up .26s ease-out; }
+      @keyframes kit-up { from { transform: translateY(30%); opacity: .5; } }
+      .kit-head { padding: 16px 16px 4px; } .kit-body { padding: 4px 16px 18px; } .kit-acts { padding: 10px 16px 16px; }
+      .kit-cover.tall { height: 220px; }
+      .kit-head .kit-thumb { width: 46px; height: 46px; border-radius: 12px; font-size: 22px; }
+      .kit-head h2 { font-size: 17.5px; }
+      .kit-big b { font-size: 24px; }
+      .kit-lhead h2 { font-size: 19px; }
+    }
+    /* 封面没加载出来时的分类渐变底色（AI 紫 / 真人金 / 海外按标签轮换） */
+    .ph-ai   { --ph: linear-gradient(140deg, color-mix(in srgb, var(--ai) 55%, var(--panel-solid)), color-mix(in srgb, var(--accent-2) 25%, var(--panel-solid))); }
+    .ph-live { --ph: linear-gradient(140deg, color-mix(in srgb, var(--live) 50%, var(--panel-solid)), color-mix(in srgb, var(--accent) 25%, var(--panel-solid))); }
+    .ph-0 { --ph: linear-gradient(150deg, color-mix(in srgb, var(--accent) 45%, var(--panel-solid)), var(--panel-solid)); }
+    .ph-1 { --ph: linear-gradient(150deg, color-mix(in srgb, var(--accent-2) 45%, var(--panel-solid)), var(--panel-solid)); }
+    .ph-2 { --ph: linear-gradient(150deg, color-mix(in srgb, var(--live) 40%, var(--panel-solid)), var(--panel-solid)); }
+    .ph-3 { --ph: linear-gradient(150deg, color-mix(in srgb, var(--pos) 40%, var(--panel-solid)), var(--panel-solid)); }
+    /* 可点开详情的元素 */
+    .card[data-kit-item]:hover h4 { color: var(--accent); }
+    .mini-item[data-kit-item] { border-radius: 6px; }
+    .news-item[data-kit-item]:hover .news-title { color: var(--accent); }
+    .more-link { display: block; padding: 12px; text-align: center; color: var(--text-2); font-weight: 600; border-top: 1px solid var(--line); }
+    .more-link:hover { color: var(--text-1); background: var(--hover); }
+    .section-title .kit-morelink { margin-left: auto; }
+    .kit-big .muted { color: var(--text-3); font-size: 13px; }
+    .kit-src { font-size: 11.5px; color: var(--text-3); margin-top: auto; }
   </style>
 </head>
 <body>
@@ -277,6 +374,134 @@
   </div>
 
 <script>
+// ── kit：详情抽屉 + 列表页路由（各站通用，内联在页面里）──
+// 用法：
+//   KIT.item('news', id => ({ title, sub, cover, thumb, tags:[], big, body:'<div class="kit-sec">…</div>', acts:[{text, href, pri}] }))
+//   KIT.list('news', (param, query) => { … 把列表页 HTML 写进容器 … })
+//   条目元素加 data-kit-item="news/<id>" 即可点击打开详情；「查看更多」写成 <a href="#/list/news">
+//   站点首页渲染函数里先调用 KIT.route() —— 返回 true 表示当前是列表页（已渲染），首页不用再渲染
+const KIT = (() => {
+  const items = {}, lists = {};
+  let mask, homeY = 0, fromHome = 0, lastHash = location.hash, onHome = null, listBox = null;
+  const kesc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const parse = h => {
+    const m = (h === undefined ? location.hash : h).match(/^#\/(item|list)\/([^?]+?)(?:\?(.*))?$/);
+    if (!m) return null;
+    const [type, ...rest] = m[2].split('/');
+    return { kind: m[1], type: decodeURIComponent(type), id: rest.map(decodeURIComponent).join('/'), q: new URLSearchParams(m[3] || '') };
+  };
+  function ensure() {
+    if (mask) return;
+    mask = document.createElement('div');
+    mask.className = 'kit-mask';
+    mask.innerHTML = '<div class="kit-sheet" role="dialog" aria-modal="true"></div>';
+    document.body.appendChild(mask);
+    mask.addEventListener('click', e => { if (e.target === mask || e.target.closest('[data-kit-close]')) close(); });
+  }
+  function render(d) {
+    ensure();
+    const cover = d.cover ? `<div class="kit-cover ${d.coverTall ? 'tall' : ''}" style="background-image:url('${kesc(d.cover).replace(/'/g, '%27')}')"></div>`
+      : d.coverIcon ? `<div class="kit-cover ph" style="background:${d.coverBg || 'var(--kit-hover)'}">${d.coverIcon}</div>` : '';
+    const thumb = !d.cover && !d.coverIcon && (d.thumb || d.thumbIcon)
+      ? `<div class="kit-thumb" style="${d.thumb ? `background-image:url('${kesc(d.thumb).replace(/'/g, '%27')}')` : ''}${d.thumbBg ? `;background-color:${d.thumbBg}` : ''}">${d.thumb ? '' : d.thumbIcon}</div>` : '';
+    const acts = (d.acts || []).filter(a => a && (a.href || a.onclick));
+    mask.firstElementChild.innerHTML = `<button class="kit-x" data-kit-close aria-label="关闭">✕</button>
+      <div class="kit-scroll">${cover}
+        <div class="kit-head">${thumb}<div class="kit-t"><h2>${kesc(d.title)}</h2>${d.sub ? `<div class="kit-sub">${d.sub}</div>` : ''}
+          ${(d.tags || []).filter(Boolean).length ? `<div class="kit-tags">${d.tags.filter(Boolean).join('')}</div>` : ''}${d.big ? `<div class="kit-big">${d.big}</div>` : ''}</div></div>
+        <div class="kit-body">${d.body || ''}</div></div>
+      ${acts.length ? `<div class="kit-acts">${acts.map((a, i) => a.href
+        ? `<a class="${a.pri || (i === 0 && acts.length < 3) ? 'pri' : ''}" href="${kesc(a.href)}" ${a.self ? '' : 'target="_blank" rel="noopener"'}>${a.text}</a>`
+        : `<button class="${a.pri ? 'pri' : ''}" data-kit-act="${i}">${a.text}</button>`).join('')}</div>` : ''}`;
+    acts.forEach((a, i) => { if (!a.href) { const b = mask.querySelector(`[data-kit-act="${i}"]`); if (b) b.onclick = a.onclick; } });
+    mask.querySelector('.kit-scroll').scrollTop = 0;
+    mask.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  // 打开详情：写进地址（可分享；浏览器返回 = 关闭）
+  function open(key) {
+    const target = '#/item/' + key;
+    if (location.hash === target) return show(parse(target));
+    ensure();
+    if (parse()?.kind === 'item') history.replaceState(history.state, '', target);
+    else { mask.dataset.base = location.hash; history.pushState({ kit: 1 }, '', target); }
+    lastHash = target;
+    show(parse(target));
+  }
+  function show(r) {
+    const fn = items[r.type];
+    const d = fn && fn(r.id, r.q);
+    if (!d) { close(true); return false; }
+    render(d);
+    return true;
+  }
+  function close(silent) {
+    if (!mask || !mask.classList.contains('open')) return;
+    mask.classList.remove('open');
+    document.body.style.overflow = '';
+    if (!silent && parse()?.kind === 'item') {
+      if (history.state && history.state.kit) history.back();          // 从页面里点开的：退回去
+      else { history.replaceState(null, '', mask.dataset.base || location.pathname + location.search); lastHash = location.hash; }   // 直接打开的分享链接
+    }
+  }
+  // 当前地址是列表页时渲染列表页并返回 true；首页时返回 false
+  function route(box) {
+    if (box) listBox = box;
+    const r = parse();
+    if (r && r.kind === 'list' && lists[r.type]) { lists[r.type](r.id, r.q, listBox); return true; }
+    return false;
+  }
+  // 列表页的公共外壳：返回按钮 + 标题 + 子分类 + 排序
+  function shell({ title, note, chips, sort, sortVal, body, more }) {
+    return `<div class="kit-lhead"><button class="kit-back" data-kit-back title="返回">‹</button><h2>${kesc(title)}</h2>${note ? `<small>${note}</small>` : ''}</div>
+      ${chips || sort ? `<div class="kit-lbar"><div class="kit-chips">${(chips || []).map(c => `<a class="${c.on ? 'on' : ''}" href="${kesc(c.href)}">${kesc(c.text)}${c.count != null ? `<small>${c.count}</small>` : ''}</a>`).join('')}</div>
+        ${sort ? `<select class="kit-sel" data-kit-sort>${sort.map(([v, n]) => `<option value="${kesc(v)}" ${v === sortVal ? 'selected' : ''}>${kesc(n)}</option>`).join('')}</select>` : ''}</div>` : ''}
+      ${body}${more ? `<button class="kit-more" data-kit-more>${more}</button>` : ''}`;
+  }
+  function init(home) {
+    onHome = home;
+    document.addEventListener('click', e => {
+      const t = e.target.closest('[data-kit-item],[data-kit-go],[data-kit-back]');
+      if (!t) return;
+      const inner = e.target.closest('a[href],button,input,select,label,summary');   // 卡片里的其它按钮 / 链接（关注、复制…）优先
+      if (inner && inner !== t && t.contains(inner)) return;
+      e.preventDefault();
+      if (t.dataset.kitBack !== undefined) { fromHome && history.length > fromHome ? history.go(-fromHome) : (location.hash = ''); return; }
+      open(t.dataset.kitItem || t.dataset.kitGo);
+    });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+    window.addEventListener('hashchange', () => {
+      const r = parse();
+      let was = parse(lastHash), steps = 1;
+      if (was && was.kind === 'item') {                                 // 从详情离开
+        const base = mask && mask.dataset.base !== undefined ? mask.dataset.base : '';
+        if (location.hash === base) { lastHash = location.hash; close(true); return; }   // 只是关掉详情，底下页面不动
+        was = parse(base); steps = 2;                                   // 在详情里点了别的列表：按详情底下那页算，返回要退两步
+      }
+      lastHash = location.hash;
+      if (r && r.kind === 'item') { show(r); return; }
+      close(true);
+      const wasHome = !was;
+      if (r && r.kind === 'list') {
+        if (wasHome) { homeY = scrollY; fromHome = steps; }
+        onHome && onHome();
+        if (wasHome || was.type !== r.type) scrollTo(0, 0);
+      } else {
+        onHome && onHome();
+        if (fromHome) { scrollTo(0, homeY); fromHome = 0; }
+      }
+    });
+    // 直接打开带 #/item/ 的链接（比如大屏跳过来）：页面数据读完后由站点调用 KIT.boot()
+  }
+  function boot() { const r = parse(); if (r && r.kind === 'item') show(r); }
+  return { item: (t, fn) => (items[t] = fn), list: (t, fn) => (lists[t] = fn), open, close, route, shell, init, boot, parse, esc: kesc,
+    // 小工具：详情里的键值格、段落、关联列表
+    kv: rows => { const r = rows.filter(x => x && x[1] != null && x[1] !== ''); return r.length ? `<div class="kit-kv">${r.map(([k, v]) => `<div><small>${kesc(k)}</small><b title="${kesc(v)}">${kesc(v)}</b></div>`).join('')}</div>` : ''; },
+    sec: (title, html, note) => html ? `<div class="kit-sec"><h4>${title}${note ? `<small>${note}</small>` : ''}</h4>${html}</div>` : '',
+    p: t => t ? `<p class="kit-p">${kesc(t)}</p>` : '',
+  };
+})();
+
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const store = {
@@ -286,7 +511,6 @@ const store = {
 
 const TOPICS = { all: '全部', policy: '政策监管', overseas: '出海', data: '数据报告', capital: '资本', platform: '平台', general: '其他' };
 const SENTI = { positive: '正面', negative: '负面', neutral: '中性' };
-const PAGE = 40;
 
 const state = {
   tab: store.get('tab', 'picks'),
@@ -294,7 +518,6 @@ const state = {
   topic: 'all',
   senti: 'all',
   q: '',
-  limit: PAGE,
 };
 let DATA = { industry: [], ai: [], overseas: [], status: [] };
 let PICKS = { items: [] };
@@ -322,6 +545,17 @@ function fmtNum(n) {
 }
 function match(text) { return !state.q || text.toLowerCase().includes(state.q); }
 
+// ── 条目 id ──
+// 推荐：picks.json 里的下标（也认剧名）；海外：ReelShort 剧 id（24 位）；新闻：url 哈希
+const hid = s => { let h = 5381; for (let i = 0; i < s.length; i++) h = (h * 33 ^ s.charCodeAt(i)) >>> 0; return h.toString(36); };
+const reelId = r => (r.url || '').match(/-([0-9a-f]{24})-/)?.[1] || hid(r.url || r.title);
+const newsId = n => n._id || (n._id = hid(n.url));
+const findNews = id => DATA.industry.find(n => newsId(n) === id) || DATA.ai.find(n => newsId(n) === id);
+const findPick = id => { const it = PICKS.items || []; return /^\d+$/.test(id) ? it[+id] : it.find(p => p.title === id); };
+const findReel = id => (DATA.overseas || []).find(r => reelId(r) === id);
+const phCls = (r, i) => 'ph-' + ((r.tags?.[0] || r.title || '').length + i) % 4;   // 海外封面占位色：按标签轮换
+const HOME_N = 20;   // 新闻页签首页条数，其余进列表页
+
 // ── 渲染：热门推荐 ──
 function renderPicks() {
   const items = PICKS.items || [];
@@ -345,36 +579,38 @@ function renderPicks() {
     ${list.length ? `<div class="grid">${list.map(pickCard).join('')}</div>` : '<div class="panel empty">没有匹配的剧</div>'}
     ${PICKS.notes ? `<p class="foot" style="margin-top:12px">※ ${esc(PICKS.notes)}</p>` : ''}
 
-    <h2 class="section-title">🌏 海外热播 · ReelShort TOP<small>自动抓取 · 点击直达第 1 集</small></h2>
+    <h2 class="section-title">🌏 海外热播 · ReelShort TOP<small>自动抓取 · 点开看简介</small></h2>
     ${reels.length ? `<div class="reel-grid">${reels.map((r, i) => reelCard(r, i + 1)).join('')}</div>` : '<div class="panel empty">暂无数据</div>'}
     ${fresh.length ? `<h2 class="section-title">🆕 ReelShort 新上线</h2><div class="reel-grid">${fresh.map(r => reelCard(r)).join('')}</div>` : ''}
   `;
 }
 function pickCard(i) {
+  const id = PICKS.items.indexOf(i);
   const top = `<div class="card-top">
       <span class="badge ${i.kind}">${esc(i.form)}</span>
       <span class="badge plain">${esc(i.platform)}</span>
     </div>`;
   const rank = (i.rank_note || '').match(/#(\d+)/);
-  // 封面加载失败时去掉横幅，标签回到正文顶部
-  const head = i.cover ? `<div class="banner">
+  // 封面加载失败时去掉横幅，标签回到正文顶部；加载中先显示分类渐变底色
+  const head = i.cover ? `<div class="banner ph-${i.kind}">
       <img src="${esc(i.cover)}" alt="" loading="lazy" onerror="const c=this.closest('.card');c.classList.remove('has-cover');this.parentNode.replaceWith(c.querySelector('.banner .card-top'))">
       ${rank ? `<span class="banner-rank">#${rank[1]}</span>` : ''}
       ${top}
     </div>` : top;
-  return `<article class="panel card${i.cover ? ' has-cover' : ''}">
+  return `<article class="panel card${i.cover ? ' has-cover' : ''}" data-kit-item="pick/${id}">
     ${head}
     <h4>${esc(i.title)}</h4>
     <div><div class="rank-note">${esc(i.rank_note)}</div><div class="heat">${esc(i.heat)}</div></div>
     ${i.synopsis ? `<p>${esc(i.synopsis)}</p>` : ''}
     ${i.why_hot ? `<div class="why">${esc(i.why_hot)}</div>` : ''}
     <div class="tags">${(i.genre || []).map(g => `<span class="tag">${esc(g)}</span>`).join('')}</div>
-    <div class="src">${(i.sources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">↗ ${esc(s.name)}</a>`).join('')}</div>
+    ${i.sources?.length ? `<div class="kit-src">来源：${i.sources.map(s => esc(s.name)).join(' · ')}</div>` : ''}
   </article>`;
 }
 function reelCard(r, rank) {
-  return `<a class="reel" href="${esc(r.url)}" target="_blank" rel="noopener" title="${esc(r.synopsis)}">
-    <div class="reel-cover">
+  const id = reelId(r), idx = DATA.overseas.indexOf(r);
+  return `<a class="reel" href="#/item/reel/${id}" data-kit-item="reel/${id}">
+    <div class="reel-cover ${phCls(r, idx)}">
       <img src="${esc(r.cover)}" alt="" loading="lazy" onerror="this.style.display='none'">
       ${rank ? `<span class="reel-rank">TOP ${rank}</span>` : ''}
       ${r.views ? `<span class="reel-views">▶ ${fmtNum(r.views)}</span>` : ''}
@@ -384,37 +620,40 @@ function reelCard(r, rank) {
   </a>`;
 }
 
-// ── 渲染：新闻列表 ──
-function newsList(items) {
+// ── 渲染：新闻列表（mode：industry / ai；limit：显示条数；more：底部链接 HTML）──
+function newsList(items, mode, limit, more) {
   if (!items.length) return '<div class="panel empty">没有匹配的新闻</div>';
   let html = '', lastDay = '';
-  items.slice(0, state.limit).forEach(n => {
-    const day = dayKey(n.time);
+  items.slice(0, limit).forEach(n => {
+    const day = dayKey(n.time), id = newsId(n);
     if (day !== lastDay) { html += `<div class="day-sep">${day}</div>`; lastDay = day; }
-    const sentiCls = state.tab === 'ai' ? ` s-${n.sentiment}` : '';
-    html += `<div class="news-item${sentiCls}"><div class="news-body">
-      <a class="news-title" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>
+    const sentiCls = mode === 'ai' ? ` s-${n.sentiment}` : '';
+    html += `<a class="news-item${sentiCls}" href="#/item/news/${id}" data-kit-item="news/${id}"><div class="news-body">
+      <div class="news-title">${esc(n.title)}</div>
       <div class="news-meta">
-        ${state.tab === 'ai' ? `<span class="senti ${n.sentiment}">${SENTI[n.sentiment]}</span>` : ''}
-        ${state.tab === 'industry' && n.topic !== 'general' ? `<span class="badge plain">${TOPICS[n.topic]}</span>` : ''}
-        ${state.tab === 'industry' && n.ai_related ? '<span class="badge ai">AI</span>' : ''}
+        ${mode === 'ai' ? `<span class="senti ${n.sentiment}">${SENTI[n.sentiment]}</span>` : ''}
+        ${mode === 'industry' && n.topic !== 'general' ? `<span class="badge plain">${TOPICS[n.topic]}</span>` : ''}
+        ${mode === 'industry' && n.ai_related ? '<span class="badge ai">AI</span>' : ''}
         <span class="source">${esc(n.source)}</span>
         <span>${ago(n.time)}</span>
         ${n.lang === 'en' ? '<span class="badge plain">EN</span>' : ''}
         ${n.also?.length ? `<span>另有 ${n.also.length} 家报道</span>` : ''}
-        ${state.tab === 'ai' && n.signals?.length ? `<span class="signal">#${n.signals.map(esc).join(' #')}</span>` : ''}
+        ${mode === 'ai' && n.signals?.length ? `<span class="signal">#${n.signals.map(esc).join(' #')}</span>` : ''}
       </div>
-    </div></div>`;
+    </div></a>`;
   });
-  if (items.length > state.limit) html += `<button class="more" id="more">加载更多（剩余 ${items.length - state.limit} 条）</button>`;
-  return `<div class="panel news">${html}</div>`;
+  return `<div class="panel news">${html}${more || ''}</div>`;
 }
+const industryBase = () => DATA.industry.filter(n => match(n.title + ' ' + n.source));
+const aiBase = () => DATA.ai.filter(n => match(n.title + ' ' + n.source));
+const qs = (k, v) => v && v !== 'all' ? `?${k}=${encodeURIComponent(v)}` : '';
 
 function renderIndustry() {
-  const base = DATA.industry.filter(n => match(n.title + ' ' + n.source));
+  const base = industryBase();
   const counts = { all: base.length };
   base.forEach(n => counts[n.topic] = (counts[n.topic] || 0) + 1);
   const list = base.filter(n => state.topic === 'all' || n.topic === state.topic);
+  const more = list.length > HOME_N ? `<a class="more-link" href="#/list/industry${qs('topic', state.topic)}">查看全部 ${list.length} 条 →</a>` : '';
   return `
     <section class="hero">
       <h1>短剧<em>行业新闻</em></h1>
@@ -425,7 +664,7 @@ function renderIndustry() {
       ${Object.entries(TOPICS).filter(([k]) => k === 'all' || counts[k]).map(([k, l]) =>
         `<button class="chip ${state.topic === k ? 'active' : ''}" data-topic="${k}">${l}<span class="n">${counts[k] || 0}</span></button>`).join('')}
     </div>
-    ${newsList(list)}
+    ${newsList(list, 'industry', HOME_N, more)}
   `;
 }
 
@@ -451,10 +690,11 @@ function meter(items, title, sub) {
 }
 
 function renderAI() {
-  const base = DATA.ai.filter(n => match(n.title + ' ' + n.source));
+  const base = aiBase();
   const c = sentiStats(base);
   const list = base.filter(n => state.senti === 'all' || n.sentiment === state.senti);
   const week = base.filter(n => Date.now() - new Date(n.time) < 7 * 86400000);
+  const more = list.length > HOME_N ? `<a class="more-link" href="#/list/ai${qs('senti', state.senti)}">查看全部 ${list.length} 条 →</a>` : '';
   return `
     <section class="hero">
       <h1>AI 对<em>短剧行业</em>的影响</h1>
@@ -467,7 +707,7 @@ function renderAI() {
       ${['positive', 'negative', 'neutral'].map(k =>
         `<button class="chip ${state.senti === k ? 'active' : ''}" data-senti="${k}"><span class="dot" style="background:var(--${k.slice(0, 3)})"></span>${SENTI[k]}<span class="n">${c[k]}</span></button>`).join('')}
     </div>
-    ${newsList(list)}
+    ${newsList(list, 'ai', HOME_N, more)}
   `;
 }
 
@@ -480,14 +720,14 @@ function renderAside() {
   return `
     <div class="panel widget">
       <h3>🔥 本周热榜</h3>
-      <div class="mini-list">${topAI.map((p, i) => `<div class="mini-item"><span class="mini-rank">${i + 1}</span><div>
+      <div class="mini-list">${topAI.map((p, i) => `<div class="mini-item" data-kit-item="pick/${i}"><span class="mini-rank">${i + 1}</span><div>
         <div class="mini-title">${esc(p.title)}</div><div class="mini-sub">${esc(p.form)} · ${esc(p.rank_note)}</div></div></div>`).join('')}</div>
     </div>
     <div class="panel widget">
-      <h3>🤖 AI 影响 · 全部 ${ai.length} 篇</h3>
+      <h3>🤖 AI 影响 · 全部 ${ai.length} 篇<a class="kit-morelink" href="#/list/ai" style="margin-left:auto;font-size:12px">全部 →</a></h3>
       <div class="bar">${['positive', 'neutral', 'negative'].map(k => all[k] ? `<i style="width:${all[k] / (ai.length || 1) * 100}%;background:var(--${k.slice(0, 3)})"></i>` : '').join('')}</div>
       <div class="legend" style="gap:10px;font-size:12px">${['positive', 'negative', 'neutral'].map(k => `<span><span class="dot" style="background:var(--${k.slice(0, 3)})"></span>${SENTI[k]} ${all[k]}</span>`).join('')}</div>
-      <div class="mini-list" style="margin-top:14px">${latestAI.map(n => `<a class="mini-item" href="${esc(n.url)}" target="_blank" rel="noopener">
+      <div class="mini-list" style="margin-top:14px">${latestAI.map(n => `<a class="mini-item" href="#/item/news/${newsId(n)}" data-kit-item="news/${newsId(n)}">
         <span class="dot" style="background:var(--${n.sentiment.slice(0, 3)});margin-top:7px"></span>
         <div><div class="mini-title">${esc(n.title)}</div><div class="mini-sub">${esc(n.source)} · ${ago(n.time)}</div></div></a>`).join('')}</div>
     </div>
@@ -499,26 +739,110 @@ function renderAside() {
   `;
 }
 
+// ── 详情（右侧抽屉）与列表页 ──
+const tg = t => t ? `<span>${esc(t)}</span>` : '';
+const fmtTime = iso => new Date(iso).toLocaleString('zh-CN', { hour12: false }).slice(0, -3);
+const newsRow = x => `<div class="kit-row" data-kit-go="news/${newsId(x)}"><span class="kit-rt">${esc(x.title)}</span><span class="kit-rm">${esc(x.source)} · ${ago(x.time)}</span></div>`;
+
+KIT.item('pick', id => {
+  const p = findPick(id); if (!p) return null;
+  const others = PICKS.items.filter(o => o !== p && o.kind === p.kind).slice(0, 6);
+  const hm = (p.heat || '').match(/[\d.]+\s*[万亿]?/);   // 热度里的数字做大字
+  return { title: p.title, sub: `${esc(p.form)} · ${esc(p.platform)}`, cover: p.cover, coverTall: true,
+    thumbIcon: p.kind === 'ai' ? '🤖' : '🎬', thumbBg: `color-mix(in srgb, var(--${p.kind}) 20%, transparent)`,
+    tags: [tg(p.form), tg(p.platform), ...(p.genre || []).map(tg)],
+    big: hm ? `<b>${esc(hm[0])}</b><span class="muted">${esc(p.heat.replace(hm[0], '').trim())}</span>` : '',
+    body: KIT.sec('概况', KIT.kv([['形式', p.form], ['平台', p.platform], ['类型', (p.genre || []).join(' · ')], ['热度', p.heat], ['上榜', p.rank_note]]))
+      + KIT.sec('剧情', KIT.p(p.synopsis))
+      + KIT.sec('为什么火', KIT.p(p.why_hot))
+      + KIT.sec('来源', p.sources?.length ? `<div class="kit-rows">${p.sources.map(s => `<a class="kit-row" href="${esc(s.url)}" target="_blank" rel="noopener"><span class="kit-rt">${esc(s.name)}</span><span class="kit-rm">↗</span></a>`).join('')}</div>` : '')
+      + KIT.sec(`本周其它${p.kind === 'ai' ? ' AI 剧' : '真人剧'}`, others.length ? `<div class="kit-rows">${others.map(o => `<div class="kit-row" data-kit-go="pick/${PICKS.items.indexOf(o)}"><span class="kit-rt">${esc(o.title)}</span><span class="kit-rm">${esc(o.rank_note)}</span></div>`).join('')}</div>` : ''),
+    acts: p.sources?.[0] ? [{ text: '查看榜单来源 ↗', href: p.sources[0].url }] : [] };
+});
+KIT.item('reel', id => {
+  const r = findReel(id); if (!r) return null;
+  const same = DATA.overseas.filter(o => o !== r && o.shelf === r.shelf).slice(0, 6);
+  return { title: r.title, sub: `ReelShort · ${r.shelf === 'top' ? '热播榜' : '新上线'}`, cover: r.cover, coverTall: true,
+    tags: (r.tags || []).map(tg), big: r.views ? `<b>${fmtNum(r.views)}</b><span class="muted">次播放</span>` : '',
+    body: KIT.sec('数据', KIT.kv([['集数', r.episodes ? r.episodes + ' 集' : ''], ['播放量', fmtNum(r.views)], ['点赞', fmtNum(r.likes)], ['标签', (r.tags || []).join(' · ')]]))
+      + KIT.sec('简介', KIT.p(r.synopsis ? r.synopsis + (r.synopsis.length >= 130 ? '…' : '') : ''), '英文原文')
+      + KIT.sec(r.shelf === 'top' ? '同榜热播' : '同期新上线', `<div class="kit-rows">${same.map(o => `<div class="kit-row" data-kit-go="reel/${reelId(o)}"><img src="${esc(o.cover)}" alt="" loading="lazy"><span class="kit-rt">${esc(o.title)}</span><span class="kit-rm">${o.views ? '▶ ' + fmtNum(o.views) : ''}</span></div>`).join('')}</div>`),
+    acts: [{ text: '去 ReelShort 看 ↗', href: r.url }] };
+});
+KIT.item('news', id => {
+  const n = findNews(id); if (!n) return null;
+  const isAI = n.section === 'ai';
+  const pool = isAI ? DATA.ai : DATA.industry;
+  const same = pool.filter(x => x !== n && (isAI ? x.sentiment === n.sentiment : x.topic === n.topic)).slice(0, 6);
+  const sameName = isAI ? `同为${SENTI[n.sentiment]}的 AI 报道` : `同话题：${TOPICS[n.topic] || '其他'}`;
+  const listHref = isAI ? `#/list/ai?senti=${n.sentiment}` : `#/list/industry?topic=${n.topic}`;
+  return { title: n.title, sub: `${esc(n.source)} · ${fmtTime(n.time)}`,
+    thumbIcon: isAI ? '🤖' : { policy: '⚖️', overseas: '🌏', data: '📊', capital: '💰', platform: '📱' }[n.topic] || '📰',
+    thumbBg: `color-mix(in srgb, var(--${isAI ? n.sentiment.slice(0, 3) : 'accent'}) 18%, transparent)`,
+    tags: [isAI ? tg(SENTI[n.sentiment]) : tg(TOPICS[n.topic]), n.ai_related ? tg('涉及 AI') : '', n.lang === 'en' ? tg('英文') : '', tg(ago(n.time))],
+    body: KIT.sec('标签', KIT.kv([[isAI ? '情绪' : '话题', isAI ? SENTI[n.sentiment] + '（关键词自动判断）' : TOPICS[n.topic]], ['信号', (n.signals || []).join(' · ')],
+        ['来源', n.source], ['语言', n.lang === 'en' ? '英文' : '中文']]))
+      + KIT.sec('说明', KIT.p('这条是从 Google 新闻按关键词聚合来的标题，正文在原网站。'))
+      + KIT.sec('同时报道的媒体', n.also?.length ? `<div class="kit-tags">${n.also.map(tg).join('')}</div>` : '', `${n.also?.length || 0} 家`)
+      + KIT.sec(sameName, same.length ? `<div class="kit-rows">${same.map(newsRow).join('')}</div>` : '', `<a class="kit-morelink" href="${listHref}">全部 →</a>`),
+    acts: [{ text: '阅读原文 ↗', href: n.url }] };
+});
+
+// 列表页
+const LPAGE = 30;
+let listN = LPAGE;
+const SORTS = [['new', '最新'], ['hot', '多家报道优先']];
+const sortNews = (list, s) => s === 'hot' ? [...list].sort((a, b) => (b.also?.length || 0) - (a.also?.length || 0) || new Date(b.time) - new Date(a.time)) : list;
+KIT.list('industry', (_, q, box) => {
+  const topic = q.get('topic') || 'all', sort = q.get('sort') || 'new', base = industryBase();
+  const all = sortNews(base.filter(n => topic === 'all' || n.topic === topic), sort);
+  box.innerHTML = KIT.shell({ title: '短剧行业新闻', note: `${all.length} 条${state.q ? ` · 搜索「${esc(state.q)}」` : ''}`,
+    chips: Object.entries(TOPICS).map(([k, n]) => ({ text: n, href: '#/list/industry' + qs('topic', k), on: k === topic, count: base.filter(x => k === 'all' || x.topic === k).length })).filter(c => c.count || c.on),
+    sort: SORTS, sortVal: sort,
+    body: newsList(all, 'industry', listN), more: all.length > listN ? `加载更多（${listN} / ${all.length}）` : '' });
+});
+KIT.list('ai', (_, q, box) => {
+  const senti = q.get('senti') || 'all', sort = q.get('sort') || 'new', base = aiBase();
+  const all = sortNews(base.filter(n => senti === 'all' || n.sentiment === senti), sort);
+  box.innerHTML = KIT.shell({ title: 'AI 对短剧行业的影响', note: `${all.length} 篇${state.q ? ` · 搜索「${esc(state.q)}」` : ''}`,
+    chips: [['all', '全部'], ...Object.entries(SENTI)].map(([k, n]) => ({ text: n, href: '#/list/ai' + qs('senti', k), on: k === senti, count: base.filter(x => k === 'all' || x.sentiment === k).length })),
+    sort: SORTS, sortVal: sort,
+    body: newsList(all, 'ai', listN), more: all.length > listN ? `加载更多（${listN} / ${all.length}）` : '' });
+});
+document.addEventListener('click', e => { if (e.target.closest('[data-kit-more]')) { listN += LPAGE; render(); } });
+document.addEventListener('change', e => {
+  if (!e.target.matches('[data-kit-sort]')) return;
+  const r = KIT.parse(); if (!r) return;
+  r.q.set('sort', e.target.value);
+  if (e.target.value === 'new') r.q.delete('sort');
+  location.hash = `#/list/${r.type}${r.q.toString() ? '?' + r.q : ''}`;
+});
+window.addEventListener('hashchange', () => { if (KIT.parse()?.kind !== 'item') listN = LPAGE; }, true);
+
 // ── 主渲染 ──
 function render() {
-  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === state.tab));
+  const r = KIT.parse(), cur = r?.kind === 'list' ? r.type : state.tab;   // 列表页时高亮对应页签
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === cur));
   $('#cnt-industry').textContent = DATA.industry.length || '';
   $('#cnt-ai').textContent = DATA.ai.length || '';
-  $('#main').innerHTML = { picks: renderPicks, industry: renderIndustry, ai: renderAI }[state.tab]();
   $('#aside').innerHTML = renderAside();
+  if (KIT.route($('#main'))) return;                     // #/list/… 列表页
+  $('#main').innerHTML = { picks: renderPicks, industry: renderIndustry, ai: renderAI }[state.tab]();
 }
 
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-tab],[data-kind],[data-topic],[data-senti],#more');
+  const t = e.target.closest('[data-tab],[data-kind],[data-topic],[data-senti]');
   if (!t) return;
-  if (t.id === 'more') { state.limit += PAGE; render(); return; }
-  if (t.dataset.tab) { state.tab = t.dataset.tab; state.limit = PAGE; store.set('tab', state.tab); window.scrollTo({ top: 0 }); }
+  if (t.dataset.tab) {
+    state.tab = t.dataset.tab; store.set('tab', state.tab); window.scrollTo({ top: 0 });
+    if (KIT.parse()?.kind === 'list') { location.hash = ''; return; }   // 在列表页点页签：回到对应页签首页
+  }
   if (t.dataset.kind) { state.kind = t.dataset.kind; store.set('kind', state.kind); }
-  if (t.dataset.topic) { state.topic = t.dataset.topic; state.limit = PAGE; }
-  if (t.dataset.senti) { state.senti = t.dataset.senti; state.limit = PAGE; }
+  if (t.dataset.topic) state.topic = t.dataset.topic;
+  if (t.dataset.senti) state.senti = t.dataset.senti;
   render();
 });
-$('#q').addEventListener('input', e => { state.q = e.target.value.trim().toLowerCase(); state.limit = PAGE; render(); });
+$('#q').addEventListener('input', e => { state.q = e.target.value.trim().toLowerCase(); listN = LPAGE; render(); });
 document.addEventListener('keydown', e => {
   if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); $('#q').focus(); }
   if (e.key === 'Escape' && document.activeElement === $('#q')) { $('#q').value = ''; state.q = ''; render(); $('#q').blur(); }
@@ -542,7 +866,10 @@ async function load() {
   if (p) PICKS = p;
   if (!['picks', 'industry', 'ai'].includes(state.tab)) state.tab = 'picks';
   render();
+  if (!booted) { booted = true; KIT.boot(); }   // 直接打开 #/item/ 链接（大屏跳转）
 }
+let booted = false;
+KIT.init(render);
 load();
 setInterval(load, 10 * 60 * 1000);
 </script>
