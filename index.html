@@ -385,6 +385,70 @@
       .dj-two { grid-template-columns: 1fr; }
       .dj-cat-k { width: 100%; }
     }
+    /* 今日榜首横幅 */
+    .dj-hero { position: relative; overflow: hidden; border-radius: 18px; margin-bottom: 8px; box-shadow: 0 0 0 1px var(--line); }
+    .dj-hero::before { content: ""; position: absolute; inset: -30px; background: var(--hbg) center / cover no-repeat; filter: blur(26px) saturate(1.4); opacity: .9; }
+    .dj-hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10,8,14,.86) 25%, rgba(10,8,14,.35)); }
+    .dj-hero-in { position: relative; z-index: 1; display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 22px; padding: 22px; color: #fff; cursor: pointer; }
+    .dj-hero-cv { aspect-ratio: 3/4; border-radius: 12px; background: var(--hbg) center / cover no-repeat; background-color: var(--hover); box-shadow: 0 12px 30px rgba(0,0,0,.45); }
+    .dj-hero-t { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+    .dj-hero-k { font-size: 12.5px; font-weight: 700; letter-spacing: .04em; color: #ffd166; }
+    .dj-hero-t h1 { font-size: 26px; font-weight: 800; line-height: 1.25; letter-spacing: -0.02em; }
+    .dj-hero-t .tags .tag { color: rgba(255,255,255,.8); border-color: rgba(255,255,255,.22); }
+    .dj-hero-n { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; font-size: 13px; color: rgba(255,255,255,.72); }
+    .dj-hero-n b { font-size: 30px; font-weight: 800; color: #fff; letter-spacing: -0.02em; }
+    .dj-stats { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid rgba(255,255,255,.1); }
+    .dj-stats div { padding: 12px 22px; color: rgba(255,255,255,.65); font-size: 12px; }
+    .dj-stats div + div { border-left: 1px solid rgba(255,255,255,.1); }
+    .dj-stats b { display: block; color: #fff; font-size: 17px; font-weight: 800; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    /* 前三名金银铜 */
+    .reel-rank.r1 { background: linear-gradient(135deg, #f7d774, #d4a017); color: #2a1d00; }
+    .reel-rank.r2 { background: linear-gradient(135deg, #e5e7eb, #9ca3af); color: #1f2937; }
+    .reel-rank.r3 { background: linear-gradient(135deg, #f0b27a, #b9682e); color: #2a1300; }
+    /* 横滑卡片（参考杭州周末「看展」） */
+    .hs { display: grid; grid-auto-flow: column; grid-auto-columns: 196px; gap: 14px; overflow-x: auto; padding-bottom: 8px; scroll-snap-type: x mandatory; scrollbar-width: thin; }
+    .hs > * { scroll-snap-align: start; }
+    .pcard { display: flex; flex-direction: column; overflow: hidden; border-radius: 14px; padding: 0; transition: transform .15s; }
+    .pcard:hover { transform: translateY(-3px); }
+    .pcard:hover .pc-title { color: var(--accent); }
+    .pc-poster { position: relative; aspect-ratio: 3/4; background: var(--ph, var(--panel-2)) center / cover no-repeat; }
+    .pc-poster img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .pc-badge { position: absolute; left: 8px; top: 8px; z-index: 1; font-size: 12px; font-weight: 800; padding: 2px 8px; border-radius: 7px; background: rgba(0,0,0,.6); color: #fff; }
+    .pc-badge.gold { background: linear-gradient(135deg, #f7d774, #d4a017); color: #2a1d00; }
+    .pc-body { padding: 11px 12px 12px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+    .pc-title { font-size: 14px; font-weight: 700; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .pc-meta { font-size: 12px; color: var(--text-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .pc-why { font-size: 12px; color: var(--text-2); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .pc-tags { display: flex; gap: 5px; flex-wrap: wrap; margin-top: auto; padding-top: 6px; }
+    .pt { font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+    .pt.green { color: var(--pos); border-color: color-mix(in srgb, var(--pos) 45%, transparent); background: color-mix(in srgb, var(--pos) 10%, transparent); }
+    .pt.red { color: var(--neg); border-color: color-mix(in srgb, var(--neg) 45%, transparent); background: color-mix(in srgb, var(--neg) 10%, transparent); }
+    .pt.gold { color: var(--live); border-color: color-mix(in srgb, var(--live) 45%, transparent); background: color-mix(in srgb, var(--live) 10%, transparent); }
+    .pt.f-ai { color: var(--ai); border-color: color-mix(in srgb, var(--ai) 45%, transparent); }
+    .pt.f-comic { color: var(--comic); border-color: color-mix(in srgb, var(--comic) 45%, transparent); }
+    .pt.f-live { color: var(--live); border-color: color-mix(in srgb, var(--live) 45%, transparent); }
+    .hs-chips { margin-bottom: 12px; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+    /* 分类 + 题材热度 */
+    .dj-cat2 { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 14px; }
+    .dj-forms { display: flex; flex-direction: column; gap: 10px; }
+    .dj-form { padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; border-radius: 14px; }
+    .dj-form:hover { box-shadow: 0 0 0 1px var(--line-2); }
+    .dj-form div { display: flex; justify-content: space-between; align-items: baseline; }
+    .dj-form b { font-size: 15px; } .dj-form span { font-size: 22px; font-weight: 800; }
+    .dj-form span small { font-size: 12px; color: var(--text-3); font-weight: 500; margin-left: 3px; }
+    .dj-form i { height: 6px; border-radius: 3px; background: var(--hover); overflow: hidden; }
+    .dj-form i::after { content: ""; display: block; height: 100%; width: var(--w); background: var(--c); }
+    .dj-pairs { margin-top: 12px; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+    @media (max-width: 760px) {        /* 放在上面这些样式之后，才能覆盖 */
+      .dj-hero-in { grid-template-columns: 92px minmax(0, 1fr); gap: 14px; padding: 16px; }
+      .dj-hero-t h1 { font-size: 19px; } .dj-hero-n b { font-size: 24px; }
+      .dj-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .dj-stats div { padding: 10px 16px; } .dj-stats div:nth-child(3) { border-left: 0; } .dj-stats div:nth-child(n+3) { border-top: 1px solid rgba(255,255,255,.1); }
+      .hs { grid-auto-columns: 150px; gap: 10px; }
+      .dj-cat2 { grid-template-columns: 1fr; }
+      .dj-forms { flex-direction: row; } .dj-form { flex: 1; padding: 10px 12px; } .dj-form span { font-size: 18px; }
+      .dj-form div { flex-direction: column; align-items: flex-start; gap: 2px; }
+    }
     /* 可点开详情的元素 */
     .card[data-kit-item]:hover h4 { color: var(--accent); }
     .mini-item[data-kit-item] { border-radius: 6px; }
@@ -568,6 +632,7 @@ const state = {
   kind: store.get('kind', 'all'),
   topic: 'all',
   senti: 'all',
+  pf: '', uf: '',          // 口碑宝藏 / 预约榜 横滑区的体裁筛选
   q: '',
 };
 let DATA = { industry: [], ai: [], overseas: [], status: [] };
@@ -623,36 +688,15 @@ function renderPicks() {
       ${[['all', '全部'], ['ai', 'AI 剧'], ['live', '真人剧']].map(([k, l]) =>
         `<button class="chip ${state.kind === k ? 'active' : ''}" data-kind="${k}">${k !== 'all' ? `<span class="dot" style="background:var(--${k})"></span>` : ''}${l}<span class="n">${counts[k]}</span></button>`).join('')}
     </div>
-    ${list.length ? `<div class="grid">${list.map(pickCard).join('')}</div>` : '<div class="panel empty">没有匹配的剧</div>'}
+    ${list.length ? `<div class="hs">${list.map(i => pCard(`#/item/pick/${PICKS.items.indexOf(i)}`, `pick/${PICKS.items.indexOf(i)}`, {
+      cover: i.cover, title: i.title, meta: [i.platform, ...(i.genre || []).slice(0, 2)].join(' · '), why: i.why_hot, ph: i.kind,
+      tags: [`<span class="pt ${i.kind === 'ai' ? 'f-ai' : 'f-live'}">${esc(i.form)}</span>`, i.rank_note ? `<span class="pt gold">${esc(i.rank_note.split('；')[0])}</span>` : ''] })).join('')}</div>` : '<div class="panel empty">没有匹配的剧</div>'}
     ${PICKS.notes ? `<p class="foot" style="margin-top:12px">※ ${esc(PICKS.notes)}</p>` : ''}
 
     <h2 class="section-title">🌏 海外热播 · ReelShort TOP<small>自动抓取 · 点开看简介</small></h2>
     ${reels.length ? `<div class="reel-grid">${reels.map((r, i) => reelCard(r, i + 1)).join('')}</div>` : '<div class="panel empty">暂无数据</div>'}
     ${fresh.length ? `<h2 class="section-title">🆕 ReelShort 新上线</h2><div class="reel-grid">${fresh.map(r => reelCard(r)).join('')}</div>` : ''}
   `;
-}
-function pickCard(i) {
-  const id = PICKS.items.indexOf(i);
-  const top = `<div class="card-top">
-      <span class="badge ${i.kind}">${esc(i.form)}</span>
-      <span class="badge plain">${esc(i.platform)}</span>
-    </div>`;
-  const rank = (i.rank_note || '').match(/#(\d+)/);
-  // 封面加载失败时去掉横幅，标签回到正文顶部；加载中先显示分类渐变底色
-  const head = i.cover ? `<div class="banner ph-${i.kind}">
-      <img src="${esc(i.cover)}" alt="" loading="lazy" onerror="const c=this.closest('.card');c.classList.remove('has-cover');this.parentNode.replaceWith(c.querySelector('.banner .card-top'))">
-      ${rank ? `<span class="banner-rank">#${rank[1]}</span>` : ''}
-      ${top}
-    </div>` : top;
-  return `<article class="panel card${i.cover ? ' has-cover' : ''}" data-kit-item="pick/${id}">
-    ${head}
-    <h4>${esc(i.title)}</h4>
-    <div><div class="rank-note">${esc(i.rank_note)}</div><div class="heat">${esc(i.heat)}</div></div>
-    ${i.synopsis ? `<p>${esc(i.synopsis)}</p>` : ''}
-    ${i.why_hot ? `<div class="why">${esc(i.why_hot)}</div>` : ''}
-    <div class="tags">${(i.genre || []).map(g => `<span class="tag">${esc(g)}</span>`).join('')}</div>
-    ${i.sources?.length ? `<div class="kit-src">来源：${i.sources.map(s => esc(s.name)).join(' · ')}</div>` : ''}
-  </article>`;
 }
 function reelCard(r, rank) {
   const id = reelId(r), idx = DATA.overseas.indexOf(r);
@@ -673,11 +717,11 @@ const FORM_CLS = { 'AI短剧': 'ai', '漫剧': 'comic', '真人剧': 'live' };
 const findDj = slug => { const d = DY(); return [...(d.hot || []), ...(d.praise || []), ...(d.upcoming || [])].find(x => x.slug === slug); };
 const djText = x => [x.name, x.form, x.subject, ...(x.tags || [])].join(' ');
 const djChange = x => x.new ? '<span class="dj-new">新</span>' : x.change > 0 ? `<span class="dj-up">↑${x.change}</span>` : x.change < 0 ? `<span class="dj-down">↓${-x.change}</span>` : '<span class="dj-flat">—</span>';
-function djPoster(x, badge, foot) {
+function djPoster(x, badge, foot, badgeCls = '') {
   return `<a class="reel" href="#/item/dj/${encodeURIComponent(x.slug)}" data-kit-item="dj/${encodeURIComponent(x.slug)}">
     <div class="reel-cover ph-${FORM_CLS[x.form] || 'live'}">
-      ${x.cover ? `<img src="${esc(x.cover)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
-      ${badge ? `<span class="reel-rank">${badge}</span>` : ''}${foot ? `<span class="reel-views">${foot}</span>` : ''}
+      ${x.cover ? `<img src="${esc(x.cover)}" alt="" fetchpriority="high" onerror="this.style.display='none'">` : ''}
+      ${badge ? `<span class="reel-rank${badgeCls}">${badge}</span>` : ''}${foot ? `<span class="reel-views">${foot}</span>` : ''}
     </div>
     <h5>${esc(x.name)}</h5>
     <div class="tags"><span class="tag f-${FORM_CLS[x.form] || 'live'}">${esc(x.form)}</span>${x.subject ? `<span class="tag">${esc(x.subject)}</span>` : ''}</div>
@@ -705,37 +749,67 @@ function rankSpark(h) {
     <text x="${W - P}" y="${H - 2}" font-size="11" fill="var(--text-3)" text-anchor="end">${e.at(-1)[0].slice(5)}</text>
     <text x="${W - P}" y="12" font-size="11" fill="var(--text-3)" text-anchor="end">最高 第 ${lo} 名</text></svg>`;
 }
+// 横滑卡片（参考杭州周末「看展」）：海报 + 标题 + 一行信息 + 底部彩色标签
+const formCls = f => FORM_CLS[f] || 'live';
+function pCard(href, item, { cover, badge, badgeCls = '', title, meta, why, tags, ph }) {
+  return `<a class="panel pcard" href="${href}" data-kit-item="${item}">
+    <div class="pc-poster ph-${ph}">${cover ? `<img src="${esc(cover)}" alt="" loading="lazy" onerror="this.remove()">` : ''}${badge ? `<span class="pc-badge ${badgeCls}">${badge}</span>` : ''}</div>
+    <div class="pc-body"><div class="pc-title">${esc(title)}</div>${meta ? `<div class="pc-meta">${esc(meta)}</div>` : ''}${why ? `<div class="pc-why">${esc(why)}</div>` : ''}
+      <div class="pc-tags">${tags.filter(Boolean).join('')}</div></div></a>`;
+}
+const djCard = (x, o) => pCard(`#/item/dj/${encodeURIComponent(x.slug)}`, `dj/${encodeURIComponent(x.slug)}`,
+  { cover: x.cover, title: x.name, meta: [x.subject, ...(x.tags || []).slice(0, 2)].filter(Boolean).join(' · '), ph: formCls(x.form), ...o });
+const ptForm = x => `<span class="pt f-${formCls(x.form)}">${esc(x.form)}</span>`;
+// 横滑区上方的筛选：全部 / 体裁（只列有的）
+function hsChips(list, key, cur) {
+  const forms = ['AI短剧', '漫剧', '真人剧'].filter(f => list.some(x => x.form === f));
+  return forms.length > 1 ? `<div class="chips hs-chips">${['', ...forms].map(f => `<button class="chip ${cur === f ? 'active' : ''}" data-${key}="${esc(f || 'all')}">${f || '全部'}<span class="n">${f ? list.filter(x => x.form === f).length : list.length}</span></button>`).join('')}</div>` : '';
+}
 function renderCharts() {
   const d = DY(), hot = (d.hot || []).filter(x => match(djText(x))), s = d.stats || {};
   if (!(d.hot || []).length) return '';
   const subjects = Object.entries((d.hot || []).reduce((m, x) => (x.subject && (m[x.subject] = (m[x.subject] || 0) + 1), m), {})).sort((a, b) => b[1] - a[1]);
   const rising = [...hot].filter(x => !x.new && x.change > 0).sort((a, b) => b.change - a.change).slice(0, 8);
   const fresh = hot.filter(x => x.new).slice(0, 8);
-  const maxSub = subjects[0]?.[1] || 1;
+  const maxSub = subjects[0]?.[1] || 1, total = (d.hot || []).length;
+  const top = d.hot[0];
+  const up = (d.upcoming || []).filter(x => match(djText(x))), upShow = up.filter(x => !state.uf || x.form === state.uf);
+  const pr = (d.praise || []).filter(x => match(djText(x))), prShow = pr.filter(x => !state.pf || x.form === state.pf);
+  const medal = r => r <= 3 ? ` r${r}` : '';
   return `
-    <section class="hero">
-      <h1>今天抖音短剧在<em>追什么</em></h1>
-      <p>抖音官方短剧日榜 TOP100、预约榜、口碑榜，每天自动更新；数据来自短剧工程。</p>
-      <div class="meta-line">榜单日期 ${esc(d.date || '')} · 今日新上榜 ${s.new ?? '—'} 部 · ${esc(s.top_form || '')}占 ${s.top_form_share ?? '—'}% · 最热组合「${esc(s.hot_pair || '—')}」</div>
+    <section class="dj-hero" style="--hbg:url('${esc(top.cover)}')">
+      <div class="dj-hero-in" data-kit-item="dj/${encodeURIComponent(top.slug)}">
+        <div class="dj-hero-cv"></div>
+        <div class="dj-hero-t"><span class="dj-hero-k">👑 今日抖音短剧榜首 · ${esc(d.date || '')}</span>
+          <h1>${esc(top.name)}</h1>
+          <div class="tags"><span class="tag f-${formCls(top.form)}">${esc(top.form)}</span>${[top.subject, ...(top.tags || [])].filter(Boolean).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
+          <div class="dj-hero-n"><span><b>${top.heat}</b> 热播指数</span>${top.days ? `<span>在榜 ${top.days} 天</span>` : ''}${top.top10 ? `<span>连续 ${top.top10} 天进前十</span>` : ''}${top.trend ? `<span>${esc(top.trend)}</span>` : ''}</div>
+        </div>
+      </div>
+      <div class="dj-stats"><div>今日新上榜<b>${s.new ?? '—'} 部</b></div><div>占比最高<b>${esc(s.top_form || '—')} ${s.top_form_share ?? ''}%</b></div>
+        <div>最热组合<b>${esc(s.hot_pair || '—')}</b></div><div>预约总人数<b>${fmtNum(s.reserve_total) || '—'}</b></div></div>
     </section>
+
     <h2 class="section-title">🔥 今日热播榜 TOP10<small>热播指数综合播放、完播、搜索、互动</small><a class="kit-morelink" href="#/list/hot" style="margin-left:auto">全部 100 部 →</a></h2>
-    <div class="reel-grid dj-top">${hot.slice(0, 10).map(x => djPoster(x, `#${x.rank}`, `🔥 ${x.heat}`)).join('')}</div>
-    <h2 class="section-title">🗂 分类</h2>
-    <div class="panel dj-cats">
-      <div><span class="dj-cat-k">体裁</span>${(s.forms || []).map(f => `<a class="chip" href="#/list/hot?form=${encodeURIComponent(f.form)}"><span class="dot" style="background:var(--${FORM_CLS[f.form] || 'live'})"></span>${esc(f.form)}<span class="n">${f.count}</span></a>`).join('')}</div>
-      <div><span class="dj-cat-k">题材</span>${subjects.map(([k, n]) => `<a class="chip" href="#/list/hot?subject=${encodeURIComponent(k)}">${esc(k)}<span class="n">${n}</span></a>`).join('')}</div>
-      <div><span class="dj-cat-k">热门组合</span>${(s.pairs || []).slice(0, 8).map(p => `<a class="chip" href="#/list/hot?tag=${encodeURIComponent(p.label.split('+')[0])}">${esc(p.label)}<span class="n">${p.count}</span></a>`).join('')}</div>
+    <div class="reel-grid dj-top">${hot.slice(0, 10).map(x => djPoster(x, `#${x.rank}`, `🔥 ${x.heat}`, medal(x.rank))).join('')}</div>
+
+    <h2 class="section-title">🗂 分类与题材热度<small>点任意一项看对应榜单</small></h2>
+    <div class="dj-cat2">
+      <div class="dj-forms">${(s.forms || []).map(f => `<a class="panel dj-form" href="#/list/hot?form=${encodeURIComponent(f.form)}" style="--c:var(--${formCls(f.form)});--w:${f.count / total * 100}%">
+        <div><b>${esc(f.form)}</b><span>${f.count}<small>部 · ${Math.round(f.count / total * 100)}%</small></span></div><i></i></a>`).join('')}</div>
+      <div class="panel dj-bars">${subjects.slice(0, 10).map(([k, n]) => `<a href="#/list/hot?subject=${encodeURIComponent(k)}"><span>${esc(k)}</span><i style="--w:${n / maxSub * 100}%"></i><b>${n}</b></a>`).join('')}</div>
     </div>
+    <div class="dj-pairs"><span class="dj-cat-k" style="width:auto;margin-right:4px">热门组合</span>${(s.pairs || []).slice(0, 8).map(p => `<a class="chip" href="#/list/hot?tag=${encodeURIComponent(p.label.split('+')[0])}">${esc(p.label)}<span class="n">${p.count}</span></a>`).join('')}</div>
+
     <div class="dj-two">
       <div class="panel"><h3 class="dj-h">🚀 排名飙升<a class="kit-morelink" href="#/list/hot?sort=rise">全部 →</a></h3><div class="dj-list">${rising.map(x => djRow(x, `<span class="dj-up">↑${x.change}</span><small>第 ${x.rank} 名</small>`)).join('') || '<div class="empty">暂无</div>'}</div></div>
       <div class="panel"><h3 class="dj-h">🆕 今日新上榜<a class="kit-morelink" href="#/list/hot?new=1">全部 →</a></h3><div class="dj-list">${fresh.map(x => djRow(x, `<b>${x.heat}</b><small>第 ${x.rank} 名</small>`)).join('') || '<div class="empty">暂无</div>'}</div></div>
     </div>
-    ${(d.upcoming || []).length ? `<h2 class="section-title">⏳ 即将上线 · 预约榜<small>还没开播，按预约人数</small><a class="kit-morelink" href="#/list/upcoming" style="margin-left:auto">全部 ${d.upcoming.length} 部 →</a></h2>
-      <div class="reel-grid">${d.upcoming.slice(0, 6).map(x => djPoster(x, `#${x.rank}`, `🔔 ${fmtNum(x.reserve)}`)).join('')}</div>` : ''}
-    ${(d.praise || []).length ? `<h2 class="section-title">💎 口碑宝藏<small>好评分高、热度还没起来</small><a class="kit-morelink" href="#/list/praise" style="margin-left:auto">全部 ${d.praise.length} 部 →</a></h2>
-      <div class="reel-grid">${d.praise.slice(0, 6).map(x => djPoster(x, `★ ${x.score}`, '')).join('')}</div>` : ''}
-    <h2 class="section-title">📊 题材热度<small>TOP100 里各题材的部数</small></h2>
-    <div class="panel dj-bars">${subjects.slice(0, 10).map(([k, n]) => `<a href="#/list/hot?subject=${encodeURIComponent(k)}"><span>${esc(k)}</span><i style="--w:${n / maxSub * 100}%"></i><b>${n}</b></a>`).join('')}</div>`;
+
+    ${pr.length ? `<h2 class="section-title">💎 口碑宝藏<small>好评分高、热度还没起来 · ${pr.length} 部</small><a class="kit-morelink" href="#/list/praise" style="margin-left:auto">全部 →</a></h2>
+      ${hsChips(pr, 'pf', state.pf)}<div class="hs">${prShow.map(x => djCard(x, { badge: `★ ${x.score}`, badgeCls: 'gold', tags: [`<span class="pt green">好评 ${x.score}</span>`, ptForm(x), '<span class="pt gold">待爆</span>'] })).join('')}</div>` : ''}
+    ${up.length ? `<h2 class="section-title">⏳ 即将上线 · 预约榜<small>还没开播，按预约人数 · ${up.length} 部</small><a class="kit-morelink" href="#/list/upcoming" style="margin-left:auto">全部 →</a></h2>
+      ${hsChips(up, 'uf', state.uf)}<div class="hs">${upShow.map(x => djCard(x, { badge: `#${x.rank}`, badgeCls: x.rank <= 3 ? 'gold' : '', tags: [`<span class="pt red">🔔 ${fmtNum(x.reserve)}人预约</span>`, ptForm(x)] })).join('')}</div>` : ''}`;
 }
 KIT.item('dj', slug => {
   const x = findDj(slug); if (!x) return null;
@@ -997,6 +1071,8 @@ function render() {
 }
 
 document.addEventListener('click', e => {
+  const f = e.target.closest('[data-pf],[data-uf]');
+  if (f) { if (f.dataset.pf) state.pf = f.dataset.pf === 'all' ? '' : f.dataset.pf; else state.uf = f.dataset.uf === 'all' ? '' : f.dataset.uf; render(); return; }
   const t = e.target.closest('[data-tab],[data-kind],[data-topic],[data-senti]');
   if (!t) return;
   if (t.dataset.tab) {
