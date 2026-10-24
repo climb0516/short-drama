@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T04:45:23+08:00",
+ "updated_at": "2026-10-25T07:10:46+08:00",
  "industry": [
   {
    "title": "全民“戒断”红果，可能吗？",
@@ -75,8 +75,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": false,
-   "also": []
+   "ai_related": false
   },
   {
    "title": "消息称字节跳动AI短剧产品内部整合：小云雀并入即梦，仍保留独立入口",
@@ -87,10 +86,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
-   "ai_related": true,
-   "also": [
-    "DoNews"
-   ]
+   "ai_related": true
   },
   {
    "title": "红果短剧后续将上时间管理功能",
@@ -218,7 +214,6 @@
    "also": [
     "IMDb",
     "TheWrap",
-    "Yahoo",
     "Forbes",
     "www.nationpathindia.com",
     "Variety"
@@ -386,7 +381,6 @@
    "topic": "overseas",
    "ai_related": false,
    "also": [
-    "证券之星",
     "凤凰网"
    ]
   },
@@ -399,10 +393,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": false,
-   "also": [
-    "证券之星"
-   ]
+   "ai_related": false
   },
   {
    "title": "AI导演月薪可达30k+！广东AI短剧应用师实战课报名入口开放，学爆款AI短剧技巧，不限经验符合条件可参与",
@@ -460,17 +451,6 @@
    "ai_related": false
   },
   {
-   "title": "剧中角色“喊你休息”，短剧上线防沉迷提醒视频",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wNE1oeGhSUWVrcjJGQjduQzlNUklWLUZIREtNX1QxcG9aY2pWZktUM0hRdzZiSGZGNkRWZE4wQi0tT1VXcUJZbEx5dFhZTjJIMEJ4Y0M5MjZtMWlPUEVwRm1oem0zdzJP?oc=5",
-   "source": "紫牛新闻",
-   "source_url": "https://www.yzwb.net",
-   "time": "2026-10-23T09:15:00+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "general",
-   "ai_related": false
-  },
-  {
    "title": "四川电影电视学院校长罗思：AI漫剧产学研正在形成闭环",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBmd09RdGFVZXlPVzhfaHBLOVBIT0l2a3RXcmN1OHFjWHZNRHU3WnhhT2JZek9lNXI1TVdTdFZMd0I2OU1sUDJrcFBJMEEyQQ?oc=5",
    "source": "川观新闻",
@@ -480,6 +460,17 @@
    "section": "industry",
    "topic": "general",
    "ai_related": true
+  },
+  {
+   "title": "剧中角色“喊你休息”，短剧上线防沉迷提醒视频",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wNE1oeGhSUWVrcjJGQjduQzlNUklWLUZIREtNX1QxcG9aY2pWZktUM0hRdzZiSGZGNkRWZE4wQi0tT1VXcUJZbEx5dFhZTjJIMEJ4Y0M5MjZtMWlPUEVwRm1oem0zdzJP?oc=5",
+   "source": "紫牛新闻",
+   "source_url": "https://www.yzwb.net",
+   "time": "2026-10-23T09:15:00+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": false
   },
   {
    "title": "四川网络作家协会副主席陈杰：把巴蜀文化的富矿素材，变成可进入市场的AI漫剧实战作品",
@@ -614,7 +605,10 @@
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
-   "ai_related": false
+   "ai_related": false,
+   "also": [
+    "36Kr"
+   ]
   },
   {
    "title": "AI短剧走强 制作不再稀缺 钱到底谁赚？券商吵起来了",
@@ -890,7 +884,8 @@
    "topic": "overseas",
    "ai_related": false,
    "also": [
-    "界面新闻"
+    "界面新闻",
+    "新浪财经"
    ]
   },
   {
@@ -1121,10 +1116,8 @@
    "ai_related": false,
    "also": [
     "新浪财经",
-    "上观新闻",
     "凤凰网",
     "证券之星",
-    "搜狐",
     "ThePaper.cn",
     "新浪新闻",
     "新京报"
@@ -1230,10 +1223,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
-   "ai_related": false,
-   "also": [
-    "财经号"
-   ]
+   "ai_related": false
   },
   {
    "title": "免费AI短剧消遣背后，闲暇被打包成变现流量",
@@ -1753,7 +1743,6 @@
    "topic": "platform",
    "ai_related": false,
    "also": [
-    "温州新闻",
     "ThePaper.cn"
    ]
   },
@@ -2299,7 +2288,10 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": false
+   "ai_related": false,
+   "also": [
+    "搜狐网"
+   ]
   },
   {
    "title": "听说全网都在“不烧心” 这波AI短剧热潮你还扛得住吗",
@@ -2459,7 +2451,10 @@
    "lang": "zh",
    "section": "industry",
    "topic": "data",
-   "ai_related": true
+   "ai_related": true,
+   "also": [
+    "证券之星"
+   ]
   },
   {
    "title": "New York’s first microdrama film festival searches for its audience",
@@ -2598,7 +2593,10 @@
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
-   "ai_related": false
+   "ai_related": false,
+   "also": [
+    "手机新浪网"
+   ]
   },
   {
    "title": "看完一部红果短剧能获得多少金币",
@@ -2631,7 +2629,11 @@
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
-   "ai_related": false
+   "ai_related": false,
+   "also": [
+    "凤凰网",
+    "新浪财经"
+   ]
   },
   {
    "title": "AI短剧概念股兑吧飙涨40% 前九月短剧市场保持快速增长",
@@ -2723,8 +2725,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": false,
-   "also": []
+   "ai_related": false
   },
   {
    "title": "红果短剧回应金币功能下架 公告明确下线时间及权益",
@@ -2759,7 +2760,6 @@
    "topic": "general",
    "ai_related": true,
    "also": [
-    "新浪网",
     "搜狐网"
    ]
   },
@@ -2858,16 +2858,17 @@
   },
   {
    "title": "TVB小生林正峰谈AI短剧冲击，新找每月六天兼职，一日店长收入更高",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNkZSMDZhMUJRdXFfZjEwQkpZYWJfM2lVUk1zYURrQVFBNDB2TXk4Rl9Ld21rMG55MjNKMTAwdVc2Y2pPZUh4NW5UZkxxUEkyXzRfSVFySzNhSVlsYVRfMlpUV2xPTFZtV2Jrd0M2M1NiS0I4RDRMZkhWemtSRXpTTm50cHhpSENS?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOR21KbmdtZnk1Y2l5SkJHOVZWdEFqbUcxdi1MMmY2SDhTWlRDdnBKdUJPYzBtY2pfRTVGZmZfdXFZQlVzSTFFVEQ2OXIwMVdmSUt0M2VYRkhzU2F4aHl6UmtiT1NqRzdnbmRjS1ZtelprMUpueEJmZklhd3BHQ1pEQVp2MW1zX1gzQzQ4?oc=5",
    "source": "搜狐网",
-   "source_url": "https://m.sohu.com",
+   "source_url": "https://www.sohu.com",
    "time": "2026-10-24T15:59:00+00:00",
    "lang": "zh",
    "section": "ai",
    "sentiment": "negative",
    "signals": [
     "冲击"
-   ]
+   ],
+   "also": []
   },
   {
    "title": "林正峰成「短剧王」仅一年即被AI抢饭碗 做时间管理大师有意转战内地恋综揾真爱",
@@ -3054,11 +3055,7 @@
    "lang": "zh",
    "section": "ai",
    "sentiment": "neutral",
-   "signals": [],
-   "also": [
-    "finance.sina.com.cn",
-    "搜狐"
-   ]
+   "signals": []
   },
   {
    "title": "以AI短剧为桥，诗与远方与泰国媒体共探出海新路径",
@@ -3120,10 +3117,8 @@
    "sentiment": "neutral",
    "signals": [],
    "also": [
-    "搜狐",
     "新浪财经",
-    "证券之星",
-    "ThePaper.cn"
+    "证券之星"
    ]
   },
   {
@@ -3163,7 +3158,8 @@
    "sentiment": "neutral",
    "signals": [],
    "also": [
-    "finance.sina.com.cn"
+    "finance.sina.com.cn",
+    "21财经"
    ]
   },
   {
@@ -3494,6 +3490,9 @@
    "sentiment": "negative",
    "signals": [
     "烧心"
+   ],
+   "also": [
+    "新浪财经"
    ]
   },
   {
@@ -3583,6 +3582,7 @@
     "多快好省"
    ],
    "also": [
+    "新浪财经",
     "ThePaper.cn"
    ]
   },
@@ -3636,8 +3636,7 @@
    "sentiment": "negative",
    "signals": [
     "风险"
-   ],
-   "also": []
+   ]
   },
   {
    "title": "AI短剧用户时长快速增长，现有数据尚不足以证明其将系统性冲击游戏行业",
@@ -3911,6 +3910,22 @@
    ]
   },
   {
+   "title": "AI短剧的下半场：400亿盛宴与98.7%的亏损面",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NZkpQYkhHNzhFZVFQbzNyYVNEZGh4eWtqZzBzM0ZPMGZYY0tDTGd4eWNVY21vdFUzRFI3UTNaLWYxaXF6Vmh6YTNjNGFRaTg?oc=5",
+   "source": "维科号",
+   "source_url": "https://mp.ofweek.com",
+   "time": "2026-10-16T07:00:00+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "negative",
+   "signals": [
+    "亏损"
+   ],
+   "also": [
+    "中金在线"
+   ]
+  },
+  {
    "title": "成本降至十分之一，AI仿真人剧爆发！中国短剧出海加速",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rclg3UnZXbXNQZXp5UmQ1UmNtcW5UUEo2R2ZBTDQ2SHNYZmVLRkNkQzdGeWNKdXZnNk5aS0FzOU1qN2dCZG9jeV9CQUVCUWZZSzAyUmVXTFpFTk92TWdBVEItNllaQQ?oc=5",
    "source": "东方财富",
@@ -3939,22 +3954,6 @@
    ]
   },
   {
-   "title": "AI短剧的下半场：400亿盛宴与98.7%的亏损面",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NZkpQYkhHNzhFZVFQbzNyYVNEZGh4eWtqZzBzM0ZPMGZYY0tDTGd4eWNVY21vdFUzRFI3UTNaLWYxaXF6Vmh6YTNjNGFRaTg?oc=5",
-   "source": "维科号",
-   "source_url": "https://mp.ofweek.com",
-   "time": "2026-10-16T07:00:00+00:00",
-   "lang": "zh",
-   "section": "ai",
-   "sentiment": "negative",
-   "signals": [
-    "亏损"
-   ],
-   "also": [
-    "中金在线"
-   ]
-  },
-  {
    "title": "首批AI精品动画亮相，漫剧出海打开新增量，2026阅文创作大会守护真人原创",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE55MDhjX21mYXhSVmVfNGhmWUdTcGFkYWI5ajI3T2NRZVZlZTVtOFpGYlZINGh0YWdEdk1iRHlNZG5KMFY5b2NRT2RrWnhueDBNQ2Fnbw?oc=5",
    "source": "搜狐网",
@@ -3976,7 +3975,8 @@
    "sentiment": "negative",
    "signals": [
     "同质化"
-   ]
+   ],
+   "also": []
   },
   {
    "title": "AI短剧产能起量催化板块行情！南威软件一字涨停，关注这些机会",
@@ -4252,8 +4252,7 @@
     "真香"
    ],
    "also": [
-    "凤凰网",
-    "QQ News"
+    "凤凰网"
    ]
   },
   {
@@ -4302,7 +4301,6 @@
     "盗脸"
    ],
    "also": [
-    "Jiemian.com",
     "界面新闻"
    ]
   },
@@ -4317,9 +4315,6 @@
    "sentiment": "positive",
    "signals": [
     "爆火"
-   ],
-   "also": [
-    "21财经"
    ]
   },
   {
@@ -5061,9 +5056,9 @@
    "signals": []
   },
   {
-   "title": "AI内容观察系列：AI会取代真人短剧吗？",
+   "title": "AI内容观察系列：AI会取代真人短剧吗？-36氪",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE10a083ZUszbU5qZVFxQ29QUTJ2TTBhM0pRNzMzbk5rV041RVNJX1JET01IMlA2TW4zSnc2Z0lFYmtxNzhWV2ZLNFphZjl4QQ?oc=5",
-   "source": "36氪",
+   "source": "36kr",
    "source_url": "https://m.36kr.com",
    "time": "2026-09-28T07:00:00+00:00",
    "lang": "zh",
@@ -5074,8 +5069,8 @@
    ]
   },
   {
-   "title": "湖北首例AI短剧著作权侵权纠纷案宣判，法院：独创性智力投入是关键",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5OYTI0eHQ4VF9VbEZKb3R0cGxlNE9LQVQ0WG9IWmlDVmRlRXducU0wemxXUzF6SGNlRC1PaFpKQnJDRlNOeC01Q1hNSXRfUU1oTDJfMWpR?oc=5",
+   "title": "湖北首例AI短剧著作权侵权案审结",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QallfbGJGVW9rR09Ka01UQ0ZLaG5fUEZ5ZTkwZEJzaFFtOXpxem1hc21IbkZJQ0tDNmZiQ0dBSjA5MVRSZE42b3p5eXNzend5S2tmTmVR?oc=5",
    "source": "QQ News",
    "source_url": "https://news.qq.com",
    "time": "2026-09-28T07:00:00+00:00",
@@ -16318,7 +16313,7 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000000290/3a98fe44-e15b-4cc1-aee6-ec3c1aeb7ad0.jpg",
    "synopsis": "Chef Leon Kennedy, once the \"King of Cooking,\" fell apart after his wife died in a tragic car accident. His deep depression led hi",
    "episodes": 86,
-   "views": 132479181,
+   "views": 132480249,
    "likes": 1002919,
    "tags": [
     "Male",
@@ -16334,8 +16329,8 @@
    "cover": "https://v-mps.crazymaplestudios.com/images/60262d50-c45e-11f0-84ad-6b5693b490dc.jpg",
    "synopsis": "Claire, a small-town girl working at a fried chicken shop, accidentally stumbles into the hotel suite of U.S. President William. A",
    "episodes": 45,
-   "views": 14292522,
-   "likes": 69337,
+   "views": 14292613,
+   "likes": 69336,
    "tags": [
     "Female",
     "Series",
@@ -16350,8 +16345,8 @@
    "cover": "https://v-mps.crazymaplestudios.com/images/7df88710-2845-11f1-84ad-6b5693b490dc.jpg",
    "synopsis": "Scarlett Spades, a seemingly ordinary housewife, is secretly the last heir of the murdered Gambling King, forced into hiding since",
    "episodes": 56,
-   "views": 10305970,
-   "likes": 70842,
+   "views": 10306249,
+   "likes": 70841,
    "tags": [
     "Car Accident",
     "Casino",
@@ -16366,8 +16361,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000002919/246ba742-51de-407f-bc76-14a2d5940afb.jpg",
    "synopsis": "Elena is chair of the Cooper Group. She handed the company over to her husband, Dalton. Elena returns to board of directors after",
    "episodes": 40,
-   "views": 44055765,
-   "likes": 370134,
+   "views": 44057163,
+   "likes": 370137,
    "tags": [
     "Female",
     "Series",
@@ -16382,8 +16377,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000000398/2e2e22e0-c717-439c-b961-5edd63c60409.jpg",
    "synopsis": "Timothy, adopted by the wealthy Snyder family, grows up devoted to his three older sisters — until the day their biological son, M",
    "episodes": 55,
-   "views": 90655765,
-   "likes": 1103904,
+   "views": 90656592,
+   "likes": 1103907,
    "tags": [
     "Male",
     "Series",
@@ -16398,8 +16393,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000005418/5507e9c1-44cd-4b4f-984f-afa8a436a4c6.jpg",
    "synopsis": "Once a business elite, Silas is framed for murder by his rival Chase and his own wife Marina. Sentenced to 60 years, Silas endures",
    "episodes": 64,
-   "views": 41824095,
-   "likes": 321795,
+   "views": 41828910,
+   "likes": 321811,
    "tags": [
     "Male",
     "Series",
@@ -16414,8 +16409,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/201300000000005158/966beb48-3bf3-451d-a98f-0b769f013d42.jpg",
    "synopsis": "She's his mystery bride. He's looking for her master. When a rival tears them apart, she walks away—but comes back to save everyth",
    "episodes": 46,
-   "views": 2922168,
-   "likes": 29124,
+   "views": 2922214,
+   "likes": 29123,
    "tags": [
     "Female"
    ],
@@ -16427,8 +16422,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000005660/791356ef-d0fe-4408-85a6-f18dbc1c26e2.jpg",
    "synopsis": "Marcus, a warlord who controls America’s economy and weapons, attends his brother Reed’s wedding. Mistaken for a delivery worker b",
    "episodes": 56,
-   "views": 46072345,
-   "likes": 537537,
+   "views": 46075291,
+   "likes": 537560,
    "tags": [
     "Male",
     "Series",
@@ -16443,8 +16438,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000000297/40233b12-167d-480c-8541-1d534552c048.jpg",
    "synopsis": "The Iron Marine, Toby Stark, returns home after saving the country only to be brutally dumped by his ex who as no clue he's the ri",
    "episodes": 74,
-   "views": 36784788,
-   "likes": 203830,
+   "views": 36785254,
+   "likes": 203832,
    "tags": [
     "Male",
     "Series",
@@ -16459,8 +16454,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/202000000000006900/bdec8a3d-6314-4da3-b9d0-2c2ba58297b0.jpg",
    "synopsis": "Framed by her cheating boyfriend, Elsie is sent to prison, where she gives birth to a daughter she's told has died. Three years la",
    "episodes": 66,
-   "views": 841317,
-   "likes": 17891,
+   "views": 858165,
+   "likes": 18183,
    "tags": [
     "Female",
     "Billionaire",
@@ -16475,8 +16470,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000007655/56a1edb3-66b9-43f6-8ef4-8e005dc49d7e.jpg",
    "synopsis": "In the beastkin world, Toby (a rabbit whose impending marriage was called off) is forced into an arranged marriage with Enzo (the",
    "episodes": 38,
-   "views": 1902037,
-   "likes": 27090,
+   "views": 1904536,
+   "likes": 27121,
    "tags": [
     "LGBTQ",
     "Adults Only",
@@ -16491,8 +16486,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000006008/bd72681c-aa81-497d-80d5-687cd12f61cd.jpg",
    "synopsis": "Alice is swept into the undersea world of Atlantis and becomes the mute, wicked supporting character everyone despises: the disgra",
    "episodes": 42,
-   "views": 1414353,
-   "likes": 22758,
+   "views": 1415629,
+   "likes": 22769,
    "tags": [
     "Female",
     "Fantasy",
@@ -16507,7 +16502,7 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200151000006769/c4327bd9-3c75-40c2-813b-e5559d7b54dd.jpg",
    "synopsis": "Abe Tatum is a transmigrator and a Great Emperor. But all he wants is a peaceful life and hides his true strength at the Azure Clo",
    "episodes": 56,
-   "views": 528477,
+   "views": 528535,
    "likes": 13340,
    "tags": [
     "Male",
@@ -16523,8 +16518,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000006590/286b94fe-5ffb-4762-81f4-6ff4e79993c4.jpg",
    "synopsis": "Odysseus is the secret demigod son of Apollo, bound by a deathbed vow to give his queen, Antigone, a hundred chances to earn his t",
    "episodes": 40,
-   "views": 2653494,
-   "likes": 28192,
+   "views": 2654547,
+   "likes": 28201,
    "tags": [
     "Male",
     "Fantasy",
@@ -16539,8 +16534,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000005826/8f88747b-7b58-4fe9-9faa-d0ff8604009e.jpg",
    "synopsis": "After the Iron Sheep Kingdom falls, Prince Leigh is offered to Kaelen, the Blood Lion King cursed by berserker blood, becoming the",
    "episodes": 46,
-   "views": 1291897,
-   "likes": 21744,
+   "views": 1292382,
+   "likes": 21752,
    "tags": [
     "LGBTQ",
     "Gay",
@@ -16555,8 +16550,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000006211/3c5272bb-bf15-46ea-8092-5b88abbfe29a.jpg",
    "synopsis": "In the Mecha Age, girls who turn 18 can transform into powerful mechas and go to the battlefield, while men can become Pilots and",
    "episodes": 58,
-   "views": 9061056,
-   "likes": 65120,
+   "views": 9062404,
+   "likes": 65122,
    "tags": [
     "Male",
     "Fantasy",
@@ -16571,7 +16566,7 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000005956/d9e287c6-a137-4e9e-9257-e7a9492e57cd.jpg",
    "synopsis": "Trash dog’s epic counterattack! Inheriting Anubis’s legacy, he evolves by devouring everything! Tortures villains, protects his ma",
    "episodes": 35,
-   "views": 740794,
+   "views": 740838,
    "likes": 10219,
    "tags": [
     "Female",
@@ -16587,8 +16582,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000005599/b927f5fb-9418-4944-9dbe-a74e1204f778.jpg",
    "synopsis": "Khloe has always played by the rules until her sister's life depends on money she doesn't have. So she signs the unthinkable: marr",
    "episodes": 48,
-   "views": 1038931,
-   "likes": 13440,
+   "views": 1039120,
+   "likes": 13441,
    "tags": [
     "Billionaire",
     "Marriage of Convenience",
@@ -16603,8 +16598,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000005365/49b98298-0382-402a-9019-859a683565cf.jpg",
    "synopsis": "My Pureblood husband won't touch me. He sleeps in my stepsister's wing. So I bought a wrecked half-blind mongrel Orc on a curb for",
    "episodes": 35,
-   "views": 6765756,
-   "likes": 79489,
+   "views": 6766099,
+   "likes": 79490,
    "tags": [
     "Female",
     "Fated Lovers",
@@ -16619,8 +16614,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200151000005314/1ee76a8d-1b86-44d2-b3c7-51daf71731ac.jpg",
    "synopsis": "Tana is the LAST fire dragon alive—and she's hiding that secret in a cage where the losers DIE. Every night Tana heals Cedric, the",
    "episodes": 48,
-   "views": 5194719,
-   "likes": 43259,
+   "views": 5197033,
+   "likes": 43269,
    "tags": [
     "Female"
    ],
@@ -16642,12 +16637,12 @@
   {
    "name": "短剧 平台 when:14d",
    "ok": true,
-   "count": 49
+   "count": 100
   },
   {
    "name": "短剧 出海 when:14d",
    "ok": true,
-   "count": 97
+   "count": 95
   },
   {
    "name": "红果短剧 when:14d",
@@ -16657,7 +16652,7 @@
   {
    "name": "短剧 监管 OR 广电总局 when:30d",
    "ok": true,
-   "count": 62
+   "count": 63
   },
   {
    "name": "microdrama OR micro-drama when:14d",
@@ -16667,12 +16662,12 @@
   {
    "name": "\"vertical drama\" OR \"short drama\" app when:14d",
    "ok": true,
-   "count": 95
+   "count": 98
   },
   {
    "name": "ReelShort OR DramaBox when:14d",
    "ok": true,
-   "count": 91
+   "count": 61
   },
   {
    "name": "AI短剧 when:30d",
@@ -16702,17 +16697,17 @@
   {
    "name": "AI 短剧 版权 OR 侵权 OR 换脸 when:30d",
    "ok": true,
-   "count": 41
+   "count": 42
   },
   {
    "name": "AI 短剧 冲击 OR 取代 OR 失业 when:30d",
    "ok": true,
-   "count": 39
+   "count": 40
   },
   {
    "name": "AI microdrama OR \"AI-generated\" vertical drama when:30d",
    "ok": true,
-   "count": 59
+   "count": 60
   },
   {
    "name": "generative AI microdrama actors OR jobs OR cost when:30d",
@@ -16731,8 +16726,9 @@
   },
   {
    "name": "红果短剧官网 热播榜",
-   "ok": true,
-   "count": 300
+   "ok": false,
+   "error": "The read operation timed out",
+   "stale": true
   }
  ]
 }
