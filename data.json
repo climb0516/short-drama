@@ -1,6 +1,42 @@
 {
- "updated_at": "2026-10-27T04:28:42+08:00",
+ "updated_at": "2026-10-27T08:25:04+08:00",
  "industry": [
+  {
+   "title": "中信建投：AI艺人、AI综艺有望接棒AI短剧 成为AI+影视爆发点",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTEZiSXNsQ0h0RlBZaVcyYVpfdjNIT1NMbEpEMjU3SDZ1Ui1Qc2ZVQ2k5OHNRTXB4ZXVNd0hmelg2ejNQZjlQenpjVXZNY3FuX2Jzck1pdWRGNUNubTEyMlZSNmZpWDRtT1BxY2tvRExXUW84VjNxRWIwTHZjRExLWWEzRjV5YUZ6WDNyYg?oc=5",
+   "source": "搜狐网",
+   "source_url": "https://m.sohu.com",
+   "time": "2026-10-27T00:10:00+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": true
+  },
+  {
+   "title": "人民日报刊文谈AI微短剧：技术迭代一日千里，但文艺精品培育从没捷径",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zRFVOTmo0MnNmX01aZVJrZE5SUEFDUjFXeDl6LXZxVXpmVF8wX1MzbFRFQldkYXR3TGZlVGlHdnNVeFhSZk9SNy1OcWptU1NuY2NxbDFwbUlTdEFhTVNYMw?oc=5",
+   "source": "ThePaper.cn",
+   "source_url": "https://www.thepaper.cn",
+   "time": "2026-10-26T23:42:00+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": true
+  },
+  {
+   "title": "The Microdrama Boom: a Bloodbath in the Making",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXQkpDajZRRDRITFphR3ZKekRmWl9Tb3hKLWtGYzZPVDJhNkdmZVNUMlVoODFVdDRMUndLUnpBMWtTdWVvcndGSVlUcnh4eXVLVGVvY1Y5YjBIeG9sMEUzdlNqbWw3U0RxWl9QTGRTc0JseFBzckZV?oc=5",
+   "source": "The Ankler",
+   "source_url": "https://theankler.com",
+   "time": "2026-10-26T21:37:14+00:00",
+   "lang": "en",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": false,
+   "also": [
+    "EarlyGame"
+   ]
+  },
   {
    "title": "JaNa Craig on Microdrama Series, Keeping Love Life Private & New Lash Brand (Exclusive)",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONWRVa1V0ZWpMY2JnRjh2OXRDSHJBOFNCSFk3ZFFWR0FUdGRlaUNYN1Y0Ull0bWd0cnV3Tm4tV2JIeWNxRzEySndCS2VLaG4yLUc5bElYMFhPUHRSdktBNTZqZXptaVBtcU10a0prbDEwN19NdjBBX1JNNmhCUE4tX1FTV2hPWmotQkVRRTlTdThoUUpqZWdfWTVSMVlKOGF5UWFZSEhRM1YyczY2ZTZ1dTVPeVRJVGVBRlE?oc=5",
@@ -13,14 +49,14 @@
    "ai_related": false
   },
   {
-   "title": "'HBO' of Micro Drama Apps Is Shutting Down",
+   "title": "The app that sought to be the HBO of micro dramas is shutting down",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOejRIdTJkbWZ3aUNnMUdGTVRiTmxkVmZLN19TeEhGcGRnSGVLdkF0WEhLbFRjM2x0X2plSnRSWERZTG5SSl9rRVRMeHEtMVk2LUZMY2FvejUyS0NaeWQyNHhtYUhYWHRXU1ZqOFkxS09lbk4zZHNvZW1ObGxIYlFmS25NWWhybWIzc0RWSDUtRXItak9SNVN2bmVGWnE?oc=5",
    "source": "Business Insider",
    "source_url": "https://www.businessinsider.com",
-   "time": "2026-10-26T16:14:05+00:00",
+   "time": "2026-10-26T17:10:00+00:00",
    "lang": "en",
    "section": "industry",
-   "topic": "general",
+   "topic": "platform",
    "ai_related": false
   },
   {
@@ -45,7 +81,7 @@
    "topic": "general",
    "ai_related": true,
    "also": [
-    "www.mrjjxw.com"
+    "每日经济新闻"
    ]
   },
   {
@@ -85,6 +121,90 @@
    "ai_related": true
   },
   {
+   "title": "“文艺轻骑兵”上新！江苏“微短剧+”主题创作征集推广活动取得阶段成效",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQa1pXMDRPWTRRbWtNTnFKR3hGaWhTMHhkMXRlYXZqVGF0dTNZalNhbGhyaGtueThZRy1yUk9lQ2M3X1A1Q0hxZlJOa0NLSkRPNk1vZk01OVZYa2NvQ003MTlqLTI0ZVM1NGxFRS1vU3hGcTkwdDZCZDBYbVpfamhBanNSai1LSDh0NUdB?oc=5",
+   "source": "中国江苏网",
+   "source_url": "https://jsnews.jschina.com.cn",
+   "time": "2026-10-26T13:59:00+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": false
+  },
+  {
+   "title": "一天看15小时！ 六旬母沉迷AI短剧网民求助：如何让她醒| 世界万象| 東方網馬來西亞東方日報",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42bTRVYzhJWWFVa2VGNGx6LThJblB6ckd6aC0xVFpjVGNhbHhTWGs4UnZCdTFhdGR3Y1dZaFlURG8tYkI0SFRvTFUxM1JIWjMydVpzVURnQlFHU3haN0FxU1JRZTR1NW44MVY5aA?oc=5",
+   "source": "马来西亚东方日报",
+   "source_url": "https://www.orientaldaily.com.my",
+   "time": "2026-10-26T13:51:00+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": true
+  },
+  {
+   "title": "刷AI短剧真的会把人看“笨”吗？",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSDdlSXgyUkY3NFV2LXJBVU5VTm8yZ01HNVlia3BBWEFpUnlpcFkwNklnOHc1UFAtNFdFSDc5OWVHZGxSTzVNYVc0NUpfZ1R6SlVyWWNiZ3l0anNWTVBMckFyNEkwYTA1QlVmOURNbXZiYllUY1hhRFctYU9oLWhGVGFJY2dCUQ?oc=5",
+   "source": "手机新浪网",
+   "source_url": "https://t.cj.sina.cn",
+   "time": "2026-10-26T13:30:19+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": true
+  },
+  {
+   "title": "【微短剧《孤本风云之宸濠招》超前看片会举办 ，#王道铁说新角色超自己预期# 】10月26日，#孤本风云之宸濠招超前看片会# 在京举办，主演王道铁以“听雨斋”陈老板的身份，跟大家聊聊这场书页间的潜伏博弈！“我们是抗日战争时期一个秘密地下党组织，任务是守护文",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWnZoVFFJOGt1OHZMcGVSaVBIRk9QUFpzUlJ5cGJHaVkwcC03cklleTRSNm9ZczNqSDNCSnJvR2FrUUxrYjRZelZma3IyU0k0TnV3S2hvOG1hLVdod2lTYkNmcVIzN1U0aS1OWFJlbE4xOW9BNmc4QzR0ZE5Ud3dQMllwRzdvWTZ6?oc=5",
+   "source": "搜狐网",
+   "source_url": "https://m.sohu.com",
+   "time": "2026-10-26T13:29:54+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": false
+  },
+  {
+   "title": "超前看片会提前解锁精彩，微短剧《孤本风云之宸濠招》书写文化抗战传奇",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVkN4UHR6WEloazVuTjByOFc1Um5OeDF2Rmo4MFRzMkxyQm1oSWVMakdwOHh3WVJHbzhDTFROeUdvTVhPeU1BZUxtN0dRMWtsNnJKOGF6QXdCZ2JzMGhqQmx2VUNVWTVOWTFsTjlTVHUtYWw2Tk5iZHp4THdBTHFHS1A3LVgydHRv?oc=5",
+   "source": "搜狐网",
+   "source_url": "https://m.sohu.com",
+   "time": "2026-10-26T13:07:00+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": false,
+   "also": [
+    "京报网"
+   ]
+  },
+  {
+   "title": "绿泡泡短剧环比增长44%，月活过亿",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE00bUtPTkMwZEpXN0p6T2JTaVZwOWJYa2NlRFBUdWFuSlZzQkhvQmVMMkVlR3VHZXJjaUhJX094ZW1mS3pwd05KYWhRaHJxV0hwVGlDbVBKeWVnNWZlWXdBTXF4emVlUXRIOWtrTWZpdkpLUQ?oc=5",
+   "source": "金融界",
+   "source_url": "https://m.jrj.com.cn",
+   "time": "2026-10-26T12:28:37+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "data",
+   "ai_related": false
+  },
+  {
+   "title": "即梦推出 “短剧工作室”，打造更全能的 AI 内容创作平台",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EWGlxenA3djFUUHpuYmdfeVV5dmc1RnktUGV6eFN3MGNOVVhvM29HNWhRMmp0NmRNYzFKODhsYURzMms4aGpQWHJPd0ZsNDJwZElobzZvSS0zUGtOWUE?oc=5",
+   "source": "DoNews",
+   "source_url": "https://www.donews.com",
+   "time": "2026-10-26T12:05:44+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "platform",
+   "ai_related": true,
+   "also": [
+    "Sohu",
+    "雷峰网"
+   ]
+  },
+  {
    "title": "即梦AI上线“短剧工作室”：一站式整合剧本创作、资产管理和智能分镜，深度融合小云雀短剧Agent能力",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5yWDhRSDB0WVN2UnBmM3pOYUw1MWhtVEl0LVJaLUFZWF9iQk9CRkt5WWVQeFFOZ1RNNHBkakJBZDB3Zk9RRFp4aDczUmtlQV9NZGNxc3F1eDNvaDdwbmc?oc=5",
    "source": "SmartHey",
@@ -107,18 +227,26 @@
    "ai_related": false
   },
   {
-   "title": "即梦推出 “短剧工作室”",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNY1FGcnhnZkROdldXS0ZPbXdtaHFOLWlGQVJnQmN4Y1FUTjFoczJudVpCUDA3bkdIeENfck12NWh4b1Z6YmJtcnRnazlldXNCNldTaGxrbEJfbGZXREZRbGxMWFdRYjJrWnJwZTJ0ejhKZ2Q2UzVYNGF1b3hPTEItNmdUWGRqU3VO?oc=5",
-   "source": "Sohu",
-   "source_url": "https://m.sohu.com",
-   "time": "2026-10-26T11:52:10+00:00",
+   "title": "中国AI影片被逆统战！恶搞短剧“薇妮女皇习静萍” 87%像辣眼掀热议",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1UVFk2YWtQOXJ4bGRYZnlhTkVUSTA2aXdDQ1RndDEwNExoZm1MSElySm9POWYzMC1iQjFUazFXUTQ1QzRWcHZLdEFwcFloaUo0TDI4bHdnNkgzWkl0Wnc?oc=5",
+   "source": "阿波罗新闻网",
+   "source_url": "https://www.aboluowang.com",
+   "time": "2026-10-26T11:41:47+00:00",
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": true,
-   "also": [
-    "雷峰网"
-   ]
+   "ai_related": true
+  },
+  {
+   "title": "课文短剧单集破亿却入不敷出，团队如何面对大量中小学生的催更？| 大蓝鲸播客《铁坤讲故事》讲述“郝家豁”团队的情怀与期待",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxTHBHeXlUYXVsNVRnUGRMOEd6eXc5a0V6dkZJajdER1lfNHYtd3VvTG5jeEkxcVdIYXlGMmZYYzlPSlRqZ3haU24yWkNLdHNaZFFxOVlTNjdudjgzZHhCRFRkUm5WMHZ2dkMzdDNYaFBqLTJXZEE?oc=5",
+   "source": "新浪财经",
+   "source_url": "https://finance.sina.com.cn",
+   "time": "2026-10-26T11:31:24+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": false
   },
   {
    "title": "字节跳动或将整合AI短剧业务，小云雀并入即梦",
@@ -176,6 +304,28 @@
    "ai_related": false
   },
   {
+   "title": "用AI打开河湟历史 青海首部AI真人写实短剧正式上线",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yNjZnTGFndGpVcWlYS1VCRnFfY21iWUw5VUVqOS1hazhnWENpMnVaWHItRkg4NGNpMTR4dDVBQkZWSW9WWF85ekRSYXNGSk0zU2VsTkhzbk13Q1hkbmp5b0hNa09WcXpzd3Y3Q0ZES0g4SDIw?oc=5",
+   "source": "青海新闻网",
+   "source_url": "http://www.qhnews.com",
+   "time": "2026-10-26T09:34:12+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": true
+  },
+  {
+   "title": "字节跳动旗下即梦AI短剧工作室上线，提供自研剧本、图片、分镜模型",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SYXJscVFnckxiTWV6Wkp3ZlQzZmlKUmJuMlI3Q29CQjJ2djNkajJfcnJCc0E3MkJ6Y1ZYdXAwTFZIdF9LckR3VGxoWGE?oc=5",
+   "source": "凤凰网科技",
+   "source_url": "https://tech.ifeng.com",
+   "time": "2026-10-26T09:16:04+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "platform",
+   "ai_related": true
+  },
+  {
    "title": "红果上线“休息提醒”等功能，短剧开始劝观众歇一歇？",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeUdIbTQxY3hDVFB4dzhNaXpGWWpaQThQTXhlQ0dzV21oakd6eU1LV3RHNUhKTFotQWFnYmtGc0d3MVNLeGJsVXZLT3NGWjEySUYwMS1zdm12akFRSHh1Qk04Sll4RFhfSFRXOUZzSVMzSmZjQTJFYjNocHNjdW1kZTZ2SjFEWGdmTTM0?oc=5",
    "source": "新浪财经",
@@ -184,7 +334,19 @@
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
-   "ai_related": false
+   "ai_related": false,
+   "also": []
+  },
+  {
+   "title": "整合小云雀成熟能力 即梦正式上线 “短剧工作室”",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVDd1Z1Vvc2xRemo0bDZ5OHJXbkY1SDNYN2tHU0JBc0p4N1ZOTjNOTy1KRlBaa0lvbWZjT1dIdFFLb3FSZ3FkWFRfWTlXdU1MWlpUbTNFNjVKMmF5bUV5S3U2LU5WT3NyLXA4WnFuZzAtXzJVS25yTFR0MXJsbC0xY3NwMEloX0VFdzFEVFNTNDdqbFFUcnVWeFkxU2xhZzEyanNOZjF5U0Nka1A5cmZXWElNekxyb0VJb055S3YtQ185MDZDU3lYTkNIOXl6TXRB?oc=5",
+   "source": "新浪财经",
+   "source_url": "https://finance.sina.com.cn",
+   "time": "2026-10-26T08:20:58+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": true
   },
   {
    "title": "字节跳动即梦AI上线短剧工作室 提供3个自研模型",
@@ -199,7 +361,7 @@
   },
   {
    "title": "撤金币、防沉迷，短剧的“红绿大战”没戏了",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xaW5KX205YjFOeHU1U1huTVZUZmNJUW9HVjBJRXMxelFiaGx6MkptcU9XcGh1S3k3eHpQa25ubmFfYkZucE1TRXk1WlhJdERKcWxWQXpNbkRrMW9jYW9MSw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wYWJ5WnRxRkhRQ3Y4cmlGUGRXSms3QVhYQURJbHF5c3JuU2dkUGpCbHB6YXFiZGRwbUxlc3JYamltOXpKU0hXNXBOb2NjWjMyb0VRSWdTcUZxOVVQblNPOTd1YlJNc3RoeVZYRERwQTZYQQ?oc=5",
    "source": "ThePaper.cn",
    "source_url": "https://www.thepaper.cn",
    "time": "2026-10-26T07:45:00+00:00",
@@ -278,6 +440,17 @@
    "section": "industry",
    "topic": "platform",
    "ai_related": false
+  },
+  {
+   "title": "马斯克拍AI短剧被群嘲，高赞评论称，“简直烂透了……”",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jTTNhRFJCX1doY0lhdzVCS1NrTzRrTXRCelV1clNuRDN0aUNPWXhZWGtnNThiOXIzNEJJcl9WNmtRQ2l4Nlh2Y2xHVm5BWW5JM1BHOS0tNHRseGsxaFFfaGIyUm9YUHVkZHhj?oc=5",
+   "source": "华龙网",
+   "source_url": "https://www.cqnews.net",
+   "time": "2026-10-26T04:42:09+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": true
   },
   {
    "title": "红色文旅微短剧《朝花》获广电总局推优，上戏、澎湃联合出品",
@@ -428,10 +601,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
-   "ai_related": false,
-   "also": [
-    "ThePaper.cn"
-   ]
+   "ai_related": false
   },
   {
    "title": "Microdrama ‘Blacked Out’ Surpasses 3M Views Globally on TikTok’s PineDrama",
@@ -533,6 +703,17 @@
    "ai_related": false
   },
   {
+   "title": "中美AI，输赢难道取决于短剧？",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZektscFNwNTZDMTRuYkhNdXJSekY3WjNmcjA5SFY0cmtfS1FpeFF5THdGOTFLTmp0aW5ybmlVZGo1eXdBenlOZEdlNzlOZw?oc=5",
+   "source": "36Kr",
+   "source_url": "https://m.36kr.com",
+   "time": "2026-10-25T09:27:00+00:00",
+   "lang": "zh",
+   "section": "industry",
+   "topic": "general",
+   "ai_related": true
+  },
+  {
    "title": "能拍AI短剧、普通人也能过戏瘾，北京“竖店”变样了",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRjRZX19wWGpXRGZoOVVJWUpMSDFmcTUyUXJ6cWJVTnk0c0kyWUFISHdJS0l6YWVOMmVLMUF4WHVTcVVDMVBXQXU5bUNZaHFpLWlfRUdXODEyc19JanpudFNQSzFHQ0Z1dVpvVk1sNFBwMm5HdTJnSFVtTXYzQ0VtUGJsTnVSdm5Gc0M5Yk1R?oc=5",
    "source": "手机新浪网",
@@ -543,8 +724,7 @@
    "topic": "general",
    "ai_related": true,
    "also": [
-    "搜狐网",
-    "新京报"
+    "搜狐网"
    ]
   },
   {
@@ -570,7 +750,6 @@
    "ai_related": false,
    "also": [
     "东方财富",
-    "21财经",
     "新浪财经",
     "Sohu",
     "财联社"
@@ -620,9 +799,8 @@
    "topic": "data",
    "ai_related": false,
    "also": [
-    "搜狐网",
     "证券之星",
-    "Sohu"
+    "搜狐网"
    ]
   },
   {
@@ -666,10 +844,12 @@
     "凤凰网",
     "中新经纬",
     "流媒体网",
+    "凤凰网财经",
     "证券之星",
     "观点网",
     "雷科技",
-    "Sohu",
+    "新浪网",
+    "搜狐网",
     "ThePaper.cn",
     "新京报",
     "搜狐",
@@ -911,7 +1091,7 @@
    "topic": "platform",
    "ai_related": false,
    "also": [
-    "finance.sina.com.cn"
+    "新浪财经"
    ]
   },
   {
@@ -927,8 +1107,7 @@
    "also": [
     "IMDb",
     "TheWrap",
-    "Forbes",
-    "www.nationpathindia.com"
+    "Forbes"
    ]
   },
   {
@@ -1044,10 +1223,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "data",
-   "ai_related": true,
-   "also": [
-    "搜狐"
-   ]
+   "ai_related": true
   },
   {
    "title": "“双十一”战场，短剧是品牌的解药吗？",
@@ -1141,10 +1317,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
-   "ai_related": false,
-   "also": [
-    "京报网"
-   ]
+   "ai_related": false
   },
   {
    "title": "AI导演月薪可达30k+！广东AI短剧应用师实战课报名入口开放，学爆款AI短剧技巧，不限经验符合条件可参与",
@@ -1155,10 +1328,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": true,
-   "also": [
-    "Sohu"
-   ]
+   "ai_related": true
   },
   {
    "title": "房企豪掷20万拍短剧，千万流量能换来成交吗？",
@@ -1299,10 +1469,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": false,
-   "also": [
-    "东南网"
-   ]
+   "ai_related": false
   },
   {
    "title": "赵薇久违现身！自曝尝试AI影视创作、常看AI短剧",
@@ -1357,10 +1524,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": false,
-   "also": [
-    "紫牛新闻"
-   ]
+   "ai_related": false
   },
   {
    "title": "海外AI短剧进入跑马圈地后期：粗放堆量窗口收窄，竞争转向精品化与变现闭环",
@@ -1410,10 +1574,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": true,
-   "also": [
-    "科学网—新闻"
-   ]
+   "ai_related": true
   },
   {
    "title": "2026海峡两岸（厦门）短剧交流汇举办",
@@ -1428,7 +1589,6 @@
    "also": [
     "fjrb.fjdaily.com",
     "中国台湾网",
-    "央广网",
     "人民网-福建频道",
     "厦门网"
    ]
@@ -1497,10 +1657,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": true,
-   "also": [
-    "华商网"
-   ]
+   "ai_related": true
   },
   {
    "title": "红果与绿泡泡之争，腾讯这次能赢吗？",
@@ -1536,7 +1693,7 @@
    "ai_related": false,
    "also": [
     "新浪新闻_手机新浪网",
-    "搜狐网"
+    "搜狐"
    ]
   },
   {
@@ -1652,8 +1809,7 @@
    "topic": "general",
    "ai_related": false,
    "also": [
-    "新华报业网",
-    "中国江苏网"
+    "新华报业网"
    ]
   },
   {
@@ -1676,10 +1832,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": true,
-   "also": [
-    "手机新浪网"
-   ]
+   "ai_related": true
   },
   {
    "title": "字节海外短剧平台由TikTok团队运营 采用免费模式扩张",
@@ -1864,9 +2017,7 @@
    "section": "industry",
    "topic": "general",
    "ai_related": true,
-   "also": [
-    "36氪"
-   ]
+   "also": []
   },
   {
    "title": "Issa Rae to Launch ‘Parental Advisory’ Microdrama at TikTok | Exclusive Video",
@@ -1946,10 +2097,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
-   "ai_related": false,
-   "also": [
-    "中国经济网"
-   ]
+   "ai_related": false
   },
   {
    "title": "AI漫剧的老板们在给算力打工",
@@ -2050,7 +2198,7 @@
    "topic": "data",
    "ai_related": false,
    "also": [
-    "21财经"
+    "蓝鲸财经"
    ]
   },
   {
@@ -2076,10 +2224,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": false,
-   "also": [
-    "Sohu"
-   ]
+   "ai_related": false
   },
   {
    "title": "红果关闭金币功能，把观众的时间明码标价了|红果|字节跳动|野村_新浪新闻",
@@ -2123,10 +2268,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "capital",
-   "ai_related": true,
-   "also": [
-    "搜狐网"
-   ]
+   "ai_related": true
   },
   {
    "title": "短剧·眉妩择君归-第6集-沈眉妩重生在选妃宴，为避开前世负她的太子萧宴，亲手点下克夫痣主动落选。前世她被萧宴与白吟霜联手",
@@ -2183,8 +2325,7 @@
    "topic": "general",
    "ai_related": true,
    "also": [
-    "观察者网",
-    "搜狐网"
+    "观察者网"
    ]
   },
   {
@@ -2232,15 +2373,18 @@
    "ai_related": true
   },
   {
-   "title": "忻州一部本土原创剧上线红果短剧平台！",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUHY4NzlIejYzb251TnRiR2kyYnJtb3lueHhoU1BPaXhSMU9PcWdVZFEzYnY0NktseWVqSGRtSU5tMmJLc083TTN2V1VYVkpNWmhZY1B0ZU5hZVpTdEpXeElJRl9QNldKQlNmQldNNklyNXI3RTdIbmxmeUZJNXo2Njc2U20?oc=5",
-   "source": "新浪财经",
-   "source_url": "https://finance.sina.com.cn",
+   "title": "忻州一部本土原创剧上线红果短剧平台",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9QOU8zTk4zVGVtTDFVU0JzZ2pCa3hvZVJ4RzFOLUxlQ3VKTFA3UWZUYlpETjR4MUJPck9CQkN1MzVJd01nVkhoTXB1Umc?oc=5",
+   "source": "凤凰网",
+   "source_url": "https://feng.ifeng.com",
    "time": "2026-10-22T10:06:28+00:00",
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
-   "ai_related": false
+   "ai_related": false,
+   "also": [
+    "新浪财经"
+   ]
   },
   {
    "title": "短剧·别让眼泪落下-第34集-周慧嫁入张家受尽苛待，女儿身患白血病急需救治，丈夫张大山辛苦寄回的血汗钱，尽数被恶婆婆与小",
@@ -2427,10 +2571,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": false,
-   "also": [
-    "中国新闻网"
-   ]
+   "ai_related": false
   },
   {
    "title": "微短剧成文化出海新引擎：中传报告解码“川味”短剧全球化路径",
@@ -2441,10 +2582,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "overseas",
-   "ai_related": false,
-   "also": [
-    "川观新闻"
-   ]
+   "ai_related": false
   },
   {
    "title": "“新时代新西藏新篇章”第二届西藏微短剧大赛优秀作品揭晓_独家采编",
@@ -2521,7 +2659,8 @@
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
-   "ai_related": false
+   "ai_related": false,
+   "also": []
   },
   {
    "title": "短剧·婆家偏心妯娌，我高调掀桌了-第20集-都说嫁人别嫁两兄弟的家庭，可蓉蓉偏偏信了人心换人心。当大嫂这些年，她出钱出力",
@@ -2558,15 +2697,16 @@
   },
   {
    "title": "告别“看剧赚金币”：红果短剧为何自砍摇钱树？",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQjJjamNoekVROUF3WTFleUhobVFhb1Z4clM3Q0NWblY4MFRzYXMzMjdDNXVNWm9hUWoyR3RJZXZZV240YkhXYTlaUGZRZlVhM01EU1lnT1VvSi1DUUdqVW5sc3dJVGNOLV85VzE5OFF0dXNMeVVFMDk2M0FkTE5PM3J0dW8xcEp6?oc=5",
-   "source": "搜狐网",
-   "source_url": "https://m.sohu.com",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OSFlfYXR1Rk84RWllclRWdkxTRUY1bnNJWEFsMS1JQ3dZMlpmbjlLZWtQelA4OEZORm1jTXVVMWI2NHhYZ0VUalVKcHN4Q1NfNGc?oc=5",
+   "source": "Sohu",
+   "source_url": "https://www.sohu.com",
    "time": "2026-10-22T06:34:04+00:00",
    "lang": "zh",
    "section": "industry",
    "topic": "platform",
    "ai_related": false,
    "also": [
+    "搜狐网",
     "新浪财经"
    ]
   },
@@ -2601,10 +2741,7 @@
    "lang": "zh",
    "section": "industry",
    "topic": "general",
-   "ai_related": false,
-   "also": [
-    "雷达财经"
-   ]
+   "ai_related": false
   },
   {
    "title": "AI 短剧《龙鹰》：汉朝罗马战争画面成熟，独家签约无法转发|画画的小黑|抖音|LibTV|AI 短剧_新浪新闻",
@@ -2660,196 +2797,26 @@
    "section": "industry",
    "topic": "general",
    "ai_related": false
-  },
-  {
-   "title": "短剧·宫墙不困春-第23集-讲述宫女柳舒窈经历前世深宫浮沉后重来一世。她不再沉溺旧情，只愿守住清醒与尊严。可命运再次将她",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Qc0loM0lCcmdOX1BST1daalowRl9yNExRd1RwZEs4cV9BcElVMDU1Y2FLS1BJWmJSLUFDNnZXZGJJLV96RE9HN21MbVk5YnI0SXdHRTJ1NkxNMHJjQkV2SmhvRFdMcFpuMFR5aFdwMGplRXM?oc=5",
-   "source": "新浪网",
-   "source_url": "https://k.sina.com.cn",
-   "time": "2026-10-22T05:58:44+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "general",
-   "ai_related": false
-  },
-  {
-   "title": "微短剧《包拯在端州》",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sQlpGVUdka0Z2V3RMM2xpM1VVcTJpZGg0Z1lzdW5NWHZhRUJ3MHliYnhROEhYVFZrRktkTld6aTRBWlNJSUhMXzlzMGU5MTRxc25WRm5FQmpqdk81ZFNycEhNUERDSV94Nm5tcGxGNnFKXzlUVkE?oc=5",
-   "source": "新浪财经",
-   "source_url": "https://finance.sina.com.cn",
-   "time": "2026-10-22T05:54:01+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "general",
-   "ai_related": false,
-   "also": [
-    "南粤清风网"
-   ]
-  },
-  {
-   "title": "短剧·旧爱离场，新欢登场-第13集-一口咬过的茄子，碾碎了青梅竹马的半生情深。秦皓宇用十九万三千七百公里的奔赴，换不来",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE16WllNZW45bEJaZWhFbE84LVFrUERES182NExETzBscU1xZmlyZnI4aVlYZl9xQlZaLUN6b2wzMFpTaEluZmZVQ0NUMTBQZ2dSSEY1UU40U1pnbXotOUV6WTFBRkVNcTQ3R0pGNm5Uak4zdw?oc=5",
-   "source": "新浪网",
-   "source_url": "http://k.sina.com.cn",
-   "time": "2026-10-22T05:51:50+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "general",
-   "ai_related": false
-  },
-  {
-   "title": "短剧·肥妻皇后夜夜要和离-第20集-云国皇后，沈青璃，因为怀孕生子，发胖到两百斤，遭皇帝厌弃，亲生儿子也因为被崔贵妃挑唆",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB3bmpndmFkMkxqX1VJR0tjNXBnT3lDZFhrazcyNXItaTZ3UldGYURscmppYlZhS195NThZbE52OERUb0VrN1pRQ2pCQXpXcVNZRmZxbEdBaEJNZ0VmUUxtY19tYU5hRm80S0FtOUFtMHVSbGc?oc=5",
-   "source": "新浪网",
-   "source_url": "https://k.sina.com.cn",
-   "time": "2026-10-22T05:40:34+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "general",
-   "ai_related": false
-  },
-  {
-   "title": "Microdrama Platform Founders Say Hollywood Has Come Knocking as Traditional Pipelines Shrink",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBiQzlra3ZqbEtGN3lRcS1yZ2RDRnNRZzd1a01KTGRSMk5UYVV1X1lQbnczeUdsTzRHRDhYQjJ0alZDTk5TTzNRaDZraUp5ZS02Z0ZudkxB?oc=5",
-   "source": "IMDb",
-   "source_url": "https://www.imdb.com",
-   "time": "2026-10-22T05:39:17+00:00",
-   "lang": "en",
-   "section": "industry",
-   "topic": "overseas",
-   "ai_related": false
-  },
-  {
-   "title": "AIGC短剧《掠夺》第一集：星际的二创视",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrc3VWZnBLLVdGRGtfVHZtZkpQQWxYdVdETHVRWS14djhYSHlGcFNpQUY3Rll4c1MxaEYyWXBWTnRxbEtLNW11aDRGbVBsZw?oc=5",
-   "source": "虎扑",
-   "source_url": "https://m.hupu.com",
-   "time": "2026-10-22T05:36:52+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "general",
-   "ai_related": true
-  },
-  {
-   "title": "报告：微短剧成为中国—东盟数字经济合作重要载体",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE93MzZ6SDM0NXZieDdGY0Z6VV9VdXFROExvY3NMQXBPeGtSMFZSZmhGemdiOVpjVm1PTzltZC1BTW9lNnpMR3c?oc=5",
-   "source": "东盟头条",
-   "source_url": "https://aseantop.com",
-   "time": "2026-10-22T05:31:35+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "data",
-   "ai_related": false,
-   "also": [
-    "中国新闻网"
-   ]
-  },
-  {
-   "title": "红果短剧，最新公告",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWVREMDI1UnBfVFFwVUstdW5LTFFncEJxUDRpTDVMSENwczRKeXBMQ09pdnZpclpiM3BldjFmWFVwcDRLQVlXa1B1Ty1ReUxSa21oNDBxRVFOVWpHb3hDazR2aC12d3NMc0ZZQWtMZHVwVUprbDZGMTRmbnBvUG00Qmg4WGM?oc=5",
-   "source": "新浪财经",
-   "source_url": "https://finance.sina.com.cn",
-   "time": "2026-10-22T05:15:00+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "platform",
-   "ai_related": false,
-   "also": []
-  },
-  {
-   "title": "DataEye研究院：AI漫剧仅1.3%回本 万播收益降至5元至10元",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KU0NkaFpERHFYT0dZT2R0dHR0WFk5TE5la3lVdTdwSVBobFVuRWxhUHhpSGM1X0FpQlFiUndBNGNOSHRFR1ROVzZxLV9sX2ItQ3dwT180YU5lSHZvLXRjRE53?oc=5",
-   "source": "观点网",
-   "source_url": "https://www.guandian.cn",
-   "time": "2026-10-22T05:07:28+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "general",
-   "ai_related": true
-  },
-  {
-   "title": "内地「红果短剧」爆红 专家警告长期追看易变蠢！附大脑健康4大风险",
-   "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxNWnJGMklmTXdlbjE4Sm5qRm9UcmwzMzdSdVlPV0FMVmpad3Q0N3BqYUZLZFplR1R1RC1ZR2lVOVpGOE1yMVYzMjRuYXR4ZVVIcmZ4VE9EYUNVMWFiX0QzNHhlOHRGOTQtT1VFTTRNeTN1UHpDdWV2dWt4aG5DN1ViWFNzeHF3LUE4Vk1UUFFpT3dVZ2ljVFJoNEhvXzBwem9mcDN6Y1NCV0pKbmloQWI2bG9ZZmQ0MkFZbzE3elhCekJkdjVDMURsVEpOdDI4LXdyY2hHd0FtaVJZbl9IdTVRUk9LNVhrejQ3eHdzamhISG96NVBmSUcxUDJDckFmR1cyRGJxYnpfZGNIMjVDSHFBempvNndxSjNONnhfRW1BSjJ6UjJuSDQ4NWV1UW5ZZFpTU0tmLURPbmtLUWRETWVTbFFvVGhNcEplTWVXQnRZRTBoZmRTTHhyMjBycDRHSG00NnlBNWdHMjM4QUdCQlpUeDMxa2IwNlhaSmlpOHNURXlENDZmRW56U0hCaFNqY0hJbmIyWEFrUkRJOUFIYUVUODZVclc3N2dMQXo4?oc=5",
-   "source": "星島頭條",
-   "source_url": "https://www.stheadline.com",
-   "time": "2026-10-22T05:00:07+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "platform",
-   "ai_related": false
-  },
-  {
-   "title": "淘宝牵手四大内容平台布局品牌短剧！双十一短剧激励政策公布，AI剧、真人剧皆覆盖",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5JX0dwZS1NSzNQV3Q2THN5OVVWX0xDY0cxS2R4X0o4bGNYd3RteGdVU1hxQVl4d2EybE0waGFlWENVQjdBa3UxVk94UQ?oc=5",
-   "source": "www.tvoao.com",
-   "source_url": "https://www.tvoao.com",
-   "time": "2026-10-22T04:55:37+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "policy",
-   "ai_related": true
-  },
-  {
-   "title": "“成都造”IP新作！AI动画微短剧《那兔长征篇》正式定档",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBlV3J1SWtKS2xlbV9BNnFEQTQ5ZDloNThSOVJmSnVUM2xrS05uUkUzam12djRsbDhHcm9nQWpKWTJPOGxac01jVVdibVVhYWwzdFE?oc=5",
-   "source": "搜狐",
-   "source_url": "https://www.sohu.com",
-   "time": "2026-10-22T04:54:06+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "general",
-   "ai_related": true
-  },
-  {
-   "title": "红果短剧热榜仅存两部真人剧 靠AI短剧维持免费体系",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54Sm1MTDBEUUVLWUJCWk5CUUJrMDcwSUVBb2owZ0llb1gtazlpamR2ZGFvS0NvY0QzOXNBM1BGRU9td2RFc2tIUnhRaU1zM2pXX1BiZzdxMmxWZXZKVjJTOGhDS3Q3RnNR?oc=5",
-   "source": "微博",
-   "source_url": "https://weibo.com",
-   "time": "2026-10-22T04:43:54+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "data",
-   "ai_related": true
-  },
-  {
-   "title": "下班2小时搞副业，10月广东第二批「AI短剧应用师」人才培训启动：零基础学爆款短剧制作技巧，18岁以上可报名",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hZEJZWk40VTc0aGdndlBzYTRXQUpMMEdBemNDb19nZnNCNjc3R0RoUElWQ2diZV9uNmstRnJkU3F6aGZ4N2RsTUtwQU9BYTI2SnAxLThuTEFqMF96bEVlaDlfSmR4dmJFY2pSUHZubmdBUW1NODViZWlIbVZhQmM?oc=5",
-   "source": "新浪网",
-   "source_url": "https://k.sina.com.cn",
-   "time": "2026-10-22T04:30:19+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "general",
-   "ai_related": true
-  },
-  {
-   "title": "短剧·昭意重归：宫阙择君-第36集-前世的一场错过，让宋昭意看清了人心冷暖。重来一次，她不再执着于既定的命运，只想守护家",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95b0pDS1lmbWRfUVR3R1ZRcjk4Y0JrWmRsYUFuYkdBRWt0MmJYS1NOcnpMUjFtRktQQUJOc1FaMHVkVVRURHFoSkE3NkxIRHB5RG1PWU5Ua1BmdVh5dGtWQkV0UzFyWXBUNVBtWTlYaG9HdjA?oc=5",
-   "source": "新浪网",
-   "source_url": "https://k.sina.com.cn",
-   "time": "2026-10-22T04:13:10+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "general",
-   "ai_related": false
-  },
-  {
-   "title": "行业人士回应红果短剧自砍摇钱树：红果下线金币或改写行业竞争逻辑",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9tYWdWc3dGcFo3eDdyLUpFc0tzeHRvQl83NG9nckJ0bVV2eXkzY3k5SGM2MmhnamY2U090Y2k2RFRzUHZ0TmtyTHN0N05DRmVfUzlkUzU3dGNKMlpMeG5MXy0tWnBOdU5DVmFNcFNRMGxDUkpBQm9XVA?oc=5",
-   "source": "手机新浪网",
-   "source_url": "https://t.cj.sina.cn",
-   "time": "2026-10-22T04:04:00+00:00",
-   "lang": "zh",
-   "section": "industry",
-   "topic": "platform",
-   "ai_related": false
   }
  ],
  "ai": [
   {
+   "title": "AI短剧创作面临新机遇，全球小语种市场潜力受关注",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ056bDl4SVpEdlBHS0FQY0NYRklDaE9kZDFzaHJsbXB1OGdiYi1JcnktUEx4WDNjaVNLYXV4UlVPTUxOU243dzQ0d3kwdUpJMVA5dkhMVGMyZHdfeGhBMFhfejRwWTVqUFFfdExZd242ekxYRkx5VHhLMkFJbVVJQnBPSHlqZUFSY3piNmw1NA?oc=5",
+   "source": "Sohu",
+   "source_url": "https://www.sohu.com",
+   "time": "2026-10-26T12:31:39+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "positive",
+   "signals": [
+    "机遇"
+   ]
+  },
+  {
    "title": "短剧演员，站在 AI 替代的十字路口",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbnN0aHA4aVZlMEdpSEFfZkV1Q0xHNWFoMzRGbEo4c1hndlJIWUZaS3RTTVFzN1hMcDVSVmY4QzV6c2hEWjBVeGpnZDB2RGtEbmNXekhQMmtjdEd1NEpteUhaeDM2Q3NZTzBURjlXckktT2ZaSGdmN1RJRzNQT0NRcEs2Z25wZFJrZTVfZw?oc=5",
-   "source": "Sohu",
+   "source": "搜狐网",
    "source_url": "https://m.sohu.com",
    "time": "2026-10-26T08:49:02+00:00",
    "lang": "zh",
@@ -2857,6 +2824,20 @@
    "sentiment": "negative",
    "signals": [
     "替代"
+   ]
+  },
+  {
+   "title": "AI生成短剧如何认定版权？浙江横店探索影视数据治理新路径",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9MWEF3dHRrMU5KMTdxMlNRSnViX2hsNF9adVlnd2o1YWkwSFVadFpIVlFHT0U1dUV1VWJTV1lqU3pIa25FOWFmX29pcEpMVUp1c0M5WWM4b3N6cnhublE4?oc=5",
+   "source": "新湖南",
+   "source_url": "https://m.voc.com.cn",
+   "time": "2026-10-26T02:58:12+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "neutral",
+   "signals": [],
+   "also": [
+    "中国新闻网"
    ]
   },
   {
@@ -2873,15 +2854,18 @@
    ]
   },
   {
-   "title": "AI生成短剧如何认定版权？浙江横店探索影视数据治理新路径",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4yeGlUNERmSXo4eXgxTmhaY29iVGtHME1nNVdqalJxWmt5OFdrYUNiOTUyNUViZmJCQmlIckJoSUNUQU1GM293RV9vREhneXVmVGthYlo3eTBDaWpmZTZsU3g1Z1ViSXZ2TlE?oc=5",
-   "source": "中国新闻网",
-   "source_url": "https://www.chinanews.com.cn",
-   "time": "2026-10-25T06:05:15+00:00",
+   "title": "AI短剧降本与免费模式冲击海外市场 字节PineDrama尝试复制红果路径",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93Ykp1UDJXSUkydGJScFpPZldIMWZHZkxuUjFnWWVGZnRoUEJEWXRSbmxUN3Q2aVhxdXd0bldUSEdEb040b0ZHbUNYbkc0bkFFa25hVA?oc=5",
+   "source": "虎嗅网",
+   "source_url": "https://www.huxiu.com",
+   "time": "2026-10-26T01:31:54+00:00",
    "lang": "zh",
    "section": "ai",
    "sentiment": "neutral",
-   "signals": []
+   "signals": [
+    "冲击",
+    "降本"
+   ]
   },
   {
    "title": "真人换AI，儿童短剧的“成人化”就能逃过监管吗",
@@ -2929,11 +2913,7 @@
    "lang": "zh",
    "section": "ai",
    "sentiment": "neutral",
-   "signals": [],
-   "also": [
-    "Sohu",
-    "ThePaper.cn"
-   ]
+   "signals": []
   },
   {
    "title": "\"Every AI Has Its Cost\": Jay Jones and Donnie Carrington Talk Power, Ambition, and Micro-Drama Mess",
@@ -3097,8 +3077,7 @@
    "sentiment": "negative",
    "signals": [
     "失业"
-   ],
-   "also": []
+   ]
   },
   {
    "title": "制作门槛不断降低，AI短剧靠什么走“上坡路”？",
@@ -3109,11 +3088,7 @@
    "lang": "zh",
    "section": "ai",
    "sentiment": "neutral",
-   "signals": [],
-   "also": [
-    "国际金融报",
-    "搜狐网"
-   ]
+   "signals": []
   },
   {
    "title": "一天烧2000万美元，AI短剧出海现“淘金热”",
@@ -3215,9 +3190,7 @@
    "sentiment": "neutral",
    "signals": [],
    "also": [
-    "新浪财经",
-    "证券之星",
-    "36氪"
+    "新浪财经"
    ]
   },
   {
@@ -3244,11 +3217,7 @@
    "lang": "zh",
    "section": "ai",
    "sentiment": "neutral",
-   "signals": [],
-   "also": [
-    "搜狐网",
-    "证券之星"
-   ]
+   "signals": []
   },
   {
    "title": "“4天3板”短剧概念股突发！因AI短剧及智算中心业务信披不准确，南威软件及时任董秘被监管警示",
@@ -3261,9 +3230,7 @@
    "sentiment": "neutral",
    "signals": [],
    "also": [
-    "每日经济新闻",
-    "新浪财经",
-    "21财经"
+    "每日经济新闻"
    ]
   },
   {
@@ -3301,9 +3268,6 @@
    "sentiment": "negative",
    "signals": [
     "争议"
-   ],
-   "also": [
-    "凤凰网"
    ]
   },
   {
@@ -3385,8 +3349,7 @@
     "产能"
    ],
    "also": [
-    "21财经",
-    "36氪"
+    "21财经"
    ]
   },
   {
@@ -3400,9 +3363,6 @@
    "sentiment": "negative",
    "signals": [
     "风险"
-   ],
-   "also": [
-    "搜狐网"
    ]
   },
   {
@@ -3570,7 +3530,6 @@
    "sentiment": "neutral",
    "signals": [],
    "also": [
-    "证券之星",
     "经济观察网"
    ]
   },
@@ -3583,7 +3542,10 @@
    "lang": "zh",
    "section": "ai",
    "sentiment": "neutral",
-   "signals": []
+   "signals": [],
+   "also": [
+    "每日经济新闻"
+   ]
   },
   {
    "title": "China's AI Micro-Drama \"Lottery Factory\" Cools Off: Soy Sauce Culture's Team Shrinks from 1,500 to Several Hundred, Monthly 1,000-Show Plan Falls Through",
@@ -3609,8 +3571,7 @@
     "烧心"
    ],
    "also": [
-    "新浪财经",
-    "QQ News"
+    "新浪财经"
    ]
   },
   {
@@ -3624,7 +3585,7 @@
    "sentiment": "neutral",
    "signals": [],
    "also": [
-    "凤凰网财经"
+    "凤凰网"
    ]
   },
   {
@@ -3674,7 +3635,7 @@
   {
    "title": "AI漫剧爆火背后：一场“降本”与“抢人”的行业变局",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ2l5STFWMmJfYkxnejdHZk16WU80bHNBMGNHTHZ4TUs5UnM2VEh2R0pLcmpkTnFqbEczcDBlS3hpZHpzeFlKRk4wc25NeldvRHVUSlFPdWk3NE44UmZta3B3ZkFZUWFTZ2ltUW91azhyV0pnZjF3T3gyN0UzWWFKNmlEb1dNZWdT?oc=5",
-   "source": "搜狐网",
+   "source": "Sohu",
    "source_url": "https://m.sohu.com",
    "time": "2026-10-20T00:45:00+00:00",
    "lang": "zh",
@@ -3740,8 +3701,7 @@
    "sentiment": "neutral",
    "signals": [],
    "also": [
-    "东方财富",
-    "财联社电报"
+    "东方财富"
    ]
   },
   {
@@ -3825,7 +3785,7 @@
   {
    "title": "西安高新AI短剧扬帆出海 彰显文化“高新力量”",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UR2dkUlIycnd5NXBRZXYzNWxWODY0ZEFIaVg0ZHpISzBQUzBXVlFkZVZDSTN1ZVdsREF1SF9DcGhDM3RyamR3Tk1teERyNnBRZi04a2RTRktCem54YzU0aVE0S3FUM1U?oc=5",
-   "source": "搜狐网",
+   "source": "Sohu",
    "source_url": "https://m.sohu.com",
    "time": "2026-10-19T05:34:19+00:00",
    "lang": "zh",
@@ -3845,10 +3805,7 @@
    "lang": "zh",
    "section": "ai",
    "sentiment": "neutral",
-   "signals": [],
-   "also": [
-    "腾讯新闻"
-   ]
+   "signals": []
   },
   {
    "title": "阜博集团(03738)：一部被盗版的AI短剧，揭开短剧出海最真实的一门生意",
@@ -3926,6 +3883,17 @@
    ]
   },
   {
+   "title": "AI短剧产业深度：出海破局、大模型重构与商业逻辑全景拆解",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZXzFYV0JiMC11blRmdHl0bnQ0N3BDMV9MdzVfdmp2QnpUS0d0UGFVdWdEWkFta21YaklDeXA4UXJWOE55OGxJYVdlbmZ0ZEt5enVYQUVyOG1qYjZ4Nk5NLW1tN0lrMGpaWXpr?oc=5",
+   "source": "财富号",
+   "source_url": "https://caifuhao.eastmoney.com",
+   "time": "2026-10-17T07:00:00+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "neutral",
+   "signals": []
+  },
+  {
    "title": "AI短剧出海，量产能力与本地化才是长期底牌",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrNjl2QTF4QkRQM3FnUm5JT0NnT3V6ZTZhY3Q1OHNQR2VKS3VrUV9iODJyVVRwMzMxZWxmOHJHOGRaOG5CUGY4V1RCWXJjR2ttRnkwQjE4bVhwQXBOdndZVQ?oc=5",
    "source": "ThePaper.cn",
@@ -3975,7 +3943,6 @@
     "难赚钱"
    ],
    "also": [
-    "手机网易网",
     "东方财富"
    ]
   },
@@ -4077,9 +4044,6 @@
    "sentiment": "negative",
    "signals": [
     "亏损"
-   ],
-   "also": [
-    "财富号"
    ]
   },
   {
@@ -4104,8 +4068,7 @@
    "sentiment": "negative",
    "signals": [
     "同质化"
-   ],
-   "also": []
+   ]
   },
   {
    "title": "AI短剧产能起量催化板块行情！南威软件一字涨停，关注这些机会",
@@ -4175,7 +4138,8 @@
     "截胡"
    ],
    "also": [
-    "凤凰网"
+    "凤凰网",
+    "中华网"
    ]
   },
   {
@@ -4195,19 +4159,6 @@
    ]
   },
   {
-   "title": "游戏平台、AI短剧、跨境直播……澄迈：开辟出海“新航路”",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1sMHk4d0h2aGUwOHBzVTVpTjBQOVFZZFRCc1d0c1lCRENBdjltS3BWWUQ2R0k0aFJ3cS14bFJHbGVuSlVwMWd2X3NMWkw?oc=5",
-   "source": "凤凰网",
-   "source_url": "https://feng.ifeng.com",
-   "time": "2026-10-15T07:00:00+00:00",
-   "lang": "zh",
-   "section": "ai",
-   "sentiment": "positive",
-   "signals": [
-    "开辟"
-   ]
-  },
-  {
    "title": "南威软件：AI短剧产能已实现起量，目前每月可产出5部以上高质量AI真人剧",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Sb2t5V005MnhoaDdWZ0NIeUZPREtoTWtoWWdQSFRmWV9DanFMMTFTQnZUQjAwOG9PVnJXWU9QNFRQY0Z0VE84d2ZQMHZFUzR5eWExSmhYV2ZnQU52b2lFMGdiZVhaZw?oc=5",
    "source": "东方财富",
@@ -4218,6 +4169,19 @@
    "sentiment": "positive",
    "signals": [
     "产能"
+   ]
+  },
+  {
+   "title": "游戏平台、AI短剧、跨境直播……澄迈：开辟出海“新航路”",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1sMHk4d0h2aGUwOHBzVTVpTjBQOVFZZFRCc1d0c1lCRENBdjltS3BWWUQ2R0k0aFJ3cS14bFJHbGVuSlVwMWd2X3NMWkw?oc=5",
+   "source": "凤凰网",
+   "source_url": "https://feng.ifeng.com",
+   "time": "2026-10-15T07:00:00+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "positive",
+   "signals": [
+    "开辟"
    ]
   },
   {
@@ -4368,6 +4332,24 @@
    ]
   },
   {
+   "title": "红果短剧出海杀疯了！字节系又出亿级爆款，全球短剧前20中国抢下16席，A股AI短剧大爆发，慈文传媒、引力传媒、中文在线等井喷",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE16VG9fc2FGcFpaMktGb2xnWGtVNlZOWEluU1NMdm1LdFVjOG5FeGg3UGdCaXdZVmxzX3VzZm5PVTZmVmJ0Umc3aWh1ZS0?oc=5",
+   "source": "凤凰网",
+   "source_url": "https://feng.ifeng.com",
+   "time": "2026-10-14T07:00:00+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "positive",
+   "signals": [
+    "爆款"
+   ],
+   "also": [
+    "QQ News",
+    "金融界",
+    "搜狐"
+   ]
+  },
+  {
    "title": "【XR+AI赋能短剧出海｜创想数维将亮相DataEye L!NK 2026短剧出海大会】PjTime.COM 行业新闻",
    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Ld1k2WDk5SG04NEtZZ3BIa3FQbHhQb3BROFBzVUQyNlZVenNBek1aQzBKLVBqNjZaMmZOZFNjZjRZYUtaeGlzcUtxbVhOajFaVExJdEhZM2YwaGc1?oc=5",
    "source": "投影时代",
@@ -4392,6 +4374,23 @@
    "signals": [
     "灾",
     "真香"
+   ]
+  },
+  {
+   "title": "AI短剧《桃花簪》“盗脸”侵权案当事模特开庭后发声",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE16ZTNpajlQaTVjYWJUOFMyT3NfelRtTk8teUJub0JfSHc0aGxZbWRLQWdxcWNRN3lIeDdMX1BiaFdMT25sVjQwOVNRNUtEdW9zVmVYdEJ6elZjTl9kZUE?oc=5",
+   "source": "Jiemian.com",
+   "source_url": "https://m.jiemian.com",
+   "time": "2026-10-14T07:00:00+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "negative",
+   "signals": [
+    "侵权",
+    "盗脸"
+   ],
+   "also": [
+    "QQ News"
    ]
   },
   {
@@ -4428,23 +4427,6 @@
    ]
   },
   {
-   "title": "AI短剧《桃花簪》“盗脸”侵权案当事模特开庭后发声",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE16ZTNpajlQaTVjYWJUOFMyT3NfelRtTk8teUJub0JfSHc0aGxZbWRLQWdxcWNRN3lIeDdMX1BiaFdMT25sVjQwOVNRNUtEdW9zVmVYdEJ6elZjTl9kZUE?oc=5",
-   "source": "Jiemian.com",
-   "source_url": "https://m.jiemian.com",
-   "time": "2026-10-14T07:00:00+00:00",
-   "lang": "zh",
-   "section": "ai",
-   "sentiment": "negative",
-   "signals": [
-    "侵权",
-    "盗脸"
-   ],
-   "also": [
-    "QQ News"
-   ]
-  },
-  {
    "title": "AI赋能短剧叠加出海爆发 映宇宙盘中一度飙涨超12%",
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9TRjMxUzhoQ2IySEt4eU4xaGs1THZPMlA5aE5jdm9RNTVDUmg1V1BmcnJmZWp5VzFHS2RxYUJTQTQ3emhwSldNUw?oc=5",
    "source": "财联社",
@@ -4468,8 +4450,7 @@
    "sentiment": "neutral",
    "signals": [],
    "also": [
-    "中国新闻网",
-    "Sohu"
+    "中国新闻网"
    ]
   },
   {
@@ -4515,6 +4496,20 @@
    ]
   },
   {
+   "title": "法治面｜AI短剧盗脸侵权案开庭：普通人的“面子”值多少钱？",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BVUYySGRiWWtMV3owdXF0dXpIT2xSa3d1dm9xMHNwRmowY05uclF6Y2EzS0dCMUs5dHV1R1RNMUVhYTZmSEFfSFMzbkJYc1M3c0hSeEN3?oc=5",
+   "source": "界面新闻",
+   "source_url": "https://m.jiemian.com",
+   "time": "2026-10-13T07:00:00+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "negative",
+   "signals": [
+    "侵权",
+    "盗脸"
+   ]
+  },
+  {
    "title": "AI短剧占国内Token消耗半数重塑内容产业格局",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE82c3k5aTdsdlJqNEdXLU9jSjlvTGtYeHhYX0dwRjVaSHp2OE5oRjcyWm9WVGJKNEJUT2txWGFBQzd2aEkwdXJVX3dfdElRak42UHE5c0x5UElOZnRzQzNtXzVWY2NYNE9ITHZz?oc=5",
    "source": "财富号",
@@ -4536,20 +4531,6 @@
    "sentiment": "positive",
    "signals": [
     "爆火"
-   ]
-  },
-  {
-   "title": "法治面｜AI短剧盗脸侵权案开庭：普通人的“面子”值多少钱？",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BVUYySGRiWWtMV3owdXF0dXpIT2xSa3d1dm9xMHNwRmowY05uclF6Y2EzS0dCMUs5dHV1R1RNMUVhYTZmSEFfSFMzbkJYc1M3c0hSeEN3?oc=5",
-   "source": "界面新闻",
-   "source_url": "https://m.jiemian.com",
-   "time": "2026-10-13T07:00:00+00:00",
-   "lang": "zh",
-   "section": "ai",
-   "sentiment": "negative",
-   "signals": [
-    "侵权",
-    "盗脸"
    ]
   },
   {
@@ -4703,6 +4684,20 @@
    ]
   },
   {
+   "title": "“不烧心文学”走红，别只看见对AI短剧同质化的吐槽",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhbFBzTVFvb0FjdjlTTzBHdXh2ay13YXlvQzBYNHhKMkVEUXlGcmJTMG9XeVd6eFNNUGlYVjNFMUZvd1dmZzZiOHdfMDRaVFJtalBrR00zOG5INVBqQjV1T2s1MGs3bzZu?oc=5",
+   "source": "紫牛新闻",
+   "source_url": "https://www.yzwb.net",
+   "time": "2026-10-10T07:00:00+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "negative",
+   "signals": [
+    "同质化",
+    "烧心"
+   ]
+  },
+  {
    "title": "AI漫剧一键生成，随意使用他人文字作品算不算侵权？",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE85TWZBd3NXdllDMHBMU0p6RWJpNElOMGFyLTI3aFA3VmtwNVJHU2JSSGl5OFoxc1BueEhyZzU5SVNlNFlYREV2R0tkVlRUWVloMlVib2dWcERtWnV2bUl4bXdEYXVoV1p0Y2E0dExobFBqZw?oc=5",
    "source": "京报网",
@@ -4838,6 +4833,19 @@
    "signals": []
   },
   {
+   "title": "AI短剧爆火：成本仅真人剧十分之一 平均每36秒可诞生一部",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBrNHhRd1dFdnFpR0ZSNURVckduUjR2VE9oZWpIVFR6amFPWHd4QkUybkdZUDMzSWt2R1BKbmtPRVBhWlhMX3YzZjVWREhHVzBqQnBhRmVDNkk?oc=5",
+   "source": "驱动之家",
+   "source_url": "https://news.mydrivers.com",
+   "time": "2026-10-07T07:00:00+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "positive",
+   "signals": [
+    "爆火"
+   ]
+  },
+  {
    "title": "「感觉短剧演员已经消失了」上热搜第五！AI短剧正改写行业",
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBEMjdNVExVZUpyaDNXMHdHRmNuNzhrTjV6TkpDTGpXLVc0MWt5SnVXb2FFdnpyN21GN3FXRWpwNXJOZXR4akxjdGVldlFVV29LaU02VmJGQ0lZQQ?oc=5",
    "source": "鞭牛士",
@@ -4849,10 +4857,10 @@
    "signals": []
   },
   {
-   "title": "AI短剧爆火：成本仅真人剧十分之一 平均每36秒可诞生一部",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBrNHhRd1dFdnFpR0ZSNURVckduUjR2VE9oZWpIVFR6amFPWHd4QkUybkdZUDMzSWt2R1BKbmtPRVBhWlhMX3YzZjVWREhHVzBqQnBhRmVDNkk?oc=5",
-   "source": "驱动之家",
-   "source_url": "https://news.mydrivers.com",
+   "title": "AI短剧爆火：制作成本仅为真人剧1/10，平均每36秒诞生1部",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1pU29leW9nc2ctR21MQmM0aUtrRmpPSXBEbi1MNUxoSXVZR1dhMTRxVkVXamdoVGdtZ2ZsUlhXZ1d2U1NjQThnbw?oc=5",
+   "source": "凤凰网",
+   "source_url": "https://i.ifeng.com",
    "time": "2026-10-07T07:00:00+00:00",
    "lang": "zh",
    "section": "ai",
@@ -4861,7 +4869,7 @@
     "爆火"
    ],
    "also": [
-    "新浪财经"
+    "凤凰网科技"
    ]
   },
   {
@@ -4874,19 +4882,6 @@
    "section": "ai",
    "sentiment": "neutral",
    "signals": []
-  },
-  {
-   "title": "AI短剧爆火：制作成本仅为真人剧1/10，平均每36秒诞生1部",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5iWGU2Q1QxN1BkbUxIY3BmSTY0NnJGRUFjbktPWTN2Q242SjhCZFdTTDJ2MXVPMjk4QUp6VHRZbllGUzhnajlIOFBkOTA?oc=5",
-   "source": "凤凰网科技",
-   "source_url": "https://tech.ifeng.com",
-   "time": "2026-10-07T07:00:00+00:00",
-   "lang": "zh",
-   "section": "ai",
-   "sentiment": "positive",
-   "signals": [
-    "爆火"
-   ]
   },
   {
    "title": "真人短剧演员的演技，在 AI 生成的仙侠光影里显得多余|短剧演员|ai短剧|真人短剧_新浪新闻",
@@ -5073,10 +5068,18 @@
    "lang": "zh",
    "section": "ai",
    "sentiment": "neutral",
-   "signals": [],
-   "also": [
-    "搜狐网"
-   ]
+   "signals": []
+  },
+  {
+   "title": "2026年漫剧制作工具横评：中小团队AI短剧低成本生产方案深度测评",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOMGstTTZ0Y3lDVEd5MlhvR2hXV2o1VEVLVUx4V085eFB5cm1jY1pBT3lYRUYwNXk1a21WcnBqMkVaRDBKVXZpbTdkM2F2Y085OWJza1hsZlh0S0JEWGc?oc=5",
+   "source": "CSDN",
+   "source_url": "https://www.csdn.net",
+   "time": "2026-09-30T07:00:00+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "neutral",
+   "signals": []
   },
   {
    "title": "中国加强对AI微短剧的监管——《南华早报》",
@@ -5101,17 +5104,6 @@
    "signals": [
     "爆款"
    ]
-  },
-  {
-   "title": "2026年漫剧制作工具横评：中小团队AI短剧低成本生产方案深度测评",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOMGstTTZ0Y3lDVEd5MlhvR2hXV2o1VEVLVUx4V085eFB5cm1jY1pBT3lYRUYwNXk1a21WcnBqMkVaRDBKVXZpbTdkM2F2Y085OWJza1hsZlh0S0JEWGc?oc=5",
-   "source": "CSDN",
-   "source_url": "https://www.csdn.net",
-   "time": "2026-09-30T07:00:00+00:00",
-   "lang": "zh",
-   "section": "ai",
-   "sentiment": "neutral",
-   "signals": []
   },
   {
    "title": "短剧IP的护城河,藏在AI替代不了的“人味儿”里",
@@ -5151,9 +5143,6 @@
    "sentiment": "negative",
    "signals": [
     "失业"
-   ],
-   "also": [
-    "搜狐网"
    ]
   },
   {
@@ -5193,6 +5182,17 @@
    "signals": []
   },
   {
+   "title": "内娱首例男演员授权AI肖像：何晟铭AI「出演」短剧",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1BdUJKU1UxNjlXUUsxcFVLbGMtbHVWYlB0LW0tY295NmlBcTFrUVg1bXU3UTZDRE5sVUJwNkVtWjhSNmJGc3lGMlpXSQ?oc=5",
+   "source": "中广互联",
+   "source_url": "https://www.tvoao.com",
+   "time": "2026-09-28T07:00:00+00:00",
+   "lang": "zh",
+   "section": "ai",
+   "sentiment": "neutral",
+   "signals": []
+  },
+  {
    "title": "AI内容观察系列：AI会取代真人短剧吗？-36氪",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE10a083ZUszbU5qZVFxQ29QUTJ2TTBhM0pRNzMzbk5rV041RVNJX1JET01IMlA2TW4zSnc2Z0lFYmtxNzhWV2ZLNFphZjl4QQ?oc=5",
    "source": "36kr",
@@ -5218,17 +5218,6 @@
     "侵权"
    ],
    "also": []
-  },
-  {
-   "title": "内娱首例男演员授权AI肖像：何晟铭AI「出演」短剧",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1BdUJKU1UxNjlXUUsxcFVLbGMtbHVWYlB0LW0tY295NmlBcTFrUVg1bXU3UTZDRE5sVUJwNkVtWjhSNmJGc3lGMlpXSQ?oc=5",
-   "source": "中广互联",
-   "source_url": "https://www.tvoao.com",
-   "time": "2026-09-28T07:00:00+00:00",
-   "lang": "zh",
-   "section": "ai",
-   "sentiment": "neutral",
-   "signals": []
   },
   {
    "title": "中国企业垄断海外短剧市场 AI漫剧九成产自中国 韩漫失利警示本土化风险",
@@ -10044,8 +10033,8 @@
     "heat": 86020000,
     "new": false,
     "score": 9.0,
-    "fav": 3234000,
-    "like": 10443000,
+    "fav": 3260000,
+    "like": 10538000,
     "tags": [
      "玄幻",
      "系统",
@@ -10064,8 +10053,8 @@
     "heat": 71030000,
     "new": false,
     "score": 9.0,
-    "fav": 666000,
-    "like": 1650000,
+    "fav": 670000,
+    "like": 1658000,
     "tags": [
      "脑洞",
      "穿越",
@@ -10084,14 +10073,14 @@
     "heat": 68230000,
     "new": true,
     "score": 9.1,
-    "fav": 2396000,
-    "like": 6231000,
+    "fav": 2399000,
+    "like": 6239000,
     "tags": [
      "喜剧",
      "轻喜剧",
      "反转"
     ],
-    "desc": "王妈应聘成为顾家住家保姆。顾家的男主人顾景琛是强势内敛的集团总裁，女主人何娜娜心思细腻敏感，二人之间时常滋生情感纠葛。赵管家与许管家一同掌管顾家后勤人事\u0000，统筹全屋内务，其中赵管家另有一重不为人知的隐藏身份。顾家的日常之下暗流涌动，一段藏满温情与秘密的故事，就此拉开序幕。",
+    "desc": "王妈应聘成为顾家住家保姆。顾家的男主人顾景琛是强势内敛的集团总裁，女主人何娜娜心思细腻敏感，二人之间时常滋生情感纠葛。赵管家与许管家一同掌管顾家后勤人事，统筹全屋内务，其中赵管家另有一重不为人知的隐藏身份。顾家的日常之下暗流涌动，一段藏满温情与秘密的故事，就此拉开序幕。",
     "ranks": {
      "all": 3,
      "real": 1
@@ -10104,8 +10093,8 @@
     "heat": 67980000,
     "new": false,
     "score": 9.0,
-    "fav": 1877000,
-    "like": 2327000,
+    "fav": 1894000,
+    "like": 2343000,
     "tags": [
      "恋爱",
      "都市",
@@ -10124,8 +10113,8 @@
     "heat": 66260000,
     "new": false,
     "score": 9.0,
-    "fav": 713000,
-    "like": 2037000,
+    "fav": 718000,
+    "like": 2055000,
     "tags": [
      "恋爱",
      "都市",
@@ -10144,8 +10133,8 @@
     "heat": 64670000,
     "new": false,
     "score": 7.0,
-    "fav": 599000,
-    "like": 1390000,
+    "fav": 602000,
+    "like": 1397000,
     "tags": [
      "剧情",
      "都市",
@@ -10164,8 +10153,8 @@
     "heat": 64320000,
     "new": false,
     "score": 8.4,
-    "fav": 757000,
-    "like": 1766000,
+    "fav": 760000,
+    "like": 1770000,
     "tags": [
      "剧情",
      "穿越",
@@ -10184,8 +10173,8 @@
     "heat": 63500000,
     "new": false,
     "score": 9.0,
-    "fav": 627000,
-    "like": 2585000,
+    "fav": 628000,
+    "like": 2590000,
     "tags": [
      "宫廷",
      "古代",
@@ -10204,8 +10193,8 @@
     "heat": 62180000,
     "new": false,
     "score": 7.4,
-    "fav": 1328000,
-    "like": 3832000,
+    "fav": 1335000,
+    "like": 3853000,
     "tags": [
      "剧情",
      "穿越",
@@ -10224,8 +10213,8 @@
     "heat": 62050000,
     "new": true,
     "score": 8.1,
-    "fav": 449000,
-    "like": 955000,
+    "fav": 452000,
+    "like": 960000,
     "tags": [
      "家庭",
      "家庭伦理",
@@ -10244,14 +10233,14 @@
     "heat": 61440000,
     "new": false,
     "score": 8.8,
-    "fav": 763000,
-    "like": 2370000,
+    "fav": 767000,
+    "like": 2379000,
     "tags": [
      "脑洞",
      "穿越",
      "系统"
     ],
-    "desc": "李昊绑定大谋士系统，奖励却全是力量加点，硬生生练成了一头人形巨兽。他身穿宽大儒衫、手摇重型大铁扇前去应聘大虞军师。战场上，他的锦囊妙计是单枪匹马凿穿十万大军，他的将计就计是直接拔起大山砸平敌阵！且看这位坚信自己手无缚鸡之力的硬核猛男，如何以绝对的物理碾压一路横推，生猛地成为让天下诸侯闻风丧胆的大虞第一文臣！",
+    "desc": "李昊绑定大谋士系统，奖励却全是力量加点，硬生生练成了一头人形巨兽。他身穿宽大儒衫、手摇重型大铁扇前去应聘大虞军师。战场上，他的锦囊妙计是单枪匹马凿穿十万大军，他的将计就计是直\u0000接拔起大山砸平敌阵！且看这位坚信自己手无缚鸡之力的硬核猛男，如何以绝对的物理碾压一路横推，生猛地成为让天下诸侯闻风丧胆的大虞第一文臣！",
     "ranks": {
      "all": 11,
      "ai": 6
@@ -10264,14 +10253,14 @@
     "heat": 61080000,
     "new": true,
     "score": 9.1,
-    "fav": 478000,
-    "like": 1316000,
+    "fav": 480000,
+    "like": 1322000,
     "tags": [
      "家庭",
      "家庭伦理",
      "逆风翻盘"
     ],
-    "desc": "8岁那年，母亲病逝，苏瑶孤身进城投奔亲生父亲，却被亲生父亲狠心赶出家门，无家可归的她阴差阳错落入一群讨债混混手中，所有人都以为她掉进了狼窝，谁知这群人人避之不及的“恶人”，竟成了最疼她的爸爸。为了供她读书，他们拼命赚钱、低头求人，拼尽全力托举她的人生。最终，苏瑶逆袭成为全省状元、考入京大，当初弃她如敝履的生父悔不当初。一路走来，苏瑶和混混们早已成为最重要的家人，他们照亮彼此的人生，共赴美好未来。",
+    "desc": "8岁那年，母亲病逝，苏瑶孤身进城投奔亲生父亲，却被亲生父亲狠心赶出家门，无家可归的她阴差阳错落入一群讨债混混手中，所有人都以为她掉进了狼窝，谁知这群人人避之不及的“恶人”，竟成了最疼她的爸爸。为了供她读书，他们拼命赚钱、低头求人，拼尽全力托举她的人生。最终，苏瑶逆袭成为全省状元、考入京大，\u0000\u0000当初弃她如敝履的生父悔不当初。一路走来，苏瑶和混混们早已成为最重要的家人，他们照亮彼此的人生，共赴美好未来。",
     "ranks": {
      "all": 12,
      "real": 3
@@ -10284,8 +10273,8 @@
     "heat": 60630000,
     "new": true,
     "score": 9.2,
-    "fav": 574000,
-    "like": 967000,
+    "fav": 588000,
+    "like": 985000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -10304,8 +10293,8 @@
     "heat": 60140000,
     "new": false,
     "score": 9.0,
-    "fav": 1043000,
-    "like": 3624000,
+    "fav": 1044000,
+    "like": 3629000,
     "tags": [
      "脑洞",
      "逆袭",
@@ -10324,8 +10313,8 @@
     "heat": 59770000,
     "new": false,
     "score": 7.2,
-    "fav": 395000,
-    "like": 1481000,
+    "fav": 397000,
+    "like": 1487000,
     "tags": [
      "剧情",
      "重生",
@@ -10344,8 +10333,8 @@
     "heat": 59750000,
     "new": true,
     "score": 9.4,
-    "fav": 1152000,
-    "like": 2173000,
+    "fav": 1160000,
+    "like": 2185000,
     "tags": [
      "爱情",
      "古风爱情",
@@ -10364,8 +10353,8 @@
     "heat": 59230000,
     "new": true,
     "score": 8.1,
-    "fav": 357000,
-    "like": 933000,
+    "fav": 358000,
+    "like": 937000,
     "tags": [
      "剧情",
      "奇幻脑洞",
@@ -10384,8 +10373,8 @@
     "heat": 58810000,
     "new": false,
     "score": 9.0,
-    "fav": 3861000,
-    "like": 6744000,
+    "fav": 3863000,
+    "like": 6749000,
     "tags": [
      "剧情",
      "穿越",
@@ -10404,8 +10393,8 @@
     "heat": 58760000,
     "new": true,
     "score": 9.0,
-    "fav": 368000,
-    "like": 800000,
+    "fav": 370000,
+    "like": 805000,
     "tags": [
      "剧情",
      "穿越",
@@ -10424,8 +10413,8 @@
     "heat": 58360000,
     "new": true,
     "score": 7.9,
-    "fav": 252000,
-    "like": 537000,
+    "fav": 256000,
+    "like": 556000,
     "tags": [
      "末世",
      "异能",
@@ -10444,8 +10433,8 @@
     "heat": 58300000,
     "new": true,
     "score": null,
-    "fav": 235000,
-    "like": 418000,
+    "fav": 238000,
+    "like": 423000,
     "tags": [
      "恋\u0000\u0000爱",
      "都市",
@@ -10464,14 +10453,14 @@
     "heat": 57750000,
     "new": false,
     "score": 8.9,
-    "fav": 929000,
-    "like": 2278000,
+    "fav": 933000,
+    "like": 2286000,
     "tags": [
      "脑洞",
      "穿越",
      "系统"
     ],
-    "desc": "一朝穿越，许轻舟获解忧\u0000书，携三娃游历天下，专渡女子之忧。从天霜城到苍月国，他替相思姑娘解愁，替病痛女子除疾，替困顿佳人解惑。然长生路远，劫起劫落，他渡得了苍生，却渡不了自己的相思——那一只蝉，那个姑娘，是他此生唯一的执念。",
+    "desc": "一朝穿越，许轻舟获解忧书，携三娃游历天下，专渡女子之忧。从天霜城到苍月国，他替相思姑娘解愁，替病痛女子除疾，替困顿佳人解惑。然长生路远，劫起劫落，他渡得了苍生，却渡不了自己的相思——那一只蝉，那个姑娘，是他此生唯一的执念。",
     "ranks": {
      "all": 22,
      "comic": 8
@@ -10484,8 +10473,8 @@
     "heat": 57720000,
     "new": false,
     "score": 7.5,
-    "fav": 332000,
-    "like": 815000,
+    "fav": 336000,
+    "like": 823000,
     "tags": [
      "总裁",
      "都市",
@@ -10500,12 +10489,12 @@
    },
    "7696850776739564568": {
     "id": "7696850776739564568",
-    "name": "我成全嫡孙抗旨退婚，他却慌了",
+    "name": "我成全嫡孙\u0000\u0000抗旨退婚，他却慌了",
     "heat": 57260000,
     "new": true,
     "score": 8.4,
-    "fav": 390000,
-    "like": 876000,
+    "fav": 392000,
+    "like": 880000,
     "tags": [
      "古装",
      "重生逆袭",
@@ -10524,8 +10513,8 @@
     "heat": 56980000,
     "new": false,
     "score": 8.3,
-    "fav": 450000,
-    "like": 855000,
+    "fav": 477000,
+    "like": 905000,
     "tags": [
      "战神",
      "都市",
@@ -10544,8 +10533,8 @@
     "heat": 56660000,
     "new": false,
     "score": 6.9,
-    "fav": 364000,
-    "like": 1022000,
+    "fav": 378000,
+    "like": 1059000,
     "tags": [
      "玄幻",
      "都市",
@@ -10564,8 +10553,8 @@
     "heat": 56340000,
     "new": false,
     "score": 9.0,
-    "fav": 912000,
-    "like": 2725000,
+    "fav": 913000,
+    "like": 2728000,
     "tags": [
      "玄幻",
      "逆袭",
@@ -10584,8 +10573,8 @@
     "heat": 56300000,
     "new": true,
     "score": 7.4,
-    "fav": 417000,
-    "like": 783000,
+    "fav": 426000,
+    "like": 809000,
     "tags": [
      "剧情",
      "穿越",
@@ -10604,14 +10593,14 @@
     "heat": 56200000,
     "new": false,
     "score": 8.9,
-    "fav": 669000,
-    "like": 863000,
+    "fav": 674000,
+    "like": 869000,
     "tags": [
      "脑洞",
      "都市",
      "豪门"
     ],
-    "desc": "医药世家林家失散多年的真\u0000千金，高考之后回家认亲，本以为自己难以融入新的家庭，可发现不管是家里的假千金、父母兄弟，还是身边接触到的各界人士，看她的眼神都怪怪的——大家好像都默认她身份不凡、背景深厚，对着她处处小心翼翼。许佳颜百思不得其解我就是个普通人啊，你们到底在怕什么？",
+    "desc": "医药世家林家失散多年的真千金，高考之后回家认亲，本以为自己难以融入新的家庭，可发现不管是家里的假千金、父母兄弟，还是身边接触到的各界人士，看她的眼神都怪怪的——大家好像都默认她身份不凡、背景深厚，对着她处处小心翼翼。许佳颜百思不得其解我就是个普通人啊，你们到底在怕什么？",
     "ranks": {
      "all": 29,
      "ai": 11
@@ -10624,8 +10613,8 @@
     "heat": 56120000,
     "new": false,
     "score": 7.2,
-    "fav": 2203000,
-    "like": 5657000,
+    "fav": 2208000,
+    "like": 5669000,
     "tags": [
      "玄幻",
      "逆袭",
@@ -10644,14 +10633,14 @@
     "heat": 56090000,
     "new": false,
     "score": 8.5,
-    "fav": 927000,
-    "like": 2703000,
+    "fav": 929000,
+    "like": 2708000,
     "tags": [
      "剧情",
      "穿越",
      "都市"
     ],
-    "desc": "宋语棠是宋家流落在外的真千金，因一纸婚约嫁给江家长子江慕言。丈夫江慕言因故沉睡，面对陌生环境与陌生家庭，她以过人见识化解重重困局，不仅赢得公婆信赖，更在家族中站稳脚跟。而江慕言其实早已醒来，只因局势未明，选择隐忍蛰伏。他暗中相助，看她从容应对，心中情愫渐生。当两人终于坦诚相见，便以夫妻之名，同心协力，于家族与事业中开创属于他们的天地。",
+    "desc": "宋语棠是宋家流落在外的真千金，因一纸婚约嫁给江家长子江慕言。丈夫江慕言因故沉睡，面对陌生环境与陌生家庭，她以过人见识化解重重困局，不仅赢得公婆信赖，更在家族中站稳脚跟。而江慕\u0000\u0000言其实早已醒来，只因局势未明，选择隐忍蛰伏。他暗中相助，看她从容应对，心中情愫渐生。当两人终于坦诚相见，便以夫妻之名，同心协力，于家族与事业中开创属于他们的天地。",
     "ranks": {
      "all": 31,
      "ai": 12
@@ -10664,14 +10653,14 @@
     "heat": 55940000,
     "new": false,
     "score": 8.3,
-    "fav": 499000,
-    "like": 1384000,
+    "fav": 500000,
+    "like": 1388000,
     "tags": [
      "剧情",
      "都市",
      "豪门"
     ],
-    "desc": "穷苦的程远海养大女儿程静，女儿嫁入赵家受尽磋磨。赵家接风宴上，寻女的程远海被当众推倒，双胞胎弟弟、海城大佬程远山率车队现身。为病重兄长，他换上旧衣伪装成穷岳父深入赵家，亲眼目睹侄女长期遭受欺辱与要挟。此后赵家每一次刁难，他都强势回击。过往黑幕揭开，程静果断离婚挣脱牢笼。程远山要守护的从不是权贵身份，而是让受尽委屈的侄女往后不必再忍气吞声。",
+    "desc": "穷苦的程远海养大女儿程静，女儿嫁入赵家受尽磋磨。赵家接风宴上，寻女的程远海被当众推倒，双胞胎弟弟、海城大佬程远山率车队现身。为病重兄长，他换上旧衣伪装成穷岳父深入赵家，亲眼目睹侄女长期遭受欺辱与要挟。此后赵家每一次刁难，他都强势回击。过往黑幕揭开，程静果断离婚挣脱牢笼。程远山要守护的从不是权贵身份，而是让受尽委屈的侄\u0000\u0000女往后不必再忍气吞声。",
     "ranks": {
      "all": 32,
      "ai": 13
@@ -10684,8 +10673,8 @@
     "heat": 55860000,
     "new": false,
     "score": null,
-    "fav": 395000,
-    "like": 1167000,
+    "fav": 399000,
+    "like": 1178000,
     "tags": [
      "恋爱",
      "都市",
@@ -10704,8 +10693,8 @@
     "heat": 55760000,
     "new": false,
     "score": 9.2,
-    "fav": 267000,
-    "like": 415000,
+    "fav": 268000,
+    "like": 418000,
     "tags": [
      "玄幻",
      "逆袭",
@@ -10724,14 +10713,14 @@
     "heat": 55730000,
     "new": false,
     "score": 7.2,
-    "fav": 535000,
-    "like": 1190000,
+    "fav": 544000,
+    "like": 1207000,
     "tags": [
      "末世",
      "重生",
      "囤物资"
     ],
-    "desc": "沈菀在天灾末世苦苦挣扎三年后，重生回到天灾的三个月前。她觉醒可升级玉佩\u0000空间，立刻变卖全部资产筹备物资。极端天气轮番降临，秩序崩塌人心叵测。她将守护儿子沈墨墨当作第一要务，与庄彦相伴同行，冷静筹谋，小心防备旁人。三人在重重天灾危机中，拼尽全力寻找活下去的希望。该动态漫改编自番茄小说《空间四合院带我摆烂到底》，作者允允桠",
+    "desc": "沈菀在天灾末世苦苦挣扎三年后，重生回到天灾的三个月前。她觉醒可升级玉佩空间，立刻变卖全部资产筹备物资。极端天气轮番降临，秩序崩塌人心叵测。她将守护儿子沈墨墨当作第一要务，与庄彦相伴同行，冷静筹谋，小心防备旁人。三人在重重天灾危机中，拼尽全力寻找活下去的希望。该动态漫改编自番茄小说《空间四合院带我摆烂到底》，作者允允桠",
     "ranks": {
      "all": 35,
      "comic": 14
@@ -10744,8 +10733,8 @@
     "heat": 55470000,
     "new": true,
     "score": 8.7,
-    "fav": 249000,
-    "like": 441000,
+    "fav": 252000,
+    "like": 449000,
     "tags": [
      "萌宝",
      "萌系",
@@ -10764,12 +10753,12 @@
     "heat": 55380000,
     "new": false,
     "score": 8.2,
-    "fav": 1360000,
-    "like": 3431000,
+    "fav": 1361000,
+    "like": 3434000,
     "tags": [
      "恋爱",
      "都市",
-     "职场"
+     "职\u0000\u0000场"
     ],
     "desc": "年少相爱却无奈分手，多年后再度重逢，重重误会横亘两人之间。普通工人陈叶默默扛起养育外甥女的重担，隐忍善良，坚守本心。历经职场打压、意外风波，真相终于揭开。亲情的担当与爱情的遗憾，坚守善良与正义，纵使命运多舛，真心终会被看见。",
     "ranks": {
@@ -10784,14 +10773,14 @@
     "heat": 55350000,
     "new": true,
     "score": 8.5,
-    "fav": 207000,
-    "like": 327000,
+    "fav": 210000,
+    "like": 333000,
     "tags": [
      "脑洞",
      "穿越",
      "系统"
     ],
-    "desc": "跑了十年龙套，叶默在片场喝口水，竟把自己呛回了十年前。一睁眼，他来到一个平行世界——那些他刻进骨子里的经典电影，居然一部都还没拍！更绝的是，他还绑定了影帝系统，演技、功夫、剧本库，样样安排。从一个跛脚武痴小反派开始，他演一个角色爆一次火，把龙套演成全民经典，把配角演成票房担当。这一世，他不熬了，要凭真本事，一路站上影帝领奖台！",
+    "desc": "跑了十年龙套，叶默在片场喝口水，竟把自己呛回了十年前。一睁眼，他来到一个平行世界——那些他刻进骨子里的经典电影，居然一部都还没拍！更绝的是，他还绑定了影帝系统，演技、功\u0000\u0000夫、剧本库，样样安排。从一个跛脚武痴小反派开始，他演一个角色爆一次火，把龙套演成全民经典，把配角演成票房担当。这一世，他不熬了，要凭真本事，一路站上影帝领奖台！",
     "ranks": {
      "all": 38,
      "comic": 15
@@ -10804,14 +10793,14 @@
     "heat": 55330000,
     "new": false,
     "score": 9.3,
-    "fav": 266000,
-    "like": 905000,
+    "fav": 267000,
+    "like": 911000,
     "tags": [
      "脑洞",
      "系统",
      "求生"
     ],
-    "desc": "危机四伏的求生公路上，区榜一无敌黑旋风因一句随口谎言卷入藏宝图争夺战，与三位心怀鬼胎的强者结成临时同盟，嘴上结盟，心里算计，谁也不信谁。秘境里文言规则暗藏杀机，灵魂飘带夜夜索命，蓝色河怪杀之不死，报错颜色者死，选错路者死。从互相提防到托付性命，她一点点赢回人心。与此同时萌宠彩蛋破壳，全服首只霓鳞御空龙霓啾啾诞生，防御近万，还能逆转时空替主赴死。这求生游戏的尽头，是宝藏，还是更大的局？",
+    "desc": "危机四伏的求生公路上，区榜一无敌黑旋风因一句随口谎言卷入藏宝图争夺战，与三位心怀鬼胎的强者结成临时同盟，嘴上结盟，心里算计，谁也不信谁。秘境里文言规则暗藏杀机，灵魂飘带夜夜索命，蓝色河怪杀之不死，报错颜色者死，选错路者死。从互相提防到托\u0000付性命，她一点点赢回人心。与此同时萌宠彩蛋破壳，全服首只霓鳞御空龙霓啾啾诞生，防御近万，还能逆转时空替主赴死。这求生游戏的尽头，是宝藏，还是更大的局？",
     "ranks": {
      "all": 39,
      "comic": 16
@@ -10824,14 +10813,14 @@
     "heat": 55280000,
     "new": false,
     "score": 8.0,
-    "fav": 334000,
-    "like": 555000,
+    "fav": 337000,
+    "like": 560000,
     "tags": [
      "剧情",
      "都市",
      "AI剧"
     ],
-    "desc": "秦战曾是威震一方的“震关东”，入狱二十年后，才在探监时得知自己有个女儿。出狱后他拒绝宏盛集团请他出山，在夜市摆起烧烤摊，对外谎称因偷电缆服刑，只想安稳守护妻女。不料女儿秦念念遭到同学长期勒索，甚至被逼陪酒。秦战出手护女，身份几经误会，直到宏盛众人当街跪迎，他震关东的身份才公之于众。宿敌庞六出面包庇恶徒，被秦战压服，企图私了，却被秦念念拒绝。作恶者全部受到惩处，秦战放弃高位，守着烧烤摊陪伴家人。",
+    "desc": "秦战曾是威震一方的“震关东”，入狱二十年后，才在探监时得知自己有个女儿。出狱后他拒绝宏盛集团请他出山，在夜市摆起烧烤摊，对外谎称因偷电缆服刑，只想安稳守护妻女。不料女儿秦念念遭到同学长期勒索，甚至被逼陪酒。秦战出手护女，身份几经误会，直到宏盛众人当街跪迎，他震关东的身份才公之于众。宿敌庞六出面包庇恶徒，被秦战压服，企图私了，却被秦\u0000\u0000念念拒绝。作恶者全部受到惩处，秦战放弃高位，守着烧烤摊陪伴家人。",
     "ranks": {
      "all": 40,
      "ai": 17
@@ -10844,8 +10833,8 @@
     "heat": 55130000,
     "new": false,
     "score": 9.0,
-    "fav": 734000,
-    "like": 1868000,
+    "fav": 735000,
+    "like": 1871000,
     "tags": [
      "脑洞",
      "穿越",
@@ -10864,8 +10853,8 @@
     "heat": 55050000,
     "new": false,
     "score": 8.4,
-    "fav": 439000,
-    "like": 789000,
+    "fav": 444000,
+    "like": 797000,
     "tags": [
      "玄幻",
      "逆袭",
@@ -10884,8 +10873,8 @@
     "heat": 54980000,
     "new": false,
     "score": 8.7,
-    "fav": 750000,
-    "like": 2059000,
+    "fav": 752000,
+    "like": 2063000,
     "tags": [
      "萌宝",
      "穿越",
@@ -10904,8 +10893,8 @@
     "heat": 54950000,
     "new": true,
     "score": 8.8,
-    "fav": 126000,
-    "like": 217000,
+    "fav": 127000,
+    "like": 220000,
     "tags": [
      "剧情",
      "重生",
@@ -10924,14 +10913,14 @@
     "heat": 54870000,
     "new": false,
     "score": null,
-    "fav": 235000,
-    "like": 622000,
+    "fav": 238000,
+    "like": 627000,
     "tags": [
      "剧情",
      "都市",
      "豪门"
     ],
-    "desc": "十二岁那年，梁成安被偏心的父亲梁广田送往国外，只为了把读书机会和全部感情留给哥哥。多年后，他以集团董事长身份归来。父亲还在指望他托举哥哥，直到被亲手养大的儿子赶出家门，梁广田才明白迟来的后悔换不回原谅。",
+    "desc": "十二岁那年，梁成安被偏心的父亲梁广\u0000田送往国外，只为了把读书机会和全部感情留给哥哥。多年后，他以集团董事长身份归来。父亲还在指望他托举哥哥，直到被亲手养大的儿子赶出家门，梁广田才明白迟来的后悔换不回原谅。",
     "ranks": {
      "all": 45,
      "ai": 22
@@ -10944,14 +10933,14 @@
     "heat": 54870000,
     "new": false,
     "score": 7.2,
-    "fav": 549000,
-    "like": 1221000,
+    "fav": 550000,
+    "like": 1223000,
     "tags": [
      "脑洞",
      "系统",
      "无限流"
     ],
-    "desc": "近未来全球爆发规则怪谈危机，各国选手被传送至诡异空间参赛，胜负绑定国运资源。大乾选手林北闯入以八零年代中国乡村怀旧为主题的第六至八轮怪谈，面对修电视、打猫、刷墙、买冰棍、选灯泡等看似简单却暗藏杀机的考验。他凭借对八零年代农村生活的深厚了解与严\u0000\u0000密逻辑，屡次识破陷阱，带领大乾化险为夷，最终完美通关。",
+    "desc": "近未来全球爆发规则怪谈危机，各国选手被传送至诡异空间参赛，胜负绑定国运资源。大乾选手林北闯入以八零年代中国乡村怀旧为主题的第六至八轮怪谈，面对修电视、打猫、刷墙、买冰棍、选灯泡等看似简单却暗藏杀机的考验。他凭借对八零年代农村生活的深厚了解与严密逻辑，屡次识破陷阱，带领大乾化险为夷，最终完美通关。",
     "ranks": {
      "all": 46,
      "ai": 23
@@ -10964,14 +10953,14 @@
     "heat": 54850000,
     "new": false,
     "score": 9.0,
-    "fav": 1393000,
-    "like": 4359000,
+    "fav": 1394000,
+    "like": 4363000,
     "tags": [
      "玄幻",
      "穿越",
      "修真"
     ],
-    "desc": "遭古帝灭生光反噬，陈极仅剩一月寿命，为寻太古圣\u0000泉续命，众人勇闯凶险太古境。途中天骄围杀不断、旧念宿命缠身，望舒三千年执念难解，林琅天直面前世宿命，于情义与大道间艰难抉择。众人浴血闯过灵虚大裂谷，死战天骄与太古禁卫，历经磨难与离别、彼此相守扶持。陈极以身搏命破局，渡劫觉醒四道元婴、硬扛双重天劫，致使同伴神魂重伤。为挽回同伴生机，陈极与林琅天立下太古卫契约，放下过往恩怨，携少年热血奔赴中州未知前路。",
+    "desc": "遭古帝灭生光反噬，陈极仅剩一月寿命，为寻太古圣泉续命，众人勇闯凶险太古境。途中天骄围杀不断、旧念宿命缠身，望舒三千年执念难解，林琅天直面前世宿命，于情义与大道间艰难抉择。众人浴血闯过灵虚大裂谷，死战天骄与太古禁卫，历经磨难与离别、彼此相守扶持。陈极以身搏命破局，渡劫觉醒四道元婴、硬扛双重天劫，致使同伴神魂重伤。为挽回同伴生机，陈极与林琅天立下太古卫契约，放下过往恩怨，携少年热血奔赴中州未知前路。",
     "ranks": {
      "all": 47,
      "comic": 17
@@ -10984,8 +10973,8 @@
     "heat": 54650000,
     "new": false,
     "score": 9.0,
-    "fav": 2625000,
-    "like": 9951000,
+    "fav": 2627000,
+    "like": 9957000,
     "tags": [
      "剧情",
      "穿越",
@@ -11004,14 +10993,14 @@
     "heat": 54530000,
     "new": false,
     "score": 8.4,
-    "fav": 489000,
-    "like": 1882000,
+    "fav": 491000,
+    "like": 1888000,
     "tags": [
      "恋爱",
      "都市",
      "AI剧"
     ],
-    "desc": "顾瑶带着儿子曜曜经营甜品小摊，在市井烟火中平静生活。一次偶遇，霍擎寒得知自己还有一个孩子，同时发现当年的离婚手续并未办结。霍擎寒试着融入母子二人的生活，学着陪伴孩子、体谅顾瑶。长久相处下，过往隔阂渐渐消散，曜曜慢慢接纳了他。伴随相处，顾瑶身世的线索缓缓浮现。一场温柔的久别重逢，一家三口慢慢靠近，在平凡日常中收获温暖与幸福。",
+    "desc": "顾瑶带着儿子曜曜经营甜品小摊，在市井烟火中平静生活。一次偶遇，霍擎寒得知自己还有一个孩子，同时发现当年的离婚手续并未办结。霍擎寒试着融入\u0000母子二人的生活，学着陪伴孩子、体谅顾瑶。长久相处下，过往隔阂渐渐消散，曜曜慢慢接纳了他。伴随相处，顾瑶身世的线索缓缓浮现。一场温柔的久别重逢，一家三口慢慢靠近，在平凡日常中收获温暖与幸福。",
     "ranks": {
      "all": 49,
      "ai": 24
@@ -11024,8 +11013,8 @@
     "heat": 54430000,
     "new": false,
     "score": 8.6,
-    "fav": 3203000,
-    "like": 4186000,
+    "fav": 3206000,
+    "like": 4190000,
     "tags": [
      "脑洞",
      "穿越",
@@ -11044,14 +11033,14 @@
     "heat": 54430000,
     "new": true,
     "score": 9.2,
-    "fav": 164000,
-    "like": 480000,
+    "fav": 165000,
+    "like": 483000,
     "tags": [
      "玄幻",
      "都市",
      "漫剧"
     ],
-    "desc": "温辰自幼离家，却早已成长为守护南境的人族首席。被苏家寻回后，众人只当她是错过高考的普通女孩，她却因特殊任务进入中洲大学，与伙伴共同调查异常事件。面对亲情隔阂、身份误解与结界危机，温辰不愿困于真假千金之争，而是凭借智慧与担当赢得尊重。随着身世和前世使命逐渐揭开，她携手各族伙伴守护家园，为众生争\u0000\u0000取和平未来。",
+    "desc": "温辰自幼离家，却早已成长为守护南境的人族首席。被苏家寻回后，众人只当她是错过高考的普通女孩，她却因特殊任务进入中洲大学，与伙伴共同调查异常事件。面对亲情隔阂、身份误解与结界危机\u0000，温辰不愿困于真假千金之争，而是凭借智慧与担当赢得尊重。随着身世和前世使命逐渐揭开，她携手各族伙伴守护家园，为众生争取和平未来。",
     "ranks": {
      "all": 51,
      "comic": 19
@@ -11064,14 +11053,14 @@
     "heat": 54280000,
     "new": false,
     "score": 8.5,
-    "fav": 263000,
-    "like": 488000,
+    "fav": 266000,
+    "like": 494000,
     "tags": [
      "玄幻",
      "穿越",
      "逆袭"
     ],
-    "desc": "林鹤熬夜加班猝死后穿越到苍明界，成了没有灵根的废柴，还被迫娶了只能坐轮椅的残疾女子。洞房当晚他却发现妻子也是蓝星穿越者。靠着母亲留下的神秘绿葫芦，夫妻二人种灵草捕鱼赚灵石，在修仙界苟住发育。只是林鹤渐渐发现，真正身怀天命的，似乎是自己的仙妻。",
+    "desc": "林鹤熬夜加班猝死后穿越到苍明界，成了没有灵根的废柴，还被迫娶了只能坐轮椅的残疾女子。洞房当晚他却发现妻子也是蓝星穿越者。靠着母亲留下的神秘绿葫芦，夫妻二人种灵草捕鱼赚灵石，在修仙界苟住发育。只是林鹤渐渐发现，真正身怀天命的，\u0000\u0000似乎是自己的仙妻。",
     "ranks": {
      "all": 52,
      "comic": 20
@@ -11084,8 +11073,8 @@
     "heat": 54250000,
     "new": false,
     "score": 8.5,
-    "fav": 269000,
-    "like": 544000,
+    "fav": 270000,
+    "like": 547000,
     "tags": [
      "脑洞",
      "逆袭",
@@ -11104,8 +11093,8 @@
     "heat": 54180000,
     "new": false,
     "score": 8.9,
-    "fav": 1147000,
-    "like": 1662000,
+    "fav": 1148000,
+    "like": 1664000,
     "tags": [
      "恋爱",
      "都市",
@@ -11120,12 +11109,12 @@
    },
    "7696839719925058585": {
     "id": "7696839719925058585",
-    "name": "夫人一不小心成了全家团宠",
+    "name": "夫人一不小心成了全家团\u0000宠",
     "heat": 54170000,
     "new": false,
     "score": 8.1,
-    "fav": 250000,
-    "like": 515000,
+    "fav": 251000,
+    "like": 519000,
     "tags": [
      "恋爱",
      "都市",
@@ -11144,8 +11133,8 @@
     "heat": 54130000,
     "new": false,
     "score": 8.9,
-    "fav": 850000,
-    "like": 2694000,
+    "fav": 855000,
+    "like": 2709000,
     "tags": [
      "玄幻",
      "穿越",
@@ -11164,8 +11153,8 @@
     "heat": 54130000,
     "new": false,
     "score": null,
-    "fav": 155000,
-    "like": 397000,
+    "fav": 158000,
+    "like": 404000,
     "tags": [
      "总裁",
      "都市",
@@ -11184,8 +11173,8 @@
     "heat": 54070000,
     "new": false,
     "score": 8.6,
-    "fav": 2241000,
-    "like": 3920000,
+    "fav": 2245000,
+    "like": 3928000,
     "tags": [
      "脑洞",
      "求生",
@@ -11204,14 +11193,14 @@
     "heat": 54050000,
     "new": false,
     "score": 7.1,
-    "fav": 2566000,
-    "like": 7571000,
+    "fav": 2569000,
+    "like": 7579000,
     "tags": [
      "脑洞",
      "穿越",
      "系统"
     ],
-    "desc": "穿越而来的叶秋，本是拒北王失散的长子，幼时惨遭抛弃，受尽苦难。重回王府却得不到亲情呵护，受尽冷眼与伤害。他觉醒人生选择系统，毅然断绝叶家关系，获得嗜血魔神天赋。于绝境磨砺自身，以一首首传世诗篇惊艳寒江城，结交挚友，直面世家的迫害与算计。圣魔同体的他挣脱命\u0000运枷锁，放下虚妄亲情，奔赴荒古遗址，闯出属于自己的道路。",
+    "desc": "穿越而来的叶秋，本是拒北王失散的长子，幼时惨遭抛弃，受尽苦难。重回王府却得不到亲情呵护，受尽冷眼与伤害。他觉醒人生选择系统，毅然断绝叶家关系，获得嗜血魔神天赋。于绝境磨砺自身，以一首首传世诗篇惊艳寒江城，结交挚友，直面世家的迫害与算计。圣魔同体的他挣脱命运枷锁，放下虚妄亲情，奔赴荒古遗址，闯出属于自己的道路。",
     "ranks": {
      "all": 59,
      "comic": 24
@@ -11224,14 +11213,14 @@
     "heat": 54040000,
     "new": false,
     "score": 7.9,
-    "fav": 542000,
-    "like": 1397000,
+    "fav": 543000,
+    "like": 1400000,
     "tags": [
      "恋爱",
      "穿越",
      "逆袭"
     ],
-    "desc": "陆娇娇一觉醒来穿进八零年代失忆炮灰女配身上。\u0000\u0000那男为了陪我的养姐，竟把他的堂哥，推进了我的病房。让堂哥假冒自己，留在卫生院照顾我，他则带着白月光到处散心游玩，看到眼前的男人直接心动，而男人游玩几天回来后直接破破防了，而学渣陆娇娇靠着自己的本领拿到竞赛奖，惊呆了所有人。。。老公更是听话宠爱的行动派！",
+    "desc": "陆娇娇一觉醒来穿进八零年代失忆炮灰女配身上。那男为了陪我的养姐，竟把他的堂哥，推进了我的病房。让堂哥假冒自己，留在卫生院照顾我，他则带着白月光到处散心游玩，看到眼前的男人直接心动，而男人游玩几天回来后直接破破防了，而学渣陆娇娇靠着自己的本领拿到竞赛奖，惊呆了所有人。。。老公更是听话宠爱的行动派！",
     "ranks": {
      "all": 60,
      "comic": 25
@@ -11244,8 +11233,8 @@
     "heat": 53950000,
     "new": true,
     "score": 9.1,
-    "fav": 1309000,
-    "like": 2463000,
+    "fav": 1310000,
+    "like": 2465000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -11264,8 +11253,8 @@
     "heat": 53950000,
     "new": true,
     "score": 8.0,
-    "fav": 94000,
-    "like": 164000,
+    "fav": 96000,
+    "like": 168000,
     "tags": [
      "剧情",
      "重生",
@@ -11284,8 +11273,8 @@
     "heat": 53880000,
     "new": false,
     "score": 8.1,
-    "fav": 1334000,
-    "like": 2223000,
+    "fav": 1336000,
+    "like": 2226000,
     "tags": [
      "脑洞",
      "系统",
@@ -11304,14 +11293,14 @@
     "heat": 53770000,
     "new": false,
     "score": null,
-    "fav": 276000,
-    "like": 902000,
+    "fav": 278000,
+    "like": 909000,
     "tags": [
      "脑洞",
      "重生",
      "异能"
     ],
-    "desc": "张安竟重回1960年的寒冬！这一世，他意外获得透视能力和神奇空间，进山寻宝、打猎囤粮、种田养家，让兄妹俩在艰难岁月里过上好日子。面对重重刁难，张安凭借智慧和胆识一次次化解危机，不仅要让妹妹吃饱穿暖、平安长大，更要抓住时代机遇，闯出属于自己的精彩人生！",
+    "desc": "张安竟重回1960年的寒冬！这一世，他意外获得透视能力和神奇空间，进山寻宝、打猎囤粮、种田养家，让兄妹俩在艰难岁月里过上好日子。面对重重刁难，张安凭借智慧和胆识一次次化解危机，不仅要让妹妹吃饱穿暖、平安\u0000\u0000长大，更要抓住时代机遇，闯出属于自己的精彩人生！",
     "ranks": {
      "all": 64,
      "ai": 31
@@ -11324,8 +11313,8 @@
     "heat": 53750000,
     "new": false,
     "score": 8.5,
-    "fav": 1705000,
-    "like": 3768000,
+    "fav": 1706000,
+    "like": 3771000,
     "tags": [
      "脑洞",
      "穿越",
@@ -11344,8 +11333,8 @@
     "heat": 53740000,
     "new": false,
     "score": 8.1,
-    "fav": 547000,
-    "like": 2787000,
+    "fav": 548000,
+    "like": 2794000,
     "tags": [
      "脑洞",
      "重生",
@@ -11364,8 +11353,8 @@
     "heat": 53720000,
     "new": false,
     "score": 7.3,
-    "fav": 3645000,
-    "like": 5429000,
+    "fav": 3650000,
+    "like": 5435000,
     "tags": [
      "玄幻",
      "修真",
@@ -11384,14 +11373,14 @@
     "heat": 53680000,
     "new": false,
     "score": 8.4,
-    "fav": 893000,
-    "like": 3652000,
+    "fav": 894000,
+    "like": 3658000,
     "tags": [
      "脑洞",
      "异能",
      "逆袭"
     ],
-    "desc": "落魄的林铭在办理离婚的紧\u0000\u0000要关头觉醒预知未来的能力，痛悔过往家暴堕落的自己，决心挽回妻女陈佳与萱萱。他靠预判车祸救下出租车司机，又识破金融陷阱结交江湖枭雄李宏远；他一次次用实际行动弥补亏欠，偿还债务，化解多重商业危机。林铭带着陈佳、萱萱回老家中秋团圆，努力修复破碎的亲情，一边布局制药实业，一边用真心消融陈佳心中的伤疤，开启自我救赎与逆袭神豪之路。",
+    "desc": "落魄的林铭在办理离婚的紧要关头觉醒预知未来的能力，痛悔过往家暴堕落的自己，决心挽回妻女陈佳与萱萱。他靠预判车祸救下出租车司机，又识破金融陷阱结交江湖枭雄李宏远；他一次次用实际行动弥补亏欠，偿还债务，化解多重商业危机。林铭带着陈佳、萱萱回老家中秋团圆，努力修复破碎的亲情，一边布局制药实业，一边用真心消融陈佳心中的伤疤，开启自我救赎与逆袭神豪之路。",
     "ranks": {
      "all": 68,
      "ai": 33
@@ -11404,8 +11393,8 @@
     "heat": 53620000,
     "new": false,
     "score": 7.8,
-    "fav": 297000,
-    "like": 846000,
+    "fav": 299000,
+    "like": 851000,
     "tags": [
      "萌宝",
      "异能",
@@ -11424,8 +11413,8 @@
     "heat": 53610000,
     "new": false,
     "score": 8.8,
-    "fav": 1236000,
-    "like": 2558000,
+    "fav": 1238000,
+    "like": 2560000,
     "tags": [
      "剧情",
      "搞笑",
@@ -11444,14 +11433,14 @@
     "heat": 53560000,
     "new": false,
     "score": 8.3,
-    "fav": 181000,
-    "like": 506000,
+    "fav": 182000,
+    "like": 508000,
     "tags": [
      "剧情",
      "逆袭",
      "年代"
     ],
-    "desc": "1983年，十六岁的林大伟因家境贫寒，被迫辍学，供四个弟弟妹妹继续读书。离乡那天，青梅竹\u0000马的袁小秀在村口山坡含泪送别。来到省城工地后，林大伟从仓库工作做起，凭借勤奋和所学知识逐渐获得认可。面对亲情牵绊、感情波折与事业挫折，他始终没有放弃学习与梦想。多年后，曾经被迫放下课本的少年，凭借知识与努力，在建筑行业闯出了属于自己的一片天地，书写了一段逆境成长、奋斗筑梦的人生故事。",
+    "desc": "1983年，十六岁的林大伟因家境贫寒\u0000\u0000，被迫辍学，供四个弟弟妹妹继续读书。离乡那天，青梅竹马的袁小秀在村口山坡含泪送别。来到省城工地后，林大伟从仓库工作做起，凭借勤奋和所学知识逐渐获得认可。面对亲情牵绊、感情波折与事业挫折，他始终没有放弃学习与梦想。多年后，曾经被迫放下课本的少年，凭借知识与努力，在建筑行业闯出了属于自己的一片天地，书写了一段逆境成长、奋斗筑梦的人生故事。",
     "ranks": {
      "all": 71,
      "ai": 35
@@ -11464,14 +11453,14 @@
     "heat": 53540000,
     "new": false,
     "score": null,
-    "fav": 214000,
-    "like": 557000,
+    "fav": 218000,
+    "like": 567000,
     "tags": [
      "剧情",
      "重生",
      "囤物资"
     ],
-    "desc": "林知意前世是沪上侨商林家的千金，家族因财富与海外背景遭人算计，最终家破人亡，她自己惨死在北大荒。一朝重生回到1951年，距家族覆灭尚有一年半，她觉醒静止空间，提前转移全部家产，携全家改名换姓远赴北方垦荒，兄长们各站稳脚跟，前世仇人终只寻得\u0000\u0000空宅。",
+    "desc": "林知意前世是沪上侨商林家的千金，家族因财富与海外背景遭人算计，最终家破人亡，她自己惨死在北大荒。一朝重生回到1951年，距家族覆灭尚有一年半，她觉醒静止空间，提前转移全部家产，携全家改名换姓远赴北方垦荒，兄长们各站稳脚跟，前世仇人终只寻得空宅。",
     "ranks": {
      "all": 72,
      "ai": 36
@@ -11485,7 +11474,7 @@
     "new": false,
     "score": 8.5,
     "fav": 219000,
-    "like": 978000,
+    "like": 980000,
     "tags": [
      "脑洞",
      "穿越",
@@ -11504,8 +11493,8 @@
     "heat": 53480000,
     "new": false,
     "score": 8.3,
-    "fav": 242000,
-    "like": 486000,
+    "fav": 243000,
+    "like": 488000,
     "tags": [
      "脑洞",
      "穿越",
@@ -11524,8 +11513,8 @@
     "heat": 53480000,
     "new": false,
     "score": 8.3,
-    "fav": 169000,
-    "like": 197000,
+    "fav": 170000,
+    "like": 199000,
     "tags": [
      "玄幻",
      "战斗",
@@ -11544,8 +11533,8 @@
     "heat": 53450000,
     "new": false,
     "score": 8.4,
-    "fav": 945000,
-    "like": 2737000,
+    "fav": 947000,
+    "like": 2744000,
     "tags": [
      "剧情",
      "系统",
@@ -11564,8 +11553,8 @@
     "heat": 53420000,
     "new": false,
     "score": null,
-    "fav": 239000,
-    "like": 1081000,
+    "fav": 240000,
+    "like": 1089000,
     "tags": [
      "种田",
      "重生",
@@ -11584,8 +11573,8 @@
     "heat": 53330000,
     "new": false,
     "score": 6.0,
-    "fav": 879000,
-    "like": 2434000,
+    "fav": 881000,
+    "like": 2441000,
     "tags": [
      "脑洞",
      "逆袭",
@@ -11604,8 +11593,8 @@
     "heat": 53330000,
     "new": false,
     "score": 8.8,
-    "fav": 4385000,
-    "like": 6737000,
+    "fav": 4387000,
+    "like": 6741000,
     "tags": [
      "恋爱",
      "古代",
@@ -11624,8 +11613,8 @@
     "heat": 53320000,
     "new": false,
     "score": 8.3,
-    "fav": 490000,
-    "like": 1101000,
+    "fav": 491000,
+    "like": 1104000,
     "tags": [
      "剧情",
      "年代",
@@ -11645,7 +11634,7 @@
     "new": false,
     "score": 8.2,
     "fav": 216000,
-    "like": 591000,
+    "like": 594000,
     "tags": [
      "脑洞",
      "穿越",
@@ -11664,8 +11653,8 @@
     "heat": 53290000,
     "new": false,
     "score": 8.0,
-    "fav": 425000,
-    "like": 622000,
+    "fav": 426000,
+    "like": 624000,
     "tags": [
      "剧情",
      "穿越",
@@ -11684,8 +11673,8 @@
     "heat": 53280000,
     "new": false,
     "score": 9.0,
-    "fav": 1460000,
-    "like": 4431000,
+    "fav": 1461000,
+    "like": 4434000,
     "tags": [
      "种田",
      "穿越",
@@ -11704,8 +11693,8 @@
     "heat": 53270000,
     "new": false,
     "score": 7.5,
-    "fav": 398000,
-    "like": 1090000,
+    "fav": 399000,
+    "like": 1092000,
     "tags": [
      "剧情",
      "都市",
@@ -11724,14 +11713,14 @@
     "heat": 53270000,
     "new": false,
     "score": 8.6,
-    "fav": 1043000,
-    "like": 2112000,
+    "fav": 1047000,
+    "like": 2119000,
     "tags": [
      "末世",
      "穿越",
      "求生"
     ],
-    "desc": "末世第十年，人类文明崩塌，仅存数座超级主城在尸潮夹缝中筑墙自守。幸存者李星月因独特体质获得丧尸病毒全免\u0000\u0000疫能力。在死城星海城中，他机缘巧合结识了已诞生自主灵智的四大八阶尸王（暴君、修罗、修女、血月），并在啼笑皆非的相处中成为莫逆之交。为探寻末世真相与人类社会的生存法则，李星月伪装身份前往“自由城”，从底层猎尸队考核起步，结识队友，组建小队，穿梭于危险废墟之间狩猎晋升。",
+    "desc": "末世第十年，人类文明崩塌，仅存数座超级主城在尸潮夹缝中筑墙自守。幸存者李星月因独特体质获得丧尸病毒全免疫能力。在死城星海城中，他机缘巧合结识了已诞生自主灵智的四大八阶尸王（暴君、修罗、修女、血月），并在啼笑皆非的相处中成为莫逆之交。为探寻末世真相与人类社会的生存法则，李星月伪装身份前往“自由城”，从底层猎尸队考核起步，结识队友，组建小队，穿梭于危险废墟之间狩猎晋升。",
     "ranks": {
      "all": 85,
      "comic": 33
@@ -11744,14 +11733,14 @@
     "heat": 53250000,
     "new": false,
     "score": 7.2,
-    "fav": 284000,
-    "like": 932000,
+    "fav": 285000,
+    "like": 934000,
     "tags": [
      "脑洞",
      "重生",
      "逆袭"
     ],
-    "desc": "1970年，傅南霆在父亲傅正辞牺牲后重生，觉醒现代随身空间与前世记忆。前世母亲苏眉为嫁初恋徐永荣，想卷走两千块抚恤金，把子女当徐家免费保姆，傅南霆更被绿茶校花陈清清诬陷接盘、被迫下乡，最终惨死。重来一世，他十八岁成年，果断硬核顶门\u0000\u0000立户联合张叔、爷奶、大伯四叔向苏眉和外婆施压，逼苏眉独自改嫁，保住房产，分割抚恤金，只让熊孩子傅南勇跟去徐家吃苦。",
+    "desc": "1970年，傅南霆在父亲傅正辞牺牲后重生，觉醒现代随身空间与前世记忆。前世母亲苏眉为嫁初恋徐永荣，想卷走两千块抚恤金，把子女当徐家免费保姆，傅南霆更被绿茶校花陈清清诬陷接盘、被迫下乡，最终惨死。重来一世，他十八岁成年，果断硬核顶门立户联合张叔、爷奶、大伯四叔向苏眉和外婆施压，逼苏眉独自改嫁，保住房产，分割抚恤金，只让熊孩子傅南勇跟去徐家吃苦。",
     "ranks": {
      "all": 86,
      "comic": 34
@@ -11765,7 +11754,7 @@
     "new": false,
     "score": 9.0,
     "fav": 4955000,
-    "like": 22462000,
+    "like": 22466000,
     "tags": [
      "萌宝",
      "修真",
@@ -11784,8 +11773,8 @@
     "heat": 53150000,
     "new": false,
     "score": 7.9,
-    "fav": 542000,
-    "like": 965000,
+    "fav": 543000,
+    "like": 967000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -11804,8 +11793,8 @@
     "heat": 53140000,
     "new": false,
     "score": 8.0,
-    "fav": 121000,
-    "like": 330000,
+    "fav": 122000,
+    "like": 331000,
     "tags": [
      "剧情",
      "都市",
@@ -11824,8 +11813,8 @@
     "heat": 53110000,
     "new": false,
     "score": 8.8,
-    "fav": 913000,
-    "like": 1983000,
+    "fav": 915000,
+    "like": 1988000,
     "tags": [
      "脑洞",
      "穿越",
@@ -11844,12 +11833,12 @@
     "heat": 53090000,
     "new": false,
     "score": 7.1,
-    "fav": 526000,
-    "like": 1681000,
+    "fav": 528000,
+    "like": 1685000,
     "tags": [
      "剧情",
      "重生",
-     "逆袭"
+     "\u0000\u0000逆袭"
     ],
     "desc": "前世，首富千金李知微带着十里红妆嫁入汝安侯府，却惨遭林济同骗财害命，落得家破人亡。重生归来，李知微果断破局，恰逢安王世子许清时当街“抢亲”要她当后娘。李知微顺水推舟进入安王府，并将一千三百六十抬嫁妆全部捐给国库赈灾。此举深得“财迷”皇帝欢心，直接赐婚她与冷面安王许鹤明。一家三口联手搞事业，斗渣男、虐白莲、扳倒贪官污吏。最终，李知微不仅改变了命运，更与许鹤明假戏真做，收获了双向奔赴的甜蜜爱情。",
     "ranks": {
@@ -11864,8 +11853,8 @@
     "heat": 53080000,
     "new": false,
     "score": 7.2,
-    "fav": 352000,
-    "like": 1199000,
+    "fav": 356000,
+    "like": 1215000,
     "tags": [
      "玄幻",
      "穿越",
@@ -11884,14 +11873,14 @@
     "heat": 53060000,
     "new": false,
     "score": 8.1,
-    "fav": 579000,
-    "like": 1796000,
+    "fav": 581000,
+    "like": 1804000,
     "tags": [
      "脑洞",
      "无限流",
      "都市"
     ],
-    "desc": "十八岁的丰则从小被厉鬼养大，一直以为自己也是鬼。初入人类世界，他误闯恐怖游戏，发现通关竟能赚钱！别人遇鬼吓得魂飞魄散，他却追着厉鬼暴揍，逼得副本BOSS跪地求饶。从零星菜鸟到恐游大佬，丰则一边接单挣钱，一边带队横扫诡异副本。玩家奉他为神秘高人，厉鬼见他闻风丧胆。可他始终坚信自己只是个平平无奇的小鬼啊！",
+    "desc": "十八岁的丰则从小被厉鬼养大，一直以为自己也是鬼。初入人类世\u0000\u0000界，他误闯恐怖游戏，发现通关竟能赚钱！别人遇鬼吓得魂飞魄散，他却追着厉鬼暴揍，逼得副本BOSS跪地求饶。从零星菜鸟到恐游大佬，丰则一边接单挣钱，一边带队横扫诡异副本。玩家奉他为神秘高人，厉鬼见他闻风丧胆。可他始终坚信自己只是个平平无奇的小鬼啊！",
     "ranks": {
      "all": 93,
      "comic": 38
@@ -11904,8 +11893,8 @@
     "heat": 53050000,
     "new": false,
     "score": 7.2,
-    "fav": 420000,
-    "like": 1226000,
+    "fav": 421000,
+    "like": 1228000,
     "tags": [
      "脑洞",
      "系统",
@@ -11924,14 +11913,14 @@
     "heat": 53010000,
     "new": false,
     "score": 8.9,
-    "fav": 4426000,
-    "like": 5609000,
+    "fav": 4431000,
+    "like": 5615000,
     "tags": [
      "武侠",
      "古代",
      "漫剧"
     ],
-    "desc": "武师踏骨而行，方士驭气而生，这大夏天下，谁配端坐庙堂？赏金客以命换钱，妖兽在荒野嘶吼，这混沌江湖，谁能执掌沉浮？高高在上的皇室暗布削藩局，盗走顾家真嫡子，以假公子冒名顶替，把襁褓中的他丢进血火地狱，笑看棋子自相残杀。十七年后，死人堆里爬出个少年，化名顾十一，破衣烂衫，六指握刀。杀宋家开道，借陆家入局，从江湖一路杀回庙堂。苍天有命我来改，皇室有棋我来掀！",
+    "desc": "武师踏骨而行，方士驭气而生，这大夏天下，谁配端坐庙堂？赏金客以命换钱，妖兽在荒野嘶吼，这混沌江湖，谁能执掌沉浮？高高在上的皇室暗布削藩局，盗走顾家真嫡子，\u0000\u0000以假公子冒名顶替，把襁褓中的他丢进血火地狱，笑看棋子自相残杀。十七年后，死人堆里爬出个少年，化名顾十一，破衣烂衫，六指握刀。杀宋家开道，借陆家入局，从江湖一路杀回庙堂。苍天有命我来改，皇室有棋我来掀！",
     "ranks": {
      "all": 95,
      "comic": 40
@@ -11944,14 +11933,14 @@
     "heat": 52980000,
     "new": true,
     "score": 9.4,
-    "fav": 812000,
-    "like": 1357000,
+    "fav": 813000,
+    "like": 1359000,
     "tags": [
      "剧情",
      "偏门传奇",
      "现代"
     ],
-    "desc": "江湖纷争，从来不是一个人的较量。一战成名的陈默，只想守着叶嫣然过安稳日子，却因沈仙的强势归来，再度卷入天听的纷争。昔日同门贺家势力步步紧逼，一场阴谋悄然展开。随着身世之谜与师门旧事逐渐浮出水面，陈默发现，眼前的敌人未必是真正的对手，熟悉的伙伴也藏着不为人知的秘密。面对接连设下的陷阱与危及亲友的杀机，他与一群性格迥异的伙伴并肩入局，在一次次交锋中寻找破绽。",
+    "desc": "江湖纷争，从来不是一个人的较量。一战成名的陈默，只想守着叶嫣然过安稳日子，却因沈仙的强势归来，再度卷入天听的纷争。昔日同门贺家势力步步紧逼，一场阴谋悄然展开。随着身世之谜与师门旧\u0000\u0000事逐渐浮出水面，陈默发现，眼前的敌人未必是真正的对手，熟悉的伙伴也藏着不为人知的秘密。面对接连设下的陷阱与危及亲友的杀机，他与一群性格迥异的伙伴并肩入局，在一次次交锋中寻找破绽。",
     "ranks": {
      "all": 96,
      "real": 10
@@ -11964,8 +11953,8 @@
     "heat": 52970000,
     "new": false,
     "score": 8.5,
-    "fav": 226000,
-    "like": 573000,
+    "fav": 229000,
+    "like": 589000,
     "tags": [
      "剧情",
      "穿越",
@@ -11984,14 +11973,14 @@
     "heat": 52940000,
     "new": false,
     "score": 7.4,
-    "fav": 1228000,
-    "like": 2743000,
+    "fav": 1229000,
+    "like": 2746000,
     "tags": [
      "脑洞",
      "系统",
      "升级流"
     ],
-    "desc": "全球诡异降临，吊车尾学生姚远毕业后绑定系统，成为汤臣壹品保安，只要赚钱就能变强。他的小区内竟住满了SSS级诡异，对他敬畏有加。姚远凭借绝对实力，一边敲诈勒索镇诡局，一边强行收缴各路诡异为业主。从镇诡局高层到樱花国御诡者，乃至漂亮国的SSSS级诡异与诡异之神，皆被他视为“提款机”和升级养料。最终，他一己之力打破天地规则，成为凌驾于众神之上的真正主宰。",
+    "desc": "全球诡异降临，吊车尾学生姚远毕业后绑定系统，成为汤臣壹品保安，只要赚钱就能变强。他的小区内竟住满了SSS级诡异，对他敬畏有加。姚远凭借绝对实力，一边敲诈勒索镇诡局，一边强行收缴各路诡异为业主。从镇诡局高层到樱花国御诡者，乃至漂亮国的SSSS级诡异与诡异之神，皆被他\u0000\u0000视为“提款机”和升级养料。最终，他一己之力打破天地规则，成为凌驾于众神之上的真正主宰。",
     "ranks": {
      "all": 98,
      "comic": 42
@@ -12004,14 +11993,14 @@
     "heat": 52940000,
     "new": false,
     "score": 8.1,
-    "fav": 602000,
-    "like": 1975000,
+    "fav": 605000,
+    "like": 1993000,
     "tags": [
      "脑洞",
      "搞笑",
      "都市"
     ],
-    "desc": "云见月卷入玄学风波，结识灵异局众人，还意外和强大邪神墨沉绑定无解阴亲。二人接连遭遇替身诅咒、邪祟献祭、里世界困局、境外诈骗基地等离奇事件。云见月拥有罕见神女血脉，行事跳脱彪悍，随身常备电锯，和理智残存的厉鬼闺蜜陆长雪、清冷玄学天才司无命组队，一边探寻自己母亲失踪的身世谜团，一边破解各类邪异案件，周旋于邪神、妖物与灵异机构之间，在搞笑日常与生死危机中揭开层层阴谋。",
+    "desc": "云见月卷入玄学风波，结识灵异局众人，还意外和强大邪神墨沉绑定无解阴亲。二人接连遭遇替身诅咒、邪祟献祭、里世界困局、境外诈骗基地等离奇事件。云见月拥有罕见神女血脉，行事跳脱彪悍，随身常备电锯，和理智残存的厉鬼闺蜜陆长雪、清冷玄学天才司无命组队，一边\u0000探寻自己母亲失踪的身世谜团，一边破解各类邪异案件，周旋于邪神、妖物与灵异机构之间，在搞笑日常与生死危机中揭开层层阴谋。",
     "ranks": {
      "all": 99,
      "comic": 43
@@ -12025,7 +12014,7 @@
     "new": false,
     "score": null,
     "fav": 208000,
-    "like": 622000,
+    "like": 623000,
     "tags": [
      "剧情",
      "重生",
@@ -12044,8 +12033,8 @@
     "heat": 52830000,
     "new": false,
     "score": 9.1,
-    "fav": 1629000,
-    "like": 2488000,
+    "fav": 1631000,
+    "like": 2490000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -12063,8 +12052,8 @@
     "heat": 52770000,
     "new": false,
     "score": 9.4,
-    "fav": 1762000,
-    "like": 3417000,
+    "fav": 1763000,
+    "like": 3419000,
     "tags": [
      "爱情",
      "古风爱情",
@@ -12082,8 +12071,8 @@
     "heat": 52710000,
     "new": true,
     "score": 8.1,
-    "fav": 160000,
-    "like": 340000,
+    "fav": 161000,
+    "like": 342000,
     "tags": [
      "都市",
      "隐藏大佬",
@@ -12101,14 +12090,14 @@
     "heat": 52660000,
     "new": true,
     "score": 8.1,
-    "fav": 359000,
-    "like": 657000,
+    "fav": 361000,
+    "like": 660000,
     "tags": [
      "古装",
      "逆袭翻身",
      "朝堂权谋"
     ],
-    "desc": "亡国太子陆乘风身为冷宫侍卫，竟意外获得了隐身超能力，从此，陆乘风一路开挂，大杀四方！后宫侍卫，皆掌于我手！三宫六院，我来去自由！千军万马，闲庭信步取上将首级如探囊取物。让\u0000我不爽，皇帝老儿都照揍不误！高手如云的大内侍卫，战无不胜的御林军，只需陆乘风一声号令，便可赴汤蹈火！我曾是亡国太子，如今，我要加倍夺回本该属于我的一切！",
+    "desc": "亡国太子陆乘风身为冷宫侍卫，竟意外获得了隐身超能力，从此，陆乘风一路开挂，大杀四方！后宫侍卫，皆掌于我手！三宫六院，我来去自由！千军万马，闲庭信步取上将首级如探囊取物。让我不爽，皇帝老儿都照揍不误！高手如云的大内侍卫，战无不胜的御林军，只需陆乘风一声号令，便可赴汤蹈火！我曾是亡国太子，如今，我要加倍夺回本该属于我的一切！",
     "ranks": {
      "real": 14
     },
@@ -12120,8 +12109,8 @@
     "heat": 52600000,
     "new": true,
     "score": 9.1,
-    "fav": 408000,
-    "like": 605000,
+    "fav": 412000,
+    "like": 610000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -12139,8 +12128,8 @@
     "heat": 52520000,
     "new": true,
     "score": 9.2,
-    "fav": 329000,
-    "like": 410000,
+    "fav": 334000,
+    "like": 415000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -12158,8 +12147,8 @@
     "heat": 50030000,
     "new": true,
     "score": 9.0,
-    "fav": 603000,
-    "like": 1056000,
+    "fav": 604000,
+    "like": 1058000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -12177,8 +12166,8 @@
     "heat": 49830000,
     "new": true,
     "score": 8.1,
-    "fav": 149000,
-    "like": 368000,
+    "fav": 151000,
+    "like": 372000,
     "tags": [
      "成长",
      "女性成长",
@@ -12196,14 +12185,14 @@
     "heat": 49750000,
     "new": true,
     "score": 7.4,
-    "fav": 144000,
-    "like": 269000,
+    "fav": 145000,
+    "like": 271000,
     "tags": [
      "都市",
      "都市日常",
      "矛盾和解"
     ],
-    "desc": "海城龙头顾云遥为替下属许竹心顶罪入狱二十年，出狱后欲将集团交予女儿苏妤宁。许竹心之子沈遥恩恩将仇报，长期虐待妤宁，更与父合谋将其骗至非法机构，勾结他人性侵。妤宁跳车重伤昏迷。顾云遥雷霆复仇，废沈遥恩，清算沈家及腐败势力。为唤醒女儿，她支持脑机接口专家温天舒。旧敌吴成海绑架妤宁与温天舒，被顾云遥配合警方制\u0000\u0000服。最终妤宁苏醒康复，沈家父子及吴成海伏法。顾云遥与女儿冰释前嫌，共创新生集团。",
+    "desc": "海城龙头顾云遥为替下属许竹心顶罪入狱二十年，出狱后欲将集团交予女儿苏妤宁。许竹心之子沈遥恩恩将仇报，长期虐待妤宁，更与父合谋将其骗至非法机构，勾结他人性侵。妤宁跳车重伤昏迷。顾云遥雷霆复仇，废沈遥恩，清算沈家及腐败势力。为唤醒女儿，她支持脑机接口专家温天舒。旧敌吴成海绑架妤宁与温天舒，被顾云遥配合警方制服。最终妤宁苏醒康复，沈家父子及吴成海伏法。顾云遥与女儿冰释前嫌，共创新生集团。",
     "ranks": {
      "real": 19
     },
@@ -12215,8 +12204,8 @@
     "heat": 49710000,
     "new": false,
     "score": 9.0,
-    "fav": 1784000,
-    "like": 3062000,
+    "fav": 1786000,
+    "like": 3064000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -12253,8 +12242,8 @@
     "heat": 49340000,
     "new": false,
     "score": 9.6,
-    "fav": 1595000,
-    "like": 3579000,
+    "fav": 1596000,
+    "like": 3580000,
     "tags": [
      "爱情",
      "古风爱情",
@@ -12272,8 +12261,8 @@
     "heat": 49340000,
     "new": true,
     "score": 8.0,
-    "fav": 171000,
-    "like": 383000,
+    "fav": 172000,
+    "like": 385000,
     "tags": [
      "都市",
      "逆袭翻身",
@@ -12291,14 +12280,14 @@
     "heat": 49320000,
     "new": true,
     "score": 8.2,
-    "fav": 255000,
-    "like": 491000,
+    "fav": 260000,
+    "like": 498000,
     "tags": [
      "爱情",
      "都市爱情",
      "故人重逢"
     ],
-    "desc": "三年前，林家与江家定下商业联姻，世人皆以为江家少爷江时璟对这场联姻毫不在意。林向晚误信外界传言，认定他天性花心，不愿将余生葬送，在大婚当日毅然逃婚。江时璟看似浪荡的表象全是伪装。他早已对林向晚深情暗许，林向晚的骤然逃婚，让他沦为整个豪门圈的笑柄。自尊心与爱意双双受挫的他，索性将计就计，彻底坐稳花心纨绔人设，用无数绯闻、暧昧假象包裹自己，掩饰三年不变的深情与执念。",
+    "desc": "三年前，林家与江家定下商业联姻，世人皆以为江家少爷江时璟对这场联姻毫不在意。林向晚误信外界传言，认定他天性花心，不愿将余生葬送，在大婚当日毅然逃婚。江时璟看似浪荡的表象全是伪装。\u0000\u0000他早已对林向晚深情暗许，林向晚的骤然逃婚，让他沦为整个豪门圈的笑柄。自尊心与爱意双双受挫的他，索性将计就计，彻底坐稳花心纨绔人设，用无数绯闻、暧昧假象包裹自己，掩饰三年不变的深情与执念。",
     "ranks": {
      "real": 24
     },
@@ -12310,8 +12299,8 @@
     "heat": 49260000,
     "new": true,
     "score": 7.9,
-    "fav": 123000,
-    "like": 297000,
+    "fav": 124000,
+    "like": 299000,
     "tags": [
      "都市",
      "逆袭翻身",
@@ -12329,8 +12318,8 @@
     "heat": 49040000,
     "new": true,
     "score": 8.4,
-    "fav": 206000,
-    "like": 437000,
+    "fav": 207000,
+    "like": 439000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -12349,13 +12338,13 @@
     "new": false,
     "score": 7.9,
     "fav": 221000,
-    "like": 567000,
+    "like": 568000,
     "tags": [
      "成长",
      "女性成长",
      "虐渣"
     ],
-    "desc": "恩爱七年，楚云惜从没想过“七年之痒”会发生在自己身上。她倾尽所有，陪谢俊博白手起家，却在婚礼前夕撞见他出轨实习生。他给那个女孩备注为“181秒”，意喻并非三分钟热度，既然爱意归零，那这七年的感情她不要了，婚礼取\u0000\u0000消；这里的一切她都不要了，谢俊博也一样！",
+    "desc": "恩爱七年，楚云惜从没想过“七年之痒”会发生在自己身上。她倾尽所有，陪谢俊博白手起家，却在婚礼前夕撞见他出轨实习生。他给那个女孩备注为“181秒”，意喻并非三分钟热度，既然爱意归零，那这七年的感情她不要了，婚礼取消；这里的一切她都不要了，谢俊博也一样！",
     "ranks": {
      "real": 27
     },
@@ -12367,8 +12356,8 @@
     "heat": 48400000,
     "new": false,
     "score": 8.1,
-    "fav": 875000,
-    "like": 1881000,
+    "fav": 876000,
+    "like": 1883000,
     "tags": [
      "家庭",
      "家庭伦理",
@@ -12386,8 +12375,8 @@
     "heat": 48360000,
     "new": true,
     "score": 8.5,
-    "fav": 280000,
-    "like": 477000,
+    "fav": 281000,
+    "like": 478000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -12405,8 +12394,8 @@
     "heat": 48190000,
     "new": false,
     "score": 7.5,
-    "fav": 1059000,
-    "like": 2523000,
+    "fav": 1060000,
+    "like": 2525000,
     "tags": [
      "成长",
      "女性成长",
@@ -12425,13 +12414,13 @@
     "new": true,
     "score": 7.9,
     "fav": 114000,
-    "like": 267000,
+    "like": 269000,
     "tags": [
      "家庭",
      "家庭温情",
      "治愈"
     ],
-    "desc": "知名企业家王翔在带妻子跟女儿做完慈善回来的路上出了车祸，他为了救妻子跟女儿，自己坠入了悬崖下的洪水中生死不知。十年后，王翔妻子病逝，女儿掌管公司，但却被渣男骗了股份驱逐出公司，女儿心灰意冷在马路上一个人走路的时候，遇到了已经失忆变成了乞丐的父亲王翔。女儿没有认出父亲，这一路上王翔就以着一个乞丐傻子的身份，默默的陪伴着女儿，在最危机的关头，父亲王翔本能的又救了女儿，女儿最终认出了父亲。",
+    "desc": "知名企业家王翔在带妻子跟女儿做完慈善回来的路上出了车祸，他为了救妻子跟女儿，自己坠入了悬崖下的洪水中生死不知。十年后，王翔妻子病逝，女儿掌管公\u0000司，但却被渣男骗了股份驱逐出公司，女儿心灰意冷在马路上一个人走路的时候，遇到了已经失忆变成了乞丐的父亲王翔。女儿没有认出父亲，这一路上王翔就以着一个乞丐傻子的身份，默默的陪伴着女儿，在最危机的关头，父亲王翔本能的又救了女儿，女儿最终认出了父亲。",
     "ranks": {
      "real": 31
     },
@@ -12443,8 +12432,8 @@
     "heat": 47970000,
     "new": false,
     "score": null,
-    "fav": 156000,
-    "like": 332000,
+    "fav": 160000,
+    "like": 339000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -12462,14 +12451,14 @@
     "heat": 47860000,
     "new": true,
     "score": 8.6,
-    "fav": 391000,
-    "like": 565000,
+    "fav": 392000,
+    "like": 566000,
     "tags": [
      "爱情",
      "都市爱情",
      "日久生情"
     ],
-    "desc": "姐姐逃婚，知翎被迫顶替与\u0000\u0000萧家联姻。订婚前夜醉酒，她阴差阳错和未婚夫的哥哥、偏执医生顾琰川一夜沉沦。二人被迫同居，朝夕相处间情愫渐生，互相治愈彼此心底的伤痛。可顾琰川生父拿知翎作为筹码，逼迫他接手家族医疗产业。一边是沉甸甸的家族权势，一边是此生挚爱，顾琰川究竟会做出怎样的抉择，二人能否挣脱豪门枷锁。",
+    "desc": "姐姐逃婚，知翎被迫顶替与萧家联姻。订婚前夜醉酒，她阴差阳错和未婚夫的哥哥、偏执医生顾琰川一夜沉沦。二人被迫同居，朝夕相处间情愫渐生，互相治愈彼此心底的伤痛。可顾琰川生父拿知翎作为筹码，逼迫他接手家族医疗产业。一边是沉甸甸的家族权势，一边是此生挚爱，顾琰川究竟会做出怎样的抉择，二人能否挣脱豪门枷锁。",
     "ranks": {
      "real": 33
     },
@@ -12482,13 +12471,13 @@
     "new": false,
     "score": 8.1,
     "fav": 421000,
-    "like": 934000,
+    "like": 935000,
     "tags": [
      "家庭",
      "家庭伦理",
      "小人物"
     ],
-    "desc": "沈峥撕了清北大学录取通知书，供养亲妹妹沈妍求学十二年。博士毕业宴上，沈妍却说告诉沈峥“从今天起，我们断绝关系，你这种上不了台面的穷亲戚，别再来缠着我了！”沈峥笑着说行，干脆利落的转身\u0000\u0000。第二天，沈妍发现自己断的不仅仅是亲，而是沈峥给她买的房、买的车、还有给她兜底的幸福人生。沈妍发现，她的天塌了！改编自番茄短篇小说《供妹读博却被断亲，我反手收回房车》，作者龙龙爱写小说。",
+    "desc": "沈峥撕了清北大学录取通知书，供养亲妹妹沈妍求学十二年。博士毕业宴上，沈妍却说告诉沈峥“从今天起，我们断绝关系，你这种上不了台面的穷亲戚，别再来缠着我了！”沈峥笑着说行，干脆利落的转身。第二天，沈妍发现自己断的不仅仅是亲，而是沈峥给她买的房、买的车、还有给她兜底的幸福人生。沈妍发现，她的天塌了！改编自番茄短篇小说《供妹读博却被断亲，我反手收回房车》，作者龙龙爱写小说。",
     "ranks": {
      "real": 34
     },
@@ -12500,7 +12489,7 @@
     "heat": 47480000,
     "new": true,
     "score": 8.0,
-    "fav": 194000,
+    "fav": 195000,
     "like": 411000,
     "tags": [
      "悬疑",
@@ -12519,8 +12508,8 @@
     "heat": 47450000,
     "new": true,
     "score": 8.1,
-    "fav": 174000,
-    "like": 344000,
+    "fav": 175000,
+    "like": 345000,
     "tags": [
      "爱情",
      "古风爱情",
@@ -12557,8 +12546,8 @@
     "heat": 47160000,
     "new": true,
     "score": 8.5,
-    "fav": 401000,
-    "like": 827000,
+    "fav": 402000,
+    "like": 828000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -12576,8 +12565,8 @@
     "heat": 47130000,
     "new": false,
     "score": 8.7,
-    "fav": 598000,
-    "like": 1281000,
+    "fav": 599000,
+    "like": 1282000,
     "tags": [
      "爱情",
      "年代爱情",
@@ -12595,11 +12584,11 @@
     "heat": 47020000,
     "new": false,
     "score": 8.0,
-    "fav": 333000,
-    "like": 700000,
+    "fav": 334000,
+    "like": 701000,
     "tags": [
      "都市",
-     "都市日常",
+     "都\u0000\u0000市日常",
      "隐藏大佬"
     ],
     "desc": "科研院士陈国栋为完成二十五年绝密科研任务，对外伪装成服刑人员，与妻子周桂芬、儿子陈志远分离。任务结束归来，恰逢儿子陈志远订婚。陈国栋本想把集团副总职位当作订婚礼，破格提拔未婚妻林倩。订婚宴上，陈国栋突然现身，林倩一家嫌弃他的身份。陈志远坚决维护父亲，不愿向林家妥协，毅然选择退婚。",
@@ -12633,8 +12622,8 @@
     "heat": 46990000,
     "new": false,
     "score": 8.1,
-    "fav": 377000,
-    "like": 792000,
+    "fav": 378000,
+    "like": 793000,
     "tags": [
      "古装",
      "逆风翻盘",
@@ -12652,8 +12641,8 @@
     "heat": 46980000,
     "new": false,
     "score": 8.1,
-    "fav": 383000,
-    "like": 759000,
+    "fav": 384000,
+    "like": 760000,
     "tags": [
      "家庭",
      "家庭伦理",
@@ -12678,7 +12667,7 @@
      "家庭伦理",
      "追妻"
     ],
-    "desc": "七十年代，宋香兰留守乡村，丈夫陆卫国每月寄回的津贴，经弟弟陆满东转交后，落到她手里只剩七块五。她白天下地，夜里打零工，仍养不活偏瘫的婆婆和饿到发烧的女儿。求助的信被陆满东一一扣下，村里流\u0000言四起，她被逼到绝境。一通长途电话，让远在部队的陆卫国惊悉家中惨状，火速返乡。而此时，宗族长辈正受陆满东蛊惑，要驱逐宋香兰、夺走孩子。可当陆卫国推开祠堂大门，他手里握着的，是一张谁也没见过的领条。",
+    "desc": "七十年代，宋香兰留守乡村，丈夫陆卫国每月寄回的津贴，经弟弟陆满东转交后，落到她手里只剩七块五。她白天下地，夜里打零工，仍养不活偏瘫的婆婆和饿到发烧的女儿。求助的信被陆满东一一扣下，村里流言四起，她被逼到绝境。一通长途电话，让远在部队的陆卫国惊悉家中惨状，火速返乡。而此时，宗族长辈正受陆满东蛊惑，要驱逐宋香兰、夺走孩子。可当陆卫国推开祠堂大门，他手里握着的，是一张谁也没见过的领条。",
     "ranks": {
      "real": 44
     },
@@ -12690,14 +12679,14 @@
     "heat": 46890000,
     "new": true,
     "score": 8.9,
-    "fav": 232000,
-    "like": 316000,
+    "fav": 234000,
+    "like": 318000,
     "tags": [
      "爱情",
      "奇幻爱情",
      "日久生情"
     ],
-    "desc": "一场意外一吻，让神使江予安的渡魂能力转移到她身上，二人被迫结伴，携手化解干缕执念。过往的创伤、人心的善恶、藏在时光里的深情轮番上演，羁绊在相处中悄然生根。可这场相遇本就是宿命因果，千桩执念将尽，尘封的过往与致命劫数接踵而至，两人深陷爱与宿命的两难抉择之中。",
+    "desc": "一场意外一吻，让神使江予安的渡魂能力转移到她身上，二人被迫结伴，携手化解干缕执念。过往的创\u0000\u0000伤、人心的善恶、藏在时光里的深情轮番上演，羁绊在相处中悄然生根。可这场相遇本就是宿命因果，千桩执念将尽，尘封的过往与致命劫数接踵而至，两人深陷爱与宿命的两难抉择之中。",
     "ranks": {
      "real": 45
     },
@@ -12709,8 +12698,8 @@
     "heat": 46870000,
     "new": true,
     "score": null,
-    "fav": 22000,
-    "like": 51000,
+    "fav": 23000,
+    "like": 52000,
     "tags": [
      "古装",
      "重生逆袭",
@@ -12728,8 +12717,8 @@
     "heat": 46830000,
     "new": true,
     "score": 8.0,
-    "fav": 102000,
-    "like": 234000,
+    "fav": 103000,
+    "like": 235000,
     "tags": [
      "都市",
      "都市玄幻",
@@ -12747,8 +12736,8 @@
     "heat": 46830000,
     "new": true,
     "score": 8.5,
-    "fav": 254000,
-    "like": 387000,
+    "fav": 256000,
+    "like": 390000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -12766,8 +12755,8 @@
     "heat": 46790000,
     "new": false,
     "score": 8.0,
-    "fav": 230000,
-    "like": 459000,
+    "fav": 231000,
+    "like": 461000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -12786,7 +12775,7 @@
     "new": true,
     "score": 9.0,
     "fav": 447000,
-    "like": 782000,
+    "like": 783000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -12805,7 +12794,7 @@
     "new": true,
     "score": null,
     "fav": 52000,
-    "like": 131000,
+    "like": 132000,
     "tags": [
      "家族",
      "家族恩怨",
@@ -12823,14 +12812,14 @@
     "heat": 46620000,
     "new": false,
     "score": 8.2,
-    "fav": 630000,
+    "fav": 631000,
     "like": 1295000,
     "tags": [
      "成长",
      "女性成长",
      "大女主"
     ],
-    "desc": "宋曼从小在重男轻女的家庭中长大，婚后为照顾女儿退出职场，却在丈夫许成均的冷漠中渐渐失去自我。女儿的一句话让她清醒，决定结束消耗自己的婚姻。面对丈夫与原生家庭的阻挠，宋曼不再妥协。在郭岩的理解和帮助下，她走出困境，也促\u0000\u0000使郭岩重新认识母亲的过往。最终，两人各自与伤痛和解，勇敢开启新人生。改编自小说《赌我不敢离？我转身去法院》，作者微扬",
+    "desc": "宋曼从小在重男轻女的家庭中长大，婚后为照顾女儿退出职场，却在丈夫许成均的冷漠中渐渐失去自我。女儿的一句话让她清醒，决定结束消耗自己的婚姻。面对丈夫与原生家庭的阻挠，宋曼不再妥协。在郭岩的理解和帮助下，她走出困境，也促使郭岩重新认识母亲的过往。最终，两人各自与伤痛和解，勇敢开启新人生。改编自小说《赌我不敢离？我转身去法院》，作者微扬",
     "ranks": {
      "real": 52
     },
@@ -12843,7 +12832,7 @@
     "new": true,
     "score": 7.9,
     "fav": 43000,
-    "like": 132000,
+    "like": 133000,
     "tags": [
      "年代",
      "逆袭翻身",
@@ -12862,7 +12851,7 @@
     "new": false,
     "score": 5.8,
     "fav": 394000,
-    "like": 633000,
+    "like": 634000,
     "tags": [
      "古装",
      "轻喜剧",
@@ -12880,8 +12869,8 @@
     "heat": 46420000,
     "new": false,
     "score": null,
-    "fav": 220000,
-    "like": 537000,
+    "fav": 221000,
+    "like": 538000,
     "tags": [
      "家庭",
      "家庭伦理",
@@ -12899,8 +12888,8 @@
     "heat": 46420000,
     "new": false,
     "score": 9.0,
-    "fav": 576000,
-    "like": 1366000,
+    "fav": 577000,
+    "like": 1368000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -12937,7 +12926,7 @@
     "heat": 46350000,
     "new": false,
     "score": 7.4,
-    "fav": 357000,
+    "fav": 358000,
     "like": 813000,
     "tags": [
      "都市",
@@ -12976,7 +12965,7 @@
     "new": false,
     "score": 8.1,
     "fav": 255000,
-    "like": 515000,
+    "like": 516000,
     "tags": [
      "家庭",
      "家庭伦理",
@@ -12995,7 +12984,7 @@
     "new": true,
     "score": 7.9,
     "fav": 43000,
-    "like": 121000,
+    "like": 122000,
     "tags": [
      "成长",
      "女性成长",
@@ -13032,7 +13021,7 @@
     "heat": 46220000,
     "new": false,
     "score": 8.0,
-    "fav": 250000,
+    "fav": 251000,
     "like": 515000,
     "tags": [
      "都市",
@@ -13052,13 +13041,13 @@
     "new": true,
     "score": null,
     "fav": 29000,
-    "like": 72000,
+    "like": 73000,
     "tags": [
      "家庭",
      "家庭伦理",
      "女性成长"
     ],
-    "desc": "苏念结婚三年，每月按时拿出一万元作为家里的日常开支，并且还出钱为婆婆置办了豪华的寿宴，却反被婆婆指着鼻\u0000子骂，说她一份家用不出，三年一直靠婆婆养着。苏念生气的停掉每月一万的家用，原本平静的家瞬间陷入瘫痪，婆媳的矛盾也在此期间不断升级，二人因此开始质问，对账，却意外发现，三年里，婆媳二人都在拿家用，而挑起这一切矛盾的罪魁祸首居然是丈夫周泽恒",
+    "desc": "苏念结婚三年，每月按时拿出一万元作为家里的日常开支，并且还出钱为婆婆置办了豪华的寿宴，却反被婆婆指着\u0000\u0000鼻子骂，说她一份家用不出，三年一直靠婆婆养着。苏念生气的停掉每月一万的家用，原本平静的家瞬间陷入瘫痪，婆媳的矛盾也在此期间不断升级，二人因此开始质问，对账，却意外发现，三年里，婆媳二人都在拿家用，而挑起这一切矛盾的罪魁祸首居然是丈夫周泽恒",
     "ranks": {
      "real": 64
     },
@@ -13071,13 +13060,13 @@
     "new": false,
     "score": 8.3,
     "fav": 791000,
-    "like": 1564000,
+    "like": 1565000,
     "tags": [
      "成长",
      "女性成长",
      "虐渣"
     ],
-    "desc": "叶疏桐回国目睹女儿霍念棠被霍寻猥亵昏迷，亮明身份却被小三孟娆持龙牌反制，极尽羞辱。送医后女儿患重度抑郁，叶疏桐隐瞒回国暗中布局。宴会上叶父现身，孟娆方知自己被骗二十年，霍舒诚走投无路，教唆孟娆绑架女儿拍裸照，潜入医院欲闷死女儿未遂，后找孟娆时失手将其\u0000\u0000杀死，已经沾满血的双手更是没有顾忌，在叶家饭菜下毒，宠物狗布丁误食救下众人。最终霍舒诚被判死刑，霍寻无期徒刑。",
+    "desc": "叶疏桐回国目睹女儿霍念棠被霍寻猥亵昏迷，亮明身份却被小三孟娆持龙牌反制，极尽羞辱。送医后女儿患重度抑郁，叶疏桐隐瞒回国暗中布局。宴会上叶父现身，孟娆方知自己被骗二十年，霍舒诚走投无路，教唆孟娆绑架女儿拍裸照，潜入医院欲闷死女儿未遂，后找孟娆时失手将\u0000\u0000其杀死，已经沾满血的双手更是没有顾忌，在叶家饭菜下毒，宠物狗布丁误食救下众人。最终霍舒诚被判死刑，霍寻无期徒刑。",
     "ranks": {
      "real": 65
     },
@@ -13089,8 +13078,8 @@
     "heat": 46130000,
     "new": false,
     "score": 9.6,
-    "fav": 2090000,
-    "like": 4059000,
+    "fav": 2091000,
+    "like": 4060000,
     "tags": [
      "成长",
      "逆袭翻身",
@@ -13108,8 +13097,8 @@
     "heat": 46120000,
     "new": true,
     "score": null,
-    "fav": 36000,
-    "like": 73000,
+    "fav": 39000,
+    "like": 77000,
     "tags": [
      "都市",
      "都市日常",
@@ -13127,8 +13116,8 @@
     "heat": 46080000,
     "new": false,
     "score": 8.2,
-    "fav": 550000,
-    "like": 1027000,
+    "fav": 551000,
+    "like": 1029000,
     "tags": [
      "玄幻",
      "玄幻仙侠",
@@ -13146,8 +13135,8 @@
     "heat": 46050000,
     "new": true,
     "score": null,
-    "fav": 117000,
-    "like": 237000,
+    "fav": 119000,
+    "like": 241000,
     "tags": [
      "都市",
      "逆袭翻身",
@@ -13166,13 +13155,13 @@
     "new": false,
     "score": 9.6,
     "fav": 1894000,
-    "like": 4118000,
+    "like": 4119000,
     "tags": [
      "爱情",
      "都市爱情",
      "日久生情"
     ],
-    "desc": "鬼马音乐少女苏格，与身为制陶师的爷爷相依为命。一次偶\u0000\u0000然相遇，天才钢琴家孟斯年被苏格的音乐才华吸引，主动靠近。两人开启拌嘴逗趣、相爱相杀的日常，苏格勇敢追爱，虽然青涩，却热烈大胆，她的撩拨让孟斯年把持不住，总是无奈又正经地警告苏格不要调戏自己，苏格毫不畏惧，甚至主动吻了他。孟斯年也逐渐被她感染，展露少年气。最终两人跨越9岁年龄差，携手突破困境，相守相爱。",
+    "desc": "鬼马音乐少女苏格，与身为制陶师的爷爷相依为命。一次偶然相遇，天才钢琴家孟斯年被苏格的音乐才华吸引，主动靠近。两人开启拌嘴逗趣、相爱相杀的日常，苏格勇敢追爱，虽然青涩，却热烈大胆，她的撩拨让孟斯年把持不住，总是无奈又正经地警告苏格不要调戏自己，苏格毫不畏惧，甚至主动吻了他。孟斯年也逐渐被她感染，展露少年气。最终两人跨越9岁年龄差，携手突破困境，相守相爱。",
     "ranks": {
      "real": 70
     },
@@ -13184,14 +13173,14 @@
     "heat": 46000000,
     "new": true,
     "score": 7.8,
-    "fav": 39000,
-    "like": 106000,
+    "fav": 40000,
+    "like": 108000,
     "tags": [
      "成长",
      "女性成长",
      "逆风翻盘"
     ],
-    "desc": "温软与傅清年相恋七年，怀着五个月身孕筹备婚礼。她身负罕见血型，七年来每月存血，以备不测。产检那天，她站在办公室门外，听见他要把她存了七年的救命血，给青梅的女儿。同事说这会要她的命，他却沉默片刻说“先顾那边吧”。温软转身预约了引产\u0000。可当她推开婚房的门，看见另一个女人穿着她的睡袍时，手机响了——那头，傅清年的声音第一次慌了。",
+    "desc": "温软与傅清年相恋七年，怀着五个月身孕筹备婚礼。她身负罕见血型，七年来每月存血，以备不测。产检那天，她站在办公室门外，听见他要把她存了七年的救命血，给青梅的女儿。同事说这会要她的命，他却沉默片刻说“先顾那边吧”。温软转身预约了引产。可当她推开婚房的门，看见另一个女人穿着她的睡袍时，手机响了——那头，傅清年的声音第一次慌了。",
     "ranks": {
      "real": 71
     },
@@ -13204,7 +13193,7 @@
     "new": false,
     "score": 8.0,
     "fav": 1105000,
-    "like": 2531000,
+    "like": 2532000,
     "tags": [
      "家庭",
      "家庭伦理",
@@ -13222,8 +13211,8 @@
     "heat": 45950000,
     "new": false,
     "score": 7.9,
-    "fav": 301000,
-    "like": 457000,
+    "fav": 302000,
+    "like": 458000,
     "tags": [
      "都市",
      "隐藏大佬",
@@ -13298,7 +13287,7 @@
     "heat": 45900000,
     "new": false,
     "score": 9.3,
-    "fav": 1313000,
+    "fav": 1314000,
     "like": 2963000,
     "tags": [
      "家庭",
@@ -13317,8 +13306,8 @@
     "heat": 45890000,
     "new": false,
     "score": 9.0,
-    "fav": 955000,
-    "like": 1706000,
+    "fav": 956000,
+    "like": 1707000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -13374,8 +13363,8 @@
     "heat": 45850000,
     "new": true,
     "score": 8.9,
-    "fav": 546000,
-    "like": 825000,
+    "fav": 547000,
+    "like": 826000,
     "tags": [
      "成长",
      "女性成长",
@@ -13393,8 +13382,8 @@
     "heat": 45840000,
     "new": false,
     "score": 9.3,
-    "fav": 6032000,
-    "like": 13682000,
+    "fav": 6033000,
+    "like": 13684000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -13413,7 +13402,7 @@
     "new": true,
     "score": null,
     "fav": 30000,
-    "like": 54000,
+    "like": 55000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -13427,7 +13416,7 @@
    },
    "7689367231246912537": {
     "id": "7689367231246912537",
-    "name": "全府偷听我和闺蜜心声被带飞",
+    "name": "\u0000\u0000全府偷听我和闺蜜心声被带飞",
     "heat": 45820000,
     "new": false,
     "score": 8.7,
@@ -13469,8 +13458,8 @@
     "heat": 45790000,
     "new": true,
     "score": null,
-    "fav": 22000,
-    "like": 53000,
+    "fav": 23000,
+    "like": 54000,
     "tags": [
      "成长",
      "女性成长",
@@ -13495,7 +13484,7 @@
      "势力纷争",
      "逆袭翻身"
     ],
-    "desc": "六年前，陈劲南遭东阳盛诬陷入狱，养父母被残害，家破人亡。狱中六载他苦练武功，一心复仇。出狱后，姐姐陈素云被勒索，陈劲南出手击退打手，与堂主林耀阳结仇。他偶然救下港城商会会长沈玉寒，双方结盟，商会提供资源，由他铲除东阳盛。陈劲南接手改组黑石会，联合多方帮派壮大势力。最终决战，陈劲南揭穿阴谋\u0000\u0000，上交罪证，覆灭东阳盛。方敏解散帮会，陈劲南与沈玉寒一同守护港城安宁。",
+    "desc": "六年前，陈劲南遭东阳盛诬陷入狱，养父母被残害，家破人亡。狱中六载他苦练武功，一心复仇。出狱后，姐姐陈素云被勒索，陈劲南出手击退打手，与堂主林耀阳结仇。他偶然救下港城商会会长沈玉寒，双方结盟，商会提供资源，由他铲除东阳盛。陈劲南接手改组黑石会，联合多方帮派壮大势力。最终决战，陈劲南揭穿阴谋，上交罪证，覆灭东阳盛。方敏解散帮会，陈劲南与沈玉寒一同守护港城安宁。",
     "ranks": {
      "real": 87
     },
@@ -13507,8 +13496,8 @@
     "heat": 45750000,
     "new": true,
     "score": 8.3,
-    "fav": 190000,
-    "like": 247000,
+    "fav": 192000,
+    "like": 250000,
     "tags": [
      "爱情",
      "家国正义",
@@ -13527,7 +13516,7 @@
     "new": false,
     "score": 8.1,
     "fav": 249000,
-    "like": 536000,
+    "like": 537000,
     "tags": [
      "都市",
      "超凡逆袭",
@@ -13552,7 +13541,7 @@
      "家庭伦理",
      "隐藏大佬"
     ],
-    "desc": "周远公司上市后回乡给爷爷祝寿，却被亲戚误以为破产。母亲收走老屋钥匙，大伯撤资料，姑姑删合照，堂弟当众晒出公司注销截图。唯有妹妹周小雨把陪嫁房钥匙塞给他。众人不知周远已是瀚远机器人集团董事长，直到启衡秦岳当众喊出“周董”，一场围绕亲情、债务与尊重的打脸反转正式展开。",
+    "desc": "周远公司上市后回乡给爷爷祝寿，却被亲戚误以为破产。母亲收走老屋钥匙，大伯撤资料，姑姑删合照，堂弟当众晒出公司注销截图。唯有妹妹周小雨把陪嫁房钥匙塞给他。众人不知周远已是瀚远机器人集团董事长，直到启\u0000\u0000衡秦岳当众喊出“周董”，一场围绕亲情、债务与尊重的打脸反转正式展开。",
     "ranks": {
      "real": 90
     },
@@ -13564,8 +13553,8 @@
     "heat": 45700000,
     "new": false,
     "score": 8.1,
-    "fav": 151000,
-    "like": 310000,
+    "fav": 152000,
+    "like": 311000,
     "tags": [
      "古装",
      "古装传奇",
@@ -13583,8 +13572,8 @@
     "heat": 45700000,
     "new": true,
     "score": null,
-    "fav": 95000,
-    "like": 166000,
+    "fav": 97000,
+    "like": 170000,
     "tags": [
      "都市",
      "都市日常",
@@ -13622,7 +13611,7 @@
     "new": false,
     "score": 8.7,
     "fav": 398000,
-    "like": 884000,
+    "like": 885000,
     "tags": [
      "爱情",
      "都市爱情",
@@ -13647,7 +13636,7 @@
      "都市玄幻",
      "擂台比武"
     ],
-    "desc": "天师传人陈昊宇修行百年，终于道法大成，破碎虚空，回归大夏，巧遇良缘苏雨瑶。八极门上门踢馆放话生死不论，还敢用苏雨瑶的安危当要挟，丈母娘赌上苏家颜面看他应战。他随手干翻暗劲高手，可何家家主派来的化劲宗师\u0000\u0000已经抵达燕海，他的天师身份还能藏住吗？改编自番茄小说《一梦百年，我成为了道家天师》，作者望天无敌手。",
+    "desc": "天师传人陈昊宇修行百年，终于道法大成，破碎虚空，回归大夏，巧遇良缘苏雨瑶。八极门上门踢馆放话生死不论，还敢用苏雨瑶的安危当要挟，丈母娘赌上苏家颜面看他应战。他随手干翻暗劲高手，可何家家主派来的化劲宗师已经抵达燕海，他的天师身份还能藏住吗？改编自番茄小说《一梦百年，我成为了道家天师》，作者望天无敌手。",
     "ranks": {
      "real": 95
     },
@@ -13678,7 +13667,7 @@
     "heat": 45650000,
     "new": true,
     "score": null,
-    "fav": 12000,
+    "fav": 13000,
     "like": 27000,
     "tags": [
      "家庭",
@@ -13698,13 +13687,13 @@
     "new": false,
     "score": 8.1,
     "fav": 474000,
-    "like": 1037000,
+    "like": 1038000,
     "tags": [
      "都市",
      "玄学",
      "大男主"
     ],
-    "desc": "天师传人陈昊宇修行百年，终于道法大成，破碎虚空，回归大夏，巧遇良缘苏雨瑶。他以三五铜钱窥破天机，九枚金针救苦渡厄，于接踵而来的大事件中重振玄门声威，又帮助苏雨瑶摆脱难缠的婚约，与她情定终身，一同奔向未来。本剧改编自番茄小说《一梦百年，我成为了道家天师》，作者望天无敌手。",
+    "desc": "天师传人陈昊宇修行百年，终于道法大成，破碎虚空，回归大夏，巧遇良缘苏雨瑶。他以三五铜钱窥破天机，九枚金针救苦渡厄，于接踵而来的大事件中重振玄门声威，又帮助苏雨瑶摆脱难缠的婚约，与她情定终身\u0000\u0000，一同奔向未来。本剧改编自番茄小说《一梦百年，我成为了道家天师》，作者望天无敌手。",
     "ranks": {
      "real": 98
     },
@@ -13754,8 +13743,8 @@
     "heat": 52910000,
     "new": false,
     "score": 9.0,
-    "fav": 1311000,
-    "like": 4126000,
+    "fav": 1312000,
+    "like": 4129000,
     "tags": [
      "种田",
      "重生",
@@ -13773,14 +13762,14 @@
     "heat": 52850000,
     "new": false,
     "score": 7.7,
-    "fav": 499000,
-    "like": 1267000,
+    "fav": 500000,
+    "like": 1270000,
     "tags": [
      "剧情",
      "穿越",
      "逆袭"
     ],
-    "desc": "沈清禾怀着对新生活的期待来到槐花村，与沉稳可靠的顾北因缘相识。从最初的陌生磨合，到彼此理解、相互支持，两人在朝夕相处中渐渐走近。沈清禾凭借聪明与手艺，从摆摊卖衣做起，一步步尝试服装设计、工装合作并发展自己的事业；顾北也踏实经营家具厂。面对生活中的种种考验，他们始终守住善良、诚信与担当，在奋斗中收获爱情、事业和温暖的家，用双手把平凡日子过成了属于自己的锦绣年华。",
+    "desc": "沈清禾怀着对新生活的期待来到槐花村，与沉稳可靠的顾北因缘相识。从最初的陌生磨合，到彼此理解、相互支持，两人在朝夕相处中渐渐走近。沈清禾凭借聪明与手艺，从摆摊卖衣做起，一步步尝试服装设计、工装合作并发展自己的事业；顾北也踏实经营家具厂。面对生活中的种种考\u0000验，他们始终守住善良、诚信与担当，在奋斗中收获爱情、事业和温暖的家，用双手把平凡日子过成了属于自己的锦绣年华。",
     "ranks": {
      "ai": 49
     },
@@ -13793,7 +13782,7 @@
     "new": false,
     "score": 8.3,
     "fav": 302000,
-    "like": 722000,
+    "like": 724000,
     "tags": [
      "种田",
      "重生",
@@ -13811,8 +13800,8 @@
     "heat": 52690000,
     "new": false,
     "score": 8.6,
-    "fav": 253000,
-    "like": 735000,
+    "fav": 254000,
+    "like": 738000,
     "tags": [
      "萌宝",
      "乡村"
@@ -13829,8 +13818,8 @@
     "heat": 52680000,
     "new": false,
     "score": 8.0,
-    "fav": 1080000,
-    "like": 622000,
+    "fav": 1083000,
+    "like": 624000,
     "tags": [
      "末世",
      "战斗",
@@ -13848,14 +13837,14 @@
     "heat": 52650000,
     "new": false,
     "score": null,
-    "fav": 174000,
-    "like": 574000,
+    "fav": 175000,
+    "like": 576000,
     "tags": [
      "脑洞",
      "重生",
      "穿越"
     ],
-    "desc": "带着前世惨痛记忆的温梨，在一趟开往下乡地点的绿皮火车上重生。前世遭人陷害、家破人亡的悲剧还未上演，她意外发现脖颈木牌藏着一片带有灵泉的神秘空间。路途之中，她冷静化解列车危机，撕下伪善友人的面具。抵达红星公社知青院后，温梨决心不再任人拿捏，独自安家、置办家当，抢先截下原著里属于他人的机缘，步步筹谋，准备讨回前世所有亏欠，开启属于自己的全新年代人生。",
+    "desc": "带着前世惨痛记忆的温梨，在一趟开往下乡地点的绿皮火车上重生。前世遭人陷害、家破人\u0000\u0000亡的悲剧还未上演，她意外发现脖颈木牌藏着一片带有灵泉的神秘空间。路途之中，她冷静化解列车危机，撕下伪善友人的面具。抵达红星公社知青院后，温梨决心不再任人拿捏，独自安家、置办家当，抢先截下原著里属于他人的机缘，步步筹谋，准备讨回前世所有亏欠，开启属于自己的全新年代人生。",
     "ranks": {
      "ai": 53
     },
@@ -13867,8 +13856,8 @@
     "heat": 52630000,
     "new": false,
     "score": 8.6,
-    "fav": 384000,
-    "like": 979000,
+    "fav": 385000,
+    "like": 982000,
     "tags": [
      "脑洞",
      "系统",
@@ -13886,14 +13875,14 @@
     "heat": 52560000,
     "new": false,
     "score": 7.2,
-    "fav": 303000,
-    "like": 779000,
+    "fav": 304000,
+    "like": 780000,
     "tags": [
      "脑洞",
      "异能",
      "逆袭"
     ],
-    "desc": "灾荒年，瘸腿青年赵长生被亲人推下悬崖。濒死时，他十年前救过的白鹿衔来灵犀果报恩，令他断腿痊愈、神力大增并通兽语。赵长生骑鹿归村，撞见父母欲卖妻女换粮，当众救下妻女、揭穿谎言并分家讨回公道。随后他借百兽指引组建赶山队，猎野猪、寻耐旱野麦，救下猿王幼崽与虎王。面对灾荒与黑心粮商，他坚持出力换粮、留种保粮，建立十五村粮会。最终，恶亲失去人心，他成长为守护妻女与十五村活路的白鹿岭领头人。",
+    "desc": "灾荒年，瘸腿青年赵长生被亲人推下悬崖。濒死时，他十年\u0000\u0000前救过的白鹿衔来灵犀果报恩，令他断腿痊愈、神力大增并通兽语。赵长生骑鹿归村，撞见父母欲卖妻女换粮，当众救下妻女、揭穿谎言并分家讨回公道。随后他借百兽指引组建赶山队，猎野猪、寻耐旱野麦，救下猿王幼崽与虎王。面对灾荒与黑心粮商，他坚持出力换粮、留种保粮，建立十五村粮会。最终，恶亲失去人心，他成长为守护妻女与十五村活路的白鹿岭领头人。",
     "ranks": {
      "ai": 55
     },
@@ -13906,7 +13895,7 @@
     "new": false,
     "score": null,
     "fav": 230000,
-    "like": 901000,
+    "like": 903000,
     "tags": [
      "脑洞",
      "穿越",
@@ -13924,8 +13913,8 @@
     "heat": 52520000,
     "new": false,
     "score": 8.1,
-    "fav": 152000,
-    "like": 338000,
+    "fav": 153000,
+    "like": 339000,
     "tags": [
      "恋爱",
      "乡村"
@@ -13942,14 +13931,14 @@
     "heat": 52510000,
     "new": false,
     "score": 8.6,
-    "fav": 288000,
-    "like": 844000,
+    "fav": 290000,
+    "like": 852000,
     "tags": [
      "剧情",
      "穿越",
      "异能"
     ],
-    "desc": "加班出意外后，王圮穿进小说，成为书中命运坎坷的母亲，腹中还有一对龙凤胎，加上已有孩子，三个孩子日后本会走上歧途。她不愿接受既定悲剧，决心改变命运，远离豪门纷争，独自抚养孩子，打拼事业。她觉醒鉴宝本领，抓住九十年代的机遇，凭借一块翡翠起\u0000\u0000步，开办工厂，打造品牌。她用心养育孩子，慢慢发现，本该性格乖戾的孩子们，全都十分依赖她。",
+    "desc": "加班出意外后，王圮穿进小说，成为书中命运坎坷的母亲，腹中还有一对龙凤胎，加上已有孩子，三个孩子日后本会走上歧途。她不愿接受既定悲剧，决心改变命运，远离豪门纷争，独自抚养孩子，打拼事业。她觉醒鉴宝本领，抓住九十年代的机遇，凭借一块翡翠起步，开办工厂，打造品牌。她用心养育孩子，慢慢发现，本该性格乖戾的孩子们，全都十分依赖她。",
     "ranks": {
      "ai": 58
     },
@@ -13961,13 +13950,13 @@
     "heat": 50440000,
     "new": false,
     "score": null,
-    "fav": 217000,
-    "like": 532000,
+    "fav": 218000,
+    "like": 535000,
     "tags": [
      "恋爱",
      "都市"
     ],
-    "desc": "董事长沈静秋因屡遭骗婚，装成负债护工相亲，遇见善良的早餐铺老板周长河。周长河不嫌她欠债，顶住反对与她成婚；身份曝光后，却因无法接受欺骗坚决离婚。沈静秋放下身段重新追求\u0000\u0000，以公益项目改善社区老人生活，最终赢回信任，与周长河复婚。",
+    "desc": "董事长沈静秋因屡遭骗婚，装成负债护工相亲，遇见善良的早餐铺老板周长河。周长河不嫌她欠债，顶住反对与她成婚；身份曝光后，却因无法接受欺骗坚决离婚。沈静秋放下身段重新追求，以公益项目改善社区老人生活，最终赢回信任，与周长河复婚。",
     "ranks": {
      "ai": 59
     },
@@ -13980,13 +13969,13 @@
     "new": false,
     "score": 7.9,
     "fav": 519000,
-    "like": 1478000,
+    "like": 1479000,
     "tags": [
      "脑洞",
      "重生",
      "系统"
     ],
-    "desc": "1985年，重生的江浩回到妻子产子的当天。前世他重男\u0000\u0000轻女，牺牲三个女儿换来独子宠爱，老来却被弃饿死，悔恨而终。今生他痛改前非，善待女儿，意外绑定购物返现系统，购物即可获得返现，从此靠小生意和苦干一步步攒钱翻身。面对妻子娘家的纠缠、家庭的矛盾与时代的浪潮，他守护女儿、修补亲情，带着全家从小土屋走向好日子。",
+    "desc": "1985年，重生的江浩回到妻子产子的当天。前世他重男轻女，牺牲三个女儿换来独子宠爱，老来却被弃饿死，悔恨而终。今生他痛改前非，善待女儿，意外绑定购物返现系统，购物即可获得返现，从此靠小生意和苦干一步步攒钱翻身。面对妻子娘家的纠缠、家庭的矛盾与时代的浪潮，他守护女儿、修补亲情，带着全家从小土屋走向好日子。",
     "ranks": {
      "ai": 60
     },
@@ -13998,8 +13987,8 @@
     "heat": 50340000,
     "new": false,
     "score": null,
-    "fav": 201000,
-    "like": 396000,
+    "fav": 203000,
+    "like": 399000,
     "tags": [
      "恋爱",
      "都市",
@@ -14017,13 +14006,13 @@
     "heat": 50310000,
     "new": false,
     "score": null,
-    "fav": 76000,
-    "like": 194000,
+    "fav": 77000,
+    "like": 195000,
     "tags": [
      "剧情",
      "乡村"
     ],
-    "desc": "钱孙两家世代为邻，祖上口头约定平分山林。钱家三代人得寸进尺，设计三十年，一寸一寸侵占孙家山林大半；修房地基高出孙家三米，雨水灌进孙家院子，阳光被挡得一丝不剩；钱老爷子更是生前就把寿山修到孙家祖坟头上，扬言死后也要压着孙家。孙女孙小涵回村后，主动将自家宅基地捐给村里建垃圾站，紧贴钱家新楼，钱老爷子出殡当天，钱家才发现自家上山路已荒废，唯一好走的路必须从孙家院子里过。孙小涵院门一关，寸步不让。",
+    "desc": "钱孙两家世代为邻，祖上口头约定平分山林。钱家三代人得寸进尺，设计三十年，一寸一寸侵占孙家山林大半；修房地基高出孙家三米，雨水灌进孙家院子，阳\u0000光被挡得一丝不剩；钱老爷子更是生前就把寿山修到孙家祖坟头上，扬言死后也要压着孙家。孙女孙小涵回村后，主动将自家宅基地捐给村里建垃圾站，紧贴钱家新楼，钱老爷子出殡当天，钱家才发现自家上山路已荒废，唯一好走的路必须从孙家院子里过。孙小涵院门一关，寸步不让。",
     "ranks": {
      "ai": 62
     },
@@ -14035,8 +14024,8 @@
     "heat": 50270000,
     "new": false,
     "score": 8.2,
-    "fav": 448000,
-    "like": 1226000,
+    "fav": 450000,
+    "like": 1229000,
     "tags": [
      "萌宝",
      "异能",
@@ -14054,8 +14043,8 @@
     "heat": 50250000,
     "new": false,
     "score": 8.0,
-    "fav": 233000,
-    "like": 560000,
+    "fav": 235000,
+    "like": 565000,
     "tags": [
      "萌宝",
      "都市",
@@ -14069,12 +14058,12 @@
    },
    "7694195738074434622": {
     "id": "7694195738074434622",
-    "name": "儿子可以不要，\u0000儿媳必须留下",
+    "name": "儿子可以不要，儿媳必须留下",
     "heat": 50150000,
     "new": false,
     "score": null,
     "fav": 133000,
-    "like": 341000,
+    "like": 342000,
     "tags": [
      "剧情",
      "都市"
@@ -14091,8 +14080,8 @@
     "heat": 50140000,
     "new": false,
     "score": 6.9,
-    "fav": 119000,
-    "like": 297000,
+    "fav": 121000,
+    "like": 302000,
     "tags": [
      "剧情",
      "重生",
@@ -14111,7 +14100,7 @@
     "new": false,
     "score": 8.3,
     "fav": 240000,
-    "like": 567000,
+    "like": 569000,
     "tags": [
      "脑洞",
      "逆袭",
@@ -14129,8 +14118,8 @@
     "heat": 50020000,
     "new": false,
     "score": 8.9,
-    "fav": 1319000,
-    "like": 3394000,
+    "fav": 1320000,
+    "like": 3397000,
     "tags": [
      "脑洞",
      "穿越",
@@ -14148,14 +14137,14 @@
     "heat": 49930000,
     "new": false,
     "score": 8.9,
-    "fav": 920000,
-    "like": 2630000,
+    "fav": 921000,
+    "like": 2633000,
     "tags": [
      "脑洞",
      "穿越",
      "古代"
     ],
-    "desc": "边境再起风波，林昭与伙伴们全力守护清河与陇城，秦红缨在危局中率队救援；战事后，林昭整顿军务、稳定边境，谢长风等人也接下新的任务，接连化解难题。与此同时，王浩川在京城凭借才智获得更\u0000多认可。随着各方力量重新整合，五人小队的影响不断扩大，也迈向更广阔的舞台。",
+    "desc": "边境再起风波，林昭与伙伴们全力守护清河与陇城，秦红缨在危局中率队救援；战事后，林昭整顿军务、稳定边境，谢长风等人也接下新的任务，接连化解难题。与此同时，王浩川在京城凭借才智获得更多认可。随着各方力量重新整合，五人小队的影响不断扩大，也迈向更广阔的舞台。",
     "ranks": {
      "ai": 69
     },
@@ -14167,8 +14156,8 @@
     "heat": 49890000,
     "new": false,
     "score": 9.0,
-    "fav": 727000,
-    "like": 1982000,
+    "fav": 728000,
+    "like": 1985000,
     "tags": [
      "脑洞",
      "穿越",
@@ -14187,7 +14176,7 @@
     "new": false,
     "score": null,
     "fav": 257000,
-    "like": 487000,
+    "like": 489000,
     "tags": [
      "剧情",
      "求生",
@@ -14205,14 +14194,14 @@
     "heat": 49870000,
     "new": false,
     "score": 8.6,
-    "fav": 297000,
-    "like": 1069000,
+    "fav": 298000,
+    "like": 1072000,
     "tags": [
      "脑洞",
      "异能",
      "逆袭"
     ],
-    "desc": "落魄男林铭在离婚之际觉醒“预知未来”神技。为挽回挚爱妻女，他洗心革面，凭借国酿一号、做空美股、承包海域及投资神级电影，逆袭为千亿神豪。他用铁血手腕横扫商界，以无尽温柔救赎家庭，在商场上算无遗策、雷厉风行，面对妻子陈佳和女儿萱萱时却卑微到骨子里。从被亲人冷眼到让全家扬眉吐气，他一步步重新赢得陈佳的信任，开启极限神豪的巅峰逆袭，誓要将妻女重新娶回家。",
+    "desc": "落魄男林铭在离婚之际觉醒“预知未来”神技。为挽回挚爱妻女，他洗心革面，凭借国酿一号、做空美股、承包海域及投资神级电影，逆袭为千亿神豪。他用铁血手腕横扫商界，以无尽温柔救赎家庭，在商场上算无遗策、雷厉风行，面对妻子陈佳\u0000\u0000和女儿萱萱时却卑微到骨子里。从被亲人冷眼到让全家扬眉吐气，他一步步重新赢得陈佳的信任，开启极限神豪的巅峰逆袭，誓要将妻女重新娶回家。",
     "ranks": {
      "ai": 72
     },
@@ -14224,8 +14213,8 @@
     "heat": 49810000,
     "new": false,
     "score": 7.2,
-    "fav": 177000,
-    "like": 380000,
+    "fav": 178000,
+    "like": 383000,
     "tags": [
      "剧情",
      "穿越",
@@ -14244,7 +14233,7 @@
     "new": false,
     "score": null,
     "fav": 129000,
-    "like": 462000,
+    "like": 463000,
     "tags": [
      "脑洞",
      "重生",
@@ -14262,8 +14251,8 @@
     "heat": 49740000,
     "new": false,
     "score": null,
-    "fav": 157000,
-    "like": 390000,
+    "fav": 159000,
+    "like": 397000,
     "tags": [
      "剧情",
      "都市"
@@ -14280,14 +14269,14 @@
     "heat": 49720000,
     "new": false,
     "score": 7.0,
-    "fav": 246000,
-    "like": 605000,
+    "fav": 247000,
+    "like": 608000,
     "tags": [
      "剧情",
      "都市",
      "豪门"
     ],
-    "desc": "南初隐婚嫁给傅庭深三年，悉心顾家却只得到冷落。苏语凝蓄意制造车祸，怀有双胞胎的南初坠入河中，三十多次求救电话全被挂断，彼时傅庭深正照料轻伤的苏语凝。她痛失双胎，心死提出离婚。南初本是顶尖航天科研天才Aro，重回科研界入职CN科技，凭实力揭穿苏语凝学术造假。为救治重病父亲、营救入狱哥哥，她再度与傅庭深签订交易婚姻协议，配合演戏换取家人安稳与傅氏股份，彻底斩断对他的情意。",
+    "desc": "南初隐婚嫁\u0000给傅庭深三年，悉心顾家却只得到冷落。苏语凝蓄意制造车祸，怀有双胞胎的南初坠入河中，三十多次求救电话全被挂断，彼时傅庭深正照料轻伤的苏语凝。她痛失双胎，心死提出离婚。南初本是顶尖航天科研天才Aro，重回科研界入职CN科技，凭实力揭穿苏语凝学术造假。为救治重病父亲、营救入狱哥哥，她再度与傅庭深签订交易婚姻协议，配合演戏换取家人安稳与傅氏股份，彻底斩断对他的情意。",
     "ranks": {
      "ai": 76
     },
@@ -14299,14 +14288,14 @@
     "heat": 49710000,
     "new": false,
     "score": 6.9,
-    "fav": 221000,
-    "like": 1021000,
+    "fav": 222000,
+    "like": 1023000,
     "tags": [
      "恋爱",
      "穿越",
      "年代"
     ],
-    "desc": "1980年，秋白露穿进年代文，成了被原书女主嫌弃的“刻薄二嫂”。她开局提出分家，拒绝当别人致富的垫脚石，与丈夫贺建华买房安家。面对借钱纠缠、妯娌算计和家庭纷争，她清醒反击，他坚定护妻。夫妻俩从生疏到相知，在柴米油盐中把配角人生过成自己的幸福故事。",
+    "desc": "1980年，秋白露穿进年代文，成了被原书女主嫌弃的“刻薄二嫂”。她开局提出分家，拒绝当别人致富的垫脚石，与丈夫贺建华买房安家。面对借钱纠缠\u0000\u0000、妯娌算计和家庭纷争，她清醒反击，他坚定护妻。夫妻俩从生疏到相知，在柴米油盐中把配角人生过成自己的幸福故事。",
     "ranks": {
      "ai": 77
     },
@@ -14318,8 +14307,8 @@
     "heat": 49700000,
     "new": false,
     "score": 6.8,
-    "fav": 909000,
-    "like": 1804000,
+    "fav": 910000,
+    "like": 1805000,
     "tags": [
      "战神",
      "都市",
@@ -14337,8 +14326,8 @@
     "heat": 49700000,
     "new": false,
     "score": 8.3,
-    "fav": 94000,
-    "like": 192000,
+    "fav": 95000,
+    "like": 194000,
     "tags": [
      "剧情",
      "穿越",
@@ -14356,14 +14345,14 @@
     "heat": 49640000,
     "new": false,
     "score": 9.0,
-    "fav": 801000,
-    "like": 2216000,
+    "fav": 802000,
+    "like": 2219000,
     "tags": [
      "剧情",
      "战斗",
      "古代"
     ],
-    "desc": "边境局势持续紧张，林昭整合各路力量，稳住德顺军防线，并推动各方协同，逐步扭转局面。谢长风、岳武等人完成新的任务，众人也在战后重新整顿、休养生息。回到陇城后，林昭继续加强训练、完善装备，清河势力稳步发展。与此同时，王浩川在京城遭遇新的风波，凭借胆识与谋略展开调\u0000查。随着边地与京城两线并进，五人小队迎来新的挑战与机遇。",
+    "desc": "边境局势持续紧张，林昭整合各路力量，稳住德顺军防线，并推动各方协同，逐步扭转局面。谢长风、岳武等人完成新的任务，众人也在战后重新整顿、休养生息。回到陇城后，林昭继续加强训练、完善装备，清河势力稳步发展。与此同时，王浩川在京城遭遇新的风波，凭借胆识与谋略展开调查。随着边地与京城两线并进，五人小队迎来新的挑战与机遇。",
     "ranks": {
      "ai": 80
     },
@@ -14376,7 +14365,7 @@
     "new": false,
     "score": 8.5,
     "fav": 1399000,
-    "like": 2685000,
+    "like": 2687000,
     "tags": [
      "种田",
      "重生",
@@ -14394,8 +14383,8 @@
     "heat": 49620000,
     "new": false,
     "score": 8.5,
-    "fav": 941000,
-    "like": 2169000,
+    "fav": 942000,
+    "like": 2170000,
     "tags": [
      "玄幻",
      "穿越",
@@ -14413,8 +14402,8 @@
     "heat": 49540000,
     "new": false,
     "score": null,
-    "fav": 140000,
-    "like": 690000,
+    "fav": 145000,
+    "like": 711000,
     "tags": [
      "脑洞",
      "系统",
@@ -14432,14 +14421,14 @@
     "heat": 49540000,
     "new": false,
     "score": null,
-    "fav": 88000,
-    "like": 253000,
+    "fav": 89000,
+    "like": 255000,
     "tags": [
      "总裁",
      "都市",
      "豪门"
     ],
-    "desc": "陆征遵照祖父安排，隐去身份生活三年，真心经营婚姻却被妻子轻视。第三个除夕，妻子为维护他人逼他离家，他决定结束这段婚姻。身份公开后，他查清十年前失去保送资格的旧案，与当年唯一为他说话的沈念重逢相爱。两人携手创业，设立公益奖学金，为更多年轻人争取公平机会。",
+    "desc": "陆征遵照祖\u0000\u0000父安排，隐去身份生活三年，真心经营婚姻却被妻子轻视。第三个除夕，妻子为维护他人逼他离家，他决定结束这段婚姻。身份公开后，他查清十年前失去保送资格的旧案，与当年唯一为他说话的沈念重逢相爱。两人携手创业，设立公益奖学金，为更多年轻人争取公平机会。",
     "ranks": {
      "ai": 84
     },
@@ -14452,7 +14441,7 @@
     "new": false,
     "score": 8.6,
     "fav": 356000,
-    "like": 831000,
+    "like": 832000,
     "tags": [
      "萌宝",
      "异能",
@@ -14470,8 +14459,8 @@
     "heat": 49440000,
     "new": false,
     "score": null,
-    "fav": 108000,
-    "like": 266000,
+    "fav": 109000,
+    "like": 267000,
     "tags": [
      "脑洞",
      "异能",
@@ -14490,7 +14479,7 @@
     "new": false,
     "score": null,
     "fav": 145000,
-    "like": 402000,
+    "like": 403000,
     "tags": [
      "剧情",
      "都市"
@@ -14507,8 +14496,8 @@
     "heat": 49410000,
     "new": false,
     "score": null,
-    "fav": 131000,
-    "like": 323000,
+    "fav": 132000,
+    "like": 326000,
     "tags": [
      "总裁",
      "乡村"
@@ -14525,8 +14514,8 @@
     "heat": 49390000,
     "new": false,
     "score": 8.2,
-    "fav": 150000,
-    "like": 317000,
+    "fav": 151000,
+    "like": 319000,
     "tags": [
      "剧情",
      "年代",
@@ -14545,7 +14534,7 @@
     "new": false,
     "score": 7.9,
     "fav": 113000,
-    "like": 388000,
+    "like": 390000,
     "tags": [
      "剧情",
      "重生",
@@ -14563,8 +14552,8 @@
     "heat": 49320000,
     "new": false,
     "score": null,
-    "fav": 93000,
-    "like": 218000,
+    "fav": 97000,
+    "like": 226000,
     "tags": [
      "总裁",
      "都市",
@@ -14582,8 +14571,8 @@
     "heat": 49220000,
     "new": false,
     "score": null,
-    "fav": 145000,
-    "like": 277000,
+    "fav": 148000,
+    "like": 283000,
     "tags": [
      "恋爱",
      "都市",
@@ -14601,8 +14590,8 @@
     "heat": 49220000,
     "new": false,
     "score": 7.8,
-    "fav": 100000,
-    "like": 362000,
+    "fav": 101000,
+    "like": 364000,
     "tags": [
      "脑洞",
      "异能",
@@ -14616,12 +14605,12 @@
    },
    "7684559889913351193": {
     "id": "7684559889913351193",
-    "name": "蒙冤二十五年，归\u0000\u0000来举世皆惊",
+    "name": "蒙冤二十五年，\u0000\u0000归来举世皆惊",
     "heat": 49080000,
     "new": false,
     "score": 8.0,
     "fav": 1196000,
-    "like": 2456000,
+    "like": 2457000,
     "tags": [
      "剧情",
      "都市"
@@ -14639,7 +14628,7 @@
     "new": false,
     "score": null,
     "fav": 134000,
-    "like": 302000,
+    "like": 303000,
     "tags": [
      "剧情",
      "逆袭",
@@ -14657,8 +14646,8 @@
     "heat": 49050000,
     "new": false,
     "score": null,
-    "fav": 161000,
-    "like": 463000,
+    "fav": 163000,
+    "like": 466000,
     "tags": [
      "恋爱",
      "穿越",
@@ -14676,8 +14665,8 @@
     "heat": 49040000,
     "new": false,
     "score": null,
-    "fav": 156000,
-    "like": 519000,
+    "fav": 164000,
+    "like": 544000,
     "tags": [
      "剧情",
      "逆袭",
@@ -14695,8 +14684,8 @@
     "heat": 49000000,
     "new": true,
     "score": null,
-    "fav": 75000,
-    "like": 187000,
+    "fav": 77000,
+    "like": 193000,
     "tags": [
      "剧情",
      "穿越",
@@ -14714,14 +14703,14 @@
     "heat": 48990000,
     "new": false,
     "score": null,
-    "fav": 103000,
-    "like": 276000,
+    "fav": 104000,
+    "like": 277000,
     "tags": [
      "剧情",
      "逆袭",
      "都市"
     ],
-    "desc": "四年前，余枫的小叔子考上大学，为了挣钱，老公一人去了大城市打工，而她留在老家照顾病弱的婆婆。餐馆后厨，余枫蹲在水池边刷盘子，手泡得发白。雨里，余枫披着雨衣骑车送外卖，雨水顺着帽檐淌了满脸，模糊视线。余枫一天打几份工，补贴家用，除了头年过\u0000年，我们已经快三年没见了。没想到，那长久不见的老公，却是和其它的女人厮混在一起。",
+    "desc": "四年前，余枫的小叔子考上大学，为了挣钱，老公一人去了大城市打工，而她留在老家照顾病弱的婆婆。餐馆后厨，余枫蹲在水池边刷盘子，手泡得发白。雨里，余枫披着雨衣骑车送外卖，雨水顺着帽檐淌了满脸，模糊视线。余枫一天打几份工，补贴家用，除了头年\u0000过年，我们已经快三年没见了。没想到，那长久不见的老公，却是和其它的女人厮混在一起。",
     "ranks": {
      "ai": 99
     },
@@ -14733,8 +14722,8 @@
     "heat": 48980000,
     "new": false,
     "score": null,
-    "fav": 243000,
-    "like": 586000,
+    "fav": 248000,
+    "like": 594000,
     "tags": [
      "脑洞",
      "系统",
@@ -14752,8 +14741,8 @@
     "heat": 52910000,
     "new": false,
     "score": 7.4,
-    "fav": 501000,
-    "like": 823000,
+    "fav": 509000,
+    "like": 836000,
     "tags": [
      "恋爱",
      "穿越",
@@ -14771,14 +14760,14 @@
     "heat": 52810000,
     "new": false,
     "score": 8.4,
-    "fav": 660000,
-    "like": 2218000,
+    "fav": 661000,
+    "like": 2225000,
     "tags": [
      "剧情",
      "穿越",
      "逆袭"
     ],
-    "desc": "身为现代医学博士的陆青青一睁眼，成了流云村女霸王，原主痴恋伪秀才宁修文，被骗借下驴打滚高利贷，败光田地铺面，害得陆家负债累累，并且拖累大嫂难产，陷入生死危机，面对全村唾骂，渣男算计，陆青青不再恋爱脑，凭一身过硬医术，硬生生扭转了陆家的困局，纵然满身骂名，陆青青以仁心行医，救乡邻，治顽疾，守护父兄家人，昔日人人嫌的恶女，凭妙手医术改写命运，活成受人敬重的流云医女。",
+    "desc": "身为现代医学博士的陆青青一睁眼，成了流云村女霸王，原主痴恋伪秀才宁修文，被骗借下驴打滚高利贷，败光田地\u0000\u0000铺面，害得陆家负债累累，并且拖累大嫂难产，陷入生死危机，面对全村唾骂，渣男算计，陆青青不再恋爱脑，凭一身过硬医术，硬生生扭转了陆家的困局，纵然满身骂名，陆青青以仁心行医，救乡邻，治顽疾，守护父兄家人，昔日人人嫌的恶女，凭妙手医术改写命运，活成受人敬重的流云医女。",
     "ranks": {
      "comic": 45
     },
@@ -14790,8 +14779,8 @@
     "heat": 52810000,
     "new": true,
     "score": 8.5,
-    "fav": 236000,
-    "like": 493000,
+    "fav": 238000,
+    "like": 498000,
     "tags": [
      "脑洞",
      "系统",
@@ -14809,8 +14798,8 @@
     "heat": 52810000,
     "new": true,
     "score": 8.4,
-    "fav": 402000,
-    "like": 499000,
+    "fav": 422000,
+    "like": 522000,
     "tags": [
      "恋爱",
      "都市",
@@ -14828,8 +14817,8 @@
     "heat": 52800000,
     "new": false,
     "score": null,
-    "fav": 73000,
-    "like": 197000,
+    "fav": 74000,
+    "like": 201000,
     "tags": [
      "剧情",
      "年代"
@@ -14846,14 +14835,14 @@
     "heat": 52800000,
     "new": false,
     "score": 8.9,
-    "fav": 437000,
-    "like": 785000,
+    "fav": 439000,
+    "like": 790000,
     "tags": [
      "恋爱",
      "都市",
      "豪门"
     ],
-    "desc": "撞见竹马男友与学妹雨中拥吻，林辞酒果断分手，独赴港城。她只想自在游玩，却让冷峻矜贵的顾沉舟乱了方寸。前任纠缠、名媛挑衅，她清醒\u0000反击，他温柔撑腰。她以为自己只是过客，他却早已交出真心。她无意停留，他愿意奔赴，两颗心在暧昧拉扯与偏爱中渐渐靠近。",
+    "desc": "撞见竹马男友与学妹雨中拥吻，林辞酒果断分手，独赴港城。她只想自在游玩，却让冷峻矜贵的顾沉舟乱了方寸。前任纠缠、名媛挑衅，她清醒反击，他温柔撑腰。她以为自己只是过客，他却早已交出真心。她无意停留，他愿意奔赴，两颗心在暧昧拉扯与偏爱中渐渐靠近。",
     "ranks": {
      "comic": 49
     },
@@ -14865,14 +14854,14 @@
     "heat": 52750000,
     "new": false,
     "score": 7.4,
-    "fav": 1771000,
-    "like": 3521000,
+    "fav": 1774000,
+    "like": 3528000,
     "tags": [
      "玄幻",
      "逆袭",
      "修真"
     ],
-    "desc": "山村少年苏十二惨遭灭门，怀揣家传神秘丹炉拜入云歌宗修仙。因身具最差的杂灵根，他被发配至凶险偏僻的废丹房为杂役。绝境中他意外发现丹炉能将废丹淬炼为极品丹药，便以此为依仗，斗妖兽、抗同门、闯上古禁制秘境，在弱肉强食的修仙界步步为营，一边隐藏秘宝，一边追查灭门真凶，踏上凡人\u0000逆袭的证道之路。",
+    "desc": "山村少年苏十二惨遭灭门，怀揣家传神秘丹炉拜入云歌宗修仙。因身具最差的杂灵根，他被发配至凶险偏僻的废丹房为杂役。绝境中他意外发现丹炉能将废丹淬炼为极品丹药，便以此为依仗，斗妖兽、抗同门、闯上古禁制秘境，在弱肉强食的修仙界步步为营，一边隐藏秘宝，一边追查灭门真凶，踏上凡人逆袭的证道之路。",
     "ranks": {
      "comic": 50
     },
@@ -14884,13 +14873,13 @@
     "heat": 52600000,
     "new": false,
     "score": 9.0,
-    "fav": 863000,
-    "like": 2578000,
+    "fav": 864000,
+    "like": 2581000,
     "tags": [
      "奇幻",
      "年代"
     ],
-    "desc": "李晓红怀有孔雀半妖身孕，境外神圣天平势力把她视作唤醒凶兽的钥匙，设调虎离山计将人掳往公海。凤栖、龙铮跨洋追击，在公海硬撼外国武装船，将人成功救回省城。神圣天平残余不死心，又策划袭击幼儿园，妄图夺取小宝这把完美钥匙。大妖团布下天罗地网，把来犯异能者耍得自相残杀。另一边傲狠觉醒凶兽本能，胡小凤搞定制旗袍创业，白建军骷髅暗中立功，而东瀛黑龙会已经盯上小宝，新危机悄然降\u0000\u0000临。",
+    "desc": "李晓红怀有孔雀半妖身孕，境外神圣天平势力把她视作唤醒凶兽的钥匙，设调虎离山计将人掳往公海。凤栖、龙铮跨洋追击，在公海硬撼外国武装船，将人成功救回省城。神圣天平残余不死心，又策划袭击幼儿园，妄图夺取小宝这把完美钥匙。大妖团布下天罗地网，把来犯异能者耍得自相残杀。另一边傲狠觉醒凶兽本能，胡小凤搞定制旗袍创业，白建军骷髅暗中立功，而东瀛黑龙会已经盯上小宝，新危机悄然降临。",
     "ranks": {
      "comic": 51
     },
@@ -14902,14 +14891,14 @@
     "heat": 52580000,
     "new": false,
     "score": 8.9,
-    "fav": 2767000,
-    "like": 3524000,
+    "fav": 2769000,
+    "like": 3527000,
     "tags": [
      "恋爱",
      "搞笑",
      "都市"
     ],
-    "desc": "高冷校花林初雪深陷心结，常年封闭自我，还遭同族亲戚排斥。家道中落的钱多多受聘贴身守护，他嬉皮却实力强悍，一路护她化解危机，陪她追逐编剧梦想。两人相伴治愈彼此，携手扫清前路阴霾，双向奔赴收获幸福美满的爱情。",
+    "desc": "高冷校花林初雪深陷心结，常年封闭自我，还遭同族\u0000\u0000亲戚排斥。家道中落的钱多多受聘贴身守护，他嬉皮却实力强悍，一路护她化解危机，陪她追逐编剧梦想。两人相伴治愈彼此，携手扫清前路阴霾，双向奔赴收获幸福美满的爱情。",
     "ranks": {
      "comic": 52
     },
@@ -14921,8 +14910,8 @@
     "heat": 50460000,
     "new": false,
     "score": 7.2,
-    "fav": 3627000,
-    "like": 3947000,
+    "fav": 3629000,
+    "like": 3949000,
     "tags": [
      "恋爱",
      "都市"
@@ -14939,8 +14928,8 @@
     "heat": 50430000,
     "new": false,
     "score": 7.9,
-    "fav": 304000,
-    "like": 646000,
+    "fav": 306000,
+    "like": 649000,
     "tags": [
      "剧情",
      "逆袭",
@@ -14958,8 +14947,8 @@
     "heat": 50420000,
     "new": true,
     "score": 8.9,
-    "fav": 118000,
-    "like": 491000,
+    "fav": 119000,
+    "like": 495000,
     "tags": [
      "脑洞",
      "穿越",
@@ -14977,8 +14966,8 @@
     "heat": 50420000,
     "new": false,
     "score": null,
-    "fav": 109000,
-    "like": 234000,
+    "fav": 111000,
+    "like": 240000,
     "tags": [
      "剧情",
      "重生",
@@ -14996,8 +14985,8 @@
     "heat": 50400000,
     "new": false,
     "score": 7.8,
-    "fav": 1595000,
-    "like": 4672000,
+    "fav": 1596000,
+    "like": 4677000,
     "tags": [
      "恋爱",
      "搞笑",
@@ -15016,7 +15005,7 @@
     "new": false,
     "score": 8.8,
     "fav": 257000,
-    "like": 967000,
+    "like": 970000,
     "tags": [
      "脑洞",
      "系统",
@@ -15034,8 +15023,8 @@
     "heat": 50310000,
     "new": false,
     "score": 8.5,
-    "fav": 654000,
-    "like": 1352000,
+    "fav": 656000,
+    "like": 1354000,
     "tags": [
      "恋爱",
      "穿越",
@@ -15053,13 +15042,13 @@
     "heat": 50280000,
     "new": false,
     "score": 7.9,
-    "fav": 227000,
-    "like": 591000,
+    "fav": 228000,
+    "like": 593000,
     "tags": [
      "剧情",
      "古代"
     ],
-    "desc": "侯府老夫人院中，冬雪、春露、夏荷、秋霜四位大丫鬟岁面临命运抉择。冬雪、春露、夏荷选择做妾，秋霜嫁外院管事。春露遭大夫人构陷被赶出府，夏荷顶替她暗中参与构陷。夏荷怀孕后大夫人安排春露回来接生，冬雪为保女儿，舍身救下二夫人之女。秋霜为子脱籍，终携家离开。后侯府倾覆，女眷入牢。秋霜赶来营救，她自己能否迎来新生？",
+    "desc": "侯府老夫人院中，冬雪、春露、夏荷、秋霜四位大丫鬟岁面临命运抉择。冬雪、春露、夏荷选择做妾，秋霜\u0000\u0000嫁外院管事。春露遭大夫人构陷被赶出府，夏荷顶替她暗中参与构陷。夏荷怀孕后大夫人安排春露回来接生，冬雪为保女儿，舍身救下二夫人之女。秋霜为子脱籍，终携家离开。后侯府倾覆，女眷入牢。秋霜赶来营救，她自己能否迎来新生？",
     "ranks": {
      "comic": 60
     },
@@ -15071,8 +15060,8 @@
     "heat": 50170000,
     "new": false,
     "score": 6.6,
-    "fav": 1495000,
-    "like": 3730000,
+    "fav": 1497000,
+    "like": 3735000,
     "tags": [
      "玄幻",
      "修真",
@@ -15090,8 +15079,8 @@
     "heat": 50160000,
     "new": false,
     "score": 8.4,
-    "fav": 431000,
-    "like": 969000,
+    "fav": 432000,
+    "like": 973000,
     "tags": [
      "剧情",
      "穿越",
@@ -15109,8 +15098,8 @@
     "heat": 50140000,
     "new": false,
     "score": 9.0,
-    "fav": 2246000,
-    "like": 9053000,
+    "fav": 2247000,
+    "like": 9058000,
     "tags": [
      "脑洞",
      "重生",
@@ -15128,8 +15117,8 @@
     "heat": 50030000,
     "new": false,
     "score": 8.4,
-    "fav": 358000,
-    "like": 701000,
+    "fav": 360000,
+    "like": 705000,
     "tags": [
      "剧情",
      "年代"
@@ -15146,14 +15135,14 @@
     "heat": 50010000,
     "new": false,
     "score": 9.0,
-    "fav": 2449000,
-    "like": 7604000,
+    "fav": 2450000,
+    "like": 7606000,
     "tags": [
      "玄幻",
      "系统",
      "战斗"
     ],
-    "desc": "以妖魔之血为墨，以百妖谱为卷，可摹画其形，夺其神通。姜月初一朝醒来，却变身成了盛世大唐的一介少女；在这长安月下，繁华与腐朽共生，仙佛绝迹，妖魔横行；所幸斩杀生物便能增长道行，将妖魔一一绘入妖谱，化\u0000\u0000作自身的力量；姜月初开始了斩妖夺神通，以绝色之姿镇压万古妖魔之路，逐渐揭开这个世界的迷雾。",
+    "desc": "以妖魔之血为墨，以百妖谱为卷，可摹画其形，夺其神通。姜月初一朝醒来，却变身成了盛世大唐的一介少女；在这长安月下，繁华与腐朽共生，仙佛绝迹，妖魔横行；所幸斩杀生物便能增长道行，将妖魔一一绘入妖谱，化作自身的力量；姜月初开始了斩妖夺神通，以绝色之姿镇压万古妖魔之路，逐渐揭开这个世界的迷雾。",
     "ranks": {
      "comic": 65
     },
@@ -15165,8 +15154,8 @@
     "heat": 49980000,
     "new": true,
     "score": 8.4,
-    "fav": 132000,
-    "like": 228000,
+    "fav": 134000,
+    "like": 230000,
     "tags": [
      "剧情",
      "穿越",
@@ -15184,8 +15173,8 @@
     "heat": 49960000,
     "new": false,
     "score": 8.0,
-    "fav": 1220000,
-    "like": 5878000,
+    "fav": 1221000,
+    "like": 5884000,
     "tags": [
      "玄幻",
      "穿越",
@@ -15203,8 +15192,8 @@
     "heat": 49930000,
     "new": false,
     "score": 8.0,
-    "fav": 1808000,
-    "like": 5586000,
+    "fav": 1811000,
+    "like": 5592000,
     "tags": [
      "脑洞",
      "穿越",
@@ -15223,7 +15212,7 @@
     "new": false,
     "score": 7.9,
     "fav": 406000,
-    "like": 1259000,
+    "like": 1261000,
     "tags": [
      "脑洞",
      "系统",
@@ -15241,8 +15230,8 @@
     "heat": 49890000,
     "new": false,
     "score": 8.0,
-    "fav": 3396000,
-    "like": 7673000,
+    "fav": 3397000,
+    "like": 7677000,
     "tags": [
      "萌宝",
      "异能",
@@ -15260,8 +15249,8 @@
     "heat": 49730000,
     "new": false,
     "score": 7.8,
-    "fav": 198000,
-    "like": 513000,
+    "fav": 199000,
+    "like": 519000,
     "tags": [
      "脑洞",
      "系统",
@@ -15279,14 +15268,14 @@
     "heat": 49550000,
     "new": true,
     "score": 8.8,
-    "fav": 159000,
-    "like": 571000,
+    "fav": 160000,
+    "like": 577000,
     "tags": [
      "玄幻",
      "系统",
      "异界"
     ],
-    "desc": "秘境机缘现世，秦然在秘境之中获得珍贵灵果与至宝，结交镜天神尊。秘境闭幕后，各方势力争夺宝物，秦然携手同道稳住局势，合理处置珍宝。返回大夏，他炼化至宝提升修为，助力同伴一同精进。域外势力前来进犯，秦然与伙伴齐心御敌，化解危\u0000机，同伴成功证道突破，大夏威名远扬。",
+    "desc": "秘境机缘现世，秦然在秘境之中获得珍贵灵果与至宝，结交镜天神尊。秘境闭幕后，各方势力争夺宝物，秦然携手同道稳住局势，合理处置珍宝。返回大夏，他炼化至宝提升修为，助力同伴一同精进。域外势力前来进犯，秦然与伙伴齐心御敌，化解危机，同伴成功证道突破，大夏威名远扬。",
     "ranks": {
      "comic": 72
     },
@@ -15299,7 +15288,7 @@
     "new": true,
     "score": 8.1,
     "fav": 62000,
-    "like": 110000,
+    "like": 111000,
     "tags": [
      "剧情",
      "古代",
@@ -15315,10 +15304,10 @@
     "id": "7699426478672333848",
     "name": "父皇别慌，福星多多来啦第七季",
     "heat": 49500000,
-    "new": true,
+    "new": false,
     "score": 8.5,
-    "fav": 93000,
-    "like": 147000,
+    "fav": 94000,
+    "like": 149000,
     "tags": [
      "萌宝",
      "古代"
@@ -15335,8 +15324,8 @@
     "heat": 49450000,
     "new": false,
     "score": 8.3,
-    "fav": 310000,
-    "like": 1341000,
+    "fav": 312000,
+    "like": 1350000,
     "tags": [
      "剧情",
      "穿越",
@@ -15354,8 +15343,8 @@
     "heat": 49400000,
     "new": false,
     "score": 9.2,
-    "fav": 2395000,
-    "like": 5876000,
+    "fav": 2397000,
+    "like": 5880000,
     "tags": [
      "脑洞",
      "架空"
@@ -15373,7 +15362,7 @@
     "new": false,
     "score": 8.3,
     "fav": 396000,
-    "like": 975000,
+    "like": 976000,
     "tags": [
      "脑洞",
      "系统",
@@ -15391,14 +15380,14 @@
     "heat": 49370000,
     "new": false,
     "score": 9.0,
-    "fav": 3223000,
-    "like": 11422000,
+    "fav": 3224000,
+    "like": 11426000,
     "tags": [
      "脑洞",
      "重生",
      "系统"
     ],
-    "desc": "重归悲剧开端，米珂决心挣脱前世宿命。前世她甘愿做宋静伊的陪衬，倾尽所有只落得一场空。一朝重生，她绑定系统，积累积分解锁容貌潜力。不再一味妥协，从平凡女孩逆袭成耀眼美人。面对示好的男主，她不为情爱困住，清醒自持，紧握属于自己的美貌、财富与人生。",
+    "desc": "重归悲剧开端，米珂决心挣脱前世宿命。前世她甘愿做宋静伊的陪衬，倾尽所有只落得一场空。一朝重生，她绑定系统，积累积分解锁容貌潜力。不再一味妥协，从平凡女孩逆袭成耀眼美人。面对示好的男主，她不为情爱困住，清醒自持，\u0000\u0000紧握属于自己的美貌、财富与人生。",
     "ranks": {
      "comic": 78
     },
@@ -15411,7 +15400,7 @@
     "new": true,
     "score": 8.0,
     "fav": 57000,
-    "like": 201000,
+    "like": 203000,
     "tags": [
      "宫廷",
      "古代"
@@ -15428,8 +15417,8 @@
     "heat": 49280000,
     "new": false,
     "score": null,
-    "fav": 406000,
-    "like": 1183000,
+    "fav": 408000,
+    "like": 1188000,
     "tags": [
      "恋爱",
      "都市"
@@ -15446,8 +15435,8 @@
     "heat": 49270000,
     "new": false,
     "score": 6.1,
-    "fav": 414000,
-    "like": 993000,
+    "fav": 415000,
+    "like": 995000,
     "tags": [
      "脑洞",
      "穿越",
@@ -15465,8 +15454,8 @@
     "heat": 49270000,
     "new": false,
     "score": 8.9,
-    "fav": 257000,
-    "like": 330000,
+    "fav": 259000,
+    "like": 333000,
     "tags": [
      "剧情",
      "都市",
@@ -15484,14 +15473,14 @@
     "heat": 49260000,
     "new": true,
     "score": null,
-    "fav": 107000,
-    "like": 383000,
+    "fav": 109000,
+    "like": 388000,
     "tags": [
      "脑洞",
      "系统",
      "修真"
     ],
-    "desc": "世界任务开启，超凡者须赴苍云否则抹杀；系统又以属性点和倒计时逼低阶者升级。韩贝塔连夜修至天元境，晋升LV15只缺规则碎片，并借“灵灵溪”收购卷轴，疑其是段灵溪。入梦前，未来唐正提醒他将“万相”升至7级\u0000以遮蔽因果。",
+    "desc": "世界任务开启，超凡者须赴苍云否则抹杀；系统又以属性点和倒计时逼低阶者升级。韩贝塔连夜修至天元境，晋升LV15只缺规则碎片，并借“灵灵溪”收购卷轴，疑其是段灵溪。入梦前，未来唐正提醒他将“万相”升至7级以遮蔽因果。",
     "ranks": {
      "comic": 83
     },
@@ -15503,14 +15492,14 @@
     "heat": 49250000,
     "new": false,
     "score": 8.7,
-    "fav": 456000,
-    "like": 1877000,
+    "fav": 457000,
+    "like": 1880000,
     "tags": [
      "脑洞",
      "穿越",
      "系统"
     ],
-    "desc": "大女主无CP。程君意魂穿七零年代，成为程家家主，携空间下乡，助分支何家和登家重归族谱。收系统，登昆仑，更大的秘密随之浮现——她竟身负一界气运，空间竟是一方小世界。她登珠峰之巅，将气运散予龙国，完成后穿越时空隧道，却意外落入中生代。这背后，究竟藏着谁的阴谋？",
+    "desc": "大女主无CP。程君意魂穿七零年代，成为程家家主，携空间下乡，助分支何家和登\u0000\u0000家重归族谱。收系统，登昆仑，更大的秘密随之浮现——她竟身负一界气运，空间竟是一方小世界。她登珠峰之巅，将气运散予龙国，完成后穿越时空隧道，却意外落入中生代。这背后，究竟藏着谁的阴谋？",
     "ranks": {
      "comic": 84
     },
@@ -15522,8 +15511,8 @@
     "heat": 49240000,
     "new": false,
     "score": 7.8,
-    "fav": 237000,
-    "like": 468000,
+    "fav": 238000,
+    "like": 469000,
     "tags": [
      "奇幻",
      "都市"
@@ -15540,8 +15529,8 @@
     "heat": 49190000,
     "new": false,
     "score": 7.2,
-    "fav": 648000,
-    "like": 1825000,
+    "fav": 651000,
+    "like": 1833000,
     "tags": [
      "武侠",
      "逆袭",
@@ -15559,8 +15548,8 @@
     "heat": 49170000,
     "new": false,
     "score": 8.3,
-    "fav": 1025000,
-    "like": 2148000,
+    "fav": 1027000,
+    "like": 2151000,
     "tags": [
      "脑洞",
      "穿越",
@@ -15574,17 +15563,17 @@
    },
    "7673855639302442008": {
     "id": "7673855639302442008",
-    "name": "满院亲戚全是上古大妖",
+    "name": "满院亲戚全是上\u0000古大妖",
     "heat": 49170000,
     "new": false,
     "score": 8.9,
-    "fav": 2859000,
-    "like": 3801000,
+    "fav": 2862000,
+    "like": 3805000,
     "tags": [
      "奇幻",
      "年代"
     ],
-    "desc": "九尾狐涂山瑶为修复濒碎结界、养育族人，带四岁儿子涂山小宝寻纯阳功德之夫霍\u0000云铮。母子搭绿皮火车智取人贩，一路借采药、黑市交易攒安家钱。霍云铮身为救援总队长，对体弱神秘的母子心生护持，领证同住。一众精怪来投奔，小宝、聪慧少女沈思晴、猫妖苗苗协助谋生，夫妻磨合渐生情愫，联手击退凶兽，精怪安稳落户砖窑厂，二人携手安稳度日。",
+    "desc": "九尾狐涂山瑶为修复濒碎结界、养育族人，带四岁儿子涂山小宝寻纯阳功德之夫霍云铮。母子搭绿皮火车智取人贩，一路借采药、黑市交易攒安家钱。霍云铮身为救援总队长，对体弱神秘的母子心生护持，领证同住。一众精怪来投奔，小宝、聪慧少女沈思晴、猫妖苗苗协助谋生，夫妻磨合渐生情愫，联手击退凶兽，精怪安稳落户砖窑厂，二人携手安稳度日。",
     "ranks": {
      "comic": 88
     },
@@ -15596,13 +15585,13 @@
     "heat": 49090000,
     "new": true,
     "score": 8.1,
-    "fav": 115000,
-    "like": 578000,
+    "fav": 117000,
+    "like": 591000,
     "tags": [
      "末世",
      "都市"
     ],
-    "desc": "绝症青年李星月醒来，发现自己身处末世十周年的星海城。他不仅免疫丧尸病毒，还阴差阳错与暴君、修女等四大八阶丧尸王结拜为兄弟！带着尸王们交代的卧底任务，李星月独自潜入人类幸存者基地“自由城”。面对城内险恶的人心、残酷的猎\u0000\u0000尸小队考核以及唯利是图的裁决者，毫无战力的他组建了自己的队伍。看普通青年如何凭借机智与暗中保护的满级尸王小弟，开启扮猪吃虎的逆袭之路，玩转人类与丧尸两大阵营！",
+    "desc": "绝症青年李星月醒来，发现自己身处末世十周年的星海城。他不仅免疫丧尸病毒，还阴差阳错与暴君、修女等四大八阶丧尸王结拜为兄弟！带着尸王们交代的卧底任务，李星月独自潜入人类幸存者基地“自由城”。面对城内险恶的人心、残酷的猎尸小队考核以及唯利是图的裁决者，毫无战力的他组建了自己的队伍。看普通青年如何凭借机智与暗中保护的满级尸王小弟，开启扮猪吃虎的逆袭之路，玩转人类与丧尸两大阵营！",
     "ranks": {
      "comic": 89
     },
@@ -15610,18 +15599,18 @@
    },
    "7698180240622767129": {
     "id": "7698180240622767129",
-    "name": "穿越封神世界，获得金仙修为",
+    "name": "穿越封神世\u0000\u0000界，获得金仙修为",
     "heat": 49080000,
     "new": false,
     "score": 8.3,
-    "fav": 175000,
-    "like": 497000,
+    "fav": 177000,
+    "like": 502000,
     "tags": [
      "玄幻",
      "穿越",
      "逆袭"
     ],
-    "desc": "沈威穿越封神世界，机缘巧合拜姜子牙为师，从西岐一介无名小卒，一路杀成先锋大元帅。他本以为辅佐西岐伐商，积攒功绩气运，就能在封神大劫中搏一个肉身成神。可五关尽破，朝歌近在眼前时，等来的却不是封赏。精骑被夺，兵权被收，相恋十年的邑姜成了姬发王后，就连师父姜子牙，也亲手配合姬发夺自己权势，要他认命！十年征战，到头来竟只是一枚用完\u0000便弃的棋子！就在沈威彻底与西岐决裂之际，迟到十年的系统觉醒！",
+    "desc": "沈威穿越封神世界，机缘巧合拜姜子牙为师，从西岐一介无名小卒，一路杀成先锋大元帅。他本以为辅佐西岐伐商，积攒功绩气运，就能在封神大劫中搏一个肉身成神。可五关尽破，朝歌近在眼前时，等来的却不是封赏。精骑被夺，兵权被收，相恋十年的邑姜成了姬发王后，就连师父姜子牙，也亲手配合姬发夺自己权势，要他认命！十年征战，到头来竟只是一枚用完便弃的棋子！就在沈威彻底与西岐决裂之际，迟到十年的系统觉醒！",
     "ranks": {
      "comic": 90
     },
@@ -15633,8 +15622,8 @@
     "heat": 49060000,
     "new": true,
     "score": 7.4,
-    "fav": 301000,
-    "like": 764000,
+    "fav": 311000,
+    "like": 793000,
     "tags": [
      "末世",
      "穿越",
@@ -15652,8 +15641,8 @@
     "heat": 49060000,
     "new": false,
     "score": null,
-    "fav": 244000,
-    "like": 684000,
+    "fav": 246000,
+    "like": 690000,
     "tags": [
      "宫廷",
      "穿越",
@@ -15671,8 +15660,8 @@
     "heat": 49040000,
     "new": false,
     "score": 8.4,
-    "fav": 2996000,
-    "like": 5391000,
+    "fav": 2998000,
+    "like": 5393000,
     "tags": [
      "末世",
      "求生",
@@ -15690,11 +15679,11 @@
     "heat": 49010000,
     "new": false,
     "score": 7.4,
-    "fav": 73000,
-    "like": 173000,
+    "fav": 74000,
+    "like": 174000,
     "tags": [
      "宫廷",
-     "\u0000\u0000穿越",
+     "穿越",
      "逆袭"
     ],
     "desc": "现代人意外穿进话本，成了即将在七日后让出皇位的大乾皇帝。眼看太子受尽委屈、朝中势力暗藏谋划，他不再任人摆布，而是表面答应禅位，暗中查证线索、整顿宫廷、保护太子。禅位大典当天，各方以为胜券在握，皇帝却当众拿出证据，逐步揭开多年隐情，稳住朝局，也让太子重新找回信心，父子携手开启新的治国之路。",
@@ -15710,13 +15699,13 @@
     "new": true,
     "score": null,
     "fav": 105000,
-    "like": 316000,
+    "like": 318000,
     "tags": [
      "恋爱",
      "穿越",
      "系统"
     ],
-    "desc": "女孩意外穿入血族小说，与半血族少年绑定同命契，必须阻止他献祭，否则两人都会殒命。少年身负禁咒，心生爱慕便会承受剧痛。女孩温柔陪伴，教他向善。孤独的少年深\u0000深依赖她，甘愿忍受禁咒折磨也不愿放手。看女孩如何用温暖驱散他心中阴霾，一同破除禁咒，改写两人的悲剧结局！",
+    "desc": "女孩意外穿入血族小说，与半血族少年绑定同命契，必须阻止他献祭，否则两人都会殒命。少年身负禁咒，心生爱慕便会承受剧痛。女孩温柔陪伴，教他向善。孤独的少年深深依赖她，甘愿忍受禁咒折磨也不愿放手。看女孩如何用温暖驱散他心中阴霾，一同破除禁咒，改写两人的悲剧结局！",
     "ranks": {
      "comic": 95
     },
@@ -15728,8 +15717,8 @@
     "heat": 48980000,
     "new": false,
     "score": 9.0,
-    "fav": 1863000,
-    "like": 6259000,
+    "fav": 1864000,
+    "like": 6262000,
     "tags": [
      "脑洞",
      "重生",
@@ -15747,8 +15736,8 @@
     "heat": 48970000,
     "new": false,
     "score": 6.8,
-    "fav": 2653000,
-    "like": 8236000,
+    "fav": 2655000,
+    "like": 8242000,
     "tags": [
      "玄幻",
      "穿越",
@@ -15766,13 +15755,13 @@
     "heat": 48960000,
     "new": false,
     "score": 5.2,
-    "fav": 116000,
-    "like": 499000,
+    "fav": 117000,
+    "like": 501000,
     "tags": [
      "宫廷",
      "古代"
     ],
-    "desc": "太子萧叙衡能看见预知剧情的弹幕，得知自己未来会被废储，而太子妃秦月宁竟与贴身太监小德子躲在御花园冰池底。他压下怒火，安坐池边，引来朝中大臣与秦嵩对峙。池底二人靠芦管硬撑，秦嵩百般袒护，计谋被一一化解。二人浮出水面，小德子当众自称皇帝流落在外的皇嗣，秦家意图借此谋夺太子之位。皇帝赶来考校，小德子一问三不知。人证物证浮现，太医又诊出太子妃意外有喜。弹幕预言的悲剧，真能就此改写吗？",
+    "desc": "太\u0000\u0000子萧叙衡能看见预知剧情的弹幕，得知自己未来会被废储，而太子妃秦月宁竟与贴身太监小德子躲在御花园冰池底。他压下怒火，安坐池边，引来朝中大臣与秦嵩对峙。池底二人靠芦管硬撑，秦嵩百般袒护，计谋被一一化解。二人浮出水面，小德子当众自称皇帝流落在外的皇嗣，秦家意图借此谋夺太子之位。皇帝赶来考校，小德子一问三不知。人证物证浮现，太医又诊出太子妃意外有喜。弹幕预言的悲剧，真能就此改写吗？",
     "ranks": {
      "comic": 98
     },
@@ -15784,14 +15773,14 @@
     "heat": 48960000,
     "new": false,
     "score": null,
-    "fav": 211000,
-    "like": 673000,
+    "fav": 214000,
+    "like": 681000,
     "tags": [
      "脑洞",
      "异能",
      "逆袭"
     ],
-    "desc": "七十年代大山深处，少女赵书禾意外接收后世完整教学资源。家中拮据无力供她继续求学，眼看就要草草相亲嫁人。机缘之下，她与省城保卫科科长陆景峰相识，对方欣赏她的求知欲，愿意支持她读书。赵书禾抓住机会考上中专，凭借出众的外语能力崭露头角。她一边要补齐时代适配的旧知识避免露怯，一边努力求学，帮扶家人走出大山，抓住时代浪潮，实现学业与个人成长，和陆景峰双向扶持，活出属于自己的人生。",
+    "desc": "七十年代大山深处，少女赵书禾意外接收后世完整教学资源。家中拮据无力供她继续求学，眼看就要草草相亲嫁人。机缘之下，她\u0000\u0000与省城保卫科科长陆景峰相识，对方欣赏她的求知欲，愿意支持她读书。赵书禾抓住机会考上中专，凭借出众的外语能力崭露头角。她一边要补齐时代适配的旧知识避免露怯，一边努力求学，帮扶家人走出大山，抓住时代浪潮，实现学业与个人成长，和陆景峰双向扶持，活出属于自己的人生。",
     "ranks": {
      "comic": 99
     },
@@ -15804,10 +15793,10 @@
     "new": false,
     "score": 8.9,
     "fav": 633000,
-    "like": 1643000,
+    "like": 1647000,
     "tags": [
      "脑洞",
-     "穿\u0000越",
+     "穿越",
      "求生"
     ],
     "desc": "林羊被伪人骗进了死亡区域的陷阱，历经千难万险终于逃脱，来到了下一个副本-《恐怖旅馆》，在这里竟然发现了昔日的队友-江予安。林羊一直不解，真相到底是什么？而频发的危机与散落的线索，都指向被刻意掩盖的真相。万幸，林羊是全场唯一预言家，”您每日可查验一人身份，或获得一份生存情报。”，当绝望笼罩所有人的眼睛之时，林羊带着迷惘的同伴，以冷静判断层层甄别隐患，带领众人识破伪装、闯过险关，拼出一条向生之路。",
@@ -17041,8 +17030,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000007452/744aa294-6929-4f44-b5b6-a8fd3b9e5bdf.jpg",
    "synopsis": "The world's greatest secret agent must protect and care for his six-year-old daughter while posing as her nanny. Now, without reve",
    "episodes": 72,
-   "views": 6799920,
-   "likes": 106971,
+   "views": 7094485,
+   "likes": 108967,
    "tags": [
     "Male",
     "Series",
@@ -17057,8 +17046,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000004923/cdb055c3-e6f9-4bff-8513-7cc5ee66787a.jpg",
    "synopsis": "Based on the novel by L. Steele. After her fiancé cheats on her, Vivian flash marries a hot silver fox… only to realize he’s her e",
    "episodes": 61,
-   "views": 39087643,
-   "likes": 160804,
+   "views": 39098026,
+   "likes": 160851,
    "tags": [
     "Female",
     "Series",
@@ -17073,8 +17062,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000000213/5abcdb27-ef1b-4f35-92e0-03b3c763933a.jpg",
    "synopsis": "When ex-soldier Troy Poe inherits a corrupt private prison, he decides to go in undercover as an inmate to expose those responsibl",
    "episodes": 80,
-   "views": 240292378,
-   "likes": 1675930,
+   "views": 240316939,
+   "likes": 1676046,
    "tags": [
     "Male",
     "Series",
@@ -17089,8 +17078,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000005418/5507e9c1-44cd-4b4f-984f-afa8a436a4c6.jpg",
    "synopsis": "Once a business elite, Silas is framed for murder by his rival Chase and his own wife Marina. Sentenced to 60 years, Silas endures",
    "episodes": 64,
-   "views": 41902018,
-   "likes": 322204,
+   "views": 41906551,
+   "likes": 322216,
    "tags": [
     "Male",
     "Series",
@@ -17105,8 +17094,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000000290/3a98fe44-e15b-4cc1-aee6-ec3c1aeb7ad0.jpg",
    "synopsis": "Chef Leon Kennedy, once the \"King of Cooking,\" fell apart after his wife died in a tragic car accident. His deep depression led hi",
    "episodes": 86,
-   "views": 132500070,
-   "likes": 1002961,
+   "views": 132501919,
+   "likes": 1002968,
    "tags": [
     "Male",
     "Series",
@@ -17121,8 +17110,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000000330/bc824d65-8eae-4dcd-bd80-bbe4df923fec.jpg",
    "synopsis": "Alpha Caspian’s pregnant sister Marina arrives for his Luna’s coronation, but Luna Willow mistakes her for a rogue mistress. In a",
    "episodes": 59,
-   "views": 103181173,
-   "likes": 870630,
+   "views": 103182537,
+   "likes": 870637,
    "tags": [
     "Female",
     "Series",
@@ -17137,8 +17126,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000000190/9db5b2c0-810e-4d84-b9ce-55cdca0c0563.jpg",
    "synopsis": "Kingsley is the secret King of King's Corps and the richest man on Earth, but when he returns from the battlefield, his childhood",
    "episodes": 74,
-   "views": 476629194,
-   "likes": 3537391,
+   "views": 476630821,
+   "likes": 3537401,
    "tags": [
     "Male",
     "Series",
@@ -17153,8 +17142,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/201300000000002276/548bb0ac-8a1c-4541-b840-4ed1741bb0a5.jpg",
    "synopsis": "Sofia, a sales associate at a luxury boutique, and Bryan, the domineering CEO of a luxury conglomerate, unexpectedly have a one-ni",
    "episodes": 47,
-   "views": 14034211,
-   "likes": 63030,
+   "views": 14034684,
+   "likes": 63031,
    "tags": [
     "Sales",
     "CEO",
@@ -17169,8 +17158,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/200000000000000313/e9c2dda2-ec82-4d73-861c-7f6c437d37e9.jpg",
    "synopsis": "During Eric and Grace's wedding anniversary party, Grace's stepsister Amanda suddenly appears and demands that Grace give Eric bac",
    "episodes": 81,
-   "views": 127748040,
-   "likes": 603773,
+   "views": 127749388,
+   "likes": 603776,
    "tags": [
     "Female",
     "Series",
@@ -17185,8 +17174,8 @@
    "cover": "https://v-mps.crazymaplestudios.com/images/03294530-c466-11f0-84ad-6b5693b490dc.jpg",
    "synopsis": "Diane makes a deathbed promise to her grandmother to have a baby—only to immediately uncover proof of her husband Miles' affair. D",
    "episodes": 67,
-   "views": 16770070,
-   "likes": 68843,
+   "views": 16771011,
+   "likes": 68844,
    "tags": [
     "All",
     "Series",
@@ -17201,8 +17190,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000007655/56a1edb3-66b9-43f6-8ef4-8e005dc49d7e.jpg",
    "synopsis": "In the beastkin world, Toby (a rabbit whose impending marriage was called off) is forced into an arranged marriage with Enzo (the",
    "episodes": 38,
-   "views": 1949160,
-   "likes": 27646,
+   "views": 1953160,
+   "likes": 27696,
    "tags": [
     "LGBTQ",
     "Adults Only",
@@ -17217,8 +17206,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000006008/bd72681c-aa81-497d-80d5-687cd12f61cd.jpg",
    "synopsis": "Alice is swept into the undersea world of Atlantis and becomes the mute, wicked supporting character everyone despises: the disgra",
    "episodes": 42,
-   "views": 1435962,
-   "likes": 22955,
+   "views": 1437228,
+   "likes": 22979,
    "tags": [
     "Female",
     "Fantasy",
@@ -17233,8 +17222,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200151000006769/c4327bd9-3c75-40c2-813b-e5559d7b54dd.jpg",
    "synopsis": "Abe Tatum is a transmigrator and a Great Emperor. But all he wants is a peaceful life and hides his true strength at the Azure Clo",
    "episodes": 56,
-   "views": 529752,
-   "likes": 13346,
+   "views": 529869,
+   "likes": 13347,
    "tags": [
     "Male",
     "Fantasy",
@@ -17249,8 +17238,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000006590/286b94fe-5ffb-4762-81f4-6ff4e79993c4.jpg",
    "synopsis": "Odysseus is the secret demigod son of Apollo, bound by a deathbed vow to give his queen, Antigone, a hundred chances to earn his t",
    "episodes": 40,
-   "views": 2673562,
-   "likes": 28347,
+   "views": 2675106,
+   "likes": 28359,
    "tags": [
     "Male",
     "Fantasy",
@@ -17265,8 +17254,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000005826/8f88747b-7b58-4fe9-9faa-d0ff8604009e.jpg",
    "synopsis": "After the Iron Sheep Kingdom falls, Prince Leigh is offered to Kaelen, the Blood Lion King cursed by berserker blood, becoming the",
    "episodes": 46,
-   "views": 1304001,
-   "likes": 21857,
+   "views": 1305274,
+   "likes": 21868,
    "tags": [
     "LGBTQ",
     "Gay",
@@ -17281,8 +17270,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000006211/3c5272bb-bf15-46ea-8092-5b88abbfe29a.jpg",
    "synopsis": "In the Mecha Age, girls who turn 18 can transform into powerful mechas and go to the battlefield, while men can become Pilots and",
    "episodes": 58,
-   "views": 9088111,
-   "likes": 65331,
+   "views": 9091177,
+   "likes": 65385,
    "tags": [
     "Male",
     "Fantasy",
@@ -17297,7 +17286,7 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000005956/d9e287c6-a137-4e9e-9257-e7a9492e57cd.jpg",
    "synopsis": "Trash dog’s epic counterattack! Inheriting Anubis’s legacy, he evolves by devouring everything! Tortures villains, protects his ma",
    "episodes": 35,
-   "views": 741379,
+   "views": 741417,
    "likes": 10220,
    "tags": [
     "Female",
@@ -17313,8 +17302,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000005599/b927f5fb-9418-4944-9dbe-a74e1204f778.jpg",
    "synopsis": "Khloe has always played by the rules until her sister's life depends on money she doesn't have. So she signs the unthinkable: marr",
    "episodes": 48,
-   "views": 1042104,
-   "likes": 13450,
+   "views": 1042332,
+   "likes": 13449,
    "tags": [
     "Billionaire",
     "Marriage of Convenience",
@@ -17329,8 +17318,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200150000005365/49b98298-0382-402a-9019-859a683565cf.jpg",
    "synopsis": "My Pureblood husband won't touch me. He sleeps in my stepsister's wing. So I bought a wrecked half-blind mongrel Orc on a curb for",
    "episodes": 35,
-   "views": 6787425,
-   "likes": 79721,
+   "views": 6792085,
+   "likes": 79774,
    "tags": [
     "Female",
     "Fated Lovers",
@@ -17345,8 +17334,8 @@
    "cover": "https://v-img.crazymaplestudios.com/v-images/book_cover_batch/204200151000005314/1ee76a8d-1b86-44d2-b3c7-51daf71731ac.jpg",
    "synopsis": "Tana is the LAST fire dragon alive—and she's hiding that secret in a cage where the losers DIE. Every night Tana heals Cedric, the",
    "episodes": 48,
-   "views": 5240662,
-   "likes": 43507,
+   "views": 5247943,
+   "likes": 43557,
    "tags": [
     "Female"
    ],
@@ -17358,12 +17347,12 @@
   {
    "name": "短剧 when:14d",
    "ok": true,
-   "count": 100
+   "count": 40
   },
   {
    "name": "微短剧 when:14d",
    "ok": true,
-   "count": 100
+   "count": 31
   },
   {
    "name": "短剧 平台 when:14d",
@@ -17373,7 +17362,7 @@
   {
    "name": "短剧 出海 when:14d",
    "ok": true,
-   "count": 95
+   "count": 96
   },
   {
    "name": "红果短剧 when:14d",
@@ -17383,7 +17372,7 @@
   {
    "name": "短剧 监管 OR 广电总局 when:30d",
    "ok": true,
-   "count": 58
+   "count": 22
   },
   {
    "name": "microdrama OR micro-drama when:14d",
@@ -17393,17 +17382,17 @@
   {
    "name": "\"vertical drama\" OR \"short drama\" app when:14d",
    "ok": true,
-   "count": 70
+   "count": 100
   },
   {
    "name": "ReelShort OR DramaBox when:14d",
    "ok": true,
-   "count": 100
+   "count": 67
   },
   {
    "name": "AI短剧 when:30d",
    "ok": true,
-   "count": 100
+   "count": 51
   },
   {
    "name": "AI漫剧 when:30d",
@@ -17413,32 +17402,32 @@
   {
    "name": "AIGC 短剧 when:30d",
    "ok": true,
-   "count": 46
+   "count": 43
   },
   {
    "name": "AI 短剧 演员 OR 编剧 OR 从业者 when:30d",
    "ok": true,
-   "count": 100
+   "count": 24
   },
   {
    "name": "AI 短剧 成本 OR 降本 OR 效率 when:30d",
    "ok": true,
-   "count": 21
+   "count": 26
   },
   {
    "name": "AI 短剧 版权 OR 侵权 OR 换脸 when:30d",
    "ok": true,
-   "count": 49
+   "count": 17
   },
   {
    "name": "AI 短剧 冲击 OR 取代 OR 失业 when:30d",
    "ok": true,
-   "count": 53
+   "count": 15
   },
   {
    "name": "AI microdrama OR \"AI-generated\" vertical drama when:30d",
    "ok": true,
-   "count": 60
+   "count": 26
   },
   {
    "name": "generative AI microdrama actors OR jobs OR cost when:30d",
